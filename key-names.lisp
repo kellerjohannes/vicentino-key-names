@@ -63,3 +63,56 @@
 
 (defmacro where (&rest fields)
   `(lambda (entry) (and ,@(make-comparison-list fields))))
+
+
+
+;;;; shorthand translation
+
+(defparameter *shorthand-dict*
+  '((:a 1 :A)
+    (:a 2 :G♯)
+    (:a 3 :A♭)
+    (:a 4 :Ȧ)
+    (:a 5 :Ȧ♭)
+    (:a 6 :A’)
+    (:b 1 :B♮)
+    (:b 2 :B♭)
+    (:b 3 :A♯)
+    (:b 4 :Ḃ♮)
+    (:b 5 :Ḃ♭)
+    (:b 6 :B’)
+    (:c 1 :C)
+    (:c 2 :B♯)
+    (:c 3 :Ċ)
+    (:c 4 :C’)
+    (:d 1 :D)
+    (:d 2 :C♯)
+    (:d 3 :D♭)
+    (:d 4 :Ḋ)
+    (:d 5 :Ḋ♭)
+    (:d 6 :D’)
+    (:e 1 :E)
+    (:e 2 :E♭)
+    (:e 3 :D♯)
+    (:e 4 :Ė)
+    (:e 5 :Ė♭)
+    (:e 6 :E’)
+    (:f 1 :F)
+    (:f 2 :E♯)
+    (:f 3 :Ḟ)
+    (:f 6 :F’)
+    (:g 1 :G)
+    (:g 2 :F♯)
+    (:g 3 :G♭)
+    (:g 4 :Ġ)
+    (:g 5 :Ġ♭)
+    (:g 6 :G’)))
+
+(defun shorthand (root ordine)
+  (third (find (list root ordine) *shorthand-dict*
+               :key (lambda (entry) (list (first entry) (second entry)))
+               :test #'equal)))
+
+(defun root-ordine (shorthand)
+  (let ((result (find shorthand *shorthand-dict* :key #'third)))
+    (values (first result) (second result))))
