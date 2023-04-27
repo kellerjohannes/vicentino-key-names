@@ -3,6 +3,28 @@
 
 (in-package :key-names)
 
+
+;;;; approach with plists
+
+(defun make-key (original-name root ordine shorthand)
+  (list :original-name original-name :root root :ordine ordine :shorthand shorthand))
+
+(defvar *keys* nil)
+
+(defun add-key (key) (push key *keys*))
+
+(defun dump-keys ()
+  (format t "~&~{~{~a:~20t~a~%~}~%~}" *keys*))
+
+(defun save-dbs (filename)
+  (with-open-file (out filename :direction :output :if-exists :supersede)
+    (with-standard-io-syntax
+      (print *keys* out))))
+
+
+
+;;;; approach with classes, hopefully obsolete
+
 (defclass location ()
   ((book :initform nil
          :initarg :book
@@ -98,6 +120,3 @@
               :initarg :idealised
               :accessor idealised
               :documentation "Instance of 'interval.")))
-
-
-(defparameter *intervals*)
