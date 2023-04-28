@@ -6,13 +6,16 @@
 
 ;;;; database handling
 
-(defun make-key (libro chapter id original-name root ordine)
+(defun make-key (libro chapter id folio original-name root ordine flag comment)
   (list :libro libro
         :chapter chapter
         :id id
+        :folio folio
         :original-name original-name
         :root root
-        :ordine ordine))
+        :ordine ordine
+        :flag flag
+        :comment comment))
 
 (defvar *keys* nil)
 
@@ -36,9 +39,14 @@
   (make-key (prompt-read-integer "Libro [integer 0-5]")
             (prompt-read-integer "Capitolo [integer > 0]")
             (prompt-read-integer "Count / ID [integer > 0]")
+            (let ((folio-number (prompt-read-integer "Folio number [integer > 0]"))
+                  (suffix (prompt-read-string "Recto/verso [r/v]")))
+              (cons folio-number (if (equal suffix "r") :recto :verso)))
             (prompt-read-string "Original name")
             (prompt-read-keyword "Root key [a-b]")
-            (prompt-read-integer "Ordine [1-6]")))
+            (prompt-read-integer "Ordine [1-6]")
+            (prompt-read-keyword "Flag [diplomatic strict relaxed]")
+            (prompt-read-string "Comment")))
 
 (defun input-keys ()
   (loop (add-key (prompt-for-key))
