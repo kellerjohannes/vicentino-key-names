@@ -45,7 +45,8 @@
             (prompt-read-string "Original name")
             (prompt-read-keyword "Root key [a-b]")
             (prompt-read-integer "Ordine [1-6]")
-            (prompt-read-keyword "Flag [diplomatic strict relaxed]")
+            (let ((flag (prompt-read-string "Flag [diplomatic strict relaxed]")))
+              (if (string= flag "") :diplomatic flag))
             (prompt-read-string "Comment")))
 
 (defun input-keys ()
