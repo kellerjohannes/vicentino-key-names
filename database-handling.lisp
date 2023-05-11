@@ -96,3 +96,23 @@
                                             (t (cond ((< index-a index-b) t)
                                                      ((> index-a index-b) nil)
                                                      (t (< flag-a flag-b)))))))))))
+
+
+
+(defun extract-pitch-info (entry)
+  (list (getf entry :root)
+        (getf entry :chromatic-alteration)
+        (getf entry :enharmonic-alteration)))
+
+(defun list-intervals ()
+  (mapcar (lambda (interval-entry)
+            (format nil "~a: ~a ~a ~a"
+                    (getf interval-entry :id)
+                    (alteration-list->shorthand
+                     (extract-pitch-info (first (select (where :id (getf interval-entry
+                                                                         :departure))))))
+                    (if (eq (getf interval-entry :direction) :up) "➚" "➘")
+                    (alteration-list->shorthand
+                     (extract-pitch-info (first (select (where :id (getf interval-entry
+                                                                         :destination))))))))
+          (select (where :category :interval))))
