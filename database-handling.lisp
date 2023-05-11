@@ -57,7 +57,7 @@
       (print *keys* out))))
 
 (defun read-dbs ()
-  (with-open-file (in "db-keys")
+  (with-open-file (in "test-db.lisp")
     (with-standard-io-syntax
       (setf *keys* (read in)))))
 
