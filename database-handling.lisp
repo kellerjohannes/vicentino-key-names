@@ -71,8 +71,14 @@
 (defmacro where (&rest fields)
   `(lambda (entry) (and ,@(make-comparison-list fields))))
 
+(defun select (selector-fn)
+  (remove-if-not selector-fn *keys*))
 
+(defun sort-by-id (data)
+  (sort (copy-list data) #'< :key (lambda (item)
+                                    (getf item :id))))
 
+;; obsolete, because index was changed to id
 (defun sort-by-b-c-i-f (data)
   (sort (copy-list data) (lambda (a b)
                            (let ((book-a (getf a :libro))

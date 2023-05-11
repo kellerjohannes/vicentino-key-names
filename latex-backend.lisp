@@ -14,9 +14,9 @@
     (:b 5 :Ḃ♭ "\\nflatdot{B}")
     (:b 6 :B’ "\\nnaturalcomma{B}")
     (:c 1 :C "C")
-    (:c 2 :B♯ "\\nsharp{B}")
-    (:c 3 :Ċ "\\ndot{C}")
-    (:c 4 :C’ "\\ncomma{C}")
+    (:c 3 :B♯ "\\nsharp{B}")
+    (:c 4 :Ċ "\\ndot{C}")
+    (:c 6 :C’ "\\ncomma{C}")
     (:d 1 :D "D")
     (:d 2 :C♯ "\\nsharp{C}")
     (:d 3 :D♭ "\\nflat{D}")
@@ -30,8 +30,8 @@
     (:e 5 :Ė♭ "\\nflatdot{E}")
     (:e 6 :E’ "\\ncomma{E}")
     (:f 1 :F "F")
-    (:f 2 :E♯ "\\nsharp{E}")
-    (:f 3 :Ḟ "\\ndot{F}")
+    (:f 3 :E♯ "\\nsharp{E}")
+    (:f 4 :Ḟ "\\ndot{F}")
     (:f 6 :F’ "\\ncomma{F}")
     (:g 1 :G "G")
     (:g 2 :F♯ "\\nsharp{F}")
@@ -58,9 +58,8 @@
 (defparameter *flag-tex-translation*
   '(:diplomatic "diplomatisch"
     :obvious "offensichtlich"
-    :probable "naheliegend"
-    :extended "erweitert"
-    :experimental "experimentell"))
+    :anti-septimal "anti-septimal"
+    :in-discussion "unklar"))
 
 (defun generate-longtable-row-keys (key)
   (let ((folio-cons (getf key :folio)))
@@ -96,15 +95,15 @@
 \\title{Inventar sämtlicher Tastenbezeichnungen im \\emph{Libro V}}
 
 
-\\def\\nsharp#1{$\\sharp$#1}
-\\def\\nflat#1{$\\flat$#1}
-\\def\\nnatural#1{$\\natural$#1}
+\\def\\nsharp#1{#1$\\sharp$}
+\\def\\nflat#1{#1$\\flat$}
+\\def\\nnatural#1{#1$\\natural$}
 \\def\\ndot#1{\\.{#1}}
-\\def\\nnaturaldot#1{$\\natural$\\.{#1}}
+\\def\\nnaturaldot#1{\\.{#1}$\\natural$}
 \\def\\ncomma#1{\\'{#1}}
-\\def\\nnaturalcomma#1{$\\natural$\\'{#1}}
-\\def\\nflatdot#1{$\\flat$\\.{#1}}
-\\def\\nsharpdot#1{$\\sharp$\\.{#1}}
+\\def\\nnaturalcomma#1{\\'{#1}$\\natural$}
+\\def\\nflatdot#1{\\.{#1}$\\flat$}
+\\def\\nsharpdot#1{\\.{#1}$\\sharp$}
 
 \\begin{document}
 
@@ -134,7 +133,7 @@
 \\end{longtable}
 \\end{center}
 \\end{document}"
-          (mapcar #'generate-longtable-row-keys data)))
+          (remove-if #'null (mapcar #'generate-longtable-row-keys data))))
 
 
 (defun write-tex-file-keys (filename)
@@ -142,4 +141,4 @@
                        :direction :output
                        :if-does-not-exist :create
                        :if-exists :supersede)
-    (format out "~a" (generate-tex-code-keys (sort-by-b-c-i-f *keys*)))))
+    (format out "~a" (generate-tex-code-keys (sort-by-id (select (where :category :key)))))))
