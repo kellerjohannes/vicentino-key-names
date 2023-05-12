@@ -112,12 +112,23 @@
          (shorthand (getf entry :root) (getf entry :ordine) latex-shorthand))
         (t (format t "~&Category not known, no note name produced."))))
 
+(defun get-note-name-from (interval-entry &optional latex-string)
+  (extract-note-name (first (select (where :id (getf interval-entry :departure)))) latex-string))
+
+(defun get-note-name-to (interval-entry &optional latex-string)
+  (extract-note-name (first (select (where :id (getf interval-entry :destination)))) latex-string))
+
+(defun get-direction (interval-entry &optional latex-string)
+  (if latex-string
+      (if (eq (getf interval-entry :direction) :up) "\\nearrow" "\\searrow")
+      (if (eq (getf interval-entry :direction) :up) "➚" "➘")))
+
 (defun generate-interval-string (interval-entry)
   (format nil "~a: ~a ~a ~a, »~a«"
           (getf interval-entry :id)
-          (extract-note-name (first (select (where :id (getf interval-entry :departure)))))
-          (if (eq (getf interval-entry :direction) :up) "➚" "➘")
-          (extract-note-name (first (select (where :id (getf interval-entry :destination)))))
+          (get-note-name-from interval-entry)
+          (get-direction interval-entry)
+          (get-note-name-to interval-entry)
           (getf interval-entry :original-name)))
 
 (defun list-intervals ()
