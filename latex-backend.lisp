@@ -101,6 +101,9 @@
 \\date{\\today}
 \\title{Inventar sämtlicher Tastenbezeichnungen im \\emph{Libro V}}
 
+\\usepackage{newunicodechar}
+\\newunicodechar{♭}{$\\flat$}
+\\newunicodechar{♯}{$\\sharp$}
 
 \\def\\nsharp#1{#1$\\sharp$}
 \\def\\nflat#1{#1$\\flat$}

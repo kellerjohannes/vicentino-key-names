@@ -74,6 +74,9 @@
 (defun select (selector-fn)
   (remove-if-not selector-fn *keys*))
 
+(defmacro pick (&rest fields)
+  `(first (select (where ,@fields))))
+
 (defun sort-by-id (data)
   (sort (copy-list data) #'< :key (lambda (item)
                                     (getf item :id))))
@@ -99,20 +102,40 @@
 
 
 
-(defun extract-pitch-info (entry)
-  (list (getf entry :root)
-        (getf entry :chromatic-alteration)
-        (getf entry :enharmonic-alteration)))
+(defun extract-note-name (entry &optional latex-shorthand)
+  (cond ((eq (getf entry :category) :note)
+         (alterations->shorthand (getf entry :root)
+                                 (getf entry :chromatic-alteration)
+                                 (getf entry :enharmonic-alteration)
+                                 latex-shorthand))
+        ((eq (getf entry :category) :key)
+         (shorthand (getf entry :root) (getf entry :ordine) latex-shorthand))
+        (t (format t "~&Category not known, no note name produced."))))
+
+(defun generate-interval-string (interval-entry)
+  (format nil "~a: ~a ~a ~a, »~a«"
+          (getf interval-entry :id)
+          (extract-note-name (first (select (where :id (getf interval-entry :departure)))))
+          (if (eq (getf interval-entry :direction) :up) "➚" "➘")
+          (extract-note-name (first (select (where :id (getf interval-entry :destination)))))
+          (getf interval-entry :original-name)))
 
 (defun list-intervals ()
-  (mapcar (lambda (interval-entry)
-            (format nil "~a: ~a ~a ~a"
-                    (getf interval-entry :id)
-                    (alteration-list->shorthand
-                     (extract-pitch-info (first (select (where :id (getf interval-entry
-                                                                         :departure))))))
-                    (if (eq (getf interval-entry :direction) :up) "➚" "➘")
-                    (alteration-list->shorthand
-                     (extract-pitch-info (first (select (where :id (getf interval-entry
-                                                                         :destination))))))))
-          (select (where :category :interval))))
+  (format t "~&Listing of all intervals in database:~%~%~{~a~%~}"
+          (mapcar #'generate-interval-string (select (where :category :interval)))))
+
+
+
+
+(defun create-list-of-unique-ids (data)
+  (remove-duplicates (mapcar (lambda (entry) (getf entry :id)) data)))
+
+(defun distill-reading (data reading-flags)
+  (mapcar (lambda (id)
+            (let ((candidates (select (where :id id))))
+              (dolist (reading-flag reading-flags)
+                (let ((hit (member reading-flag candidates :key (lambda (entry)
+                                                                  (getf entry :flag)))))
+                  (when hit
+                    (return (first hit)))))))
+          (create-list-of-unique-ids data)))
