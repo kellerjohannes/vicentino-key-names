@@ -2,7 +2,7 @@
   :depends-on (:cl-svg)
   :serial t
   :components ((:file "key-names")
+               (:file "tuning-systems")
                (:file "database-handling")
                (:file "latex-backend")
-               (:file "tuning-systems")
                (:file "main")))

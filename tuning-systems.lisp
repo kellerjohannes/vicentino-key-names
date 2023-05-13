@@ -66,6 +66,7 @@
   (lambda (notename) (tune tuning-fun (get-fifth-index (get-keymap keymap-name) notename))))
 
 (defparameter *tuning-1* (pitch-fun (meantone -1/4) :wolf-Ė-Ḃ♮))
+(defparameter *tuning-2* (pitch-fun (meantone -1/3) :wolf-Ė-Ḃ♮))
 
 (defun calculate-interval-size (departure-name destination-name direction pitch-fun)
   (let ((departure-interval (funcall pitch-fun departure-name))
@@ -77,6 +78,10 @@
           ((< destination-interval departure-interval)
            (if (eq direction :down)
                (simplify (/ departure-interval destination-interval))
-               (simplify (/ destination-interval departure-interval))
-               ))
+               (simplify (/ destination-interval departure-interval))))
           (t 1/1))))
+
+
+
+(defun ratio->length (ratio &key (unit-interval (expt 2 1/1200)))
+  (/ (log ratio) (log unit-interval)))
