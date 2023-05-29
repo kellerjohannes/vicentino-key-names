@@ -151,12 +151,13 @@
                     (return (first hit)))))))
           (create-list-of-unique-ids data)))
 
+(defparameter *tuning* *tuning-1*)
 
 (defun create-full-interval-string (interval-entry)
   (let* ((name-from (get-note-name-from interval-entry))
          (name-to (get-note-name-to interval-entry))
          (direction (get-direction interval-entry))
-         (size (calculate-interval-size name-from name-to direction *tuning-1*)))
+         (size (interval-size interval-entry)))
     (format nil "#~a: ~a~a~a, ~a (~a SC, ~a ¢)"
             (getf interval-entry :id)
             name-from
@@ -166,13 +167,17 @@
             (ratio->length size :unit-interval 81/80)
             (ratio->length size))))
 
+
+(defun interval-size (interval-entry)
+  (calculate-interval-size (get-note-name-from interval-entry)
+                           (get-note-name-to interval-entry)
+                           (getf interval-entry :direction)
+                           *tuning*))
+
 (defun list-intervals-size ()
   (format t "~&Listing of all intervals sorted by size:~%~%~{~a~%~}"
           (mapcar #'create-full-interval-string
-                  (sort (distill-reading (select (where :category :interval :direction :up)) '(:diplomatic))
-                        #'<
-                        :key (lambda (interval-entry)
-                               (calculate-interval-size (get-note-name-from interval-entry)
-                                                        (get-note-name-to interval-entry)
-                                                        (getf interval-entry :direction)
-                                                        *tuning-1*))))))
+           (sort (distill-reading (select (where :category :interval))
+                                  (list :diplomatic))
+                 #'<
+                 :key #'interval-size))))
