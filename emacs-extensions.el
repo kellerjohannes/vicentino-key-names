@@ -35,7 +35,7 @@
             (end-of-line)
             (kill-region (point) original-position)
             (insert "(:id " (format "%d" index)
-                    "\n:item-type :key-name "
+                    "\n:item-type :key "
                     "\n:key-name \"" key-name "\" "
                     "\n:root-letter " (format ":%s " root-letter)
                     ":ordine " (format "%d " ordine)
@@ -44,3 +44,10 @@
                     "\n:tag-list (" tags ") "
                     "\n:comment \"" comment "\")")
             (indent-region original-position (point))))))))
+
+
+
+ (:id 10  :category :key      :libro 5 :chapter 8 :folio (106 . :recto) :original-name "Dsolre secondo" :root :d :ordine 2 :flag :diplomatic :comment "")
+
+
+(:id 11  :category :interval :libro 5 :chapter 8 :folio (106 . :recto) :original-name "sesta maggiore" :departure 1 :destination 12 :direction :down :group :sesta :flag :diplomatic :comment "")

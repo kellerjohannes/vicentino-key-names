@@ -7,103 +7,174 @@ A
 :END:
 # diplomatic
 
-**** 2 terza minore, 1 ➘ 3
+**** 2 terza minore
+1
+➘
+3
+sesta
 :PROPERTIES:
 :NOTER_PAGE: (209 0.31108597285067874 . 0.5717391304347826)
 :END:
+# diplomatic
+
 **** 3 Gsolreut secondo
+G
+2
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.31444367657221833)
 :END:
-**** 4 la maggior [terza], 1 ➘ 5
+# diplomatic
+
+**** 4 la maggior [terza]
+1
+➘
+5
 :PROPERTIES:
 :NOTER_PAGE: (209 0.3252262443438914 . 0.418695652173913)
 :END:
-**** 5 Ffaut naturale diatonico, cioè nel primo ordine
+# diplomatic
+
+**** 5 Ffaut naturale diatonico cioè nel primo ordine
+F
+1
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.33172080165860396)
 :END:
-**** 6 quinta, 7 ➘ 8
+# diplomatic
+
+**** 6 quinta
+7
+➘
+8
 :PROPERTIES:
 :NOTER_PAGE: (209 0.35350678733031676 . 0.29434782608695653)
 :END:
-**** 7 sopradetto Alamire
+# diplomatic
+
+**** 7 sopradetto Alamire [primo]
+A
+1
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3489979267449896)
 :END:
-**** 8 Dsolre
+# diplomatic
+
+**** 8 Dsolre [primo]
+D
+1
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3489979267449896)
 :END:
-**** 9 sesta minore, 7 ➘ 10
+# diplomatic
+
+**** 9 sesta minore
+7
+➘
+10
 :PROPERTIES:
 :NOTER_PAGE: (209 0.35350678733031676 . 0.7439130434782609)
 :END:
+# diplomatic
+
 **** 10 Dsolre secondo
+D
+2
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3662750518313752)
 :END:
-**** 11 [sesta] maggiore, 7 ➘ 12
+# diplomatic
+
+**** 11 [sesta] maggiore
+7
+➘
+12
 :PROPERTIES:
 :NOTER_PAGE: (209 0.36764705882352944 . 0.418695652173913)
 :END:
+# diplomatic
+
 **** 12 Cfaut primo
+C
+1
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3662750518313752)
 :END:
-**** 13 ottava, 7 ➘ 14
+# diplomatic
+
+**** 13 ottava
+7
+➘
+14
 :PROPERTIES:
 :NOTER_PAGE: (209 0.36764705882352944 . 0.6673913043478261)
 :END:
-**** 14 Are
+# diplomatic
+
+**** 14 Are [primo]
+A
+1
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3621285418106427)
 :END:
-**** 15 quella [terza] minore che noi usiamo, 16 ➘ 17
+# diplomatic
+
+**** 15 quella [terza] minore che noi usiamo
+16
+➘
+17
 :PROPERTIES:
 :NOTER_PAGE: (209 0.5539377895433488 . 0.6531806615776081)
 :END:
+# diplomatic
+
 **** 16 Alamire primo grave
+A
+1
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.5801991150442478)
 :END:
+# diplomatic
+
 **** 17 Gsolreut secondo
+G
+2
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.5801991150442478)
 :END:
-**** 18 [terza minore] propinqua, 16 ➘ 19
+# diplomatic
+
+**** 18 [terza minore] propinqua
+16
+➘
+19
 :PROPERTIES:
 :NOTER_PAGE: (209 0.5847121111846459 . 0.8170483460559796)
 :END:
-»questa parrà migliore della terza minore, perche non è tanto debole
-come è la minore rispetto alla terza maggiore, perche non aggiogne à
-quella di uno Diesis Enarmonico minore, siche la propinqua et la
-propinquissima della terza minore si potrà sonare, & parerà buona, &
-credo che quando alcuni cantano nelle compositioni, cantano le
-propinque & le propinquissime«
-**** 19 Gsolreut terzo -> Ffaut terzo in quarto ordine :inverse_propinqua:obvious_mistake:
+# diplomatic
+Es ist zu diskutieren, warum Vicentino etwas später genau diese Terz (A-Ḟ) noch einmal explizit nennt (#22). Dies könnte ein Hinweis darauf sein, dass er an dieser Stelle tatsächlich die septimale Terz (A-G♭) meint.
+**** 19 Gsolreut terzo
+G
+3
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.5940265486725664)
 :END:
-label:korrektur08-1
-Das soll in /Ffaut terzo in quarto ordine/ korrigiert werden, denn es
-handelt sich dabei um die /terza minore propinqua/ unterhalb
-A. Gsolreut terzo [G♭] wäre die /terza manco di minore/ oder /terza
-minima/, was nicht in die Reihe der Konsonanzen in den folgenden
-Kapiteln passt und auch nicht mit dem Notenbeispiel
-übereinstimmt. Diese septimale Mollterz ist jedoch ein sehr
-interessanter Klang.
+# :diplomatic :inverse-propinqua
+Führt zu einer septimalen Mollterz als /terza minore propinqua/. Um das zu vermeiden, muss in /Ffaut terzo in quarto ordine/ idealisiert werden.
+**** 19 Ffaut terzo in quarto ordine
+:PROPERTIES:
+:NOTER_PAGE: (209 . 0.5940265486725664)
+:END:
+# :normalised-propinqua
 
-Es ist zu diskutieren, warum Vicentino etwas später genau diese Terz
-(A-Ḟ) noch einmal explizit nennt (#22). Dies könnte ein Hinweis darauf
-sein, dass er an dieser Stelle eben doch die septimale Terz (A-G♭)
-meint.
-
-Treffen David: soll in Ffaut terzo in quarto ordine korrigiert werden.
-**** 20 la propinqua della terza minore, 21 ➘ 22
+**** 20 la propinqua della terza minore
+21
+➘
+22
 :PROPERTIES:
 :NOTER_PAGE: (209 0.7693580410324289 . 0.5249363867684478)
 :END:
+# :diplomatic
+
 **** 21 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.7798672566371682)
