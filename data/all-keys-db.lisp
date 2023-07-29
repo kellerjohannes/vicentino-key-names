@@ -145,3 +145,19 @@ Kommentar.
 :PROPERTIES:
 :NOTER_PAGE: (209 0.31108597285067874 . 0.5717391304347826)
 :END:
+Kommentar.
+***
+
+
+
+(:id 2
+:item-type :interval
+:interval-name terza minore
+:interval-group-identity :X
+:departure terza minore, 1
+:destination 3
+:direction ➘
+:pdf-page 209
+:pdf-position (0.31108597285067874 . 0.5717391304347826)
+:tag-list (:diplomatic)
+:comment "Kommentar.")
