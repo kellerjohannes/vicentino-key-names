@@ -1,3 +1,9 @@
+;; Flags:
+;; :diplomatic
+;; :obvious
+;; :in-discussion
+;; :anti-septimal
+
 (
  (:id 1   :category :key      :libro 5 :chapter 8 :folio (106 . :recto) :original-name "Alamire primo grave" :root :a :ordine 1 :flag :diplomatic :comment "")
  (:id 2   :category :interval :libro 5 :chapter 8 :folio (106 . :recto) :original-name "terza minore" :departure 1 :destination 3 :direction :down :group :terza :flag :diplomatic :comment "")
@@ -127,4 +133,15 @@
  (:id 123 :category :interval :libro 5 :chapter 8 :folio (107 . :recto) :original-name "[sesta maggiore propinqua]" :departure 85 :destination 122 :direction :up :group :sesta :flag :diplomatic :comment "")
  (:id 124 :category :note     :libro 5 :chapter 8 :folio (107 . :recto) :root :a :chromatic-alteration nil :enharmonic-alteration nil :flag :diplomatic :comment "")
  (:id 125 :category :interval :libro 5 :chapter 8 :folio (107 . :recto) :original-name "[ottava]" :departure 85 :destination 124 :direction :up :group :ottava :flag :diplomatic :comment "")
- )
+
+
+
+**** 1 Alamire primo grave
+:PROPERTIES:
+:NOTER_PAGE: (209 123 . 0.2971665514858327)
+:END:
+Kommentar.
+**** 2 terza minore, 1➘3
+:PROPERTIES:
+:NOTER_PAGE: (209 0.31108597285067874 . 0.5717391304347826)
+:END:

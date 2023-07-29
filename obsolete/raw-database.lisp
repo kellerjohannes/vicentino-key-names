@@ -1,12 +1,12 @@
 *** c5.08, Konsonanzen von A1 / A aus [55 Tasten, 1 Textkorrektur]
-**** 1 Alamire primo grave
-A
-1
-:PROPERTIES:
-:NOTER_PAGE: (209 . 0.2971665514858327)
-:END:
-# diplomatic
-
+(:id 1
+     :item-type :key
+     :key-name "Alamire primo grave"
+     :root-letter :A :ordine 1
+     :pdf-page 209
+     :pdf-position (209 . 0.2971665514858327)
+     :tag-list (diplomatic)
+     :comment "")
 **** 2 terza minore
 1
 ➘
