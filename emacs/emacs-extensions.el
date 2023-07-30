@@ -66,8 +66,6 @@
   (insert "(:id " index
           "\n:item-type :note"
           "\n:note-name :" header-line
-          "\n:root-letter :X"
-          "\n:ordine X"
           "\n:tag-list (:diplomatic)"
           "\n:comment \"" (if (cl-search "***" body-string) "\")" body-string "\")")))
 
