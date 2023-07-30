@@ -44,70 +44,87 @@
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.2971665514858327)
 :END:
+
 **** 2 terza minore, 1➘3
 :PROPERTIES:
 :NOTER_PAGE: (209 0.31108597285067874 . 0.5717391304347826)
 :END:
+
 **** 3 Gsolreut secondo
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.31444367657221833)
 :END:
+
 **** 4 la maggior [terza], 1➘5
 :PROPERTIES:
 :NOTER_PAGE: (209 0.3252262443438914 . 0.418695652173913)
 :END:
+
 **** 5 Ffaut naturale diatonico, cioè nel primo ordine
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.33172080165860396)
 :END:
+
 **** 6 quinta, 7➘8
 :PROPERTIES:
 :NOTER_PAGE: (209 0.35350678733031676 . 0.29434782608695653)
 :END:
+
 **** 7 sopradetto Alamire
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3489979267449896)
 :END:
+
 **** 8 Dsolre
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3489979267449896)
 :END:
+
 **** 9 sesta minore, 7➘10
 :PROPERTIES:
 :NOTER_PAGE: (209 0.35350678733031676 . 0.7439130434782609)
 :END:
+
 **** 10 Dsolre secondo
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3662750518313752)
 :END:
+
 **** 11 [sesta] maggiore, 7➘12
 :PROPERTIES:
 :NOTER_PAGE: (209 0.36764705882352944 . 0.418695652173913)
 :END:
+
 **** 12 Cfaut primo
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3662750518313752)
 :END:
+
 **** 13 ottava, 7➘14
 :PROPERTIES:
 :NOTER_PAGE: (209 0.36764705882352944 . 0.6673913043478261)
 :END:
+
 **** 14 Are
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.3621285418106427)
 :END:
+
 **** 15 quella [terza] minore che noi usiamo, 16➘17
 :PROPERTIES:
 :NOTER_PAGE: (209 0.5539377895433488 . 0.6531806615776081)
 :END:
+
 **** 16 Alamire primo grave
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.5801991150442478)
 :END:
+
 **** 17 Gsolreut secondo
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.5801991150442478)
 :END:
+
 **** 18 [terza minore] propinqua, 16➘19
 :PROPERTIES:
 :NOTER_PAGE: (209 0.5847121111846459 . 0.8170483460559796)
@@ -118,6 +135,7 @@ quella di uno Diesis Enarmonico minore, siche la propinqua et la
 propinquissima della terza minore si potrà sonare, & parerà buona, &
 credo che quando alcuni cantano nelle compositioni, cantano le
 propinque & le propinquissime«
+
 **** 19 Gsolreut terzo -> Ffaut terzo in quarto ordine :inverse_propinqua:obvious_mistake:
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.5940265486725664)
@@ -137,66 +155,82 @@ sein, dass er an dieser Stelle eben doch die septimale Terz (A-G♭)
 meint.
 
 Treffen David: soll in Ffaut terzo in quarto ordine korrigiert werden.
+
 **** 20 la propinqua della terza minore, 21➘22
 :PROPERTIES:
 :NOTER_PAGE: (209 0.7693580410324289 . 0.5249363867684478)
 :END:
+
 **** 21 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.7798672566371682)
 :END:
+
 **** 22 Ffaut terzo in quarto ordine
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.7798672566371682)
 :END:
+
 **** 23 la propinqua della terza maggiore, 24➘25
 :PROPERTIES:
 :NOTER_PAGE: (209 0.7908669755129053 . 0.46081424936386767)
 :END:
+
 **** 24 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.7936946902654868)
 :END:
+
 **** 25 Ffaut secondo in terzo ordine
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.7936946902654868)
 :END:
+
 **** 26 quinta, 24➘27
 :PROPERTIES:
 :NOTER_PAGE: (209 0.8113831899404368 . 0.46081424936386767)
 :END:
+
 **** 27 Dsolre
 :PROPERTIES:
 :NOTER_PAGE: (209 . 0.8075221238938054)
 :END:
+
 **** 28 sesta minore, 29➘30
 :PROPERTIES:
 :NOTER_PAGE: (210 0.10258107213765719 . 0.5676844783715013)
 :END:
+
 **** 29 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.0967920353982301)
 :END:
+
 **** 30 Dsolre secondo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.0967920353982301)
 :END:
+
 **** 31 [sesta minore] propinqua, 29➘32
 :PROPERTIES:
 :NOTER_PAGE: (210 0.12309728656518862 . 0.38244274809160306)
 :END:
+
 **** 32 Cfaut terzo in quarto ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.12444690265486727)
 :END:
+
 **** 33 sesta maggiore, 29➘34
 :PROPERTIES:
 :NOTER_PAGE: (210 0.12309728656518862 . 0.8241730279898218)
 :END:
+
 **** 34 Cfaut primo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.12444690265486727)
 :END:
+
 **** 35 Cfaut terzo in quarto ordine -> streichen      :obvious_mistake:
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.13827433628318586)
@@ -212,32 +246,39 @@ der /semitoni naturali/ erklärt wird.
 
 Treffen David: Vorschlag von Luigi, /Cfaut terzo in quarto ordine/
 komplett zu streichen wird akzeptiert.
+
 **** 36 sesta maggiore propinqua, 37➘38
 :PROPERTIES:
 :NOTER_PAGE: (210 0.14361350099272005 . 0.738676844783715)
 :END:
 »questa propinqua sara dura, perche va verso la settima,et si salvera
 con la sua sesta«
+
 **** 37 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.13827433628318586)
 :END:
+
 **** 38 Cfaut secondo in terzo ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.13827433628318586)
 :END:
+
 **** 39 Cfaut
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.2074115044247788)
 :END:
+
 **** 40 Bmi
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.2074115044247788)
 :END:
+
 **** 41 secondo Cfaut nel terzo ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.22123893805309736)
 :END:
+
 **** 42 terzo Cfaut in quarto ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.23506637168141595)
@@ -354,10 +395,12 @@ einverstanden, der Konflikt bleibt offen und wird im Zusammenhang mit
 den anderen Kapiteln neu bewertet werden. Falls Cfaut in quarto ordine
 zu Bmi in quarto ordine korrigiert wird, müsste auch
 ref:zweifel-luigi-c5.08-ii entsprechend korrigiert werden.
+
 **** 43 Cfaut secondo nel terzo ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.2627212389380531)
 :END:
+
 **** 44 Cfaut terzo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.2627212389380531)
@@ -366,15 +409,18 @@ Hier als B♯ verstanden, demonstriert die Versuchung, diese Taste
 /terzo/ zu nennen, weil sie im /terzo ordine/ liegt, was aber falsch
 ist, denn sie ist die erste Taste nach dem Cfaut, also das /Cfaut
 secondo/ (/nel terzo ordine/).
+
 **** 45 Primo Cfaut
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.2765486725663717)
 :END:
+
 **** 46 Cfaut secondo -> Cfaut secondo in terzo ordine :regular_shorthand:
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.30420353982300885)
 :END:
 Reguläre Verkürzung von /Cfaut secondo in terzo ordine/.
+
 **** 47 terzo Cfaut posto nel quarto ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.31803097345132747)
@@ -384,119 +430,149 @@ label:zweifel-luigi-c5.08-ii
 Siehe ref:zweifel-luigi-c5.08.
 
 Treffen David: kein Zweifel mehr, bleibt so stehen.
+
 **** 48 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 0.3692918596955658 . 0.8027989821882952)
 :END:
+
 **** 49 Are
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.3871681415929204)
 :END:
+
 **** 50 Are
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.40099557522123896)
 :END:
+
 **** 51 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.40099557522123896)
 :END:
+
 **** 52 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.45630530973451333)
 :END:
+
 **** 53 Gsolreut
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.45630530973451333)
 :END:
+
 **** 54 Ffaut
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.45630530973451333)
 :END:
-**** 55 terza minore
+
+**** 55 terza minore, 56➚57
 :PROPERTIES:
 :NOTER_PAGE: (210 0.47187293183322304 . 0.6389312977099236)
 :END:
+
 **** 56 Alamire primo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.4701327433628319)
 :END:
+
 **** 57 Csolfaut primo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.4977876106194691)
 :END:
-**** 58 [terza minore] propinqua
+
+**** 58 [terza minore] propinqua, 56➚59
 :PROPERTIES:
 :NOTER_PAGE: (210 0.4923891462607545 . 0.4964376590330789)
 :END:
+
 **** 59 Csolfaut terzo in quarto ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.4977876106194691)
 :END:
-**** 60 terza maggiore
+
+**** 60 terza maggiore, 56➚61
 :PROPERTIES:
 :NOTER_PAGE: (210 0.4923891462607545 . 0.9381679389312978)
 :END:
+
 **** 61 Dlasolre secondo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.5116150442477877)
 :END:
-**** 62 [terza maggiore] propinqua
+
+**** 62 [terza maggiore] propinqua, 56➚63
 :PROPERTIES:
 :NOTER_PAGE: (210 0.5129053606882858 . 0.6246819338422391)
 :END:
+
 **** 63 Dlasolre terzo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.5116150442477877)
 :END:
+
 **** 64 quinta, 65➚66
+
 **** 65 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.566924778761062)
 :END:
+
 **** 66 Elami acuto
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.5807522123893806)
 :END:
-**** 67 semitono maggiore
+
+**** 67 semitono maggiore, 66➚69
 :PROPERTIES:
 :NOTER_PAGE: (210 0.5847121111846459 . 0.6318066157760814)
 :END:
+
 **** 68 sesta minore, 65➚69
 :PROPERTIES:
 :NOTER_PAGE: (210 0.5847121111846459 . 0.8526717557251908)
 :END:
+
 **** 69 Ffaut acuto primo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.5945796460176992)
 :END:
+
 **** 70 diesis enarmonico, 69➚72
 :PROPERTIES:
 :NOTER_PAGE: (210 0.5949702183984117 . 0.7244274809160305)
 :END:
+
 **** 71 [sesta minore] propinqua, 65➚72
 :PROPERTIES:
 :NOTER_PAGE: (210 0.6154864328259431 . 0.3539440203562341)
 :END:
+
 **** 72 Ffaut terzo, nel quarto ordine
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6084070796460177)
 :END:
+
 **** 73 sesta maggiore, 74➚75
 :PROPERTIES:
 :NOTER_PAGE: (210 0.6154864328259431 . 0.7885496183206107)
 :END:
+
 **** 74 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6222345132743363)
 :END:
+
 **** 75 Gsolreut acuto secondo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6360619469026549)
 :END:
+
 **** 76 [sesta maggiore] propinqua, 74➚77
 :PROPERTIES:
 :NOTER_PAGE: (210 0.6360026472534746 . 0.6816793893129771)
 :END:
+
 **** 77 Gsolreut terzo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6360619469026549)
@@ -504,76 +580,126 @@ Treffen David: kein Zweifel mehr, bleibt so stehen.
 »perche renderà manco aspressza di Gsolreut quinto [Ġ♭], perche il
 [Gsolreut] terzo [G♭] è più corto di un comma imperoche si potrà far
 l'uno & l'altro, ma il grado piu propinquo sarà sempre più dolce«
+
 **** 78 Gsolreut quinto
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6498893805309736)
 :END:
+
 **** 79 il terzo [Gsolreut]
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6498893805309736)
 :END:
+
 **** 80 comma
 :PROPERTIES:
 :NOTER_PAGE: (210 0.657511581733951 . 0.8312977099236641)
 :END:
+
 **** 81 ottava, 82➚83
 :PROPERTIES:
 :NOTER_PAGE: (210 0.6677696889477167 . 0.8954198473282443)
 :END:
+
 **** 82 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6637168141592921)
 :END:
+
 **** 83 Alamire sopra acuto
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.6913716814159293)
 :END:
+
 **** 84 Alamire primo
 :PROPERTIES:
 :NOTER_PAGE: (210 . 0.7051991150442478)
 :END:
+
 **** 85 A (20x)
+
 **** 86 F♯
+
 **** 87 [terza minore], 85➘86
+
 **** 88 Ḟ
+
 **** 89 [terza minore propinqua], 85➘88
+
 **** 90 F
+
 **** 91 [terza maggiore], 85➘90
+
 **** 92 E♯
+
 **** 93 [terza maggiore propinqua], 85➘92
+
 **** 94 D
+
 **** 95 [quinta], 85➘94
+
 **** 96 C♯
+
 **** 97 [sesta minore], 85➘96
+
 **** 98 Ċ
+
 **** 99 [sesta minore propinqua], 85➘98
+
 **** 100 C
+
 **** 101 [sesta maggiore], 85➘100
+
 **** 102 B♯
+
 **** 103 [sesta maggiore propinqua], 85➘102
+
 **** 104 A
+
 **** 105 [ottava], 85➘105
+
 **** 106 C
+
 **** 107 [terza minore], 85➚106
+
 **** 108 Ċ
+
 **** 109 [terza minore propinqua], 85➚108
+
 **** 110 C♯
+
 **** 111 [terza maggiore], 85➚110
+
 **** 112 D♭
+
 **** 113 [terza maggiore propinqua], 85➚112
+
 **** 114 E
+
 **** 115 [quinta], 85➚114
+
 **** 116 F
+
 **** 117 [sesta minore], 85➚116
+
 **** 118 Ḟ
+
 **** 119 [sesta minore propinqua], 85➚118
+
 **** 120 F♯
+
 **** 121 [sesta maggiore], 85➚120
+
 **** 122 G♭
+
 **** 123 [sesta maggiore propinqua], 85➚122
+
 **** 124 A
+
 **** 125 [ottava], 85➚124
+
 *** c5.09, Konsonanzen von A2 / G♯ aus [31 Tasten, 1 Textkorrektur, 1 Musikkorrektur]
+
 **** Intervalltabelle
 | M  |         | T  |         |   |                          |                                                                   |
 |----+---------+----+---------+---+--------------------------+-------------------------------------------------------------------|
@@ -597,54 +723,67 @@ l'uno & l'altro, ma il grado piu propinquo sarà sempre più dolce«
 | G♯ | E♯      | G♯ | E♯      | ➚ | sesta maggiore           |                                                                   |
 | G♯ | F       | G♯ | F       | ➚ | sesta maggiore propinqua |                                                                   |
 | G♯ | G♯      | G♯ | G♯      | ➚ | ottava                   |                                                                   |
+
 **** 126 Alamire secondo
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.27079646017699116)
 :END:
+
 **** 127 secondo Alamire
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.45353982300884954)
 :END:
+
 **** 128 terza minore discendente, 127➘129
 :PROPERTIES:
 :NOTER_PAGE: (211 0.44844679444811636 . 0.7403455284552845)
 :END:
+
 **** 129 Ffaut secondo in terzo ordine
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.46460176991150437)
 :END:
+
 **** 130 [terza minore] propinqua, 127➘131
 :PROPERTIES:
 :NOTER_PAGE: (211 0.4712491738268341 . 0.6229674796747967)
 :END:
+
 **** 131 Elami quarto
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.46460176991150437)
 :END:
+
 **** 132 terza maggiore, 127➘133
 :PROPERTIES:
 :NOTER_PAGE: (211 0.4712491738268341 . 0.9080284552845528)
 :END:
+
 **** 133 Elami primo
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.48672566371681414)
 :END:
+
 **** 134 [terza maggiore] propinqua, 127➘135
 :PROPERTIES:
 :NOTER_PAGE: (211 0.48645076007931265 . 0.5782520325203252)
 :END:
+
 **** 135 Elami quinto
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.48672566371681414)
 :END:
+
 **** 136 quinta, 137➘138
 :PROPERTIES:
 :NOTER_PAGE: (211 0.48645076007931265 . 0.8297764227642276)
 :END:
+
 **** 137 Alamire secondo
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.48672566371681414)
 :END:
+
 **** 138 [Dlasolre secondo]                                 :omitted_text:
 :PROPERTIES:
 :NOTER_PAGE: (211 0.5092531394580304 . 0.3546747967479675)
@@ -652,98 +791,123 @@ l'uno & l'altro, ma il grado piu propinquo sarà sempre più dolce«
 label:korrektur-09-2
 Soll ergänzt werden, denn die Unterquinte fehlt im Text,
 wahrscheinlich ein Druckfehler.
+
 **** 139 sesta minore, 140➘141
 :PROPERTIES:
 :NOTER_PAGE: (211 0.8060145406477197 . 0.8241869918699186)
 :END:
+
 **** 140 Alamire secondo
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.8185840707964601)
 :END:
+
 **** 141 Cfaut secondo nel terzo ordine
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.829646017699115)
 :END:
+
 **** 142 [sesta minore] propinqua, 140➘143
 :PROPERTIES:
 :NOTER_PAGE: (211 0.8288169200264376 . 0.9080284552845528)
 :END:
+
 **** 143 Bfa♭mi quarto
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.8407079646017699)
 :END:
+
 **** 144 sesta maggiore, 140➘145
 :PROPERTIES:
 :NOTER_PAGE: (211 0.8364177131526768 . 0.5223577235772358)
 :END:
+
 **** 145 Bfa♭mi primo
 :PROPERTIES:
 :NOTER_PAGE: (211 . 0.8407079646017699)
 :END:
+
 **** 146 [sesta maggiore] propinqua, 140➘147
 :PROPERTIES:
 :NOTER_PAGE: (211 0.8440185062789161 . 0.8744918699186991)
 :END:
+
 **** 147 Bfa♭mi quinto
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.11061946902654866)
 :END:
+
 **** 148 ottava, 149➘150
 :PROPERTIES:
 :NOTER_PAGE: (212 0.10641110376734964 . 0.5335365853658537)
 :END:
+
 **** 149 Alamire secondo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.11061946902654866)
 :END:
+
 **** 150 Are secondo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.11061946902654866)
 :END:
+
+
 **** 151 Alamire secondo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.12168141592920353)
 :END:
+
 **** 152 terza minore ascendente, 151➚153
 :PROPERTIES:
 :NOTER_PAGE: (212 0.15961665565102445 . 0.3546747967479675)
 :END:
+
 **** 153 Bfa♮mi primo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.15486725663716813)
 :END:
+
 **** 154 [terza minore] propinqua, 151➚155
 :PROPERTIES:
 :NOTER_PAGE: (212 0.16721744877726372 . 0.8074186991869918)
 :END:
+
 **** 155 Bfa♭mi quarto
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.165929203539823)
 :END:
+
 **** 156 terza maggiore, 151➚157
 :PROPERTIES:
 :NOTER_PAGE: (212 0.18241903502974224 . 0.43851626016260165)
 :END:
+
 **** 157 Csolfaut secondo in terzo ordine
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.17699115044247787)
 :END:
+
 **** 158 [terza maggiore] propinqua, 151➚159
 :PROPERTIES:
 :NOTER_PAGE: (212 0.18241903502974224 . 0.9359756097560975)
 :END:
+
 **** 159 Csolfaut primo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.1991150442477876)
 :END:
+
 **** 160 quinta, 161➚162
 :PROPERTIES:
 :NOTER_PAGE: (212 0.19762062128222077 . 0.5558943089430894)
 :END:
+
 **** 161 secondo Alamire
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.1991150442477876)
 :END:
+
 **** 162 Ffaut secondo in terzo ordine -> Elami terzo  :obvious_mistake:
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.1991150442477876)
@@ -759,112 +923,170 @@ la sua quinta in Elami terzo acuto«.
 Aber auch: c5.23, »& la sua [Elami terzo acuto] sarà in Gsolreut
 secondo«, was einen Fehler enthält: /Gsolreut secondo/ -> /Alamire
 secondo/.
+
 **** 163 sesta minore, 161➚165
 :PROPERTIES:
 :NOTER_PAGE: (212 0.21282220753469927 . 0.5447154471544715)
 :END:
+
 **** 164 semitono maggiore [162-165]
 :PROPERTIES:
 :NOTER_PAGE: (212 0.22042300066093853 . 0.7515243902439024)
 :END:
+
 **** 165 Elami primo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.23230088495575218)
 :END:
+
 **** 166 [sesta minore] propinqua, 161➚167
 :PROPERTIES:
 :NOTER_PAGE: (212 0.23562458691341706 . 0.5894308943089431)
 :END:
+
 **** 167 Elami quarto
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.23230088495575218)
 :END:
+
 **** 168 sesta maggiore, 161➚169
 :PROPERTIES:
 :NOTER_PAGE: (212 0.23562458691341706 . 0.9024390243902438)
 :END:
+
 **** 169 Ffaut secondo -> Ffaut secondo in terzo ordine :regular_shorthand:
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.24336283185840707)
 :END:
 Man könnte hier /in terzo ordine/ [E♯] ergänzen.
+
 **** 170 [sesta maggiore] propinqua, 161➚171
 :PROPERTIES:
 :NOTER_PAGE: (212 0.25082617316589556 . 0.5614837398373984)
 :END:
+
 **** 171 Ffaut primo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.25442477876106195)
 :END:
+
 **** 172 ottava, 161➚173
 :PROPERTIES:
 :NOTER_PAGE: (212 0.25082617316589556 . 0.9359756097560975)
 :END:
+
 **** 173 Are secondo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.2654867256637168)
 :END:
+
 **** 174 Alamire
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.2654867256637168)
 :END:
+
 **** 175 secondo Alamire
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.3150442477876106)
 :END:
+
 **** 176 Alamire secondo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.5141592920353982)
 :END:
+
 **** 177 secondo Alamire
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.536283185840708)
 :END:
+
 **** 178 Alamire secondo
 :PROPERTIES:
 :NOTER_PAGE: (212 . 0.7243362831858408)
 :END:
+
 **** 179 G♯, 20x
+
 **** 180 E♯
+
 **** 181 [terza minore], 179➘180
+
 **** 182 Ė
+
 **** 183 [terza minore propinqua], 179➘182
+
 **** 184 E
+
 **** 185 [terza maggiore], 179➘185
+
 **** 186 Ė♭
+
 **** 187 [terza maggiore propinqua], 179➘186
+
 **** 188 C♯
+
 **** 189 [quinta], 179➘188
+
 **** 190 B♯
+
 **** 191 [sesta minore], 179➘190
+
 **** 192 Ḃ♮
+
 **** 193 [sesta minore propinqua], 179➘192
+
 **** 194 B♮
+
 **** 195 [sesta maggiore], 179➘194
+
 **** 196 B♭
+
 **** 197 [sesta maggiore propinqua], 179➘196
+
 **** 198 G♯
+
 **** 199 [ottava], 179➘198
+
 **** 200 B♮
+
 **** 201 [terza minore], 179➚200
+
 **** 202 Ḃ♮
+
 **** 203 [terza minore propinqua], 179➚202
+
 **** 204 B♯
+
 **** 205 [terza maggiore], 179➚204
+
 **** 206 C
+
 **** 207 [terza maggiore propinqua], 179➚206
+
 **** 208 D♯
+
 **** 209 [quinta], 179➚208
+
 **** 210 E
+
 **** 211 [sesta minore], 179➚210
+
 **** 212 Ė
+
 **** 213 [sesta minore propinqua], 179➚212
+
 **** 214 E♯
+
 **** 215 [sesta maggiore], 179➚214
+
 **** 216 F
+
 **** 217 [sesta maggiore propinqua], 179➚216
+
 **** 218 G♯
+
 **** 219 [ottava], 179➚218
+
 *** c5.10, Konsonanzen von A3 / A♭ aus [28 Tasten, keine Korrektur, 2 Musikergänzungen]
 **** Intervalltabelle
 | M  |    | T  |    |   |                          |                                                            |

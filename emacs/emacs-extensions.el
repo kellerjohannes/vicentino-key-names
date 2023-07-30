@@ -1,21 +1,20 @@
 (defun jk/extract-pdf-coordinates (body-string)
-  (let* ((left-par (cl-search "(" body-string))
-         (right-par (cl-search ")" body-string))
-         (space (cl-search " " body-string :start2 left-par))
-         (cons-dot (cl-search " . " body-string :start2 left-par))
-         (pdf-page (substring body-string (1+ left-par) space))
-         (pdf-position (if (= space cons-dot)
-                           (substring body-string (+ 3 cons-dot) right-par)
-                         (format "(%s)" (substring body-string (1+ space) right-par)))))
-    (cons pdf-page pdf-position)))
+  (if (cl-search ":PROPERTIES:" body-string)
+      (let* ((left-par (cl-search "(" body-string))
+             (right-par (cl-search ")" body-string))
+             (space (cl-search " " body-string :start2 left-par))
+             (cons-dot (cl-search " . " body-string :start2 left-par))
+             (pdf-page (substring body-string (1+ left-par) space))
+             (pdf-position (if (= space cons-dot)
+                               (substring body-string (+ 3 cons-dot) right-par)
+                             (format "(%s)" (substring body-string (1+ space) right-par)))))
+        (cons pdf-page pdf-position))
+    (cons "nil" "nil")))
 
 (defun jk/extract-comment (body-string)
   (if (cl-search ":PROPERTIES:" body-string)
       (substring body-string (+ 6 (cl-search ":END:" body-string)))
     body-string))
-
-(cl-search "." "abcxxx . def y . d" :start2 12 :end2 0)
-(reverse "abc")
 
 (defun jk/locate-direction-indicator (str)
   (or (cl-search "➚" str)
@@ -40,11 +39,11 @@
         (interval-name (substring header-line 0 (cl-search ", " header-line))))
     (insert "(:id " index
             "\n:item-type :interval"
-            "\n:interval-name " interval-name
+            "\n:interval-name \"" interval-name "\""
             "\n:interval-group-identity :X"
             "\n:departure " (car interval-info)
             "\n:destination " (caddr interval-info)
-            "\n:direction " (cadr interval-info)
+            "\n:direction :" (cadr interval-info)
             "\n:pdf-page " (car pdf-coordinates)
             "\n:pdf-position " (cdr pdf-coordinates)
             "\n:tag-list (:diplomatic)"
