@@ -14,13 +14,22 @@
       (substring body-string (+ 6 (cl-search ":END:" body-string)))
     body-string))
 
+(cl-search "." "abcxxx . def y . d" :start2 12 :end2 0)
+(reverse "abc")
+
+(defun jk/locate-direction-indicator (str)
+  (or (cl-search "➚" str)
+      (cl-search "➘" str)))
+
 (defun jk/extract-interval-info (header-line)
-  (let* ((direction-position (or (cl-search "➚" header-line)
-                                 (cl-search "➘" header-line)))
-         (departure (substring header-line (cl-search " " header-line
-                                                      :start2 direction-position
-                                                      :from-end t)
-                               direction-position))
+  (let* ((direction-position (jk/locate-direction-indicator header-line))
+         (reverse-header-line (reverse header-line))
+         (direction-position-reversed (jk/locate-direction-indicator reverse-header-line))
+         (departure (reverse (substring reverse-header-line
+                                        (1+ direction-position-reversed)
+                                        (cl-search " "
+                                                   reverse-header-line
+                                                   :start2 direction-position-reversed))))
          (destination (substring header-line (1+ direction-position)))
          (direction (substring header-line direction-position (1+ direction-position))))
     (list departure direction destination)))
@@ -44,20 +53,24 @@
 (defun jk/insert-vicentino-keyname (index header-line body-string)
   (let ((pdf-coordinates (jk/extract-pdf-coordinates body-string)))
     (insert "(:id " index
-            "\n:item-type :key "
-            "\n:key-name \"" header-line "\" "
+            "\n:item-type :key"
+            "\n:key-name \"" header-line "\""
+            "\n:note-name :X"
             "\n:root-letter :X"
             "\n:ordine X"
             "\n:pdf-page " (car pdf-coordinates)
             "\n:pdf-position " (cdr pdf-coordinates)
-            "\n:tag-list (:diplomatic) "
+            "\n:tag-list (:diplomatic)"
             "\n:comment \"" (jk/extract-comment body-string) "\")\n")))
 
 (defun jk/insert-vicentino-notename (index header-line body-string)
-  (insert (format "\nindex: %s\nheader-line: %s\nentry-string: %s\n\n"
-                  index
-                  header-line
-                  body-string)))
+  (insert "(:id " index
+          "\n:item-type :note"
+          "\n:note-name :" header-line
+          "\n:root-letter :X"
+          "\n:ordine X"
+          "\n:tag-list (:diplomatic)"
+          "\n:comment \"" (if (cl-search "***" body-string) "\")" body-string "\")")))
 
 (defun jk/convert-vicentino-item ()
   (interactive)
@@ -75,15 +88,10 @@
     (search-forward "***")
     (beginning-of-line)
     (setq body-string (buffer-substring first-line-position (1- (point))))
-    (end-of-buffer)
-
-    (let ((title-contains-arrow-p (or (cl-search "➚" header-line)
-                                      (cl-search "➘" header-line)))
+    (kill-region original-position (point))
+    (let ((title-contains-arrow-p (jk/locate-direction-indicator header-line))
           (properties-exist-p (cl-search ":PROPERTIES:" first-line)))
-
       (cond (title-contains-arrow-p (jk/insert-vicentino-interval index header-line body-string))
             (properties-exist-p (jk/insert-vicentino-keyname index header-line body-string))
             (t (jk/insert-vicentino-notename index header-line body-string))))
-
-    (goto-char original-position)
-    ))
+    (insert "\n")))

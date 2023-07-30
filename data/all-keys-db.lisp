@@ -136,28 +136,37 @@
 
 
 
-**** 1 Alamire primo grave
-:PROPERTIES:
-:NOTER_PAGE: (209 123 . 0.2971665514858327)
-:END:
-Kommentar.
-**** 2 terza minore, 1➘3
-:PROPERTIES:
-:NOTER_PAGE: (209 0.31108597285067874 . 0.5717391304347826)
-:END:
-Kommentar.
-***
-
+(:id 1
+:item-type :key
+:key-name "Alamire primo grave"
+:note-name :X
+:root-letter :X
+:ordine X
+:pdf-page 209
+:pdf-position (123 . 0.2971665514858327)
+:tag-list (:diplomatic)
+:comment "Kommentar.")
 
 
 (:id 2
 :item-type :interval
 :interval-name terza minore
 :interval-group-identity :X
-:departure terza minore, 1
-:destination 3
+:departure 14
+:destination 315
 :direction ➘
 :pdf-page 209
 :pdf-position (0.31108597285067874 . 0.5717391304347826)
 :tag-list (:diplomatic)
 :comment "Kommentar.")
+
+
+**** 103 [sesta maggiore propinqua], 85➘102
+**** 104 A
+**** 105 [ottava], 85➘105
+**** 106 C
+**** 107 [terza minore], 85➚106
+**** 108 Ċ
+Kommentar.
+**** 109 [terza minore propinqua], 85➚108
+**** 110 C♯
