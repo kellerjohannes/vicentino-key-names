@@ -1,5 +1,56 @@
 (in-package :key-names)
 
+(defparameter *latex-text-replacements*
+  '(("&" . "\\&")
+    ("_" . "\\_")
+    ("#" . "\\#")))
+
+(defun replace-substring (new old source &optional (start-position 0))
+  (let ((occurrence (search old source :start2 start-position)))
+    (if occurrence
+        (replace-substring new old (concatenate 'string
+                                                (subseq source 0 occurrence)
+                                                new
+                                                (subseq source (+ occurrence (length old))))
+                           (+ occurrence (length new)))
+        source)))
+
+(defun make-string-latex-friendly (str)
+  (let ((result (format nil "~a" str)))
+    (dolist (candidate *latex-text-replacements* result)
+      (setf result (replace-substring (cdr candidate) (car candidate) result)))))
+
+(defparameter *latex-format-triggers*
+  '(("/" . "\\emph{")
+    ("*" . "\\textbf{")))
+
+(defparameter *bold-trigger* "*")
+(defparameter *italics-trigger* "/")
+
+;; TODO: this is not ideal, because it only replaces the triggers literally, without checking
+;; whether they are attached to words or within words.
+(defun replace-formatting (str trigger command &optional (start-position 0))
+  (let ((occurrence-1 (search trigger str :start2 start-position)))
+    (if occurrence-1
+        (let ((occurrence-2 (search trigger str :start2 (1+ occurrence-1))))
+          (if occurrence-2
+              (replace-formatting
+               (concatenate 'string
+                            (subseq str 0 occurrence-1)
+                            command
+                            (subseq str (+ occurrence-1 (length *italics-trigger*)) occurrence-2)
+                            "}"
+                            (subseq str (+ occurrence-2 (length *italics-trigger*))))
+               trigger command occurrence-2)
+              str))
+        str)))
+
+(defun generate-latex-formatting (str)
+  (let ((result str))
+    (dolist (candidate *latex-format-triggers* (make-string-latex-friendly result))
+      (setf result (replace-formatting result (car candidate) (cdr candidate))))))
+
+
 (defparameter *shorthand-dict*
   '((:a 1 :a nil nil :A "A")
     (:a 2 :g :sharp nil :G♯ "\\nsharp{G}")
@@ -60,32 +111,70 @@
   (alterations->shorthand (first lst) (second lst) (third lst)))
 
 
+(defun lookup-location (id)
+  (dolist (chapter *chapter-index*)
+    (when (and (<= id (getf chapter :last-id))
+               (>= id (getf chapter :first-id)))
+      (return (cons (getf chapter :book) (getf chapter :chapter))))))
+
+(defmacro access (field)
+  `(if (getf item ,field)
+       (getf item ,field)
+       "--"))
+
+(defmacro type-select (expr-key expr-interval expr-note)
+  `(case (getf item :item-type)
+     (:key ,expr-key)
+     (:interval ,expr-interval)
+     (:note ,expr-note)))
+
 ;;;; TEX output
 
-(defparameter *flag-tex-translation*
-  '(:diplomatic "diplomatisch"
-    :obvious "offensichtlich"
-    :anti-septimal "anti-septimal"
-    :in-discussion "unklar"))
+(defparameter *item-type-symbols*
+  '((:key . "$\\square$")
+    (:interval . "$\\Leftrightarrow$")
+    (:note . "$\\bigcirc$")))
 
-(defun generate-longtable-row-keys (key)
-  (let ((folio-cons (getf key :folio)))
-    (format nil "~a & ~a & ~a & ~a~a & ~a & ~a~a & ~a & ~a & ~a \\\\"
-            (getf key :libro)
-            (getf key :chapter)
-            (getf key :id)
-            (car folio-cons)
-            (if (eq (cdr folio-cons) :recto) "r" "v")
-            (getf key :original-name)
-            (getf key :root)
-            (getf key :ordine)
-            (shorthand (getf key :root) (getf key :ordine) t)
-            (getf *flag-tex-translation* (getf key :flag))
-            (getf key :comment))))
+(defun get-item-type-symbol (type-kwd)
+  (cdr (assoc type-kwd *item-type-symbols*)))
 
-(defun generate-tex-code-keys (data)
-  (format nil "%% Auto-generated file
-\\documentclass[10pt,landscape,DIV=13]{scrartcl}
+(defparameter *dict-tags*
+  '((:AVOID-EXOTIC . "$\\neg$ex")
+    (:AVOID-INVERSE-PROPINQUA . "$\\neg$ip")
+    (:DIPLOMATIC . "d")
+    (:EXOTIC . "ex")
+    (:EXTENDED-KEY . "extd")
+    (:INVERSE-PROPINQUA . "ip")
+    (:INVERSE-PROPINQUISSIMA . "ipp")
+    (:OBVIOUS-CORRECTION . "ob")
+    (:OMITTED-TEXT . "om")
+    (:PROPINQUA-PROPINQUISSIMA . "p-pp")
+    (:QUINTENSCHAUKEL . "qs")
+    (:REGULAR-SHORTHAND . "sh")))
+
+(defun replace-tag (tag-kwd)
+  (cdr (assoc tag-kwd *dict-tags*)))
+
+(defun generate-table-line (item data resolve-intervals-p)
+  (let ((location (lookup-location (getf item :id))))
+    (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
+            (get-item-type-symbol (getf item :item-type))
+            (access :id)
+            (car location)
+            (cdr location)
+            (type-select (access :key-name) (access :interval-name) "--")
+            (type-select (format nil "~a~a" (access :root-letter) (access :ordine))
+                         (if resolve-intervals-p
+                             (getf (pick (where #'equal :id (getf item :departure))) :note-name)
+                             (getf item :departure))
+                         (access :note-name))
+            (type-select "" (symbol-name (getf item :direction)) "")
+            (type-select (access :note-name) (access :destination) "--")
+            (format nil "~{\\sffamily{~a} ~}" (mapcar #'replace-tag (access :tag-list)))
+            (generate-latex-formatting (access :comment)))))
+
+(defun generate-tex-code (document-title table-title data resolve-intervals-p)
+  (format nil "\\documentclass[10pt,landscape,DIV=17,a4paper]{scrartcl}
 \\usepackage[utf8]{inputenc}
 \\usepackage[T1]{fontenc}
 \\usepackage[ngerman]{babel}
@@ -94,16 +183,30 @@
 \\usepackage{wrapfig}
 \\usepackage{tipa}
 \\usepackage{array}
+\\usepackage{amssymb}
 \\usepackage{booktabs}
 \\usepackage{soul}
 \\setcounter{secnumdepth}{0}
 \\author{Johannes Keller}
 \\date{\\today}
-\\title{Inventar sämtlicher Tastenbezeichnungen im \\emph{Libro V}}
+\\title{~a}
+\\subtitle{Berücksichtigt sämtliche Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38.}
+
 
 \\usepackage{newunicodechar}
+\\newunicodechar{♮}{$\\natural$}
 \\newunicodechar{♭}{$\\flat$}
 \\newunicodechar{♯}{$\\sharp$}
+\\newunicodechar{➚}{$\\nearrow$}
+\\newunicodechar{➘}{$\\searrow$}
+\\newunicodechar{Ȧ}{\\.A}
+\\newunicodechar{Ḃ}{\\.B}
+\\newunicodechar{Ċ}{\\.C}
+\\newunicodechar{Ḋ}{\\.D}
+\\newunicodechar{Ė}{\\.E}
+\\newunicodechar{Ḟ}{\\.F}
+\\newunicodechar{Ġ}{\\.G}
+\\newunicodechar{ʼ}{'}
 
 \\def\\nsharp#1{#1$\\sharp$}
 \\def\\nflat#1{#1$\\flat$}
@@ -115,24 +218,25 @@
 \\def\\nflatdot#1{\\.{#1}$\\flat$}
 \\def\\nsharpdot#1{\\.{#1}$\\sharp$}
 
+
 \\begin{document}
 
 \\maketitle
 
-
 \\begin{center}
-\\caps{Auflistung aller Tastenbezeichnungen}
-\\begin{longtable}{p{2mm}p{2mm}p{2mm}p{6mm}p{5.5cm}p{5mm}p{5mm}p{2cm}p{10cm}}
+\\caps{~a}
+\\begin{longtable}{p{1.5mm}p{4.5mm}p{1mm}p{2mm}p{7.5cm}p{5mm}p{2mm}p{5mm}p{1cm}p{11cm}}
 
 \\toprule
+\\emph{T} &
+\\emph{I} &
 \\emph{B} &
 \\emph{C} &
-\\emph{I} &
-\\emph{fol.} &
 \\emph{Name (normalisierte Orthographie)} &
-\\emph{K1} &
-\\emph{K2} &
-\\emph{Lesart} &
+&
+&
+&
+\\emph{Tags} &
 \\emph{Kommentar}\\\\
 \\midrule
 \\endhead
@@ -143,12 +247,32 @@
 \\end{longtable}
 \\end{center}
 \\end{document}"
-          (remove-if #'null (mapcar #'generate-longtable-row-keys data))))
+          document-title
+          table-title
+          (mapcar (lambda (line)
+                    (generate-table-line line resolve-intervals-p))
+                  data)))
 
 
-(defun write-tex-file-keys (filename)
-  (with-open-file (out filename
+
+(defparameter *tex-output-path* "~/common-lisp/prototypes/vicentino-tools/key-names/tex-output/")
+
+(defun write-tex-file (filename document-title table-title data &key resolve-intervals)
+  (with-open-file (out (merge-pathnames *tex-output-path* filename)
                        :direction :output
                        :if-does-not-exist :create
                        :if-exists :supersede)
-    (format out "~a" (generate-tex-code-keys (sort-by-id (select (where :category :key)))))))
+    (format out "%% Auto-generated file: ~a~&~a"
+            (local-time:universal-to-timestamp (get-universal-time))
+            (generate-tex-code document-title table-title data resolve-intervals))))
+
+(defun generate-tex ()
+  (write-tex-file "komplett.tex"
+                  "Komplettes Inventar"
+                  "S\\\"amtliche Tasten, Intervalle und Noten in allen Lesarten"
+                  *keys*)
+  (write-tex-file "kritisch.tex"
+                  "Kritisches Inventar"
+                  "S\\\"amtliche Tasten, Intervalle und Noten in kritischer Lesart"
+                  (distill-reading *keys* '(:obvious-correction :diplomatic))
+                  :resolve-intervals t))

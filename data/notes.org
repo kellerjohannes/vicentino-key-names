@@ -1,0 +1,89 @@
+* Flags
+- :DIPLOMATIC :: Quellentreuer Zustand
+- :REGULAR-SHORTHAND :: Als Ergänzung zu :DIPLOMATIC, wenn eine
+  eindeutige und häufig auftretende Verkürzung des Notennamens auftritt.
+- :OBVIOUS-CORRECTION :: Klarer Fehler, nie in Kombination mit :DIPLOMATIC.
+- :OMITTED-TEXT :: Vorschlag zur Ergänzung eines vom Drucker
+  irrtümlich ausgelassenen Textfragments. Nie in Kombination mit :DIPLOMATIC.
+- :EXTENDED-KEY :: Enthält eine Taste, die nicht den üblichen 36
+  Tasten des Archicembalo entsprechen, kann gleichzeitig mit
+  :DIPLOMATIC auftreten.
+- :QUINTENSCHAUKEL :: Nur für Intervalle sinnvoll. Das Intervall ist
+  nur gültig, wenn es in der Quintenschaukel-Stimmung auftritt.
+- :INVERSE-PROPINQUA :: Intervall, das um eine /diesis/ verkleinert
+  ist. In Kombination mit :DIPLOMATIC.
+- :AVOID-INVERSE-PROPINQUA :: Korrektur zur Vermeidung der :INVERSE-PROPINQUA.
+- :INVERSE-PROPINQUISSIMA :: Intervall, das um ein /comma/
+  verkleinert ist. In Kombination mit :DIPLOMATIC.
+- :EXOTIC :: Generell bemerkenswerte Stelle, die in irgendeiner Form
+  unregelmässig scheint. In Kombination mit :DIPLOMATIC.
+- :AVOID-EXOTIC :: Korrektur
+- :PROPINQUA-PROPINQUISSIMA :: Intervall, das um eine /diesis/ und
+  ein /comma/ vergrössert ist. Kann auch in Kombination mit
+  :INVERSE-PROPINQUA auftreten. Üblicherweise in Kombination mit :DIPLOMATIC.
+
+* interval-group-identity
+- :DIESIS, schliesst auch /comma/ mit ein
+- :SEMITONO
+- :TERZA
+- :QUINTA
+- :SESTA
+- :OTTAVA
+
+* Special cases
+- note-name :C-ʼ (sound lower than :C by a /comma/)
+
+* Proofreading
+- [X] search for X
+- [X] search for ->
+- [X] search for .,
+- [X] search for :obvious-correction and check for critical comment.
+- [X] Condense all tags and check against list
+- [X] Condense all :interval-group-identity
+- [X] Condense all notenames / root/ordine mappings
+  - (:A :A 1)
+  - (:Aʼ :A 6)
+  - (:Ȧ :A 4)
+  - (:A♭ :A 3)
+  - (:Ȧ♭ :A 5)
+  - (:G♯ :A 2)
+  - (:C♭ :B 4)
+  - (:B♭ʼ :B 6)
+  - (:B♮ʼ :B 6)
+  - (:B♭ :B 2)
+  - (:A♯ :B 3)
+  - (:B♮ :B 1)
+  - (:Ḃ♮ :B 4)
+  - (:Ḃ♭ :B 5)
+  - (:C-ʼ :C 3)
+  - (:Cʼ :C 6)
+  - (:C :C 1)
+  - (:B♯ :C 3)
+  - (:Ċ :C 4)
+  - (:C♯ :D 2)
+  - (:D♭ :D 3)
+  - (:Ḋ♭ :D 5)
+  - (:D :D 1)
+  - (:Dʼ :D 6)
+  - (:Ḋ :D 4)
+  - (:E :E 1)
+  - (:Ė :E 4)
+  - (:Eʼ :E 6)
+  - (:E♭ :E 2)
+  - (:Ė♭ :E 5)
+  - (:D♯ :E 3)
+  - (:Fʼ :F 6)
+  - (:F :F 1)
+  - (:E♯ :F 3)
+  - (:Ḟ :F 4)
+  - (:F♯ :G 2)
+  - (:G♭ :G 3)
+  - (:Ġ♭ :G 5)
+  - (:G :G 1)
+  - (:Gʼ :G 6)
+  - (:Ġ :G 4)
+
+* TODOs
+- [X] Add chapter index
+- [ ] Resolve all :inverse-propinqua cases
+- [ ] isolate all :regular-shorthand cases, compare count to spelled out cases

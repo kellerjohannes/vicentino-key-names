@@ -4,23 +4,29 @@
   '(:diplomatic 1 :obvious 2 :probable 3 :extended 4 :experimental 5))
 
 (defvar *keys* nil)
+(defvar *chapter-index* nil)
 
 (defun read-db ()
   (with-open-file (in "~/common-lisp/prototypes/vicentino-tools/key-names/data/all-keys-db.lisp")
     (with-standard-io-syntax
-      (setf *keys* (read in)))
-    ;;  (setf *keys* (read in))
-    ))
+      (setf *keys* (read in))))
+  (with-open-file (in "~/common-lisp/prototypes/vicentino-tools/key-names/data/chapter-index.lisp")
+    (with-standard-io-syntax
+      (setf *chapter-index* (read in))))
+  t)
 
-(defun make-comparison-expression (field value)
-  `(equal (getf entry ,field) ,value))
+(defun contains (lst item)
+  (member item lst))
 
-(defun make-comparison-list (fields)
+(defun make-comparison-expression (field value test)
+  `(funcall ,test (getf item ,field) ,value))
+
+(defun make-comparison-list (fields test)
   (loop while fields
-        collecting (make-comparison-expression (pop fields) (pop fields))))
+        collecting (make-comparison-expression (pop fields) (pop fields) test)))
 
-(defmacro where (&rest fields)
-  `(lambda (entry) (and ,@(make-comparison-list fields))))
+(defmacro where (test &rest fields)
+  `(lambda (item) (and ,@(make-comparison-list fields test))))
 
 (defun select (selector-fn)
   (remove-if-not selector-fn *keys*))
@@ -32,8 +38,7 @@
   (sort (copy-list data) #'< :key (lambda (item) (getf item :id))))
 
 
-
-(setf *keys* '((a b c) (d e f)))
+;; proofreading functions
 
 (defun collect-values (field)
   (loop for item in *keys* collect (getf item field)))
@@ -55,6 +60,26 @@
         :key #'second))
 
 
+;; list generating functions
+
+;; (defun filter-reading (tag-list)
+;;   (select (where #'intersection :tag-list tag-list)))
+
+(defun create-list-of-unique-ids (data)
+  (remove-duplicates (mapcar (lambda (item) (getf item :id)) data)))
+
+(defun distill-reading (data tags)
+  (remove nil (mapcar (lambda (id)
+                        (block loops
+                          (dolist (tag tags)
+                            (dolist (candidate (select (where #'equal :id id)))
+                              (when (member tag (getf candidate :tag-list))
+                                (return-from loops candidate))))))
+                      (create-list-of-unique-ids data))))
+
+
+
+;; possibly obsolete
 
 (defun extract-note-name (entry &optional latex-shorthand)
   (cond ((eq (getf entry :category) :note)
@@ -92,18 +117,6 @@
 
 
 
-(defun create-list-of-unique-ids (data)
-  (remove-duplicates (mapcar (lambda (entry) (getf entry :id)) data)))
-
-(defun distill-reading (data reading-flags)
-  (mapcar (lambda (id)
-            (let ((candidates (select (where :id id))))
-              (dolist (reading-flag reading-flags)
-                (let ((hit (member reading-flag candidates :key (lambda (entry)
-                                                                  (getf entry :flag)))))
-                  (when hit
-                    (return (first hit)))))))
-          (create-list-of-unique-ids data)))
 
 (defparameter *tuning* *tuning-1*)
 

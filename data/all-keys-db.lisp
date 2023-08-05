@@ -4147,7 +4147,7 @@ zu verstehen.")
   :key-name "Cfaut secondo"
   :note-name :B♯
   :root-letter :C
-  :ordine 2
+  :ordine 3
   :pdf-page 214
   :pdf-position 0.5610134436401241
   :tag-list (:diplomatic)
@@ -10790,7 +10790,7 @@ zu verstehen.")
   :key-name "medesimo Ffaut terzo grave [Ffaut secondo nel terzo ordine]"
   :note-name :Ḟ
   :root-letter :F
-  :ordine 3
+  :ordine 4
   :pdf-page 221
   :pdf-position (0.28216797683078193 . 0.29071246819338425)
   :tag-list (:diplomatic :regular-shorthand)
@@ -11018,7 +11018,7 @@ zu verstehen.")
  (:id 1234
   :item-type :key
   :key-name "Ffaut terzo acuto [Ffaut secondo nel terzo ordine]"
-  :note-name :Ḟ
+  :note-name :E♯
   :root-letter :F
   :ordine 3
   :pdf-page 221
