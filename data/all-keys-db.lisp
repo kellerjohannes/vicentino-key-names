@@ -19839,5 +19839,8140 @@ zu verstehen.")
 
  ;; b5-c30, Ḋ♭
 
+ (:id 2165
+  :item-type :key
+  :key-name "Dlasolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.5183137525915688 . 0.2603613177470776)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2166
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.5355908776779543 . 0.5759829968119022)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2167
+  :item-type :key
+  :key-name "il quarto ordine di Dlasolre"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 229
+  :pdf-position (0.5701451278507256 . 0.4357066950053135)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2168
+  :item-type :key
+  :key-name "quinto Dlasolre acuto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.6046993780234968 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2169
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2168
+  :destination 2170
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6200309757356737 . 0.3142857142857143)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2170
+  :item-type :key
+  :key-name "Bfabmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.6219765031098825 . 0.4357066950053135)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2171
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2168
+  :destination 2172
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6200309757356737 . 0.7063492063492063)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2172
+  :item-type :key
+  :key-name "Bfabmi secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 229
+  :pdf-position (0.6392536281962681 . 0.21360255047821466)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2173
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2168
+  :destination 2174
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6339700567888487 . 0.46904761904761905)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2174
+  :item-type :key
+  :key-name "Bfabmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 229
+  :pdf-position (0.6219765031098825 . 0.6344314558979809)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2175
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2168
+  :destination 2176
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6479091378420236 . 0.273015873015873)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2176
+  :item-type :key
+  :key-name "Alamire quarto"
+  :note-name :Ȧ
+  :root-letter :A
+  :ordine 4
+  :pdf-page 229
+  :pdf-position (0.6392536281962681 . 0.40063761955366634)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2177
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2168
+  :destination 2178
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6479091378420236 . 0.6134920634920635)
+  :tag-list (:diplomatic)
+  :comment "")
+:id 2178
+  :item-type :key
+  :key-name "Gsolreut"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 229
+  :pdf-position (0.6392536281962681 . 0.7279489904357067)
+  :tag-list (:diplomatic)
+  :comment ""
+ (:id 2178
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.6392536281962681 . 0.7279489904357067)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Gsolreut«. [quinto] erschliesst sich eindeutig aus dem Kontext.")
+ (:id 2179
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2168
+  :destination 2180
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6618482188951987 . 0.20079365079365077)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2180
+  :item-type :key
+  :key-name "Ffaut quarto [Ffaut terzo in quarto ordine]"
+  :note-name :Ḟ
+  :root-letter :F
+  :ordine 4
+  :pdf-page 229
+  :pdf-position (0.6738078783690393 . 0.3538788522848034)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2181
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2168
+  :destination 2182
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6757872999483737 . 0.5412698412698412)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2182
+  :item-type :key
+  :key-name "Ffaut primo"
+  :note-name :F
+  :root-letter :F
+  :ordine 1
+  :pdf-page 229
+  :pdf-position (0.6738078783690393 . 0.6695005313496281)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2183
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2168
+  :destination 2184
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6897263810015487 . 0.1595238095238095)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2184
+  :item-type :key
+  :key-name "Ffaut secondo in terzo ordine"
+  :note-name :E♯
+  :root-letter :F
+  :ordine 3
+  :pdf-page 229
+  :pdf-position (0.691085003455425 . 0.33049946865037194)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2185
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2168
+  :destination 2186
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.6897263810015487 . 0.6444444444444445)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2186
+  :item-type :key
+  :key-name "Elami quarto"
+  :note-name :Ė
+  :root-letter :E
+  :ordine 4
+  :pdf-page 229
+  :pdf-position (0.6738078783690393 . 0.7513283740701382)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2187
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2168
+  :destination 2188
+  :direction :➘
+  :pdf-page 229
+  :pdf-position (0.7036654620547237 . 0.23174603174603173)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2188
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.7083621285418106 . 0.33049946865037194)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2189
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.7256392536281963 . 0.24867162592986186)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2190
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2189
+  :destination 2191
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7176045431078988 . 0.5619047619047619)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2191
+  :item-type :key
+  :key-name "Ffaut secondo in terzo ordine"
+  :note-name :E♯
+  :root-letter :F
+  :ordine 3
+  :pdf-page 229
+  :pdf-position (0.7083621285418106 . 0.763018065887354)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2192
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2189
+  :destination 2193
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7454827052142488 . 0.3761904761904762)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2193
+  :item-type :key
+  :key-name "Ffaut primo"
+  :note-name :F
+  :root-letter :F
+  :ordine 1
+  :pdf-page 229
+  :pdf-position (0.7256392536281963 . 0.5175345377258236)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2194
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2189
+  :destination 2195
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7315436241610738 . 0.7063492063492063)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2195
+  :item-type :key
+  :key-name "Ffaut terzo in quarto ordine"
+  :note-name :Ḟ
+  :root-letter :F
+  :ordine 4
+  :pdf-page 229
+  :pdf-position (0.7601935038009675 . 0.21360255047821466)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2196
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2189
+  :destination 2197
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7594217862674237 . 0.5103174603174603)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2197
+  :item-type :key
+  :key-name "Gsolreut secondo"
+  :note-name :F♯
+  :root-letter :G
+  :ordine 2
+  :pdf-page 229
+  :pdf-position (0.7601935038009675 . 0.6344314558979809)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2198
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2189
+  :destination 2199
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7733608673205988 . 0.1595238095238095)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2199
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.7774706288873531 . 0.23698193411264612)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2200
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2189
+  :destination 2201
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7733608673205988 . 0.44841269841269843)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2201
+  :item-type :key
+  :key-name "Bfabmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 229
+  :pdf-position (0.7774706288873531 . 0.5642933049946866)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2202
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2189
+  :destination 2203
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7733608673205988 . 0.7682539682539682)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2203
+  :item-type :key
+  :key-name "Bfabmi secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 229
+  :pdf-position (0.7947477539737388 . 0.20191285866099895)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2204
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2189
+  :destination 2205
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7872999483737738 . 0.4174603174603175)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2205
+  :item-type :key
+  :key-name "Bfabmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.7774706288873531 . 0.5759829968119022)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2206
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2189
+  :destination 2207
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.7872999483737738 . 0.7682539682539682)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2207
+  :item-type :key
+  :key-name "Bfabmi primo"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 229
+  :pdf-position (0.8120248790601243 . 0.20191285866099895)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2208
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2189
+  :destination 2209
+  :direction :➚
+  :pdf-page 229
+  :pdf-position (0.8151781104801238 . 0.40714285714285714)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2209
+  :item-type :key
+  :key-name "Dsolre [quinto] acuto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 229
+  :pdf-position (0.7947477539737388 . 0.49415515409139216)
+  :tag-list (:diplomatic)
+  :comment "[quinto] erschliesst sich eindeutig aus dem Kontext.")
+ (:id 2210
+  :item-type :key
+  :key-name "Dlasolre [quinto]"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 230
+  :pdf-position (0.10366275051831375 . 0.7863974495217854)
+  :tag-list (:diplomatic)
+  :comment "[quinto] erschliesst sich eindeutig aus dem Kontext.")
+ (:id 2211
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 230
+  :pdf-position (0.12093987560469938 . 0.40063761955366634)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2212
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "Kommt 19 Mal im Notenbeispiel vor, wobei es 20 Mal sein sollte, da 20 Intervalle gezeigt werden.")
+ (:id 2213
+  :item-type :note
+  :note-name :Ḃ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2214
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2213
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2215
+  :item-type :note
+  :note-name :B♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2216
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2215
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2217
+  :item-type :note
+  :note-name :A♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2218
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2217
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2219
+  :item-type :note
+  :note-name :Ȧ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2220
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2219
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2221
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2222
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2212
+  :destination 2221
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2223
+  :item-type :note
+  :note-name :Ḟ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2224
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2223
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2225
+  :item-type :note
+  :note-name :F
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2226
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2225
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2227
+  :item-type :note
+  :note-name :Fʼ
+  :tag-list (:diplomatic :extended-key)
+  :comment "")
+ (:id 2228
+  :item-type :interval
+  :interval-name "[sesta minore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2227
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2229
+  :item-type :note
+  :note-name :E♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2230
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2229
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2231
+  :item-type :note
+  :note-name :Ė
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2232
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2231
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2233
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2234
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2212
+  :destination 2233
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2235
+  :item-type :note
+  :note-name :E♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2236
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2235
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2237
+  :item-type :note
+  :note-name :F
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2238
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2237
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2239
+  :item-type :note
+  :note-name :Ḟ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2240
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2239
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2241
+  :item-type :note
+  :note-name :F♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2242
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2212
+  :destination 2241
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2243
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2244
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2212
+  :destination 2243
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2245
+  :item-type :note
+  :note-name :A♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2246
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2245
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2247
+  :item-type :note
+  :note-name :B♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2248
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2247
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2249
+  :item-type :note
+  :note-name :Ḃ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2250
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2249
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2251
+  :item-type :note
+  :note-name :B♮
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2252
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2212
+  :destination 2251
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2253
+  :item-type :note
+  :note-name :[Ḋ♭]
+  :tag-list (:omitted-text)
+  :comment "Kommt im Original nicht vor.")
+ (:id 2254
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2212
+  :destination 2253
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic :omitted-text)
+  :comment "Kommt im Original nicht vor.")
 
- )
+
+ ;; b5-c31, C
+
+ (:id 2255
+  :item-type :key
+  :key-name "Csolfaut acuto primo"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.3152668597434837 . 0.44211195928753183)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2256
+  :item-type :key
+  :key-name "Cfaut [primo]"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.3280926768721556 . 0.7716284987277353)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2257
+  :item-type :key
+  :key-name "C[sol]faut acuto [primo]"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.3665701282581713 . 0.5489821882951654)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2258
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2257
+  :destination 2259
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.36912751677852346 . 0.7785714285714285)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2259
+  :item-type :key
+  :key-name "Alamire primo"
+  :note-name :A
+  :root-letter :A
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.3793959453868432 . 0.4510178117048346)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2260
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2257
+  :destination 2261
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.38306659783169844 . 0.5515873015873016)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2261
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 230
+  :pdf-position (0.3793959453868432 . 0.7538167938931297)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2262
+  :item-type :interval
+  :interval-name "[terza minore] propinquissima"
+  :interval-group-identity :terza
+  :departure 2257
+  :destination 2263
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.38306659783169844 . 0.8404761904761904)
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2263
+  :item-type :key
+  :key-name "Alamire sesto"
+  :note-name :Aʼ
+  :root-letter :A
+  :ordine 6
+  :pdf-page 230
+  :pdf-position (0.40504757964418703 . 0.5400763358778626)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2264
+  :item-type :key
+  :key-name "terza maggiore"
+  :note-name :terza
+  :root-letter :X
+  :ordine X
+  :pdf-page 230
+  :pdf-position (0.3970056788848735 . 0.6341269841269841)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2265
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 230
+  :pdf-position (0.40504757964418703 . 0.9230279898218828)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2265
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 230
+  :pdf-position (0.40504757964418703 . 0.9230279898218828)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Alamire secondo«.")
+ (:id 2266
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2257
+  :destination 2267
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.4248838409912235 . 0.46904761904761905)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2267
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 230
+  :pdf-position (0.4178733967728589 . 0.700381679389313)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2267
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 230
+  :pdf-position (0.4178733967728589 . 0.700381679389313)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Gsolreut quarto«.")
+ (:id 2268
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2257
+  :destination 2269
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.4248838409912235 . 0.8198412698412698)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2269
+  :item-type :key
+  :key-name "Ffaut grave [primo]"
+  :note-name :F
+  :root-letter :F
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.4435250310302027 . 0.4688295165394402)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2270
+  :item-type :interval
+  :interval-name "[quinta] propinqua"
+  :interval-group-identity :quinta
+  :departure 2257
+  :destination 2271
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.4388229220443985 . 0.5412698412698412)
+  :tag-list (:diplomatic :exotic)
+  :comment "Erste Erwähnung dieses Intervalls im /libro quinto/, siehe auch b1-c41 (/salto più di quinta/).")
+ (:id 2271
+  :item-type :key
+  :key-name "Ffaut secondo in terzo ordine"
+  :note-name :E♯
+  :root-letter :F
+  :ordine 3
+  :pdf-page 230
+  :pdf-position (0.4435250310302027 . 0.7627226463104325)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2272
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2257
+  :destination 2273
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.45276200309757353 . 0.2833333333333333)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2273
+  :item-type :key
+  :key-name "Elami primo grave"
+  :note-name :E
+  :root-letter :E
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.4563508481588746 . 0.5133587786259542)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2274
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2257
+  :destination 2275
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.45276200309757353 . 0.6134920634920635)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2275
+  :item-type :key
+  :key-name "Elami quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 230
+  :pdf-position (0.4563508481588746 . 0.8606870229007633)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2276
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2257
+  :destination 2277
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.4667010841507485 . 0.24206349206349206)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2277
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 230
+  :pdf-position (0.46917666528754653 . 0.4955470737913486)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2278
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2257
+  :destination 2279
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.48064016520392355 . 0.5928571428571429)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2279
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 230
+  :pdf-position (0.4820024824162184 . 0.8072519083969465)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2280
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2257
+  :destination 2281
+  :direction :➘
+  :pdf-page 230
+  :pdf-position (0.49457924625709854 . 0.16984126984126982)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2281
+  :item-type :key
+  :key-name "Cfaut [primo]"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.4948282995448903 . 0.3530534351145038)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2282
+  :item-type :key
+  :key-name "esso Cfaut primo ascendente"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.4948282995448903 . 0.91412213740458)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2283
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2282
+  :destination 2284
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5085183273102736 . 0.5206349206349207)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2284
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 230
+  :pdf-position (0.5076541166735622 . 0.7449109414758269)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2285
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2282
+  :destination 2286
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5085183273102736 . 0.8301587301587301)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2286
+  :item-type :key
+  :key-name "Elami quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 230
+  :pdf-position (0.533305750930906 . 0.3619592875318066)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2287
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2282
+  :destination 2288
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5224574083634486 . 0.4380952380952381)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2288
+  :item-type :key
+  :key-name "Elami primo"
+  :note-name :E
+  :root-letter :E
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.533305750930906 . 0.7181933842239185)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2289
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2282
+  :destination 2290
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5224574083634486 . 0.7888888888888889)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2290
+  :item-type :key
+  :key-name "Elami quarto"
+  :note-name :Ė
+  :root-letter :E
+  :ordine 4
+  :pdf-page 230
+  :pdf-position (0.546131568059578 . 0.32633587786259544)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2291
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2282
+  :destination 2292
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5363964894166235 . 0.40714285714285714)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2292
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.546131568059578 . 0.6113231552162849)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2293
+  :item-type :interval
+  :interval-name "[quinta] propinqua"
+  :interval-group-identity :quinta
+  :departure 2282
+  :destination 2294
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5503355704697986 . 0.7063492063492063)
+  :tag-list (:diplomatic :exotic)
+  :comment "")
+ (:id 2294
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 230
+  :pdf-position (0.546131568059578 . 0.9319338422391856)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2295
+  :item-type :interval
+  :interval-name "[quinta] perfetta"
+  :interval-group-identity :quinta
+  :departure 2282
+  :destination 2296
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5642746515229736 . 0.3349206349206349)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2296
+  :item-type :key
+  :key-name "Gsolreut sesto"
+  :note-name :Gʼ
+  :root-letter :G
+  :ordine 6
+  :pdf-page 230
+  :pdf-position (0.5589573851882499 . 0.5400763358778626)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2297
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2282
+  :destination 2298
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5642746515229736 . 0.6444444444444445)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2298
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 230
+  :pdf-position (0.5717832023169218 . 0.8963104325699744)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2299
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2282
+  :destination 2300
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5782137325761486 . 0.29365079365079366)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2300
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 230
+  :pdf-position (0.5846090194455936 . 0.5133587786259542)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2301
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2282
+  :destination 2302
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5782137325761486 . 0.6031746031746031)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2302
+  :item-type :key
+  :key-name "Alamire primo"
+  :note-name :A
+  :root-letter :A
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.5846090194455936 . 0.8695928753180661)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2303
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2282
+  :destination 2304
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.5921528136293236 . 0.273015873015873)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2304
+  :item-type :key
+  :key-name "Alamire quarto"
+  :note-name :Ȧ
+  :root-letter :A
+  :ordine 4
+  :pdf-page 230
+  :pdf-position (0.5974348365742655 . 0.4866412213740458)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2305
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinquissima"
+  :interval-group-identity :sesta
+  :departure 2282
+  :destination 2306
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.6060918946824987 . 0.5825396825396826)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2306
+  :item-type :key
+  :key-name "Alamire sesto"
+  :note-name :Aʼ
+  :root-letter :A
+  :ordine 6
+  :pdf-page 230
+  :pdf-position (0.5974348365742655 . 0.8428753180661577)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2307
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2282
+  :destination 2308
+  :direction :➚
+  :pdf-page 230
+  :pdf-position (0.6200309757356737 . 0.2111111111111111)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2308
+  :item-type :key
+  :key-name "Csolfaut primo"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.6230864708316094 . 0.4064885496183206)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2309
+  :item-type :key
+  :key-name "Csolfaut acuto primo"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.6487381050889532 . 0.8695928753180661)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2310
+  :item-type :key
+  :key-name "Cfaut primo"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 230
+  :pdf-position (0.674389739346297 . 0.5578880407124682)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2311
+  :item-type :note
+  :note-name :C
+  :tag-list (:diplomatic)
+  :comment "Kommt 22 Mal im Notenbeispiel vor.")
+ (:id 2312
+  :item-type :note
+  :note-name :A
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2313
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2312
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2314
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2315
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2314
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2316
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2316
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:diplomatic)
+  :comment "Original: G♭.")
+ (:id 2317
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2316
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2318
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2319
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2318
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2320
+  :item-type :note
+  :note-name :F
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2321
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :X
+  :departure 2311
+  :destination 2320
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2322
+  :item-type :note
+  :note-name :E
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2323
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2322
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2324
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2325
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2324
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2326
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2327
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2326
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2328
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2329
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2328
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2330
+  :item-type :note
+  :note-name :C
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2331
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2311
+  :destination 2330
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2332
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2333
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2332
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2334
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2335
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2334
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2336
+  :item-type :note
+  :note-name :E
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2337
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2336
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2338
+  :item-type :note
+  :note-name :Ė
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2339
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2338
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2340
+  :item-type :note
+  :note-name :Eʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2341
+  :item-type :interval
+  :interval-name "[terza maggiore propinquissima]"
+  :interval-group-identity :terza
+  :departure 2311
+  :destination 2340
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2342
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2343
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2311
+  :destination 2342
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2344
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2345
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2344
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2346
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2347
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2346
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2348
+  :item-type :note
+  :note-name :A
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2349
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2348
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2350
+  :item-type :note
+  :note-name :Ȧ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2351
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2350
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2352
+  :item-type :note
+  :note-name :A,
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2353
+  :item-type :interval
+  :interval-name "[sesta maggiore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 2311
+  :destination 2352
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2354
+  :item-type :note
+  :note-name :C
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2355
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2311
+  :destination 2354
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+
+ ;; b5-c32, B♯
+
+ (:id 2356
+  :item-type :key
+  :key-name "Csolfaut secondo [Csolfaut secondo in terzo ordine]"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.08978071990070335 . 0.3530534351145038)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2357
+  :item-type :key
+  :key-name "Csolfaut secondo in terzo ordine"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.11543235415804716 . 0.6914758269720102)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2358
+  :item-type :key
+  :key-name "Csolfaut acuto secondo in terzo ordine"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.1539098055440629 . 0.344147582697201)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2359
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2358
+  :destination 2360
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.16004130098089828 . 0.6238095238095238)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2360
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 231
+  :pdf-position (0.1539098055440629 . 0.8517811704834605)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2361
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2358
+  :destination 2362
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.16004130098089828 . 0.3865079365079365)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2362
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.16673562267273478 . 0.6291348600508905)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2363
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2358
+  :destination 2364
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.1739803820340733 . 0.7166666666666666)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2364
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 231
+  :pdf-position (0.1923872569300786 . 0.43320610687022904)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2365
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2358
+  :destination 2366
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.1879194630872483 . 0.5412698412698412)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2366
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 231
+  :pdf-position (0.1923872569300786 . 0.7716284987277353)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2367
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2358
+  :destination 2368
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.2018585441404233 . 0.3246031746031746)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2368
+  :item-type :key
+  :key-name "Ffaut secondo in terzo ordine"
+  :note-name :E♯
+  :root-letter :F
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.20521307405875053 . 0.5400763358778626)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2369
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2358
+  :destination 2370
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.2018585441404233 . 0.7579365079365079)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2370
+  :item-type :key
+  :key-name "Elami quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 231
+  :pdf-position (0.21803889118742242 . 0.4510178117048346)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2371
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2358
+  :destination 2372
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.22973670624677334 . 0.5103174603174603)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2372
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 231
+  :pdf-position (0.21803889118742242 . 0.7538167938931297)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2373
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2358
+  :destination 2374
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.24367578729994835 . 0.1492063492063492)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2374
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.24369052544476624 . 0.4153944020356234)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2375
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2358
+  :destination 2376
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.24367578729994835 . 0.48968253968253966)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2376
+  :item-type :key
+  :key-name "Dsolre quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 231
+  :pdf-position (0.24369052544476624 . 0.7092875318066157)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2377
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2358
+  :destination 2378
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.25761486835312336 . 0.0976190476190476)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2378
+  :item-type :key
+  :key-name "Cfaut secondo [Csolfaut secondo in terzo ordine]"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.25651634257343814 . 0.28180661577608146)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2379
+  :item-type :key
+  :key-name "medesimo Cfaut ascendente [Csolfaut secondo in terzo ordine]"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.25651634257343814 . 0.4955470737913486)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2380
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2379
+  :destination 2381
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.25761486835312336 . 0.6753968253968253)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2381
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 231
+  :pdf-position (0.26934215970211006 . 0.19274809160305345)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2381
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.26934215970211006 . 0.19274809160305345)
+  :tag-list (:obvious-correction)
+  :comment "")
+ (:id 2382
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2379
+  :destination 2383
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.27155394940629834 . 0.2833333333333333)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2383
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :X
+  :ordine X
+  :pdf-page 231
+  :pdf-position (0.28216797683078193 . 0.522264631043257)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2384
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2379
+  :destination 2385
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.2854930304594734 . 0.6134920634920635)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2385
+  :item-type :key
+  :key-name "Elami quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 231
+  :pdf-position (0.29499379395945385 . 0.19274809160305345)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2386
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2379
+  :destination 2387
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.29943211151264837 . 0.273015873015873)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2387
+  :item-type :key
+  :key-name "Elami primo"
+  :note-name :E
+  :root-letter :E
+  :ordine 1
+  :pdf-page 231
+  :pdf-position (0.29499379395945385 . 0.5044529262086515)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2388
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2379
+  :destination 2389
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.2854930304594734 . 0.5825396825396826)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2389
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 231
+  :pdf-position (0.29499379395945385 . 0.7716284987277353)
+  :tag-list (:diplomatic)
+  :comment "In gewissen Quellen sieht das »G« aus wie ein »C«, ist aber eindeutig ein »G«.")
+ (:id 2390
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2379
+  :destination 2391
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.3133711925658234 . 0.18015873015873016)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2391
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 231
+  :pdf-position (0.3078196110881258 . 0.42430025445292624)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2392
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2379
+  :destination 2393
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.3133711925658234 . 0.5412698412698412)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2393
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.3206454282167977 . 0.7538167938931297)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2394
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2379
+  :destination 2395
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.3273102736189984 . 0.13888888888888887)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2395
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 231
+  :pdf-position (0.3206454282167977 . 0.4064885496183206)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2396
+  :item-type :interval
+  :interval-name "quinta propinqua"
+  :interval-group-identity :quinta
+  :departure 2379
+ :destination 2397
+ :direction :➚
+ :pdf-page 231
+ :pdf-position (0.3273102736189984 . 0.5206349206349207)
+ :tag-list (:diplomatic)
+ :comment "")
+ (:id 2396
+  :item-type :interval
+  :interval-name "terza maggiore propinqua"
+  :interval-group-identity :terza
+  :departure 2379
+  :destination 2397
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.3273102736189984 . 0.5206349206349207)
+  :tag-list (:diplomatic)
+  :comment "Original: »quinta propinqua«.")
+ (:id 2397
+  :item-type :key
+  :key-name "Alamire primo"
+  :note-name :A
+  :root-letter :A
+  :ordine 1
+  :pdf-page 231
+  :pdf-position (0.33347124534546957 . 0.7181933842239185)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2398
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2379
+  :destination 2399
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.34124935467217343 . 0.11825396825396824)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2399
+  :item-type :key
+  :key-name "Csolfaut acuto"
+  :note-name :C
+  :root-letter :C
+  :ordine 1
+  :pdf-page 231
+  :pdf-position (0.3462970624741415 . 0.30852417302798985)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2399
+  :item-type :key
+  :key-name "Csolfaut [secondo in terzo ordine] acuto"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.3462970624741415 . 0.30852417302798985)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Csolfaut acuto«. Tastenbezeichnung ergibt sich eindeutig aus dem Kontext.")
+ (:id 2400
+  :item-type :key
+  :key-name "Csolfaut secondo [Csolfaut secondo in terzo ordine]"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.3719486967314853 . 0.4688295165394402)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2401
+  :item-type :key
+  :key-name "Cfaut secondo [Csolfaut secondo in terzo ordine]"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.3847745138601572 . 0.29961832061068705)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2402
+  :item-type :note
+  :note-name :B♯
+  :tag-list (:diplomatic)
+  :comment "Kommt 20 Mal im Notenbeispiel vor.")
+ (:id 2403
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2403
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:obvious-correction)
+  :comment "Original: Ġ♭.")
+ (:id 2404
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2403
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2405
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2405
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:obvious-correction)
+  :comment "Original: G♭.")
+ (:id 2406
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2405
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2407
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2408
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2407
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2409
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2410
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2409
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2411
+  :item-type :note
+  :note-name :E♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2412
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2402
+  :destination 2411
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2413
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2414
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2413
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2415
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2416
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2415
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2417
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2418
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2417
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2419
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2420
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2419
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2421
+  :item-type :note
+  :note-name :B♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2422
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2402
+  :destination 2421
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2423
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2424
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2423
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2425
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2426
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2425
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2427
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2428
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2427
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2429
+  :item-type :note
+  :note-name :E
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2430
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2402
+  :destination 2429
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2431
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2432
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2402
+  :destination 2431
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2433
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2434
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2433
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2435
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2435
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:obvious-correction)
+  :comment "Original: G♭.")
+ (:id 2436
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2435
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2437
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2437
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:obvious-correction)
+  :comment "Original: Ġ♭")
+ (:id 2438
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2437
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2439
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2439
+  :item-type :note
+  :note-name :A
+  :tag-list (:obvious-correction)
+  :comment "Original: G.")
+ (:id 2440
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2402
+  :destination 2439
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2441
+  :item-type :note
+  :note-name :B♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2442
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2402
+  :destination 2441
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+
+ ;; b5-c33, Ċ
+
+ (:id 2443
+  :item-type :key
+  :key-name "Csolfaut quarto [Csolfaut terzo in quarto ordine]"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 231
+  :pdf-position (0.7182457592056268 . 0.3708651399491094)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2444
+  :item-type :key
+  :key-name "Cfaut [terzo in quarto ordine]"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 231
+  :pdf-position (0.7310715763342988 . 0.7449109414758269)
+  :tag-list (:diplomatic)
+  :comment "Ergänzung aus dem Kontext eindeutig ersichtlich.")
+ (:id 2445
+  :item-type :key
+  :key-name "Csolfaut secondo acuto [Csolfaut secondo in terzo ordine]"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.7695490277203144 . 0.42430025445292624)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2446
+  :item-type :key
+  :key-name "Csolfaut terzo in quarto ordine"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 231
+  :pdf-position (0.7695490277203144 . 0.6914758269720102)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2447
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2446
+  :destination 2448
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.7767795438838977 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2448
+  :item-type :key
+  :key-name "Alamire quarto"
+  :note-name :Ȧ
+  :root-letter :A
+  :ordine 4
+  :pdf-page 231
+  :pdf-position (0.7823748448489863 . 0.7360050890585241)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2449
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2446
+  :destination 2450
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.7940566689702834 . 0.28374070138150903)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2450
+  :item-type :key
+  :key-name "Alamire primo"
+  :note-name :A
+  :root-letter :A
+  :ordine 1
+  :pdf-page 231
+  :pdf-position (0.8080264791063302 . 0.5044529262086515)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2451
+  :item-type :interval
+  :interval-name "[terza minore] propinquissima"
+  :interval-group-identity :terza
+  :departure 2446
+  :destination 2452
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.7940566689702834 . 0.5759829968119022)
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "Verkürzt.")
+ (:id 2452
+  :item-type :key
+  :key-name "Alamire sesto"
+  :note-name :Aʼ
+  :root-letter :A
+  :ordine 6
+  :pdf-page 231
+  :pdf-position (0.8080264791063302 . 0.8428753180661577)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2453
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2446
+  :destination 2454
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.8113337940566689 . 0.3538788522848034)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2454
+  :item-type :key
+  :key-name "Bfabmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 231
+  :pdf-position (0.8208522962350021 . 0.6469465648854961)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2454
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 231
+  :pdf-position (0.8208522962350021 . 0.6469465648854961)
+  :tag-list (:obvious-correction)
+  :comment "")
+ (:id 2455
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2446
+  :destination 2456
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.8286109191430546 . 0.21360255047821466)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2456
+  :item-type :key
+  :key-name "Bfabmi secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 231
+  :pdf-position (0.8336781133636739 . 0.43320610687022904)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2456
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 231
+  :pdf-position (0.8336781133636739 . 0.43320610687022904)
+  :tag-list (:obvious-correction)
+  :comment "")
+ (:id 2457
+  :item-type :interval
+  :interval-name "quinta commune"
+  :interval-group-identity :quinta
+  :departure 2446
+  :destination 2458
+  :direction :➘
+  :pdf-page 231
+  :pdf-position (0.8286109191430546 . 0.5642933049946866)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2458
+  :item-type :key
+  :key-name "Ffaut grave quarto [Ffaut terzo in quarto ordine]"
+  :note-name :Ḟ
+  :root-letter :F
+  :ordine 4
+  :pdf-page 231
+  :pdf-position (0.8336781133636739 . 0.8428753180661577)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 2459
+  :item-type :interval
+  :interval-name "quinta perfetta"
+  :interval-group-identity :quinta
+  :departure 2446
+  :destination 2460
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.08638562543192813 . 0.33049946865037194)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2460
+  :item-type :key
+  :key-name "nel sesto ordine [Ffaut quarto in sesto ordine]"
+  :note-name :Fʼ
+  :root-letter :F
+  :ordine 6
+  :pdf-page 232
+  :pdf-position (0.08978071990070335 . 0.5935114503816793)
+  :tag-list (:diplomatic :extended-key :quintenwaage)
+  :comment "Verkürzung, sehr wahrscheinlich von der hypothetischen Taste /Ffaut quarto in sesto ordine/ [F,]. Diese Angabe reiht sich ein in Hinweise zu dieser Obertaste, sowie auch Hinweise zu einem alternativen Stimmungssystem in b5-c17.")
+ (:id 2461
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2446
+  :destination 2462
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.08638562543192813 . 0.6695005313496281)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2462
+  :item-type :key
+  :key-name "Elami quarto"
+  :note-name :Ė
+  :root-letter :E
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.08978071990070335 . 0.9319338422391856)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2463
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2446
+  :destination 2464
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.10366275051831375 . 0.28374070138150903)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2464
+  :item-type :key
+  :key-name "Elami primo"
+  :note-name :E
+  :root-letter :E
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.11543235415804716 . 0.522264631043257)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2465
+  :item-type :interval
+  :interval-name "[terza minore] propinquissima"
+  :interval-group-identity :terza
+  :departure 2446
+  :destination 2466
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.10366275051831375 . 0.5993623804463337)
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2466
+  :item-type :key
+  :key-name "Elami sesto"
+  :note-name :Eʼ
+  :root-letter :E
+  :ordine 6
+  :pdf-page 232
+  :pdf-position (0.11543235415804716 . 0.8517811704834605)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2467
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2446
+  :destination 2468
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.138217000691085 . 0.20191285866099895)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2468
+  :item-type :key
+  :key-name "Elami quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 232
+  :pdf-position (0.12825817128671907 . 0.4688295165394402)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2469
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2446
+  :destination 2470
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.12093987560469938 . 0.5409139213602551)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2470
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 232
+  :pdf-position (0.12825817128671907 . 0.7716284987277353)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2471
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2446
+  :destination 2472
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.138217000691085 . 0.8565356004250798)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2472
+  :item-type :key
+  :key-name "Cfaut terzo in quarto ordine"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.1539098055440629 . 0.3530534351145038)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2473
+  :item-type :key
+  :key-name "esso Cfaut [terzo in quarto ordine]"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.14108398841539097 . 0.7270992366412213)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2474
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2473
+  :destination 2475
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.17277125086385625 . 0.24867162592986186)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2475
+  :item-type :key
+  :key-name "Elami grave quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 232
+  :pdf-position (0.16673562267273478 . 0.6380407124681933)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2476
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2473
+  :destination 2477
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.17277125086385625 . 0.763018065887354)
+  :tag-list (:omitted-text)
+  :comment "Ergänztes Intervall, offensichtlich fehlender Satzteil.")
+ (:id 2477
+  :item-type :key
+  :key-name "[Elami primo]"
+  :note-name :E
+  :root-letter :E
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.16135705419942079 . 0.8161577608142493)
+  :tag-list (:omitted-text)
+  :comment "Offensichtlich fehlender Satzteil mit zu ergänzender /terza minore propinqua/ als /Elami primo/ [E].")
+ (:id 2478
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2473
+  :destination 2479
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.15549412577747063 . 0.6695005313496281)
+  :tag-list (:omitted-text)
+  :comment "Ergänzt, fehlt im Original.")
+ (:id 2479
+  :item-type :key
+  :key-name "[Elami quarto]"
+  :note-name :Ė
+  :root-letter :E
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.16135705419942079 . 0.8161577608142493)
+  :tag-list (:omitted-text)
+  :comment "Ergänzt, fehlt im Original.")
+ (:id 2480
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2473
+  :destination 2481
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.17277125086385625 . 0.763018065887354)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2481
+  :item-type :key
+  :key-name "Ffaut secondo in terzo ordine"
+  :note-name :E♯
+  :root-letter :F
+  :ordine 3
+  :pdf-page 232
+  :pdf-position (0.1795614398014067 . 0.27290076335877866)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2482
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2473
+  :destination 2483
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.17277125086385625 . 0.49415515409139216)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2483
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.1923872569300786 . 0.700381679389313)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2484
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2473
+  :destination 2485
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.17277125086385625 . 0.8214665249734326)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2485
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 232
+  :pdf-position (0.20521307405875053 . 0.3619592875318066)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2486
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2473
+  :destination 2488
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.2073255010366275 . 0.4707757704569607)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2487
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 232
+  :pdf-position (0.20521307405875053 . 0.6914758269720102)
+  :tag-list (:diplomatic :inverse-propinqua)
+  :comment "")
+ (:id 2487
+  :item-type :key
+  :key-name "Csolfaut terzo in quarto ordine"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 232
+  :pdf-position (0.20521307405875053 . 0.6914758269720102)
+  :tag-list (:avoid-inverse-propinqua)
+  :comment "Das Interval /Csolfaut terzo in quarto ordine/ [Ċ] -- /Alamire terzo/ [A♭] ist eine Sexte, die um eine /diesis/ verkleinert ist, also /sesta manca di minore/ genannt werden könnte. Die Bezeichnung /propinqua/ wäre in diesem Sinn unüblich. Da dies ein nur selten erwähntes Intervall ist liegt eine Korrektur zu /Alamire primo/ [A] nahe, was einer /sesta minore propinqua/ entspricht und mit dem Notenbeispiel übereinstimmt.")
+ (:id 2488
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2473
+  :destination 2489
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.19004837595024188 . 0.7863974495217854)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2489
+  :item-type :key
+  :key-name "Alamire quarto"
+  :note-name :Ȧ
+  :root-letter :A
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.21803889118742242 . 0.3708651399491094)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2490
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2473
+  :destination 2491
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.22460262612301313 . 0.44739638682252925)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2491
+  :item-type :key
+  :key-name "Bfabmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 232
+  :pdf-position (0.21803889118742242 . 0.700381679389313)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2492
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2473
+  :destination 2493
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.22460262612301313 . 0.7980871413390012)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2493
+  :item-type :key
+  :key-name "Csolfaut terzo in quarto ordine"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.24369052544476624 . 0.27290076335877866)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2494
+  :item-type :key
+  :key-name "Csolfaut terzo in quarto ordine"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.26934215970211006 . 0.5578880407124682)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2495
+  :item-type :key
+  :key-name "Cfaut terzo in quarto ordine"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.28216797683078193 . 0.7983460559796437)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2496
+  :item-type :note
+  :note-name :Ċ
+  :tag-list (:diplomatic)
+  :comment "Kommt 22 Mal im Notenbeispiel vor.")
+ (:id 2497
+  :item-type :note
+  :note-name :Ȧ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2498
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2497
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2499
+  :item-type :note
+  :note-name :Aʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2500
+  :item-type :interval
+  :interval-name "[terza minore propinquissima]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2499
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2501
+  :item-type :note
+  :note-name :Ȧ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2501
+  :item-type :note
+  :note-name :A
+  :tag-list (:obvious-correction)
+  :comment "Original: Ȧ.")
+ (:id 2502
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2501
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2503
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2503
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:obvious-correction)
+  :comment "Original: Ġ♭.")
+ (:id 2504
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2503
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2505
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2505
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:obvious-correction)
+  :comment "Original: G♭.")
+ (:id 2506
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2505
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2507
+  :item-type :note
+  :note-name :Ḟ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2508
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2496
+  :destination 2507
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2509
+  :item-type :note
+  :note-name :Ė
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2510
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2509
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2511
+  :item-type :note
+  :note-name :E,
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2512
+  :item-type :interval
+  :interval-name "[sesta minore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2511
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2513
+  :item-type :note
+  :note-name :E
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2514
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2513
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2515
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2516
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2515
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2517
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2518
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2517
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2519
+  :item-type :note
+  :note-name :Ċ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2520
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2496
+  :destination 2519
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2521
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2522
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2521
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2523
+  :item-type :note
+  :note-name :E
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2524
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2523
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2525
+  :item-type :note
+  :note-name :Ė
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2526
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2525
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2527
+  :item-type :note
+  :note-name :E♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2528
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2496
+  :destination 2527
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2529
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2530
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2496
+  :destination 2529
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2531
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2532
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2531
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2533
+  :item-type :note
+  :note-name :A
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2534
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2533
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2535
+  :item-type :note
+  :note-name :Ȧ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2536
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2535
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2537
+  :item-type :note
+  :note-name :A♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2538
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2496
+  :destination 2537
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2539
+  :item-type :note
+  :note-name :Ċ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2540
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2496
+  :destination 2539
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+
+ ;; b5-c34, B♮
+
+ (:id 2541
+  :item-type :key
+  :key-name "Bfabmi acuto primo"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.5204799338022341 . 0.4599236641221374)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2542
+  :item-type :key
+  :key-name "Bmi primo"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.533305750930906 . 0.8428753180661577)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2543
+  :item-type :key
+  :key-name "Bfabmi acuto primo"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.5717832023169218 . 0.4153944020356234)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2544
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2543
+  :destination 2545
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.5694540428472702 . 0.6811902231668437)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2545
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 232
+  :pdf-position (0.5717832023169218 . 0.9052162849872772)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2546
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2543
+  :destination 2547
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.5867311679336559 . 0.45908607863974493)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2547
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.5846090194455936 . 0.6825699745547074)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2548
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2543
+  :destination 2549
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.5867311679336559 . 0.763018065887354)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2549
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.6102606537029375 . 0.5133587786259542)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2550
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2543
+  :destination 2551
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.6040082930200414 . 0.6227417640807651)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2551
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 232
+  :pdf-position (0.6102606537029375 . 0.8606870229007633)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2552
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2543
+  :destination 2553
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.6212854181064271 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2553
+  :item-type :key
+  :key-name "Elami primo"
+  :note-name :E
+  :root-letter :E
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.6230864708316094 . 0.6202290076335877)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2554
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2543
+  :destination 2555
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.6212854181064271 . 0.6811902231668437)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2555
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 232
+  :pdf-position (0.6230864708316094 . 0.9408396946564884)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2556
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2543
+  :destination 2557
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.6385625431928127 . 0.42401700318809776)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2557
+  :item-type :key
+  :key-name "Dsolre quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.6359122879602813 . 0.6647582697201017)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2558
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2543
+  :destination 2559
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.6385625431928127 . 0.7279489904357067)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2559
+  :item-type :key
+  :key-name "Dsolre primo"
+  :note-name :D
+  :root-letter :D
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.6615639222176252 . 0.31743002544529264)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2560
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2543
+  :destination 2561
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.6558396682791984 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2561
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 232
+  :pdf-position (0.6615639222176252 . 0.6380407124681933)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2562
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2543
+  :destination 2563
+  :direction :➘
+  :pdf-page 232
+  :pdf-position (0.6558396682791984 . 0.7162592986184909)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2563
+  :item-type :key
+  :key-name "Bmi primo"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.6615639222176252 . 0.9497455470737912)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2564
+  :item-type :key
+  :key-name "Bmi primo"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.674389739346297 . 0.566793893129771)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2565
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2564
+  :destination 2566
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.6731167933655839 . 0.7513283740701382)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2566
+  :item-type :key
+  :key-name "Dsolre primo"
+  :note-name :D
+  :root-letter :D
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.6872155564749689 . 0.344147582697201)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2567
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2564
+  :destination 2568
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.6903939184519696 . 0.4357066950053135)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2568
+  :item-type :key
+  :key-name "Dsolre quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.7000413736036408 . 0.6647582697201017)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2569
+  :item-type :interval
+  :interval-name "[terza minore] propinquissima"
+  :interval-group-identity :terza
+  :departure 2564
+  :destination 2570
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.6903939184519696 . 0.7513283740701382)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2570
+  :item-type :key
+  :key-name "Dsolre sesto"
+  :note-name :Dʼ
+  :root-letter :D
+  :ordine 6
+  :pdf-page 232
+  :pdf-position (0.7128671907323127 . 0.31743002544529264)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2571
+  :item-type :interval
+  :interval-name "ter[z]a maggiore"
+  :interval-group-identity :terza
+  :departure 2564
+  :destination 2572
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7076710435383552 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2572
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 232
+  :pdf-position (0.7128671907323127 . 0.6825699745547074)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2573
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2564
+  :destination 2574
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7076710435383552 . 0.763018065887354)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2574
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 232
+  :pdf-position (0.7256930078609847 . 0.29961832061068705)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2575
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2564
+  :destination 2576
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7249481686247409 . 0.3889479277364506)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2576
+  :item-type :key
+  :key-name "Gsolreut secondo"
+  :note-name :F♯
+  :root-letter :G
+  :ordine 2
+  :pdf-page 232
+  :pdf-position (0.7256930078609847 . 0.6113231552162849)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2577
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2564
+  :destination 2578
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7249481686247409 . 0.7279489904357067)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2578
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.7513446421183285 . 0.28180661577608146)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2579
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2564
+  :destination 2580
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7422252937111264 . 0.3889479277364506)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2580
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 232
+  :pdf-position (0.7513446421183285 . 0.6202290076335877)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2581
+  :item-type :interval
+  :interval-name "[sesta minore] propinquissima"
+  :interval-group-identity :sesta
+  :departure 2564
+  :destination 2582
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7422252937111264 . 0.7279489904357067)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2582
+  :item-type :key
+  :key-name "Gsolreut sesto"
+  :note-name :Gʼ
+  :root-letter :G
+  :ordine 6
+  :pdf-page 232
+  :pdf-position (0.7641704592470003 . 0.31743002544529264)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2583
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2564
+  :destination 2584
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7595024187975121 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2584
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 232
+  :pdf-position (0.7641704592470003 . 0.6914758269720102)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2585
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2564
+  :destination 2586
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7595024187975121 . 0.8097768331562168)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2586
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 232
+  :pdf-position (0.7898220935043442 . 0.31743002544529264)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2587
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2564
+  :destination 2588
+  :direction :➚
+  :pdf-page 232
+  :pdf-position (0.7767795438838977 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2588
+  :item-type :key
+  :key-name "Bfabmi primo acuto"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.7898220935043442 . 0.6024173027989821)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2589
+  :item-type :key
+  :key-name "Bfabmi primo acuto"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.82829954489036 . 0.566793893129771)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2590
+  :item-type :key
+  :key-name "Bmi primo"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 232
+  :pdf-position (0.8411253620190318 . 0.42430025445292624)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2591
+  :item-type :note
+  :note-name :B♮
+  :tag-list (:diplomatic)
+  :comment "Kommt 22 Mal im Notenbeispiel vor.")
+ (:id 2592
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2593
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2592
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2594
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2595
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2594
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2596
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2597
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2596
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2598
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2599
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2598
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2600
+  :item-type :note
+  :note-name :E
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2601
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2591
+  :destination 2600
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2602
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2603
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2602
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2604
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2605
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2604
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2606
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2607
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2606
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2608
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2609
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2608
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2610
+  :item-type :note
+  :note-name :B♮
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2611
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2591
+  :destination 2610
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2612
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2613
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2612
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2614
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2615
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2614
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2616
+  :item-type :note
+  :note-name :Dʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2617
+  :item-type :interval
+  :interval-name "[terza minore propinquissima]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2616
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2618
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2619
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2618
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2620
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2621
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2591
+  :destination 2620
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2622
+  :item-type :note
+  :note-name :F♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2623
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2591
+  :destination 2622
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2624
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2625
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2624
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2626
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2627
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2626
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2628
+  :item-type :note
+  :note-name :Gʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2629
+  :item-type :interval
+  :interval-name "[sesta minore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2628
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2630
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2631
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2630
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2632
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2633
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2591
+  :destination 2632
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2634
+  :item-type :note
+  :note-name :B♮
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2635
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2591
+  :destination 2634
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+
+ ;; b5-c35, B♭
+
+ (:id 2636
+  :item-type :key
+  :key-name "Bfabmi acuto secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.24369052544476624 . 0.3530534351145038)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2637
+  :item-type :key
+  :key-name "Bmi [Bmi secondo]"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.26934215970211006 . 0.7983460559796437)
+  :tag-list (:diplomatic)
+  :comment "Selbstverständliche Verkürzung von /Bmi secondo/ [B♭].")
+ (:id 2638
+  :item-type :key
+  :key-name "secondo ordine di Bfabmi acuto"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.29499379395945385 . 0.3619592875318066)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2639
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2638
+  :destination 2640
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.2930200414651002 . 0.7162592986184909)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2640
+  :item-type :key
+  :key-name "Gsolreut [primo]"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 233
+  :pdf-position (0.3206454282167977 . 0.3708651399491094)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2641
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2638
+  :destination 2642
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3102971665514858 . 0.42401700318809776)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2642
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 233
+  :pdf-position (0.3206454282167977 . 0.6647582697201017)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2643
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2638
+  :destination 2644
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3102971665514858 . 0.763018065887354)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2644
+  :item-type :key
+  :key-name "Gsolreut terzo"
+  :note-name :G♭
+  :root-letter :G
+  :ordine 3
+  :pdf-page 233
+  :pdf-position (0.33347124534546957 . 0.4599236641221374)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2645
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2638
+  :destination 2646
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.32757429163787144 . 0.5409139213602551)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2646
+  :item-type :key
+  :key-name "Gsolreut secondo"
+  :note-name :F♯
+  :root-letter :G
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.33347124534546957 . 0.7894402035623409)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2647
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2638
+  :destination 2648
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3621285418106427 . 0.29543039319872477)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2648
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.3591228796028134 . 0.5311704834605598)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2649
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2638
+  :destination 2650
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.34485141672425706 . 0.6110520722635494)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2650
+  :item-type :key
+  :key-name "Dsolre [primo]"
+  :note-name :D
+  :root-letter :D
+  :ordine 1
+  :pdf-page 233
+  :pdf-position (0.3591228796028134 . 0.8428753180661577)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2651
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2638
+  :destination 2652
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3621285418106427 . 0.1785334750265675)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2652
+  :item-type :key
+  :key-name "quinto D"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 233
+  :pdf-position (0.3719486967314853 . 0.42430025445292624)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2653
+  :item-type :interval
+  :interval-name "[sesta minore] propinquissima"
+  :interval-group-identity :sesta
+  :departure 2638
+  :destination 2654
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3621285418106427 . 0.44739638682252925)
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2654
+  :item-type :key
+  :key-name "Dsolre sesto"
+  :note-name :Dʼ
+  :root-letter :D
+  :ordine 6
+  :pdf-page 233
+  :pdf-position (0.3719486967314853 . 0.7181933842239185)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2655
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2638
+  :destination 2656
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3621285418106427 . 0.7747077577045697)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2656
+  :item-type :key
+  :key-name "Dsolre terzo"
+  :note-name :D♭
+  :root-letter :D
+  :ordine 3
+  :pdf-page 233
+  :pdf-position (0.3847745138601572 . 0.32633587786259544)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2657
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2638
+  :destination 2658
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3794056668970283 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2658
+  :item-type :key
+  :key-name "Dsolre secondo"
+  :note-name :C♯
+  :root-letter :D
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.3847745138601572 . 0.6558524173027989)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2659
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2638
+  :destination 2660
+  :direction :➘
+  :pdf-page 233
+  :pdf-position (0.3794056668970283 . 0.7513283740701382)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2660
+  :item-type :key
+  :key-name "Bmi secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.41042614811750106 . 0.2639949109414758)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2661
+  :item-type :key
+  :key-name "Bmi secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.41042614811750106 . 0.5400763358778626)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2662
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2661
+  :destination 2663
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.39668279198341394 . 0.7279489904357067)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2663
+  :item-type :key
+  :key-name "Dsolre terzo"
+  :note-name :D♭
+  :root-letter :D
+  :ordine 3
+  :pdf-page 233
+  :pdf-position (0.4232519652461729 . 0.2639949109414758)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2664
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2661
+  :destination 2665
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.4312370421561852 . 0.33049946865037194)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2665
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 233
+  :pdf-position (0.4232519652461729 . 0.566793893129771)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2666
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2661
+  :destination 2667
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.41395991706979957 . 0.6461211477151966)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2667
+  :item-type :key
+  :key-name "Dsolre primo"
+  :note-name :D
+  :root-letter :D
+  :ordine 1
+  :pdf-page 233
+  :pdf-position (0.44890359950351677 . 0.22837150127226463)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2668
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2661
+  :destination 2669
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.4485141672425708 . 0.29543039319872477)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2669
+  :item-type :key
+  :key-name "Dsol[re] quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 233
+  :pdf-position (0.44890359950351677 . 0.5400763358778626)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2670
+  :item-type :interval
+  :interval-name "[terza maggiore] propinquissima"
+  :interval-group-identity :terza
+  :departure 2661
+  :destination 2671
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.4485141672425708 . 0.5993623804463337)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2671
+  :item-type :key
+  :key-name "Dsolre sesto"
+  :note-name :Dʼ
+  :root-letter :D
+  :ordine 6
+  :pdf-page 233
+  :pdf-position (0.43607778237484485 . 0.8874045801526717)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2672
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2661
+  :destination 2673
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.46579129232895644 . 0.2720510095642933)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2673
+  :item-type :key
+  :key-name "Ffaut primo"
+  :note-name :F
+  :root-letter :F
+  :ordine 1
+  :pdf-page 233
+  :pdf-position (0.46172941663218864 . 0.4688295165394402)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2674
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2661
+  :destination 2675
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.4485141672425708 . 0.5526036131774708)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2675
+  :item-type :key
+  :key-name "Gsolreut terzo"
+  :note-name :G♭
+  :root-letter :G
+  :ordine 3
+  :pdf-page 233
+  :pdf-position (0.46172941663218864 . 0.7983460559796437)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2676
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2661
+  :destination 2677
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.48306841741534207 . 0.1902231668437832)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2677
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 233
+  :pdf-position (0.47455523376086056 . 0.42430025445292624)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2678
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2661
+  :destination 2679
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.48306841741534207 . 0.5292242295430393)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2679
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 233
+  :pdf-position (0.47455523376086056 . 0.7894402035623409)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2680
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2661
+  :destination 2681
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.5003455425017277 . 0.21360255047821466)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2681
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 233
+  :pdf-position (0.5002068680182044 . 0.4510178117048346)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2682
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinquissima"
+  :interval-group-identity :sesta
+  :departure 2661
+  :destination 2683
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.5003455425017277 . 0.5175345377258236)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2683
+  :item-type :key
+  :key-name "Gsolreut sesto"
+  :note-name :Gʼ
+  :root-letter :G
+  :ordine 6
+  :pdf-page 233
+  :pdf-position (0.5002068680182044 . 0.7716284987277353)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2684
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2661
+  :destination 2685
+  :direction :➚
+  :pdf-page 233
+  :pdf-position (0.5176226675881134 . 0.1434643995749203)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2685
+  :item-type :key
+  :key-name "Bfabmi acuto secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.5130326851468763 . 0.3619592875318066)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2686
+  :item-type :key
+  :key-name "Bfabmi secondo acuto"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.5258585022755482 . 0.522264631043257)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2687
+  :item-type :key
+  :key-name "Bmi secondo"
+  :note-name :B♭
+  :root-letter :B
+  :ordine 2
+  :pdf-page 233
+  :pdf-position (0.551510136532892 . 0.6202290076335877)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2688
+  :item-type :note
+  :note-name :B♭
+  :tag-list (:diplomatic)
+  :comment "Kommt 22 Mal im Notenbeispiel vor.")
+ (:id 2689
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2690
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2689
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2691
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2692
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2691
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2693
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2694
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2693
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2695
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2695
+  :item-type :note
+  :note-name :F♯
+  :tag-list (:obvious-correction)
+  :comment "Original: G♯.")
+ (:id 2696
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2695
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2697
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2698
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2688
+  :destination 2697
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2699
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2700
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2699
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2701
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2702
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2701
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2703
+  :item-type :note
+  :note-name :D♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2704
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2703
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2705
+  :item-type :note
+  :note-name :C♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2706
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2706
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2707
+  :item-type :note
+  :note-name :B♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2708
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2688
+  :destination 2707
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+ (:id 2709
+  :item-type :note
+  :note-name :D♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2710
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2709
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2711
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2712
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2711
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2713
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2714
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2713
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2715
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2716
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2715
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2717
+  :item-type :note
+  :note-name :Dʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2718
+  :item-type :interval
+  :interval-name "[terza maggiore propinquissima]"
+  :interval-group-identity :terza
+  :departure 2688
+  :destination 2717
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2719
+  :item-type :note
+  :note-name :F
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2720
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2688
+  :destination 2719
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2721
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2722
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2721
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2723
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2724
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2723
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2725
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2726
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2725
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2727
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2728
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2727
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2729
+  :item-type :note
+  :note-name :Gʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2730
+  :item-type :interval
+  :interval-name "[sesta maggiore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 2688
+  :destination 2729
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2731
+  :item-type :note
+  :note-name :B♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2732
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2688
+  :destination 2731
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+
+ ;; b5-c36, A♯
+
+ (:id 2733
+  :item-type :key
+  :key-name "Bfabmi terzo acuto"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.09617373319544983 . 0.36089030206677264)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2734
+  :item-type :key
+  :key-name "Bmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.11220268872802482 . 0.7281399046104928)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2735
+  :item-type :key
+  :key-name "l'ordine terzo di Bfabmi acuto"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.14426059979317477 . 0.47217806041335453)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2736
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2735
+  :destination 2737
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.17277125086385625 . 0.4824654622741764)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2737
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 234
+  :pdf-position (0.16028955532574973 . 0.6391096979332274)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2738
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2735
+  :destination 2739
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.19004837595024188 . 0.3071200850159405)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2739
+  :item-type :key
+  :key-name "Gsolreut terzo"
+  :note-name :G♭
+  :root-letter :G
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.1763185108583247 . 0.43879173290937995)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2740
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2735
+  :destination 2741
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.19004837595024188 . 0.6578108395324124)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2741
+  :item-type :key
+  :key-name "Gsolreut secondo"
+  :note-name :F♯
+  :root-letter :G
+  :ordine 2
+  :pdf-page 234
+  :pdf-position (0.19234746639089967 . 0.8505564387917329)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2742
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2735
+  :destination 2743
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.2073255010366275 . 0.5058448459086079)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2743
+  :item-type :key
+  :key-name "Ffaut terzo in quarto ordine"
+  :note-name :Ḟ
+  :root-letter :F
+  :ordine 4
+  :pdf-page 234
+  :pdf-position (0.20837642192347466 . 0.6168521462639109)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2744
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2735
+  :destination 2745
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.22460262612301313 . 0.37725823591923485)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2745
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.22440537745604963 . 0.48330683624801274)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2746
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2735
+  :destination 2747
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.22460262612301313 . 0.6344314558979809)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2747
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 234
+  :pdf-position (0.22440537745604963 . 0.794912559618442)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2748
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2735
+  :destination 2749
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.24187975120939875 . 0.29543039319872477)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2749
+  :item-type :key
+  :key-name "Dsolre terzo"
+  :note-name :D♭
+  :root-letter :D
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.2404343329886246 . 0.40540540540540543)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2750
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2735
+  :destination 2751
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.24187975120939875 . 0.5876726886291179)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2751
+  :item-type :key
+  :key-name "Dsolre secondo"
+  :note-name :C♯
+  :root-letter :D
+  :ordine 2
+  :pdf-page 234
+  :pdf-position (0.2404343329886246 . 0.7503974562798092)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2752
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2735
+  :destination 2753
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.2591568762957844 . 0.2603613177470776)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2753
+  :item-type :key
+  :key-name "Cfaut terzo in quarto ordine"
+  :note-name :Ċ
+  :root-letter :C
+  :ordine 4
+  :pdf-page 234
+  :pdf-position (0.2564632885211996 . 0.40540540540540543)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2754
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2735
+  :destination 2755
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.2591568762957844 . 0.7162592986184909)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2755
+  :item-type :key
+  :key-name "Bmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.2564632885211996 . 0.8282988871224165)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2756
+  :item-type :key
+  :key-name "Bmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.27249224405377453 . 0.43879173290937995)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2757
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2756
+  :destination 2758
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.27643400138217 . 0.7747077577045697)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2758
+  :item-type :key
+  :key-name "Dsolre terzo"
+  :note-name :D♭
+  :root-letter :D
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.28852119958634953 . 0.21621621621621623)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2758
+  :item-type :key
+  :key-name "Dsolre secondo"
+  :note-name :C♯
+  :root-letter :D
+  :ordine 2
+  :pdf-page 234
+  :pdf-position (0.28852119958634953 . 0.21621621621621623)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Dsolre terzo«.")
+ (:id 2859
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2756
+  :destination 2860
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.29371112646855563 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2860
+  :item-type :key
+  :key-name "Dsolre secondo"
+  :note-name :C♯
+  :root-letter :D
+  :ordine 2
+  :pdf-page 234
+  :pdf-position (0.28852119958634953 . 0.56120826709062)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2860
+  :item-type :key
+  :key-name "Dsolre terzo"
+  :note-name :D♭
+  :root-letter :D
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.28852119958634953 . 0.56120826709062)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Dsolre secondo«.")
+ (:id 2861
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2756
+  :destination 2862
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.29371112646855563 . 0.7747077577045697)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2862
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 234
+  :pdf-position (0.30455015511892447 . 0.2718600953895072)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2863
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2756
+  :destination 2864
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.31098825155494125 . 0.45908607863974493)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2864
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 234
+  :pdf-position (0.30455015511892447 . 0.6057233704292527)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2865
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2756
+  :destination 2866
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.31098825155494125 . 0.8097768331562168)
+  :tag-list (:diplomatic :propinqua-propinquissima)
+  :comment "")
+ (:id 2866
+  :item-type :key
+  :key-name "Dsolre sesto"
+  :note-name :Dʼ
+  :root-letter :D
+  :ordine 6
+  :pdf-page 234
+  :pdf-position (0.32057911065149947 . 0.29411764705882354)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2867
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2756
+  :destination 2868
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.3282653766413269 . 0.4707757704569607)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2868
+  :item-type :key
+  :key-name "Ffaut secondo in terzo ordine"
+  :note-name :E♯
+  :root-letter :F
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.32057911065149947 . 0.5723370429252782)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2869
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2756
+  :destination 2870
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.3455425017277125 . 0.16684378320935175)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2870
+  :item-type :key
+  :key-name "Gsolreut secondo"
+  :note-name :F♯
+  :root-letter :G
+  :ordine 2
+  :pdf-page 234
+  :pdf-position (0.33660806618407446 . 0.3275039745627981)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2871
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2756
+  :destination 2872
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.3455425017277125 . 0.5292242295430393)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2872
+  :item-type :key
+  :key-name "Gsolreut terzo"
+  :note-name :G♭
+  :root-letter :G
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.33660806618407446 . 0.6947535771065183)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2873
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2756
+  :destination 2874
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.36281962681409813 . 0.20191285866099895)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2874
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 234
+  :pdf-position (0.3686659772492244 . 0.37201907790143085)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2874
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 234
+  :pdf-position (0.3686659772492244 . 0.37201907790143085)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Alamire secondo«.")
+ (:id 2875
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2756
+  :destination 2876
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.36281962681409813 . 0.5642933049946866)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2876
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.3686659772492244 . 0.7281399046104928)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2876
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 234
+  :pdf-position (0.3686659772492244 . 0.7281399046104928)
+  :tag-list (:obvious-correction)
+  :comment "Original: »Alamire terzo«.")
+ (:id 2877
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2756
+  :destination 2878
+  :direction :➚
+  :pdf-page 234
+  :pdf-position (0.38009675190048375 . 0.21360255047821466)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2878
+  :item-type :key
+  :key-name "Bfabmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.38469493278179934 . 0.3275039745627981)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2879
+  :item-type :key
+  :key-name "Bfabmi acuto terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.40072388831437433 . 0.4610492845786964)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2880
+  :item-type :key
+  :key-name "Bmi terzo"
+  :note-name :A♯
+  :root-letter :B
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.41675284384694933 . 0.56120826709062)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2881
+  :item-type :note
+  :note-name :A♯
+  :tag-list (:diplomatic)
+  :comment "Kommt 21 Mal im Notenbeispiel vor.")
+ (:id 2882
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2883
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2882
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2884
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2885
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2884
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2886
+  :item-type :note
+  :note-name :F♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2887
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2886
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2888
+  :item-type :note
+  :note-name :Ḟ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2889
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2888
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2890
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2891
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2881
+  :destination 2890
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2892
+  :item-type :note
+  :note-name :Ċ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2892
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:obvious-correction)
+  :comment "Original: Ċ♭.")
+ (:id 2893
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2892
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2894
+  :item-type :note
+  :note-name :C♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2894
+  :item-type :note
+  :note-name :D♭
+  :tag-list (:obvious-correction)
+  :comment "Original: C♭.")
+ (:id 2895
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2894
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2896
+  :item-type :note
+  :note-name :C♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2897
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2896
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2898
+  :item-type :note
+  :note-name :Ċ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2899
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2898
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2900
+  :item-type :note
+  :note-name :A♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2901
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2881
+  :destination 2900
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2902
+  :item-type :note
+  :note-name :C♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2903
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2902
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2904
+  :item-type :note
+  :note-name :D♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2905
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2904
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2906
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2907
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2906
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2908
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2909
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2881
+  :destination 2908
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2910
+  :item-type :note
+  :note-name :E♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2911
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2881
+  :destination 2910
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2912
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2912
+  :item-type :note
+  :note-name :F♯
+  :tag-list (:obvious-correction)
+  :comment "Original: G♯.")
+ (:id 2913
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2912
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2914
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2914
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:obvious-correction)
+  :comment "Original: A♭.")
+ (:id 2915
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2914
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2916
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2916
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:obvious-correction)
+  :comment "Original: Ȧ♭.")
+ (:id 2917
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2916
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2918
+  :item-type :note
+  :note-name :Aʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2918
+  :item-type :note
+  :note-name :Gʼ
+  :tag-list (:obvious-correction)
+  :comment "Original: Aʼ.")
+ (:id 2919
+  :item-type :interval
+  :interval-name "[sesta maggiore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2918
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic :propinqua-propinquissima)
+  :comment "")
+ (:id 2920
+  :item-type :note
+  :note-name :Ȧ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2920
+  :item-type :note
+  :note-name :G
+  :tag-list (:obvious-mistake)
+  :comment "Original: Ȧ.")
+ (:id 2921
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2881
+  :destination 2920
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2922
+  :item-type :note
+  :note-name :A♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2923
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2881
+  :destination 2922
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+
+ ;; b5-c37, Ḃ♮
+
+ (:id 2924
+  :item-type :key
+  :key-name "Bfabmi acuto quarto"
+  :note-name :Ḃ♮
+  :root-letter :B
+  :ordine 4
+  :pdf-page 234
+  :pdf-position (0.7403946002076843 . 0.44972067039106145)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2925
+  :item-type :key
+  :key-name "Bmi quarto"
+  :note-name :Ḃ♮
+  :root-letter :B
+  :ordine 4
+  :pdf-page 234
+  :pdf-position (0.7564901349948079 . 0.6396648044692738)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2926
+  :item-type :key
+  :key-name "quarto ordine di Bfabmi"
+  :note-name :Ḃ♮
+  :root-letter :B
+  :ordine 4
+  :pdf-page 234
+  :pdf-position (0.788681204569055 . 0.5949720670391061)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2927
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2926
+  :destination 2928
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.8113337940566689 . 0.4357066950053135)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2928
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 234
+  :pdf-position (0.8047767393561785 . 0.6955307262569832)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2929
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2926
+  :destination 2930
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.8113337940566689 . 0.7863974495217854)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2930
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 234
+  :pdf-position (0.8208722741433021 . 0.43854748603351956)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2931
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2926
+  :destination 2932
+  :direction :➘
+  :pdf-page 234
+  :pdf-position (0.8286109191430546 . 0.5292242295430393)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2932
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 234
+  :pdf-position (0.8208722741433021 . 0.8072625698324022)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2933
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2926
+  :destination 2934
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.10366275051831375 . 0.15515409139213604)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2934
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 235
+  :pdf-position (0.09657320872274143 . 0.40502793296089384)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2935
+  :item-type :interval
+  :interval-name "[terza maggiore] propinquissima"
+  :interval-group-identity :terza
+  :departure 2926
+  :destination 2936
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.10366275051831375 . 0.5292242295430393)
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2936
+  :item-type :key
+  :key-name "Gsolreut sesto"
+  :note-name :Gʼ
+  :root-letter :G
+  :ordine 6
+  :pdf-page 235
+  :pdf-position (0.09657320872274143 . 0.7960893854748603)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2937
+  :item-type :interval
+  :interval-name "quinta commune"
+  :interval-group-identity :quinta
+  :departure 2926
+  :destination 2938
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.12093987560469938 . 0.21360255047821466)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2938
+  :item-type :key
+  :key-name "Elami quarto"
+  :note-name :Ė
+  :root-letter :E
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.112668743509865 . 0.5167597765363129)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2939
+  :item-type :interval
+  :interval-name "quinta perfetta"
+  :interval-group-identity :quinta
+  :departure 2926
+  :destination 2940
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.10366275051831375 . 0.5993623804463337)
+  :tag-list (:diplomatic :quintenwaage)
+  :comment "")
+ (:id 2940
+  :item-type :key
+  :key-name "Elami sesto"
+  :note-name :Eʼ
+  :root-letter :E
+  :ordine 6
+  :pdf-page 235
+  :pdf-position (0.112668743509865 . 0.8184357541899442)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2941
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2926
+  :destination 2942
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.138217000691085 . 0.1785334750265675)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2942
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 235
+  :pdf-position (0.12876427829698858 . 0.43854748603351956)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2943
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2926
+  :destination 2944
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.138217000691085 . 0.5292242295430393)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2944
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 235
+  :pdf-position (0.12876427829698858 . 0.7513966480446927)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2945
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2926
+  :destination 2946
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.15549412577747063 . 0.1434643995749203)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2946
+  :item-type :key
+  :key-name "Dsolre quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.14485981308411214 . 0.40502793296089384)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2947
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2926
+  :destination 2948
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.15549412577747063 . 0.5058448459086079)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2948
+  :item-type :key
+  :key-name "Dsolre primo"
+  :note-name :D
+  :root-letter :D
+  :ordine 1
+  :pdf-page 235
+  :pdf-position (0.14485981308411214 . 0.7178770949720671)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2949
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinquissima"
+  :interval-group-identity :sesta
+  :departure 2926
+  :destination 2950
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.138217000691085 . 0.763018065887354)
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2950
+  :item-type :key
+  :key-name "Dsolre sesto"
+  :note-name :Dʼ
+  :root-letter :D
+  :ordine 6
+  :pdf-page 235
+  :pdf-position (0.16095534787123572 . 0.33798882681564246)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2951
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2926
+  :destination 2952
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.17277125086385625 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2952
+  :item-type :key
+  :key-name "Bmi quarto"
+  :note-name :Ḃ♮
+  :root-letter :B
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.16095534787123572 . 0.5949720670391061)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2953
+  :item-type :key
+  :key-name "Bmi quarto"
+  :note-name :Ḃ♮
+  :root-letter :B
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.16095534787123572 . 0.8854748603351955)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2954
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 2953
+  :destination 2955
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.19004837595024188 . 0.3188097768331562)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2955
+  :item-type :key
+  :key-name "Dsolre quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.17705088265835928 . 0.6843575418994413)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2956
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 2953
+  :destination 2957
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.17277125086385625 . 0.7513283740701382)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2957
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 235
+  :pdf-position (0.20924195223260642 . 0.30446927374301674)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2958
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2953
+  :destination 2959
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.2073255010366275 . 0.3538788522848034)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2959
+  :item-type :key
+  :key-name "Elami secondo"
+  :note-name :E♭
+  :root-letter :E
+  :ordine 2
+  :pdf-page 235
+  :pdf-position (0.20924195223260642 . 0.6061452513966481)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2960
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 2953
+  :destination 2961
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.2073255010366275 . 0.6811902231668437)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2961
+  :item-type :key
+  :key-name "Elami quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.22533748701973 . 0.21508379888268156)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2962
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 2953
+  :destination 2963
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.22460262612301313 . 0.28374070138150903)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2963
+  :item-type :key
+  :key-name "Gsolreut terzo"
+  :note-name :G♭
+  :root-letter :G
+  :ordine 3
+  :pdf-page 235
+  :pdf-position (0.22533748701973 . 0.505586592178771)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2964
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 2953
+  :destination 2965
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.22460262612301313 . 0.5876726886291179)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2965
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.20924195223260642 . 0.840782122905028)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2966
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2953
+  :destination 2967
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.24187975120939875 . 0.2603613177470776)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2967
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 235
+  :pdf-position (0.24143302180685358 . 0.4720670391061452)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2968
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 2953
+  :destination 2969
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.24187975120939875 . 0.5759829968119022)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2969
+  :item-type :key
+  :key-name "Alamire terzo"
+  :note-name :A♭
+  :root-letter :A
+  :ordine 3
+  :pdf-page 235
+  :pdf-position (0.24143302180685358 . 0.8519553072625698)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2970
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 2953
+  :destination 2971
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.2591568762957844 . 0.24867162592986186)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2971
+  :item-type :key
+  :key-name "Alamire quinto"
+  :note-name :Ȧ♭
+  :root-letter :A
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.25752855659397716 . 0.48324022346368717)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2972
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 2953
+  :destination 2973
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.2591568762957844 . 0.5876726886291179)
+  :tag-list (:diplomatic)
+  :comment "")
+(:id 2973
+  :item-type :key
+  :key-name "Bfabmi acuto"
+  :note-name :B♮
+  :root-letter :B
+  :ordine 1
+  :pdf-page 235
+  :pdf-position (0.25752855659397716 . 0.7960893854748603)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2973
+  :item-type :key
+  :key-name "Bfabmi quarto"
+  :note-name :Ḃ♮
+  :root-letter :B
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.25752855659397716 . 0.7960893854748603)
+  :tag-list (:obvious-correction)
+  :comment "")
+ (:id 2974
+  :item-type :note
+  :note-name :Ḃ♮
+  :tag-list (:diplomatic)
+  :comment "Kommt 22 Mal im Notenbeispiel vor.")
+ (:id 2975
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:obvious-correction)
+  :comment "Original: Ḃ♮.")
+ (:id 2976
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 2975
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2977
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2978
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 2977
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2979
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2980
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 2979
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2981
+  :item-type :note
+  :note-name :G,
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2982
+  :item-type :interval
+  :interval-name "[terza maggiore propinquissima]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 2981
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2983
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2984
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 2983
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2985
+  :item-type :note
+  :note-name :Ė
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2986
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2974
+  :destination 2985
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2987
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2988
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 2987
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2989
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2990
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 2989
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2991
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2992
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 2991
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2993
+  :item-type :note
+  :note-name :Dʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2994
+  :item-type :interval
+  :interval-name "[sesta maggiore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 2993
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic :inverse-propinquissima)
+  :comment "")
+ (:id 2995
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2996
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 2995
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2997
+  :item-type :note
+  :note-name :Ḃ♮
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2998
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2974
+  :destination 2997
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 2999
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3000
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 2999
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3001
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3002
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 3001
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3003
+  :item-type :note
+  :note-name :E♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3004
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 3003
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3005
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3006
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 2974
+  :destination 3005
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3007
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3008
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 2974
+  :destination 3007
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3009
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3010
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 3009
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3011
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3012
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 3011
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3013
+  :item-type :note
+  :note-name :A♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3014
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 3013
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3015
+  :item-type :note
+  :note-name :Ȧ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3016
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 2974
+  :destination 3015
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3017
+  :item-type :note
+  :note-name :B♮
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3017
+  :item-type :note
+  :note-name :Ḃ♭
+  :tag-list (:obvious-correction)
+  :comment "Original: B♮.")
+ (:id 3018
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 2974
+  :destination 3018
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+
+
+ ;; b5-c38, Ḃ♭
+
+ (:id 3020
+  :item-type :key
+  :key-name "Bmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.48286604361370716 . 0.6731843575418994)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3021
+  :item-type :key
+  :key-name "il quinto ordine di Bfabmi"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.5311526479750779 . 0.5279329608938548)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3022
+  :item-type :key
+  :key-name "questo Bfabmi [quinto]"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.5955347871235721 . 0.840782122905028)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3023
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3024
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6212854181064271 . 0.4357066950053135)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3024
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.6277258566978193 . 0.7625698324022346)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3025
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3026
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6558396682791984 . 0.1902231668437832)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3026
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 235
+  :pdf-position (0.6438213914849429 . 0.4273743016759777)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3027
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3038
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6385625431928127 . 0.44739638682252925)
+  :tag-list (:omitted-text)
+  :comment "Vorgeschlagene Ergänzung.")
+ (:id 3028
+  :item-type :key
+  :key-name "[Gsolreut quinto]"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.6385625431928127 . 0.44739638682252925)
+  :tag-list (:omitted-text)
+  :comment "Vorgeschlagene Ergänzung.")
+(:id 3029
+  :item-type :interval
+  :interval-name "[terza maggiore] propinquissima"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3030
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6558396682791984 . 0.5175345377258236)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3029
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3030
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6558396682791984 . 0.5175345377258236)
+  :tag-list (:obvious-correction)
+  :comment "Eine /terza maggiore propiquissima/ existiert an dieser Stelle nicht in der Klaviatur, deshalb soll dieser Intervallname auf jeden Fall als /propinqua/ verstanden werden.")
+ (:id 3030
+  :item-type :key
+  :key-name "Gsolreut terzo"
+  :note-name :G♭
+  :root-letter :G
+  :ordine 3
+  :pdf-page 235
+  :pdf-position (0.6438213914849429 . 0.7960893854748603)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3031
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 3022
+  :destination 3032
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6731167933655839 . 0.21360255047821466)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3032
+  :item-type :key
+  :key-name "Elami quinto"
+  :note-name :Ė♭
+  :root-letter :E
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.6599169262720664 . 0.38268156424581007)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3033
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3034
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6558396682791984 . 0.44739638682252925)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3034
+  :item-type :key
+  :key-name "Dsolre quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.6599169262720664 . 0.7067039106145251)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3035
+  :item-type :interval
+  :interval-name "[sesta minore] la più propinqua"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3036
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6903939184519696 . 0.10839532412327312)
+  :tag-list (:diplomatic :inverse-propinqua :exotic)
+  :comment "Seltene Intervallbezeichnung, synonym zu »propinqua«.")
+ (:id 3036
+  :item-type :key
+  :key-name "Dsolre primo"
+  :note-name :D
+  :root-letter :D
+  :ordine 1
+  :pdf-page 235
+  :pdf-position (0.6921079958463136 . 0.31564245810055863)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3037
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3038
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6903939184519696 . 0.3889479277364506)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3038
+  :item-type :key
+  :key-name "Dsolre sesto"
+  :note-name :Dʼ
+  :root-letter :D
+  :ordine 6
+  :pdf-page 235
+  :pdf-position (0.6921079958463136 . 0.6284916201117319)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3039
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3040
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6731167933655839 . 0.6928799149840595)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3040
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.7082035306334371 . 0.2709497206703911)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3041
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3042
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.7076710435383552 . 0.3655685441020191)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3042
+  :item-type :key
+  :key-name "Dsolre terzo"
+  :note-name :D♭
+  :root-letter :D
+  :ordine 3
+  :pdf-page 235
+  :pdf-position (0.7082035306334371 . 0.6061452513966481)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3043
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 3022
+  :destination 3044
+  :direction :➘
+  :pdf-page 235
+  :pdf-position (0.6903939184519696 . 0.6928799149840595)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3044
+  :item-type :key
+  :key-name "Bmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.6921079958463136 . 0.8966480446927374)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3045
+  :item-type :interval
+  :interval-name "terza minore"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3046
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7249481686247409 . 0.4707757704569607)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3046
+  :item-type :key
+  :key-name "Dsolre quinto"
+  :note-name :Ḋ♭
+  :root-letter :D
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.7242990654205607 . 0.6843575418994413)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3047
+  :item-type :interval
+  :interval-name "[terza minore] propinqua"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3048
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7076710435383552 . 0.763018065887354)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3048
+  :item-type :key
+  :key-name "Dsolre primo"
+  :note-name :D
+  :root-letter :D
+  :ordine 1
+  :pdf-page 235
+  :pdf-position (0.7403946002076843 . 0.3268156424581006)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3049
+  :item-type :interval
+  :interval-name "[terza minore] propinquissima"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3050
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7422252937111264 . 0.37725823591923485)
+  :tag-list (:diplomatic :inverse-propinqua :propinqua-propinquissima)
+  :comment "")
+ (:id 3050
+  :item-type :key
+  :key-name "Dsolre sesto"
+  :note-name :Dʼ
+  :root-letter :D
+  :ordine 6
+  :pdf-page 235
+  :pdf-position (0.7403946002076843 . 0.6620111731843575)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3051
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3052
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7249481686247409 . 0.7396386822529224)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3052
+  :item-type :key
+  :key-name "Dsolre quarto"
+  :note-name :Ḋ
+  :root-letter :D
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.7564901349948079 . 0.31564245810055863)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3053
+  :item-type :interval
+  :interval-name "[terza maggiore] propinqua"
+  :interval-group-identity :terza
+  :departure 3022
+  :destination 3054
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7595024187975121 . 0.412327311370882)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3054
+  :item-type :key
+  :key-name "Elami terzo"
+  :note-name :D♯
+  :root-letter :E
+  :ordine 3
+  :pdf-page 235
+  :pdf-position (0.7564901349948079 . 0.6284916201117319)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3055
+  :item-type :interval
+  :interval-name "quinta"
+  :interval-group-identity :quinta
+  :departure 3022
+  :destination 3056
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7595024187975121 . 0.7045696068012752)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3056
+  :item-type :key
+  :key-name "Ffaut quarto [Ffaut terzo in quarto ordine]"
+  :note-name :Ḟ
+  :root-letter :F
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.7725856697819314 . 0.21508379888268156)
+  :tag-list (:diplomatic :regular-shorthand)
+  :comment "")
+ (:id 3057
+  :item-type :interval
+  :interval-name "sesta minore"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3058
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7767795438838977 . 0.29543039319872477)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3058
+  :item-type :key
+  :key-name "Gsolreut quinto"
+  :note-name :Ġ♭
+  :root-letter :G
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.7725856697819314 . 0.5502793296089385)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3059
+  :item-type :interval
+  :interval-name "[sesta minore] propinqua"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3060
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7595024187975121 . 0.6110520722635494)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3060
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 235
+  :pdf-position (0.7725856697819314 . 0.8966480446927374)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3061
+  :item-type :interval
+  :interval-name "[sesta minore] propinquissima"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3062
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7940566689702834 . 0.2603613177470776)
+  :tag-list (:diplomatic :propinqua-propinquissima)
+  :comment "")
+ (:id 3062
+  :item-type :key
+  :key-name "Gsolreut sesto"
+  :note-name :Gʼ
+  :root-letter :G
+  :ordine 6
+  :pdf-page 235
+  :pdf-position (0.788681204569055 . 0.5279329608938548)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3063
+  :item-type :interval
+  :interval-name "sesta maggiore"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3064
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.7940566689702834 . 0.6227417640807651)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3064
+  :item-type :key
+  :key-name "Gsolreut quarto"
+  :note-name :Ġ
+  :root-letter :G
+  :ordine 4
+  :pdf-page 235
+  :pdf-position (0.788681204569055 . 0.8966480446927374)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3065
+  :item-type :interval
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
+  :departure 3022
+  :destination 3066
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.8113337940566689 . 0.29543039319872477)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3066
+  :item-type :key
+  :key-name "Alamire secondo"
+  :note-name :G♯
+  :root-letter :A
+  :ordine 2
+  :pdf-page 235
+  :pdf-position (0.8047767393561785 . 0.5279329608938548)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3067
+  :item-type :interval
+  :interval-name "ottava"
+  :interval-group-identity :ottava
+  :departure 3022
+  :destination 3068
+  :direction :➚
+  :pdf-page 235
+  :pdf-position (0.8113337940566689 . 0.6227417640807651)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3068
+  :item-type :key
+  :key-name "Bfabmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 235
+  :pdf-position (0.8047767393561785 . 0.840782122905028)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3069
+  :item-type :key
+  :key-name "Bfabmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 236
+  :pdf-position (0.09657320872274143 . 0.5502793296089385)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3070
+  :item-type :key
+  :key-name "Bmi quinto"
+  :note-name :Ḃ♭
+  :root-letter :B
+  :ordine 5
+  :pdf-page 236
+  :pdf-position (0.112668743509865 . 0.49441340782122906)
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3071
+  :item-type :note
+  :note-name :Ḃ♭
+  :tag-list (:diplomatic)
+  :comment "Kommt 21 Mal im Notenbeispiel vor.")
+ (:id 3072
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3073
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3072
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3074
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3075
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3074
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3076
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3077
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3076
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3078
+  :item-type :note
+  :note-name :G♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3079
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3078
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3080
+  :item-type :note
+  :note-name :Ė♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3081
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 3071
+  :destination 3080
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3082
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3083
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3082
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3084
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3085
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3084
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3086
+  :item-type :note
+  :note-name :Dʼ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3087
+  :item-type :interval
+  :interval-name "[sesta minore propinquissima]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3086
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic :inverse-propinqua)
+  :comment "")
+ (:id 3088
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3089
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3088
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3090
+  :item-type :note
+  :note-name :D♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3091
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3090
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3092
+  :item-type :note
+  :note-name :Ḃ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3093
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 3071
+  :destination 3092
+  :direction :➘
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3094
+  :item-type :note
+  :note-name :Ḋ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3095
+  :item-type :interval
+  :interval-name "[terza minore]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3094
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3096
+  :item-type :note
+  :note-name :D
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3097
+  :item-type :interval
+  :interval-name "[terza minore propinqua]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3096
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3098
+  :item-type :note
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3099
+  :item-type :interval
+  :interval-name "[terza maggiore]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3098
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3100
+  :item-type :note
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3101
+  :item-type :interval
+  :interval-name "[terza maggiore propinqua]"
+  :interval-group-identity :terza
+  :departure 3071
+  :destination 3100
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3102
+  :item-type :note
+  :note-name :Ḟ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3103
+  :item-type :interval
+  :interval-name "[quinta]"
+  :interval-group-identity :quinta
+  :departure 3071
+  :destination 3102
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3104
+  :item-type :note
+  :note-name :Ġ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3105
+  :item-type :interval
+  :interval-name "[sesta minore]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3104
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3106
+  :item-type :note
+  :note-name :G
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3107
+  :item-type :interval
+  :interval-name "[sesta minore propinqua]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3106
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3108
+  :item-type :note
+  :note-name :Ġ
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3109
+  :item-type :interval
+  :interval-name "[sesta maggiore]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3108
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3110
+  :item-type :note
+  :note-name :G♯
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3111
+  :item-type :interval
+  :interval-name "[sesta maggiore propinqua]"
+  :interval-group-identity :sesta
+  :departure 3071
+  :destination 3110
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3112
+  :item-type :note
+  :note-name :Ḃ♭
+  :tag-list (:diplomatic)
+  :comment "")
+ (:id 3113
+  :item-type :interval
+  :interval-name "[ottava]"
+  :interval-group-identity :ottava
+  :departure 3071
+  :destination 3112
+  :direction :➚
+  :pdf-page nil
+  :pdf-position nil
+  :tag-list (:diplomatic)
+  :comment ""))
