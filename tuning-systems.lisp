@@ -2,8 +2,8 @@
 
 ;; TODO load :vicentino-tunings and import necessary functions
 
-(defparameter *tuning-1* (pitch-fun (meantone -1/4) :wolf-Ė-Ḃ♮))
-(defparameter *tuning-2* (pitch-fun (meantone -1/3) :wolf-Ė-Ḃ♮))
+(defparameter *tuning-1* (vicentino-tunings::pitch-fun (vicentino-tunings::meantone -1/4) :wolf-Ė-Ḃ♮))
+(defparameter *tuning-2* (vicentino-tunings::pitch-fun (vicentino-tunings::meantone -1/3) :wolf-Ė-Ḃ♮))
 
 (defun calculate-interval-size (departure-name destination-name direction pitch-fun)
   (let ((departure-interval (pitch pitch-fun departure-name))

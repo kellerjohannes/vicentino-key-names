@@ -1,5 +1,5 @@
 (asdf:defsystem "key-names"
-  :depends-on (:cl-svg)
+  :depends-on (:cl-svg :vicentino-tunings :alexandria)
   :serial t
   :components ((:file "key-names")
                (:file "tuning-systems")

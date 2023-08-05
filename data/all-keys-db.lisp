@@ -1,54 +1,3 @@
-;; Flags:
-;;
-;; :diplomatic
-;; :regular-shorthand (üblicherweise in Verbindung mit :diplomatic verwendet)
-;; :obvious-naming
-;; :propinqua-propinquissima
-;; :obvious-correction
-;; :omitted-text
-;; :exotic
-;; :avoid-exotic
-;; :inverse-propinqua
-;; :inverse-propinquissima
-;; :avoid-inverse-propinqua
-;; :propinqua-propinquissima
-;; :irregular-naming
-;; :avoid-irregular-naming
-;; :quintenschaukel
-;; :natural-seventh
-;; :extended-key
-
-;; interval-group-identity:
-;;
-;; :ottava
-;; :sesta
-;; :quinta
-;; :quarta
-;; :terza
-;; :tono
-;; :semitono (sowohl /maggiore/ wie auch /minore/)
-;; :diesis (schliesst auch /comma/ mit ein)
-
-;; Special cases
-;;
-;; note-name :C-ʼ (sound lower than :C by a /comma/)
-
-
-;; Proofreading:
-;; - [X] search for X
-;; - [X] search for ->
-;; - [X] search for .,
-;; - [X] search for :obvious-correction and check for critical comment.
-;; - [ ] Condense all tags and check against list
-;; - [ ] Condense all notenames / root/ordine mappings
-;; - [ ] Condense all :interval-group
-
-
-;; TODOs
-;; - [X] Add chapter index
-;; - [ ] Resolve all :inverse-propinqua cases
-;; - [ ] isolate all :regular-shorthand cases, compare count to spelled out cases
-
 (
  ;; b5-c8, A
  (:id 1
@@ -5533,8 +5482,8 @@ zu verstehen.")
  (:id 672
   :item-type :key
   :key-name "Cfaut secondo [Cfaut secondo in terzo ordine]"
-  :note-name :
-  :root-letter :C-ʼ
+  :note-name :C-ʼ
+  :root-letter :C
   :ordine 3
   :pdf-page 216
   :pdf-position 0.27654867256637167
@@ -5732,12 +5681,12 @@ zu verstehen.")
  (:id 691
   :item-type :key
   :key-name "Bfa♭mi sesto"
-  :note-name :Bʼ
+  :note-name :B♮ʼ
   :root-letter :B
   :ordine 6
   :pdf-page 216
   :pdf-position 0.3650442477876106
-  :tag-list (:diplomatic :irregular-naming)
+  :tag-list (:diplomatic :exotic)
   :comment "")
  (:id 691
   :item-type :key
@@ -5747,7 +5696,7 @@ zu verstehen.")
   :ordine 4
   :pdf-page 216
   :pdf-position 0.3650442477876106
-  :tag-list (:avoid-irregular-naming)
+  :tag-list (:avoid-exotic)
   :comment "G-B, wird im Text als /terza maggiore propinqua/ bezeichnet, im Musikbeispiel steht an dieser Stelle jedoch ein G-Ḃ (/Bfa♭mi quarto/). Vor dem Hintergrund des vorhergehenden Kapitels, das die ,-Tasten eingeführt hat ist es plausibel, dass Vicentino nun auch solche komma-modifizierten Terzen in Betracht zieht, allerdings wird es hier inkonsequenterweise als /propinqua/ bezeichnet.")
  (:id 692
   :item-type :interval
@@ -5893,7 +5842,7 @@ zu verstehen.")
   :ordine 6
   :pdf-page 216
   :pdf-position 0.43141592920353977
-  :tag-list (:diplomatic :irregular-naming)
+  :tag-list (:diplomatic :exotic)
   :comment "")
  (:id 704
   :item-type :key
@@ -5903,7 +5852,7 @@ zu verstehen.")
   :ordine 4
   :pdf-page 216
   :pdf-position 0.43141592920353977
-  :tag-list (:avoid-irregular-naming)
+  :tag-list (:avoid-exotic)
   :comment "Original: Eʼ.")
  (:id 705
   :item-type :interval
@@ -6267,12 +6216,12 @@ zu verstehen.")
  (:id 747
   :item-type :note
   :note-name :Eʼ
-  :tag-list (:diplomatic :irregular-naming)
+  :tag-list (:diplomatic :exotic)
   :comment "")
  (:id 747
   :item-type :note
   :note-name :Ė
-  :tag-list (:avoid-irregular-naming)
+  :tag-list (:avoid-exotic)
   :comment "Original: Eʼ.")
  (:id 748
   :item-type :interval
@@ -6512,7 +6461,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.85188249896566 . 0.9382951653944019)
-  :tag-list (:diplomatic :inverse-propinquissima :irregular-naming)
+  :tag-list (:diplomatic :inverse-propinquissima)
   :comment "")
  (:id 770
   :item-type :key
@@ -6688,7 +6637,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.15928837401737692 . 0.4173027989821883)
-  :tag-list (:diplomatic :irregular-naming)
+  :tag-list (:diplomatic :exotic)
   :comment "")
  (:id 782
   :item-type :key
@@ -6782,7 +6731,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.17045924700041373 . 0.7563613231552162)
-  :tag-list (:diplomatic :irregular-naming)
+  :tag-list (:diplomatic)
   :comment "")
  (:id 788
   :item-type :key
@@ -7216,6 +7165,16 @@ zu verstehen.")
   :pdf-position 0.5752212389380531
   :tag-list (:diplomatic)
   :comment "")
+(:id 838
+  :item-type :key
+  :key-name "Gsolreut"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 217
+  :pdf-position 0.6305309734513274
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 838
   :item-type :key
   :key-name "Gsolreut [terzo]"
@@ -7224,7 +7183,7 @@ zu verstehen.")
   :ordine 3
   :pdf-page 217
   :pdf-position 0.6305309734513274
-  :tag-list (:diplomatic :obvious-naming)
+  :tag-list (:obvious-correction)
   :comment "Original: Gsolreut. Verkürzung von Gsolreut terzo, erschliesst sich eindeutig aus dem Kontext.")
  (:id 839
   :item-type :interval
@@ -9515,8 +9474,8 @@ zu verstehen.")
  (:id 1075
   :item-type :note
   :note-name :B♭
-  :tag-list (:obvious-mistake)
-  :comment "")
+  :tag-list (:obvious-correction)
+  :comment "Original: Ȧ♭.")
  (:id 1076
   :item-type :interval
   :interval-name "[sesta minore propinqua]"
@@ -9584,8 +9543,8 @@ zu verstehen.")
  (:id 1083
   :item-type :note
   :note-name :A♯
-  :tag-list (:obvious-mistake)
-  :comment "")
+  :tag-list (:obvious-correction)
+  :comment "Original: B♯.")
  (:id 1084
   :item-type :interval
   :interval-name "[terza minore]"
@@ -9701,8 +9660,8 @@ zu verstehen.")
  (:id 1097
   :item-type :note
   :note-name :Ė♭
-  :tag-list (:obvious-mistake)
-  :comment "")
+  :tag-list (:obvious-correction)
+  :comment "Original: Ė.")
  (:id 1098
   :item-type :interval
   :interval-name "[sesta maggiore]"
@@ -9722,8 +9681,8 @@ zu verstehen.")
  (:id 1099
   :item-type :note
   :note-name :E
-  :tag-list (:obvious-mistake)
-  :comment "")
+  :tag-list (:obvious-correction)
+  :comment "Original: E♯.")
  (:id 1100
   :item-type :interval
   :interval-name "[sesta maggiore propinqua]"
@@ -11002,7 +10961,7 @@ zu verstehen.")
   :ordine 4
   :pdf-page 221
   :pdf-position (0.3591228796028134 . 0.31743002544529264)
-  :tag-list (:diplomatic :natural-seventh :exotic)
+  :tag-list (:diplomatic :inverse-propinqua :exotic)
   :comment "")
  (:id 1230
   :item-type :key
@@ -11033,7 +10992,7 @@ zu verstehen.")
   :ordine 3
   :pdf-page 221
   :pdf-position (0.3591228796028134 . 0.6469465648854961)
-  :tag-list (:diplomatic :natural-seventh :exotic)
+  :tag-list (:diplomatic :exotic)
   :comment "Führt zu einer /propinqua/ einer Naturseptime.")
  (:id 1232
   :item-type :key
@@ -12356,7 +12315,7 @@ zu verstehen.")
   :comment "")
  (:id 1372
   :item-type :note
-  :note-name :[E]
+  :note-name :E
   :tag-list (:omitted-text)
   :comment "")
  (:id 1373
@@ -12516,7 +12475,7 @@ zu verstehen.")
   :comment "")
  (:id 1392
   :item-type :note
-  :note-name :[E]
+  :note-name :E
   :tag-list (:omitted-text)
   :comment "")
  (:id 1393
@@ -18392,7 +18351,7 @@ zu verstehen.")
   :pdf-position (0.32757429163787144 . 0.6344314558979809)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2011
+ (:id 2011
   :item-type :interval
   :interval-name "sesta maggiore"
   :interval-group-identity :sesta
@@ -19203,7 +19162,7 @@ zu verstehen.")
   :pdf-position (0.16004130098089828 . 0.4587301587301587)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2096
+ (:id 2096
   :item-type :key
   :key-name "Dsolre primo"
   :note-name :D
@@ -19772,11 +19731,11 @@ zu verstehen.")
   :pdf-position nil
   :tag-list (:diplomatic)
   :comment "")
-(:id 2159
+ (:id 2159
   :item-type :note
- :note-name :Ḋ
- :tag-list (:diplomatic)
- :comment "")
+  :note-name :Ḋ
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 2159
   :item-type :note
   :note-name :Ḃ♮
@@ -19793,11 +19752,11 @@ zu verstehen.")
   :pdf-position nil
   :tag-list (:diplomatic)
   :comment "")
-(:id 2161
+ (:id 2161
   :item-type :note
- :note-name :D♯
- :tag-list (:diplomatic)
- :comment "")
+  :note-name :D♯
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 2161
   :item-type :note
   :note-name :B♯
@@ -19814,11 +19773,11 @@ zu verstehen.")
   :pdf-position nil
   :tag-list (:diplomatic)
   :comment "")
-(:id 2163
+ (:id 2163
   :item-type :note
- :note-name :Ḟ
- :tag-list (:diplomatic)
- :comment "")
+  :note-name :Ḟ
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 2163
   :item-type :note
   :note-name :Ḋ
@@ -19974,7 +19933,7 @@ zu verstehen.")
   :pdf-position (0.6479091378420236 . 0.6134920634920635)
   :tag-list (:diplomatic)
   :comment "")
-:id 2178
+ (:id 2178
   :item-type :key
   :key-name "Gsolreut"
   :note-name :G
@@ -19983,7 +19942,7 @@ zu verstehen.")
   :pdf-page 229
   :pdf-position (0.6392536281962681 . 0.7279489904357067)
   :tag-list (:diplomatic)
-  :comment ""
+  :comment "")
  (:id 2178
   :item-type :key
   :key-name "Gsolreut quinto"
@@ -20666,7 +20625,7 @@ zu verstehen.")
   :comment "")
  (:id 2253
   :item-type :note
-  :note-name :[Ḋ♭]
+  :note-name :Ḋ♭
   :tag-list (:omitted-text)
   :comment "Kommt im Original nicht vor.")
  (:id 2254
@@ -20788,7 +20747,7 @@ zu verstehen.")
   :pdf-position (0.3970056788848735 . 0.6341269841269841)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2265
+ (:id 2265
   :item-type :key
   :key-name "Alamire secondo"
   :note-name :G♯
@@ -20819,7 +20778,7 @@ zu verstehen.")
   :pdf-position (0.4248838409912235 . 0.46904761904761905)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2267
+ (:id 2267
   :item-type :key
   :key-name "Gsolreut quarto"
   :note-name :Ġ
@@ -21916,7 +21875,7 @@ zu verstehen.")
   :pdf-position (0.25761486835312336 . 0.6753968253968253)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2381
+ (:id 2381
   :item-type :key
   :key-name "Elami secondo"
   :note-name :E♭
@@ -22083,17 +22042,17 @@ zu verstehen.")
   :pdf-position (0.3206454282167977 . 0.4064885496183206)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2396
+ (:id 2396
   :item-type :interval
   :interval-name "quinta propinqua"
   :interval-group-identity :quinta
   :departure 2379
- :destination 2397
- :direction :➚
- :pdf-page 231
- :pdf-position (0.3273102736189984 . 0.5206349206349207)
- :tag-list (:diplomatic)
- :comment "")
+  :destination 2397
+  :direction :➚
+  :pdf-page 231
+  :pdf-position (0.3273102736189984 . 0.5206349206349207)
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 2396
   :item-type :interval
   :interval-name "terza maggiore propinqua"
@@ -22126,7 +22085,7 @@ zu verstehen.")
   :pdf-position (0.34124935467217343 . 0.11825396825396824)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2399
+ (:id 2399
   :item-type :key
   :key-name "Csolfaut acuto"
   :note-name :C
@@ -22634,7 +22593,7 @@ zu verstehen.")
   :pdf-position (0.8113337940566689 . 0.3538788522848034)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2454
+ (:id 2454
   :item-type :key
   :key-name "Bfabmi quinto"
   :note-name :Ḃ♭
@@ -22665,7 +22624,7 @@ zu verstehen.")
   :pdf-position (0.8286109191430546 . 0.21360255047821466)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2456
+ (:id 2456
   :item-type :key
   :key-name "Bfabmi secondo"
   :note-name :B♭
@@ -22715,7 +22674,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 232
   :pdf-position (0.08638562543192813 . 0.33049946865037194)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :quintenschaukel)
   :comment "")
  (:id 2460
   :item-type :key
@@ -22725,7 +22684,7 @@ zu verstehen.")
   :ordine 6
   :pdf-page 232
   :pdf-position (0.08978071990070335 . 0.5935114503816793)
-  :tag-list (:diplomatic :extended-key :quintenwaage)
+  :tag-list (:diplomatic :extended-key)
   :comment "Verkürzung, sehr wahrscheinlich von der hypothetischen Taste /Ffaut quarto in sesto ordine/ [F,]. Diese Angabe reiht sich ein in Hinweise zu dieser Obertaste, sowie auch Hinweise zu einem alternativen Stimmungssystem in b5-c17.")
  (:id 2461
   :item-type :interval
@@ -23000,7 +22959,7 @@ zu verstehen.")
   :pdf-position (0.2073255010366275 . 0.4707757704569607)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2487
+ (:id 2487
   :item-type :key
   :key-name "Alamire terzo"
   :note-name :A♭
@@ -25533,7 +25492,7 @@ zu verstehen.")
   :pdf-position (0.27643400138217 . 0.7747077577045697)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2758
+ (:id 2758
   :item-type :key
   :key-name "Dsolre terzo"
   :note-name :D♭
@@ -25564,7 +25523,7 @@ zu verstehen.")
   :pdf-position (0.29371112646855563 . 0.412327311370882)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2860
+ (:id 2860
   :item-type :key
   :key-name "Dsolre secondo"
   :note-name :C♯
@@ -25721,7 +25680,7 @@ zu verstehen.")
   :pdf-position (0.36281962681409813 . 0.20191285866099895)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2874
+ (:id 2874
   :item-type :key
   :key-name "Alamire secondo"
   :note-name :G♯
@@ -25752,7 +25711,7 @@ zu verstehen.")
   :pdf-position (0.36281962681409813 . 0.5642933049946866)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2876
+ (:id 2876
   :item-type :key
   :key-name "Alamire terzo"
   :note-name :A♭
@@ -26160,7 +26119,7 @@ zu verstehen.")
  (:id 2920
   :item-type :note
   :note-name :G
-  :tag-list (:obvious-mistake)
+  :tag-list (:obvious-correction)
   :comment "Original: Ȧ.")
  (:id 2921
   :item-type :interval
@@ -26358,7 +26317,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.10366275051831375 . 0.5993623804463337)
-  :tag-list (:diplomatic :quintenwaage)
+  :tag-list (:diplomatic :quintenschaukel)
   :comment "")
  (:id 2940
   :item-type :key
@@ -26706,7 +26665,7 @@ zu verstehen.")
   :pdf-position (0.2591568762957844 . 0.5876726886291179)
   :tag-list (:diplomatic)
   :comment "")
-(:id 2973
+ (:id 2973
   :item-type :key
   :key-name "Bfabmi acuto"
   :note-name :B♮
@@ -27185,7 +27144,7 @@ zu verstehen.")
   :pdf-position (0.6385625431928127 . 0.44739638682252925)
   :tag-list (:omitted-text)
   :comment "Vorgeschlagene Ergänzung.")
-(:id 3029
+ (:id 3029
   :item-type :interval
   :interval-name "[terza maggiore] propinquissima"
   :interval-group-identity :terza

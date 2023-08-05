@@ -3,6 +3,6 @@
 
 
 
-(read-dbs)
+;; (read-db)
 
 (format t "~&Databases loaded.")
