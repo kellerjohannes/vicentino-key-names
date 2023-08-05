@@ -35,19 +35,19 @@
 
 
 ;; Proofreading:
-;; - search for X
-;; - search for ->
-;; - search for .,
-;; - search for :obvious-mistake and check for critical comment.
-;; - Condense all tags and check against list
-;; - Condense all notenames / root/ordine mappings
-;; - Condense all :interval-group
+;; - [X] search for X
+;; - [X] search for ->
+;; - [X] search for .,
+;; - [X] search for :obvious-correction and check for critical comment.
+;; - [ ] Condense all tags and check against list
+;; - [ ] Condense all notenames / root/ordine mappings
+;; - [ ] Condense all :interval-group
 
 
 ;; TODOs
-;; - Add chapter index
-;; - Resolve all :inverse-propinqua cases
-;; - isolate all :regular-shorthand cases, compare count to spelled out cases
+;; - [X] Add chapter index
+;; - [ ] Resolve all :inverse-propinqua cases
+;; - [ ] isolate all :regular-shorthand cases, compare count to spelled out cases
 
 (
  ;; b5-c8, A
@@ -434,7 +434,7 @@
   :pdf-page 210
   :pdf-position 0.13827433628318586
   :tag-list (:obvious-correction)
-  :comment "Fragwürdige Passage, dieser Tastenname soll ersatzlos gestrichen werden. Dies ist ein folgenloser Eingriff, weil im Text kein Intervall sich auf diese Taste bezieht.")
+  :comment "Original: Ċ. Fragwürdige Passage, dieser Tastenname soll ersatzlos gestrichen werden. Dies ist ein folgenloser Eingriff, weil im Text kein Intervall sich auf diese Taste bezieht.")
  (:id 36
   :item-type :interval
   :interval-name "sesta maggiore propinqua"
@@ -1681,7 +1681,7 @@ zu verstehen.")
   :pdf-page 212
   :pdf-position 0.1991150442477876
   :tag-list (:obvious-correction)
-  :comment "Original: /Ffaut secondo in terzo ordine/. Diese Taste soll als Quinte über G♯ funktionieren, muss deshalb /Elami terzo/ [D♯] sein. Nebenbemerkung: G♯-E♭ ist die Wolfsquinte,möglicherweise hat das zum Denkfehler von Vicentino gefürt. Siehe auch b5-c7, »la quinta d'Alamire secondo, ascenderà & ritroverà la sua quinta in Elami terzo acuto« und b5-c23, »& la sua [Elami terzo acuto] sarà in Gsolreut secondo«, was einen Fehler enthält: /Gsolreut secondo/ -> /Alamire secondo/.")
+  :comment "Original: »Ffaut secondo in terzo ordine«. Diese Taste soll als Quinte über G♯ funktionieren, muss deshalb /Elami terzo/ [D♯] sein. Nebenbemerkung: G♯-E♭ ist die Wolfsquinte,möglicherweise hat das zum Denkfehler von Vicentino gefürt. Siehe auch b5-c7, »la quinta d'Alamire secondo, ascenderà & ritroverà la sua quinta in Elami terzo acuto« und b5-c23, »& la sua [Elami terzo acuto] sarà in Gsolreut secondo«, was einen Fehler enthält: /Gsolreut secondo/ -> /Alamire secondo/.")
  (:id 163
   :item-type :interval
   :interval-name "sesta minore"
@@ -4212,7 +4212,7 @@ zu verstehen.")
   :pdf-page 214
   :pdf-position 0.5610134436401241
   :tag-list (:obvious-correction)
-  :comment "Muss korrigiert werden zu Dlasolre secondo [C♯]. Im Notenbeispiel ist die entsprchende Note ebenfalls falsch, als D♭ notiert, sollte aber C♯ sein.")
+  :comment "Original: B♯. Muss korrigiert werden zu Dlasolre secondo [C♯]. Im Notenbeispiel ist die entsprchende Note ebenfalls falsch, als D♭ notiert, sollte aber C♯ sein.")
  (:id 527
   :item-type :interval
   :interval-name "quinta"
@@ -4327,7 +4327,7 @@ zu verstehen.")
   :pdf-page 214
   :pdf-position 0.6247787610619469
   :tag-list (:obvious-correction)
-  :comment "Das muss in Gsolreut secondo [F♯] korrigiert werden, was aus dem Kontext eindeutig hervorgeht: Diese Taste soll eine /sesta maggiore propinqua/ höher als Ȧ♭ liegen, muss also ein F♯ (Gsolreut secondo). Es könnte ein Druckfehler sein, der beim Setzen entstand, weil eine Zeile höher auch gerade /Ffaut primo/ steht.")
+  :comment "Original: F. Das muss in Gsolreut secondo [F♯] korrigiert werden, was aus dem Kontext eindeutig hervorgeht: Diese Taste soll eine /sesta maggiore propinqua/ höher als Ȧ♭ liegen, muss also ein F♯ (Gsolreut secondo). Es könnte ein Druckfehler sein, der beim Setzen entstand, weil eine Zeile höher auch gerade /Ffaut primo/ steht.")
  (:id 537
   :item-type :interval
   :interval-name "ottava"
@@ -4415,7 +4415,7 @@ zu verstehen.")
   :item-type :note
   :note-name :E♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: F♯.")
  (:id 547
   :item-type :interval
   :interval-name "[terza maggiore]"
@@ -4500,7 +4500,7 @@ zu verstehen.")
   :item-type :note
   :note-name :B♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Ḃ♮.")
  (:id 557
   :item-type :interval
   :interval-name "[sesta maggiore]"
@@ -4521,7 +4521,7 @@ zu verstehen.")
   :item-type :note
   :note-name :Ḃ♮
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: B♮.")
  (:id 559
   :item-type :interval
   :interval-name "[sesta maggiore propinqua]"
@@ -4606,7 +4606,7 @@ zu verstehen.")
   :item-type :note
   :note-name :C♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: D♭.")
  (:id 569
   :item-type :interval
   :interval-name "[terza maggiore propinqua]"
@@ -5326,7 +5326,7 @@ zu verstehen.")
   :item-type :note
   :note-name :Ḟ
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Ė.")
  (:id 644
   :item-type :interval
   :interval-name "sesta più di minore"
@@ -6018,7 +6018,7 @@ zu verstehen.")
   :item-type :note
   :note-name :D♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: E♯.")
  (:id 718
   :item-type :interval
   :interval-name "[terza maggiore propinqua]"
@@ -6071,7 +6071,7 @@ zu verstehen.")
   :item-type :note
   :note-name :Ḃ♭
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: B♭.")
  (:id 724
   :item-type :interval
   :interval-name "[sesta minore propinqua]"
@@ -6108,7 +6108,7 @@ zu verstehen.")
   :item-type :note
   :note-name :A♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Ȧ.")
  (:id 728
   :item-type :interval
   :interval-name "[sesta maggiore propinqua]"
@@ -6881,7 +6881,7 @@ zu verstehen.")
   :item-type :note
   :note-name :D♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: E♯.")
  (:id 798
   :item-type :interval
   :interval-name "[terza minore]"
@@ -6902,7 +6902,7 @@ zu verstehen.")
   :item-type :note
   :note-name :Ḋ
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Ė♭.")
  (:id 800
   :item-type :interval
   :interval-name "[terza minore propinqua]"
@@ -7726,7 +7726,7 @@ zu verstehen.")
   :item-type :note
   :note-name :D♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: E♯.")
  (:id 885
   :item-type :interval
   :interval-name "[terza minore propinqua]"
@@ -9495,7 +9495,7 @@ zu verstehen.")
   :item-type :note
   :note-name :Ḃ♭
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Ȧ♭.")
  (:id 1074
   :item-type :interval
   :interval-name "[sesta minore]"
@@ -10303,7 +10303,7 @@ zu verstehen.")
   :item-type :note
   :note-name :D♭
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: C♭.")
  (:id 1157
   :item-type :interval
   :interval-name "[terza maggiore]"
@@ -10404,7 +10404,7 @@ zu verstehen.")
   :item-type :note
   :note-name :G♯
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: A♯.")
  (:id 1169
   :item-type :interval
   :interval-name "[sesta maggiore propinqua]"
@@ -11248,7 +11248,7 @@ zu verstehen.")
   :item-type :note
   :note-name :Ġ
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Ġ♭.")
  (:id 1257
   :item-type :interval
   :interval-name "[sesta maggiore propinqua]"
@@ -11397,7 +11397,7 @@ zu verstehen.")
   :item-type :note
   :note-name :Ḋ♭
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Original: Ḋ.")
  (:id 1275
   :item-type :interval
   :interval-name "[sesta maggiore]"
@@ -11418,7 +11418,7 @@ zu verstehen.")
   :item-type :note
   :note-name :D
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: D♯.")
  (:id 1277
   :item-type :interval
   :interval-name "[sesta maggiore propinqua]"
@@ -13180,7 +13180,7 @@ zu verstehen.")
   :comment "")
  (:id 1456
   :item-type :note
-  :note-name :B♮,
+  :note-name :B♮ʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 1457
@@ -13260,7 +13260,7 @@ zu verstehen.")
   :comment "")
  (:id 1466
   :item-type :note
-  :note-name :G,
+  :note-name :Gʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 1467
@@ -13372,7 +13372,7 @@ zu verstehen.")
   :comment "")
  (:id 1480
   :item-type :note
-  :note-name :G,
+  :note-name :Gʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 1481
@@ -14267,7 +14267,7 @@ zu verstehen.")
   :comment "")
  (:id 1577
   :item-type :note
-  :note-name :B♮,
+  :note-name :B♮ʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 1578
@@ -15111,7 +15111,7 @@ zu verstehen.")
   :comment "")
  (:id 1663
   :item-type :note
-  :note-name :G,
+  :note-name :Gʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 1664
@@ -15956,7 +15956,7 @@ zu verstehen.")
   :comment "")
  (:id 1753
   :item-type :note
-  :note-name :G,
+  :note-name :Gʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 1754
@@ -18721,7 +18721,7 @@ zu verstehen.")
   :comment "")
  (:id 2046
   :item-type :note
-  :note-name :E,
+  :note-name :Eʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 2047
@@ -20778,11 +20778,12 @@ zu verstehen.")
   :tag-list (:diplomatic)
   :comment "")
  (:id 2264
-  :item-type :key
-  :key-name "terza maggiore"
-  :note-name :terza
-  :root-letter :X
-  :ordine X
+  :item-type :interval
+  :interval-name "terza maggiore"
+  :interval-group-identity :terza
+  :departure 2257
+  :destination 2265
+  :direction :➘
   :pdf-page 230
   :pdf-position (0.3970056788848735 . 0.6341269841269841)
   :tag-list (:diplomatic)
@@ -21370,7 +21371,7 @@ zu verstehen.")
  (:id 2321
   :item-type :interval
   :interval-name "[quinta]"
-  :interval-group-identity :X
+  :interval-group-identity :quinta
   :departure 2311
   :destination 2320
   :direction :➘
@@ -21620,7 +21621,7 @@ zu verstehen.")
   :comment "")
  (:id 2352
   :item-type :note
-  :note-name :A,
+  :note-name :Aʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 2353
@@ -21934,7 +21935,7 @@ zu verstehen.")
   :pdf-page 231
   :pdf-position (0.26934215970211006 . 0.19274809160305345)
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: E♭.")
  (:id 2382
   :item-type :interval
   :interval-name "[terza minore] propinqua"
@@ -21950,8 +21951,8 @@ zu verstehen.")
   :item-type :key
   :key-name "Elami secondo"
   :note-name :E♭
-  :root-letter :X
-  :ordine X
+  :root-letter :E
+  :ordine 2
   :pdf-page 231
   :pdf-position (0.28216797683078193 . 0.522264631043257)
   :tag-list (:diplomatic)
@@ -22652,7 +22653,7 @@ zu verstehen.")
   :pdf-page 231
   :pdf-position (0.8208522962350021 . 0.6469465648854961)
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: Ḃ♭.")
  (:id 2455
   :item-type :interval
   :interval-name "[terza maggiore] propinqua"
@@ -22683,7 +22684,7 @@ zu verstehen.")
   :pdf-page 231
   :pdf-position (0.8336781133636739 . 0.43320610687022904)
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: B♭.")
  (:id 2457
   :item-type :interval
   :interval-name "quinta commune"
@@ -23236,7 +23237,7 @@ zu verstehen.")
   :comment "")
  (:id 2511
   :item-type :note
-  :note-name :E,
+  :note-name :Eʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 2512
@@ -26724,7 +26725,7 @@ zu verstehen.")
   :pdf-page 235
   :pdf-position (0.25752855659397716 . 0.7960893854748603)
   :tag-list (:obvious-correction)
-  :comment "")
+  :comment "Original: B♮.")
  (:id 2974
   :item-type :note
   :note-name :Ḃ♮
@@ -26780,7 +26781,7 @@ zu verstehen.")
   :comment "")
  (:id 2981
   :item-type :note
-  :note-name :G,
+  :note-name :Gʼ
   :tag-list (:diplomatic)
   :comment "")
  (:id 2982
@@ -27205,7 +27206,7 @@ zu verstehen.")
   :pdf-page 235
   :pdf-position (0.6558396682791984 . 0.5175345377258236)
   :tag-list (:obvious-correction)
-  :comment "Eine /terza maggiore propiquissima/ existiert an dieser Stelle nicht in der Klaviatur, deshalb soll dieser Intervallname auf jeden Fall als /propinqua/ verstanden werden.")
+  :comment "Original: »[terza maggiore] propinquissima«. Eine /terza maggiore propiquissima/ existiert an dieser Stelle nicht in der Klaviatur, deshalb soll dieser Intervallname auf jeden Fall als /propinqua/ verstanden werden.")
  (:id 3030
   :item-type :key
   :key-name "Gsolreut terzo"
