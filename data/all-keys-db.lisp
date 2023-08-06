@@ -4810,7 +4810,7 @@ zu verstehen.")
   :pdf-page 215
   :pdf-position 0.28761061946902655
   :tag-list (:diplomatic :regular-shorthand)
-  :comment "Verkürzung von Cfaut terzo in quarto ordine. Es könnte auch /Cfaut quarto in sesto ordine/ sein, was aber das falsche Intervall ergeben würde: A,-C, ist eine /sesta maggiore/, keine /sesta minore/ oder /sesta più di minore/.")
+  :comment "Verkürzung von Cfaut terzo in quarto ordine. Es könnte auch /Cfaut quarto in sesto ordine/ sein, was aber das falsche Intervall ergeben würde: Aʼ-Cʼ ist eine /sesta maggiore/, keine /sesta minore/ oder /sesta più di minore/.")
  (:id 596
   :item-type :key
   :key-name "Alamire sesto"

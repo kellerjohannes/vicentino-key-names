@@ -3,7 +3,10 @@
 (defparameter *latex-text-replacements*
   '(("&" . "\\&")
     ("_" . "\\_")
-    ("#" . "\\#")))
+    ("#" . "\\#")
+    ;; ("{" . "\\{")
+    ;; ("}" . "\\}")
+    ))
 
 (defun replace-substring (new old source &optional (start-position 0))
   (let ((occurrence (search old source :start2 start-position)))
@@ -131,7 +134,7 @@
 ;;;; TEX output
 
 (defparameter *item-type-symbols*
-  '((:key . "$\\square$")
+  '((:key . "$\\hspace{1pt}\\square$")
     (:interval . "$\\Leftrightarrow$")
     (:note . "$\\bigcirc$")))
 
@@ -155,25 +158,46 @@
 (defun replace-tag (tag-kwd)
   (cdr (assoc tag-kwd *dict-tags*)))
 
+(defparameter *line-counter* 0)
+
 (defun generate-table-line (item data resolve-intervals-p)
   (let ((location (lookup-location (getf item :id))))
-    (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
+    (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
+            (format nil "\\typesetLinecounter{~a}" (incf *line-counter*))
             (get-item-type-symbol (getf item :item-type))
             (access :id)
             (car location)
             (cdr location)
-            (type-select (access :key-name) (access :interval-name) "--")
-            (type-select (format nil "~a~a" (access :root-letter) (access :ordine))
+            (type-select (make-string-latex-friendly (access :key-name))
                          (if resolve-intervals-p
-                             (getf (pick (where #'equal :id (getf item :departure))) :note-name)
-                             (getf item :departure))
+                             (format nil "~a \\typesetInterval{~a}{~a}{~a}"
+                                     (make-string-latex-friendly (access :interval-name))
+                                     (access :departure)
+                                     (symbol-name (getf item :direction))
+                                     (access :destination))
+                             (make-string-latex-friendly (access :interval-name)))
+                         "--")
+            (type-select (format nil "~a \\typesetKey{~a}{~a}"
+                                 (access :note-name)
+                                 (access :root-letter)
+                                 (access :ordine))
+                         (if resolve-intervals-p
+                             (let ((departure (getf item :departure))
+                                   (destination (getf item :destination)))
+                               (format nil "\\typesetInterval{~a}{~a}{~a}"
+                                       (getf (pick data :id departure) :note-name)
+                                       (symbol-name (getf item :direction))
+                                       (getf (pick data :id destination) :note-name)))
+                             (format nil "\\typesetInterval{~a}{~a}{~a}"
+                                     (getf item :departure)
+                                     (symbol-name (getf item :direction))
+                                     (getf item :destination)))
                          (access :note-name))
-            (type-select "" (symbol-name (getf item :direction)) "")
-            (type-select (access :note-name) (access :destination) "--")
             (format nil "~{\\sffamily{~a} ~}" (mapcar #'replace-tag (access :tag-list)))
             (generate-latex-formatting (access :comment)))))
 
 (defun generate-tex-code (document-title table-title data resolve-intervals-p)
+  (setf *line-counter* 0)
   (format nil "\\documentclass[10pt,landscape,DIV=17,a4paper]{scrartcl}
 \\usepackage[utf8]{inputenc}
 \\usepackage[T1]{fontenc}
@@ -184,6 +208,7 @@
 \\usepackage{tipa}
 \\usepackage{array}
 \\usepackage{amssymb}
+\\usepackage{mathtools}
 \\usepackage{booktabs}
 \\usepackage{soul}
 \\setcounter{secnumdepth}{0}
@@ -219,22 +244,33 @@
 \\def\\nsharpdot#1{\\.{#1}$\\sharp$}
 
 
+%% This is used for a thighter box around key names
+\\setlength\\fboxsep{1.2pt}
+
+\\def\\typesetInterval#1#2#3{\\small{$\\lvert$#1#2#3$\\rvert$}}
+\\def\\typesetKey#1#2{\\fbox{\\footnotesize{\\textsc{#1#2}}}}
+\\def\\typesetLinecounter#1{\\tiny{\\textsc{#1}}}
+
+\\newcolumntype{C}[1]{>{\\centering\\arraybackslash}p{#1}}
+
+\\renewcommand{\\arraystretch}{1.3}
+
 \\begin{document}
 
 \\maketitle
 
 \\begin{center}
-\\caps{~a}
-\\begin{longtable}{p{1.5mm}p{4.5mm}p{1mm}p{2mm}p{7.5cm}p{5mm}p{2mm}p{5mm}p{1cm}p{11cm}}
+{\\large{~a}}
+
+\\begin{longtable}{p{1.5mm}C{1.5mm}p{4.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1cm}p{11cm}}
 
 \\toprule
+\\# &
 \\emph{T} &
 \\emph{I} &
 \\emph{B} &
 \\emph{C} &
 \\emph{Name (normalisierte Orthographie)} &
-&
-&
 &
 \\emph{Tags} &
 \\emph{Kommentar}\\\\
@@ -250,7 +286,7 @@
           document-title
           table-title
           (mapcar (lambda (line)
-                    (generate-table-line line resolve-intervals-p))
+                    (generate-table-line line data resolve-intervals-p))
                   data)))
 
 
@@ -267,12 +303,39 @@
             (generate-tex-code document-title table-title data resolve-intervals))))
 
 (defun generate-tex ()
-  (write-tex-file "komplett.tex"
-                  "Komplettes Inventar"
-                  "S\\\"amtliche Tasten, Intervalle und Noten in allen Lesarten"
-                  *keys*)
-  (write-tex-file "kritisch.tex"
-                  "Kritisches Inventar"
-                  "S\\\"amtliche Tasten, Intervalle und Noten in kritischer Lesart"
-                  (distill-reading *keys* '(:obvious-correction :diplomatic))
-                  :resolve-intervals t))
+  (let ((critical-keys (distill-reading *keys* '(:obvious-correction :diplomatic))))
+    (write-tex-file "komplett.tex"
+                    "Komplettes Inventar"
+                    "Sämtliche Tasten, Intervalle und Noten in allen Lesarten"
+                    *keys*)
+    (write-tex-file "eingriffe.tex"
+                    "Inventar sämtlicher Probanden mit alternativen Lesarten"
+                    "Sämtliche Tasten, Intervalle und Noten, die nicht ausschliesslich eine Lesart haben."
+                    (remove-unique-items *keys*))
+    (write-tex-file "kritisch.tex"
+                    "Kritisches Inventar"
+                    "Sämtliche Tasten, Intervalle und Noten in kritischer Lesart"
+                    critical-keys
+                    :resolve-intervals t)
+    (write-tex-file "verkuerzungen.tex"
+                    "Inventar der shorthand-Notation"
+                    "Sämtliche Probanden mit dem :regular-shorthand-tag."
+                    (select critical-keys (where #'contains :tag-list :regular-shorthand)))
+    (write-tex-file "verkuerzungen-vergleich.tex"
+                    "Inventar aller Probanden, die shorthand-Notation kennen"
+                    "Sämtliche Tastennamen mit :note-name B♯, E♯, Ċ, Ḟ und Cʼ, sortiert nach :note-name und Vorhandensein von :regular-shorthand."
+                    (sort (unselect (select critical-keys (where #'member :note-name '(:B♯ :E♯ :Ċ :Ḟ :Cʼ)))
+                                    (where #'eq :item-type :note))
+                          (lambda (a b)
+                            (let ((name-a (symbol-name (car a)))
+                                  (name-b (symbol-name (car b)))
+                                  (tag-a (symbol-name (cdr a)))
+                                  (tag-b (symbol-name (cdr b))))
+                              (if (string= name-a name-b)
+                                  (string< tag-a tag-b)
+                                  (string< name-a name-b))))
+                          :key (lambda (item)
+                                 (cons (getf item :note-name)
+                                       (if (member :regular-shorthand (getf item :tag-list))
+                                           :b
+                                           :a)))))))

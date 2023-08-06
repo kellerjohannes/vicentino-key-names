@@ -1,8 +1,5 @@
 (in-package :key-names)
 
-(defparameter *flag-hierarchy*
-  '(:diplomatic 1 :obvious 2 :probable 3 :extended 4 :experimental 5))
-
 (defvar *keys* nil)
 (defvar *chapter-index* nil)
 
@@ -28,14 +25,18 @@
 (defmacro where (test &rest fields)
   `(lambda (item) (and ,@(make-comparison-list fields test))))
 
-(defun select (selector-fn)
-  (remove-if-not selector-fn *keys*))
+(defun select (data selector-fn)
+  (remove-if-not selector-fn data))
 
-(defmacro pick (&rest fields)
-  `(first (select (where ,@fields))))
+(defun unselect (data selector-fn)
+  (remove-if selector-fn data))
+
+(defmacro pick (data &rest fields)
+  `(first (select ,data (where #'equal ,@fields))))
 
 (defun sort-by-id (data)
   (sort (copy-list data) #'< :key (lambda (item) (getf item :id))))
+
 
 
 ;; proofreading functions
@@ -43,27 +44,32 @@
 (defun collect-values (field)
   (loop for item in *keys* collect (getf item field)))
 
+(defun collect-values-1 (data field)
+  (loop for item in data collect (getf item field)))
+
 (defun condense (field)
   (sort (remove nil (remove-duplicates (alexandria:flatten (collect-values field))))
         (lambda (a b)
           (string< (symbol-name a) (symbol-name b)))))
 
+(defun condense-1 (data field)
+  (sort (remove nil (remove-duplicates (alexandria:flatten (collect-values-1 data field))))
+        (lambda (a b)
+          (string< (symbol-name a) (symbol-name b)))))
+
 (defun extract-mappings ()
-  (sort (remove-duplicates (remove nil
-                                   (loop for item in *keys* collect (when (eq (getf item :item-type) :key)
-                                                                      (list (getf item :note-name)
-                                                                            (getf item :root-letter)
-                                                                            (getf item :ordine)))))
-                           :test #'equal)
+  (sort (remove-duplicates
+         (remove nil (loop for item in *keys* collect (when (eq (getf item :item-type) :key)
+                                                        (list (getf item :note-name)
+                                                              (getf item :root-letter)
+                                                              (getf item :ordine)))))
+         :test #'equal)
         (lambda (a b)
           (string< (symbol-name a) (symbol-name b)))
         :key #'second))
 
 
 ;; list generating functions
-
-;; (defun filter-reading (tag-list)
-;;   (select (where #'intersection :tag-list tag-list)))
 
 (defun create-list-of-unique-ids (data)
   (remove-duplicates (mapcar (lambda (item) (getf item :id)) data)))
@@ -72,12 +78,16 @@
   (remove nil (mapcar (lambda (id)
                         (block loops
                           (dolist (tag tags)
-                            (dolist (candidate (select (where #'equal :id id)))
+                            (dolist (candidate (select data (where #'eq :id id)))
                               (when (member tag (getf candidate :tag-list))
                                 (return-from loops candidate))))))
                       (create-list-of-unique-ids data))))
 
-
+(defun remove-unique-items (data)
+  (remove-if (lambda (item)
+               (let ((current-id (getf item :id)))
+                 (= 1 (length (select data (where #'eq :id current-id))))))
+             data))
 
 ;; possibly obsolete
 
