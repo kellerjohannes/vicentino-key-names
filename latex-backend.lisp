@@ -54,77 +54,19 @@
       (setf result (replace-formatting result (car candidate) (cdr candidate))))))
 
 
-(defparameter *shorthand-dict*
-  '((:a 1 :a nil nil :A "A")
-    (:a 2 :g :sharp nil :G♯ "\\nsharp{G}")
-    (:a 3 :a :flat nil :A♭ "\\nflat{A}")
-    (:a 4 :a nil :dot :Ȧ "\\ndot{A}")
-    (:a 5 :a :flat :dot :Ȧ♭ "\\nflatdot{A}")
-    (:a 6 :a nil :comma :A’ "\\ncomma{A}")
-    (:b 1 :b nil nil :B♮ "\\nnatural{B}")
-    (:b 2 :b :flat nil :B♭ "\\nflat{B}")
-    (:b 3 :a :sharp nil :A♯ "\\nsharp{A}")
-    (:b 4 :b nil :dot :Ḃ♮ "\\nnaturaldot{B}")
-    (:b 5 :b :flat :dot :Ḃ♭ "\\nflatdot{B}")
-    (:b 6 :b nil :comma :B♮’ "\\nnaturalcomma{B}")
-    (:c 1 :c nil nil :C "C")
-    (:c 3 :b :sharp nil :B♯ "\\nsharp{B}")
-    (:c 4 :c nil :dot :Ċ "\\ndot{C}")
-    (:c 6 :c nil :comma :C’ "\\ncomma{C}")
-    (:d 1 :d nil nil :D "D")
-    (:d 2 :c :sharp nil :C♯ "\\nsharp{C}")
-    (:d 3 :d :flat nil :D♭ "\\nflat{D}")
-    (:d 4 :d nil :dot :Ḋ "\\ndot{D}")
-    (:d 5 :d :flat :dot :Ḋ♭ "\\nflatdot{D}")
-    (:d 6 :d nil :comma :D’ "\\ncomma{D}")
-    (:e 1 :e nil nil :E "E")
-    (:e 2 :e :flat nil :E♭ "\\nflat{E}")
-    (:e 3 :d :sharp nil :D♯ "\\nsharp{D}")
-    (:e 4 :e nil :dot :Ė "\\ndot{E}")
-    (:e 5 :e :flat :dot :Ė♭ "\\nflatdot{E}")
-    (:e 6 :e nil :comma :E’ "\\ncomma{E}")
-    (:f 1 :f nil nil :F "F")
-    (:f 3 :e :sharp nil :E♯ "\\nsharp{E}")
-    (:f 4 :f nil :dot :Ḟ "\\ndot{F}")
-    (:f 6 :f nil :comma :F’ "\\ncomma{F}")
-    (:g 1 :g nil nil :G "G")
-    (:g 2 :f :sharp nil :F♯ "\\nsharp{F}")
-    (:g 3 :g :flat nil :G♭ "\\nflat{G}")
-    (:g 4 :g nil :dot :Ġ "\\ndot{G}")
-    (:g 5 :g :flat :dot :Ġ♭ "\\nflatdot{G}")
-    (:g 6 :g nil :comma :G’ "\\ncomma{G}")))
-
-(defun shorthand (root ordine &optional (tex-string nil))
-  (funcall (if tex-string #'seventh #'sixth)
-           (find (list root ordine) *shorthand-dict*
-                 :key (lambda (entry) (list (first entry) (second entry)))
-                 :test #'equal)))
-
-(defun root-ordine (shorthand)
-  (let ((result (find shorthand *shorthand-dict* :key #'sixth)))
-    (values (first result) (second result))))
-
-(defun alterations->shorthand (root chromatic-alteration enharmonic-alteration &optional (tex-string nil))
-  (funcall (if tex-string #'seventh #'sixth)
-           (find (list root chromatic-alteration enharmonic-alteration) *shorthand-dict*
-                 :key (lambda (entry) (list (third entry) (fourth entry) (fifth entry)))
-                 :test #'equal)))
-
-(defun alteration-list->shorthand (lst)
-  (alterations->shorthand (first lst) (second lst) (third lst)))
-
-
 (defun lookup-location (id)
   (dolist (chapter *chapter-index*)
     (when (and (<= id (getf chapter :last-id))
                (>= id (getf chapter :first-id)))
       (return (cons (getf chapter :book) (getf chapter :chapter))))))
 
+;; Only to be used in TeX generating contexts.
 (defmacro access (field)
   `(if (getf item ,field)
        (getf item ,field)
        "--"))
 
+;; Only to be used in TeX generating contexts.
 (defmacro type-select (expr-key expr-interval expr-note)
   `(case (getf item :item-type)
      (:key ,expr-key)
@@ -142,25 +84,25 @@
   (cdr (assoc type-kwd *item-type-symbols*)))
 
 (defparameter *dict-tags*
-  '((:AVOID-EXOTIC . "$\\neg$ex")
-    (:AVOID-INVERSE-PROPINQUA . "$\\neg$ip")
-    (:DIPLOMATIC . "d")
-    (:EXOTIC . "ex")
-    (:EXTENDED-KEY . "extd")
-    (:INVERSE-PROPINQUA . "ip")
-    (:INVERSE-PROPINQUISSIMA . "ipp")
-    (:OBVIOUS-CORRECTION . "ob")
-    (:OMITTED-TEXT . "om")
-    (:PROPINQUA-PROPINQUISSIMA . "p-pp")
-    (:QUINTENSCHAUKEL . "qs")
-    (:REGULAR-SHORTHAND . "sh")))
+  '((:avoid-exotic . "$\\neg$ex")
+    (:avoid-inverse-propinqua . "$\\neg$ip")
+    (:diplomatic . "d")
+    (:exotic . "ex")
+    (:extended-key . "extd")
+    (:inverse-propinqua . "ip")
+    (:inverse-propinquissima . "ipp")
+    (:obvious-correction . "ob")
+    (:omitted-text . "om")
+    (:propinqua-propinquissima . "p-pp")
+    (:quintenschaukel . "qs")
+    (:regular-shorthand . "sh")))
 
 (defun replace-tag (tag-kwd)
   (cdr (assoc tag-kwd *dict-tags*)))
 
 (defparameter *line-counter* 0)
 
-(defun generate-table-line (item data resolve-intervals-p)
+(defun generate-table-line (item background-data resolve-intervals-p)
   (let ((location (lookup-location (getf item :id))))
     (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
             (format nil "\\typesetLinecounter{~a}" (incf *line-counter*))
@@ -185,9 +127,9 @@
                              (let ((departure (getf item :departure))
                                    (destination (getf item :destination)))
                                (format nil "\\typesetInterval{~a}{~a}{~a}"
-                                       (getf (pick data :id departure) :note-name)
+                                       (getf (pick background-data :id departure) :note-name)
                                        (symbol-name (getf item :direction))
-                                       (getf (pick data :id destination) :note-name)))
+                                       (getf (pick background-data :id destination) :note-name)))
                              (format nil "\\typesetInterval{~a}{~a}{~a}"
                                      (getf item :departure)
                                      (symbol-name (getf item :direction))
@@ -196,70 +138,15 @@
             (format nil "~{\\texttt{~a} ~}" (mapcar #'replace-tag (access :tag-list)))
             (generate-latex-formatting (access :comment)))))
 
-(defun generate-tex-code (document-title table-title data resolve-intervals-p)
+(defun generate-list-tex-code (document-title table-title display-data background-data
+                               resolve-intervals-p)
   (setf *line-counter* 0)
-  (format nil "\\documentclass[10pt,landscape,DIV=17,a4paper]{scrartcl}
-\\usepackage[utf8]{inputenc}
-\\usepackage[T1]{fontenc}
-\\usepackage[ngerman]{babel}
-\\usepackage{graphicx}
-\\usepackage{longtable}
-\\usepackage{wrapfig}
-\\usepackage{tipa}
-\\usepackage{array}
-\\usepackage{amssymb}
-\\usepackage{mathtools}
-\\usepackage{booktabs}
-\\usepackage{soul}
-\\usepackage{titling}
-\\setcounter{secnumdepth}{0}
-\\author{Johannes Keller}
-\\date{\\today}
+  (concatenate 'string
+               +latex-header+
+               +latex-titelage+
+               (format nil "
 \\title{~a}
-\\subtitle{Berücksichtigt sämtliche Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38.}
 
-\\usepackage{newunicodechar}
-\\newunicodechar{♮}{$\\natural$}
-\\newunicodechar{♭}{$\\flat$}
-\\newunicodechar{♯}{$\\sharp$}
-\\newunicodechar{➚}{$\\nearrow$}
-\\newunicodechar{➘}{$\\searrow$}
-\\newunicodechar{Ȧ}{\\.A}
-\\newunicodechar{Ḃ}{\\.B}
-\\newunicodechar{Ċ}{\\.C}
-\\newunicodechar{Ḋ}{\\.D}
-\\newunicodechar{Ė}{\\.E}
-\\newunicodechar{Ḟ}{\\.F}
-\\newunicodechar{Ġ}{\\.G}
-\\newunicodechar{ʼ}{'}
-
-\\def\\nsharp#1{#1$\\sharp$}
-\\def\\nflat#1{#1$\\flat$}
-\\def\\nnatural#1{#1$\\natural$}
-\\def\\ndot#1{\\.{#1}}
-\\def\\nnaturaldot#1{\\.{#1}$\\natural$}
-\\def\\ncomma#1{\\'{#1}}
-\\def\\nnaturalcomma#1{\\'{#1}$\\natural$}
-\\def\\nflatdot#1{\\.{#1}$\\flat$}
-\\def\\nsharpdot#1{\\.{#1}$\\sharp$}
-
-
-%% This is used for a thighter box around key names
-\\setlength\\fboxsep{1.2pt}
-
-\\def\\typesetInterval#1#2#3{\\small{$\\lvert$#1#2#3$\\rvert$}}
-\\def\\typesetKey#1#2{\\fbox{\\footnotesize{\\textsc{#1#2}}}}
-\\def\\typesetLinecounter#1{\\tiny{\\textsc{#1}}}
-\\def\\typesetTag#1{\\texttt{#1}}
-
-\\renewcommand*{\\maketitle}{\\noindent%
-\\parbox{\\dimexpr\\linewidth-2\\fboxsep}{\\centering%
-\\fontsize{24}{28}\\selectfont\\sffamily\\bfseries\\thetitle\\\\[1ex]%
-\\fontsize{12}{14}\\selectfont\\centering\\today\\hspace{1cm}\\theauthor}}
-
-\\newcolumntype{C}[1]{>{\\centering\\arraybackslash}p{#1}}
-
-\\renewcommand{\\arraystretch}{1.3}
 
 \\begin{document}
 
@@ -272,22 +159,11 @@
 {\\large{~a}}
 
 \\vspace{2ex}
-
-{\\footnotesize{Legende:
-»\\texttt{d}« \\texttt{:diplomatic},
-»\\texttt{sh}« \\texttt{:regular-shorthand},
-»\\texttt{ob}« \\texttt{:obvious-correction},
-»\\texttt{om}« \\texttt{:omitted-text},
-»\\texttt{extd}« \\texttt{:extended-key},
-»\\texttt{qs}« \\texttt{:quintenschaukel},
-»\\texttt{ip}« \\texttt{:inverse-propinqua},
-»\\texttt{$\\neg$ip}« \\texttt{:avoid-inverse-propinqua},
-»\\texttt{ipp}« \\texttt{:inverse-propinquissima},
-»\\texttt{$\\neg$ipp}« \\texttt{:avoid-inverse-propinquissima},
-»\\texttt{ex}« \\texttt{:exotic},
-»\\texttt{$\\neg$ex}« \\texttt{:avoid-exotic},
-»\\texttt{p-pp}« \\texttt{:propinqua-propinquissima}.
-}}
+"
+                       document-title
+                       table-title)
+               +latex-legende+
+               (format nil "
 \\begin{longtable}{p{1.5mm}C{1.5mm}p{4.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1cm}p{11cm}}
 
 \\toprule
@@ -309,59 +185,20 @@
 \\end{longtable}
 \\end{center}
 \\end{document}"
-          document-title
-          table-title
-          (mapcar (lambda (line)
-                    (generate-table-line line data resolve-intervals-p))
-                  data)))
+                       (mapcar (lambda (line)
+                                 (generate-table-line line background-data resolve-intervals-p))
+                               display-data))))
 
-
-
-(defparameter *tex-output-path* "~/common-lisp/prototypes/vicentino-tools/key-names/tex-output/")
-
-(defun write-tex-file (filename document-title table-title data &key resolve-intervals)
+(defun write-list (filename document-title table-title display-data background-data
+                   &key resolve-intervals)
   (with-open-file (out (merge-pathnames *tex-output-path* filename)
                        :direction :output
                        :if-does-not-exist :create
                        :if-exists :supersede)
     (format out "%% Auto-generated file: ~a~&~a"
             (local-time:universal-to-timestamp (get-universal-time))
-            (generate-tex-code document-title table-title data resolve-intervals))))
-
-(defun generate-tex ()
-  (let ((critical-keys (distill-reading *keys* '(:obvious-correction :diplomatic))))
-    (write-tex-file "komplett.tex"
-                    "Komplettes Inventar"
-                    "Sämtliche Tasten, Intervalle und Noten in allen Lesarten"
-                    *keys*)
-    (write-tex-file "eingriffe.tex"
-                    "Inventar sämtlicher Probanden mit alternativen Lesarten"
-                    "Sämtliche Tasten, Intervalle und Noten, die nicht ausschliesslich eine Lesart haben."
-                    (remove-unique-items *keys*))
-    (write-tex-file "kritisch.tex"
-                    "Kritisches Inventar"
-                    "Sämtliche Tasten, Intervalle und Noten in kritischer Lesart (mit dem \\typesetTag{:diplomatic}-tag)."
-                    critical-keys
-                    :resolve-intervals t)
-    (write-tex-file "verkuerzungen.tex"
-                    "Inventar der \\typesetTag{shorthand-Notation}"
-                    "Sämtliche Probanden mit dem \\typesetTag{:regular-shorthand}-tag."
-                    (select critical-keys (where #'contains :tag-list :regular-shorthand)))
-    (write-tex-file "verkuerzungen-vergleich.tex"
-                    "Inventar aller Probanden, die \\typesetTag{shorthand}-Notation kennen"
-                    "Sämtliche Tastennamen mit \\typesetTag{:note-name} B♯, E♯, Ċ, Ḟ und Cʼ, sortiert nach \\typesetTag{:note-name} und Vorhandensein von \\typesetTag{:regular-shorthand}."
-                    (sort (unselect (select critical-keys
-                                            (where #'member :note-name '(:B♯ :E♯ :Ċ :Ḟ :Cʼ)))
-                                    (where #'eq :item-type :note))
-                          (lambda (a b)
-                            (let ((name-a (symbol-name (car a)))
-                                  (name-b (symbol-name (car b)))
-                                  (tag-a (symbol-name (cdr a)))
-                                  (tag-b (symbol-name (cdr b))))
-                              (if (string= name-a name-b)
-                                  (string< tag-a tag-b)
-                                  (string< name-a name-b))))
-                          :key (lambda (item)
-                                 (cons (getf item :note-name)
-                                       (if (member :regular-shorthand (getf item :tag-list))
-                                           :b :a)))))))
+            (generate-list-tex-code document-title
+                                    table-title
+                                    display-data
+                                    background-data
+                                    resolve-intervals))))

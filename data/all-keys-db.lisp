@@ -1054,7 +1054,7 @@ zu verstehen.")
   :interval-name "[ottava]"
   :interval-group-identity :ottava
   :departure 85
-  :destination 105
+  :destination 104
   :direction :➘
   :pdf-page nil
   :pdf-position nil
@@ -1844,7 +1844,7 @@ zu verstehen.")
   :interval-name "[terza maggiore]"
   :interval-group-identity :terza
   :departure 179
-  :destination 185
+  :destination 184
   :direction :➘
   :pdf-page nil
   :pdf-position nil
@@ -4764,7 +4764,7 @@ zu verstehen.")
   :interval-name "quinta perfetta"
   :interval-group-identity :quinta
   :departure 593
-  :destination 591
+  :destination 592
   :direction :➘
   :pdf-page 215
   :pdf-position (0.2679603633360859 . 0.7234920634920635)
@@ -14699,7 +14699,7 @@ zu verstehen.")
   :interval-name "[terza maggiore] propinqua"
   :interval-group-identity :terza
   :departure 1615
-  :destination 1622
+  :destination 1623
   :direction :➚
   :pdf-page 225
   :pdf-position (0.1935840707964602 . 0.6356292517006803)
@@ -22963,7 +22963,7 @@ zu verstehen.")
   :interval-name "[sesta minore] propinqua"
   :interval-group-identity :sesta
   :departure 2473
-  :destination 2488
+  :destination 2487
   :direction :➚
   :pdf-page 232
   :pdf-position (0.2073255010366275 . 0.4707757704569607)
@@ -25022,7 +25022,7 @@ zu verstehen.")
   :interval-name "[sesta maggiore propinqua]"
   :interval-group-identity :sesta
   :departure 2688
-  :destination 2706
+  :destination 2705
   :direction :➘
   :pdf-page nil
   :pdf-position nil
@@ -27051,7 +27051,7 @@ zu verstehen.")
   :interval-name "[ottava]"
   :interval-group-identity :ottava
   :departure 2974
-  :destination 3018
+  :destination 3017
   :direction :➚
   :pdf-page nil
   :pdf-position nil

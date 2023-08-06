@@ -15,12 +15,6 @@
 (defun contains (lst item)
   (member item lst))
 
-(defun make-comparison-expression (field value test)
-  `(funcall ,test (getf item ,field) ,value))
-
-(defun make-comparison-list (fields test)
-  (loop while fields
-        collecting (make-comparison-expression (pop fields) (pop fields) test)))
 
 (defmacro where (test &rest fields)
   `(lambda (item) (and ,@(make-comparison-list fields test))))
@@ -68,6 +62,12 @@
           (string< (symbol-name a) (symbol-name b)))
         :key #'second))
 
+(defun spot-redundant-ids (data)
+  (let ((conclusion nil))
+    (dolist (item data conclusion)
+      (let ((current-id (getf item :id)))
+        (when (> (length (select data (where #'eq :id current-id))) 1)
+          (push (getf item :id) conclusion))))))
 
 ;; list generating functions
 
@@ -88,73 +88,3 @@
                (let ((current-id (getf item :id)))
                  (= 1 (length (select data (where #'eq :id current-id))))))
              data))
-
-;; possibly obsolete
-
-(defun extract-note-name (entry &optional latex-shorthand)
-  (cond ((eq (getf entry :category) :note)
-         (alterations->shorthand (getf entry :root)
-                                 (getf entry :chromatic-alteration)
-                                 (getf entry :enharmonic-alteration)
-                                 latex-shorthand))
-        ((eq (getf entry :category) :key)
-         (shorthand (getf entry :root) (getf entry :ordine) latex-shorthand))
-        (t (format t "~&Category not known, no note name produced."))))
-
-(defun get-note-name-from (interval-entry &optional latex-string)
-  (extract-note-name (first (select (where :id (getf interval-entry :departure)))) latex-string))
-
-(defun get-note-name-to (interval-entry &optional latex-string)
-  (extract-note-name (first (select (where :id (getf interval-entry :destination)))) latex-string))
-
-(defun get-direction (interval-entry &optional latex-string)
-  (if latex-string
-      (if (eq (getf interval-entry :direction) :up) "\\nearrow" "\\searrow")
-      (if (eq (getf interval-entry :direction) :up) "➚" "➘")))
-
-(defun generate-interval-string (interval-entry)
-  (format nil "~a: ~a ~a ~a, »~a«"
-          (getf interval-entry :id)
-          (get-note-name-from interval-entry)
-          (get-direction interval-entry)
-          (get-note-name-to interval-entry)
-          (getf interval-entry :original-name)))
-
-(defun list-intervals ()
-  (format t "~&Listing of all intervals in database:~%~%~{~a~%~}"
-          (mapcar #'generate-interval-string (select (where :category :interval)))))
-
-
-
-
-
-(defparameter *tuning* *tuning-1*)
-
-(defun create-full-interval-string (interval-entry)
-  (let* ((name-from (get-note-name-from interval-entry))
-         (name-to (get-note-name-to interval-entry))
-         (direction (get-direction interval-entry))
-         (size (interval-size interval-entry)))
-    (format nil "#~a: ~a~a~a, ~a (~a SC, ~a ¢)"
-            (getf interval-entry :id)
-            name-from
-            direction
-            name-to
-            size
-            (ratio->length size :unit-interval 81/80)
-            (ratio->length size))))
-
-
-(defun interval-size (interval-entry)
-  (calculate-interval-size (get-note-name-from interval-entry)
-                           (get-note-name-to interval-entry)
-                           (getf interval-entry :direction)
-                           *tuning*))
-
-(defun list-intervals-size ()
-  (format t "~&Listing of all intervals sorted by size:~%~%~{~a~%~}"
-          (mapcar #'create-full-interval-string
-           (sort (distill-reading (select (where :category :interval))
-                                  (list :diplomatic))
-                 #'<
-                 :key #'interval-size))))
