@@ -193,7 +193,7 @@
                                      (symbol-name (getf item :direction))
                                      (getf item :destination)))
                          (access :note-name))
-            (format nil "~{\\sffamily{~a} ~}" (mapcar #'replace-tag (access :tag-list)))
+            (format nil "~{\\texttt{~a} ~}" (mapcar #'replace-tag (access :tag-list)))
             (generate-latex-formatting (access :comment)))))
 
 (defun generate-tex-code (document-title table-title data resolve-intervals-p)
@@ -211,12 +211,12 @@
 \\usepackage{mathtools}
 \\usepackage{booktabs}
 \\usepackage{soul}
+\\usepackage{titling}
 \\setcounter{secnumdepth}{0}
 \\author{Johannes Keller}
 \\date{\\today}
 \\title{~a}
 \\subtitle{Berücksichtigt sämtliche Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38.}
-
 
 \\usepackage{newunicodechar}
 \\newunicodechar{♮}{$\\natural$}
@@ -250,6 +250,12 @@
 \\def\\typesetInterval#1#2#3{\\small{$\\lvert$#1#2#3$\\rvert$}}
 \\def\\typesetKey#1#2{\\fbox{\\footnotesize{\\textsc{#1#2}}}}
 \\def\\typesetLinecounter#1{\\tiny{\\textsc{#1}}}
+\\def\\typesetTag#1{\\texttt{#1}}
+
+\\renewcommand*{\\maketitle}{\\noindent%
+\\parbox{\\dimexpr\\linewidth-2\\fboxsep}{\\centering%
+\\fontsize{24}{28}\\selectfont\\sffamily\\bfseries\\thetitle\\\\[1ex]%
+\\fontsize{12}{14}\\selectfont\\centering\\today\\hspace{1cm}\\theauthor}}
 
 \\newcolumntype{C}[1]{>{\\centering\\arraybackslash}p{#1}}
 
@@ -260,8 +266,28 @@
 \\maketitle
 
 \\begin{center}
+
+\\vspace{3ex}
+
 {\\large{~a}}
 
+\\vspace{2ex}
+
+{\\footnotesize{Legende:
+»\\texttt{d}« \\texttt{:diplomatic},
+»\\texttt{sh}« \\texttt{:regular-shorthand},
+»\\texttt{ob}« \\texttt{:obvious-correction},
+»\\texttt{om}« \\texttt{:omitted-text},
+»\\texttt{extd}« \\texttt{:extended-key},
+»\\texttt{qs}« \\texttt{:quintenschaukel},
+»\\texttt{ip}« \\texttt{:inverse-propinqua},
+»\\texttt{$\\neg$ip}« \\texttt{:avoid-inverse-propinqua},
+»\\texttt{ipp}« \\texttt{:inverse-propinquissima},
+»\\texttt{$\\neg$ipp}« \\texttt{:avoid-inverse-propinquissima},
+»\\texttt{ex}« \\texttt{:exotic},
+»\\texttt{$\\neg$ex}« \\texttt{:avoid-exotic},
+»\\texttt{p-pp}« \\texttt{:propinqua-propinquissima}.
+}}
 \\begin{longtable}{p{1.5mm}C{1.5mm}p{4.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1cm}p{11cm}}
 
 \\toprule
@@ -314,17 +340,18 @@
                     (remove-unique-items *keys*))
     (write-tex-file "kritisch.tex"
                     "Kritisches Inventar"
-                    "Sämtliche Tasten, Intervalle und Noten in kritischer Lesart"
+                    "Sämtliche Tasten, Intervalle und Noten in kritischer Lesart (mit dem \\typesetTag{:diplomatic}-tag)."
                     critical-keys
                     :resolve-intervals t)
     (write-tex-file "verkuerzungen.tex"
-                    "Inventar der shorthand-Notation"
-                    "Sämtliche Probanden mit dem :regular-shorthand-tag."
+                    "Inventar der \\typesetTag{shorthand-Notation}"
+                    "Sämtliche Probanden mit dem \\typesetTag{:regular-shorthand}-tag."
                     (select critical-keys (where #'contains :tag-list :regular-shorthand)))
     (write-tex-file "verkuerzungen-vergleich.tex"
-                    "Inventar aller Probanden, die shorthand-Notation kennen"
-                    "Sämtliche Tastennamen mit :note-name B♯, E♯, Ċ, Ḟ und Cʼ, sortiert nach :note-name und Vorhandensein von :regular-shorthand."
-                    (sort (unselect (select critical-keys (where #'member :note-name '(:B♯ :E♯ :Ċ :Ḟ :Cʼ)))
+                    "Inventar aller Probanden, die \\typesetTag{shorthand}-Notation kennen"
+                    "Sämtliche Tastennamen mit \\typesetTag{:note-name} B♯, E♯, Ċ, Ḟ und Cʼ, sortiert nach \\typesetTag{:note-name} und Vorhandensein von \\typesetTag{:regular-shorthand}."
+                    (sort (unselect (select critical-keys
+                                            (where #'member :note-name '(:B♯ :E♯ :Ċ :Ḟ :Cʼ)))
                                     (where #'eq :item-type :note))
                           (lambda (a b)
                             (let ((name-a (symbol-name (car a)))
@@ -337,5 +364,4 @@
                           :key (lambda (item)
                                  (cons (getf item :note-name)
                                        (if (member :regular-shorthand (getf item :tag-list))
-                                           :b
-                                           :a)))))))
+                                           :b :a)))))))

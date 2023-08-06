@@ -15,6 +15,7 @@
 - :AVOID-INVERSE-PROPINQUA :: Korrektur zur Vermeidung der :INVERSE-PROPINQUA.
 - :INVERSE-PROPINQUISSIMA :: Intervall, das um ein /comma/
   verkleinert ist. In Kombination mit :DIPLOMATIC.
+- :AVOID-INVERSE-PROPINQUISSIMA :: Korrektur zur Vermeidung der :INVERSE-PROPINQUISSIMA.
 - :EXOTIC :: Generell bemerkenswerte Stelle, die in irgendeiner Form
   unregelmässig scheint. In Kombination mit :DIPLOMATIC.
 - :AVOID-EXOTIC :: Korrektur

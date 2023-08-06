@@ -11015,16 +11015,26 @@ zu verstehen.")
   :pdf-position (0.36281962681409813 . 0.7279489904357067)
   :tag-list (:diplomatic)
   :comment "")
+(:id 1234
+  :item-type :key
+  :key-name "Ffaut terzo acuto"
+  :note-name :Ḟ
+  :root-letter :F
+  :ordine 4
+  :pdf-page 221
+  :pdf-position (0.3719486967314853 . 0.21946564885496184)
+  :tag-list (:diplomatic :exotic)
+  :comment "Hier handelt es sich um eine unregelmässige Verkürzung, denn der Kontext lässt eindeutig auf ein E♯ (»Ffaut secondo in terzo ordine«) schliessen.")
  (:id 1234
   :item-type :key
-  :key-name "Ffaut terzo acuto [Ffaut secondo nel terzo ordine]"
+  :key-name "Ffaut secondo nel terzo ordine"
   :note-name :E♯
   :root-letter :F
   :ordine 3
   :pdf-page 221
   :pdf-position (0.3719486967314853 . 0.21946564885496184)
-  :tag-list (:diplomatic :regular-shorthand)
-  :comment "")
+  :tag-list (:obvious-correction)
+  :comment "Original: »Ffaut terzo acuto«.")
  (:id 1235
   :item-type :key
   :key-name "Ffaut secondo grave [Ffaut secondo nel terzo ordine]"
