@@ -1,32 +1,34 @@
 (in-package :key-names)
 
-(defvar +latex-titelage+
+(defparameter +latex-titelage+
 "
 \\author{Johannes Keller}
 \\date{\\today}
 \\subtitle{Berücksichtigt sämtliche Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38.}
 ")
 
-(defvar +latex-legende+
+(defparameter +latex-legende+
 "
 {\\footnotesize{Legende:
-»\\texttt{d}« \\texttt{:diplomatic},
-»\\texttt{sh}« \\texttt{:regular-shorthand},
-»\\texttt{ob}« \\texttt{:obvious-correction},
-»\\texttt{om}« \\texttt{:omitted-text},
-»\\texttt{extd}« \\texttt{:extended-key},
-»\\texttt{qs}« \\texttt{:quintenschaukel},
-»\\texttt{ip}« \\texttt{:inverse-propinqua},
-»\\texttt{$\\neg$ip}« \\texttt{:avoid-inverse-propinqua},
-»\\texttt{ipp}« \\texttt{:inverse-propinquissima},
-»\\texttt{$\\neg$ipp}« \\texttt{:avoid-inverse-propinquissima},
-»\\texttt{ex}« \\texttt{:exotic},
-»\\texttt{$\\neg$ex}« \\texttt{:avoid-exotic},
-»\\texttt{p-pp}« \\texttt{:propinqua-propinquissima}.
+»\\texttt{D}«~\\texttt{:diplomatic},
+»\\texttt{sh}«~\\texttt{:regular-shorthand},
+»\\texttt{C}«~\\texttt{:obvious-correction},
+»\\texttt{om}«~\\texttt{:omitted-text},
+»\\texttt{extd}«~\\texttt{:extended-key},
+»\\texttt{qs}«~\\texttt{:quintenschaukel},
+»\\texttt{p}«~\\texttt{:propinqua},
+»\\texttt{ip}«~\\texttt{:inverse-propinqua},
+»\\texttt{$\\neg$ip}«~\\texttt{:avoid-inverse-propinqua},
+»\\texttt{p}«~\\texttt{:propinquissima},
+»\\texttt{ipp}«~\\texttt{:inverse-propinquissima},
+»\\texttt{$\\neg$ipp}«~\\texttt{:avoid-inverse-propinquissima},
+»\\texttt{ex}«~\\texttt{:exotic},
+»\\texttt{$\\neg$ex}«~\\texttt{:avoid-exotic},
+»\\texttt{{\\small\\fbox{7}}}«~\\texttt{:septimal}.
 }}
 ")
 
-(defvar +latex-header+
+(defparameter +latex-header+
 "\\documentclass[10pt,landscape,DIV=17,a4paper]{scrartcl}
 \\usepackage[utf8]{inputenc}
 \\usepackage[T1]{fontenc}
@@ -38,6 +40,7 @@
 \\usepackage{array}
 \\usepackage{amssymb}
 \\usepackage{mathtools}
+\\usepackage{wasysym}
 \\usepackage{booktabs}
 \\usepackage{soul}
 \\usepackage{titling}

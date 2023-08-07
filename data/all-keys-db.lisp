@@ -186,7 +186,7 @@
   :direction :➘
   :pdf-page 209
   :pdf-position (0.5847121111846459 . 0.8170483460559796)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :inverse-propinqua :septimal)
   :comment "")
  (:id 19
   :item-type :key
@@ -196,8 +196,8 @@
   :ordine 3
   :pdf-page 209
   :pdf-position 0.5940265486725664
-  :tag-list (:diplomatic :inverse-propinqua)
-  :comment "Führt zu einer inversen /propinqua/.")
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 19
   :item-type :key
   :key-name "Ffaut terzo in quarto ordine"
@@ -217,7 +217,7 @@
   :direction :➘
   :pdf-page 209
   :pdf-position (0.7693580410324289 . 0.5249363867684478)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 21
   :item-type :key
@@ -248,7 +248,7 @@
   :direction :➘
   :pdf-page 209
   :pdf-position (0.7908669755129053 . 0.46081424936386767)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 24
   :item-type :key
@@ -393,7 +393,7 @@
   :direction :➘
   :pdf-page 210
   :pdf-position (0.14361350099272005 . 0.738676844783715)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 37
   :item-type :key
@@ -619,7 +619,7 @@ secondo/ (/nel terzo ordine/).
   :direction :➚
   :pdf-page 210
   :pdf-position (0.4923891462607545 . 0.4964376590330789)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 59
   :item-type :key
@@ -661,7 +661,7 @@ secondo/ (/nel terzo ordine/).
   :direction :➚
   :pdf-page 210
   :pdf-position (0.5129053606882858 . 0.6246819338422391)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 63
   :item-type :key
@@ -756,7 +756,7 @@ secondo/ (/nel terzo ordine/).
   :direction :➚
   :pdf-page 210
   :pdf-position (0.6154864328259431 . 0.3539440203562341)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 72
   :item-type :key
@@ -808,7 +808,7 @@ secondo/ (/nel terzo ordine/).
   :direction :➚
   :pdf-page 210
   :pdf-position (0.6360026472534746 . 0.6816793893129771)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 77
   :item-type :key
@@ -930,7 +930,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 90
   :item-type :note
@@ -962,7 +962,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 94
   :item-type :note
@@ -1010,7 +1010,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 100
   :item-type :note
@@ -1042,7 +1042,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 104
   :item-type :note
@@ -1090,7 +1090,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 110
   :item-type :note
@@ -1122,7 +1122,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 114
   :item-type :note
@@ -1170,7 +1170,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 120
   :item-type :note
@@ -1202,7 +1202,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 124
   :item-type :note
@@ -1274,7 +1274,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 211
   :pdf-position (0.4712491738268341 . 0.6229674796747967)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 131
   :item-type :key
@@ -1316,7 +1316,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 211
   :pdf-position (0.48645076007931265 . 0.5782520325203252)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 135
   :item-type :key
@@ -1410,7 +1410,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 211
   :pdf-position (0.8288169200264376 . 0.9080284552845528)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 143
   :item-type :key
@@ -1452,7 +1452,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 211
   :pdf-position (0.8440185062789161 . 0.8744918699186991)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 147
   :item-type :key
@@ -1535,7 +1535,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 212
   :pdf-position (0.16721744877726372 . 0.8074186991869918)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 155
   :item-type :key
@@ -1578,7 +1578,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 212
   :pdf-position (0.18241903502974224 . 0.9359756097560975)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 159
   :item-type :key
@@ -1672,7 +1672,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 212
   :pdf-position (0.23562458691341706 . 0.5894308943089431)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 167
   :item-type :key
@@ -1714,7 +1714,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 212
   :pdf-position (0.25082617316589556 . 0.5614837398373984)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 171
   :item-type :key
@@ -1832,7 +1832,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 184
   :item-type :note
@@ -1864,7 +1864,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 188
   :item-type :note
@@ -1912,7 +1912,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 194
   :item-type :note
@@ -1949,7 +1949,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 198
   :item-type :note
@@ -1997,7 +1997,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 204
   :item-type :note
@@ -2029,7 +2029,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 208
   :item-type :note
@@ -2077,7 +2077,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 214
   :item-type :note
@@ -2109,7 +2109,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 218
   :item-type :note
@@ -2181,7 +2181,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 212
   :pdf-position (0.7984137475214805 . 0.7459349593495934)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 225
   :item-type :key
@@ -2223,7 +2223,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 212
   :pdf-position (0.8212161269001983 . 0.9080284552845528)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 229
   :item-type :key
@@ -2286,7 +2286,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 213
   :pdf-position (0.11434236615994713 . 0.4329268292682927)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 235
   :item-type :key
@@ -2328,7 +2328,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 213
   :pdf-position (0.12954395241242564 . 0.5335365853658537)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 239
   :item-type :key
@@ -2401,7 +2401,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 213
   :pdf-position (0.16754791804362193 . 0.5279471544715447)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 246
   :item-type :key
@@ -2443,7 +2443,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 213
   :pdf-position (0.19035029742233972 . 0.6620934959349594)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 250
   :item-type :key
@@ -2527,7 +2527,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 213
   :pdf-position (0.22075346992729675 . 0.7123983739837398)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 257
   :item-type :key
@@ -2569,7 +2569,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 213
   :pdf-position (0.23595505617977527 . 0.695630081300813)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 261
   :item-type :key
@@ -2677,7 +2677,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 273
   :item-type :note
@@ -2709,7 +2709,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 277
   :item-type :note
@@ -2757,7 +2757,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 283
   :item-type :note
@@ -2789,7 +2789,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 287
   :item-type :note
@@ -2853,7 +2853,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 293
   :item-type :note
@@ -2885,7 +2885,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 297
   :item-type :note
@@ -2933,7 +2933,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 303
   :item-type :note
@@ -2965,7 +2965,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 307
   :item-type :note
@@ -3053,7 +3053,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 213
   :pdf-position (0.7528089887640449 . 0.36585365853658536)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 314
   :item-type :key
@@ -3095,7 +3095,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 213
   :pdf-position (0.7680105750165235 . 0.3323170731707317)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 318
   :item-type :key
@@ -3158,7 +3158,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 213
   :pdf-position (0.783212161269002 . 0.4720528455284553)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 324
   :item-type :key
@@ -3200,7 +3200,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 213
   :pdf-position (0.8060145406477197 . 0.3490853658536585)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 328
   :item-type :key
@@ -3273,7 +3273,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 213
   :pdf-position (0.8212161269001983 . 0.7403455284552845)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 335
   :item-type :key
@@ -3315,7 +3315,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 213
   :pdf-position (0.8364177131526768 . 0.7068089430894309)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 339
   :item-type :key
@@ -3378,7 +3378,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 214
   :pdf-position (0.12194315928618638 . 0.36585365853658536)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 345
   :item-type :key
@@ -3431,7 +3431,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 214
   :pdf-position (0.14474553866490414 . 0.3434959349593496)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 349
   :item-type :key
@@ -3524,7 +3524,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 459
   :item-type :note
@@ -3556,7 +3556,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 463
   :item-type :note
@@ -3604,7 +3604,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 469
   :item-type :note
@@ -3636,7 +3636,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 473
   :item-type :note
@@ -3684,7 +3684,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 479
   :item-type :note
@@ -3716,7 +3716,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 483
   :item-type :note
@@ -3764,7 +3764,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 489
   :item-type :note
@@ -3796,7 +3796,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 493
   :item-type :note
@@ -3868,7 +3868,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 214
   :pdf-position (0.4411764705882353 . 0.5335365853658537)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 500
   :item-type :key
@@ -3910,7 +3910,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 214
   :pdf-position (0.46397884996695304 . 0.7738821138211381)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 504
   :item-type :key
@@ -3973,7 +3973,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 214
   :pdf-position (0.4943820224719101 . 0.5279471544715447)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 510
   :item-type :key
@@ -4015,7 +4015,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 214
   :pdf-position (0.5171844018506279 . 0.595020325203252)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 514
   :item-type :key
@@ -4098,7 +4098,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 214
   :pdf-position (0.5466556564822461 . 0.8422222222222222)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 522
   :item-type :key
@@ -4140,7 +4140,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 214
   :pdf-position (0.5672997522708506 . 0.8212698412698413)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 526
   :item-type :key
@@ -4213,7 +4213,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 214
   :pdf-position (0.5982658959537572 . 0.4580952380952381)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 532
   :item-type :key
@@ -4255,7 +4255,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 214
   :pdf-position (0.6189099917423617 . 0.4022222222222222)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 536
   :item-type :key
@@ -4353,7 +4353,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 546
   :item-type :note
@@ -4390,7 +4390,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 550
   :item-type :note
@@ -4438,7 +4438,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 556
   :item-type :note
@@ -4480,7 +4480,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 560
   :item-type :note
@@ -4528,7 +4528,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 566
   :item-type :note
@@ -4565,7 +4565,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 570
   :item-type :note
@@ -4613,7 +4613,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 576
   :item-type :note
@@ -4645,7 +4645,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 580
   :item-type :note
@@ -4799,7 +4799,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 215
   :pdf-position (0.28860445912469035 . 0.5838095238095238)
-  :tag-list (:diplomatic :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "Das sollte konsequenterweise /sesta più di minore/ genannt werden, wie es auch im Notenbeispiel der Fall ist, siehe (#632). Es ist eine /sesta minore/ vergrössert um eine /diesis/ und ein /comma/, was in Konflikt steht mit dem Statement »tutte le terza, & tutte le seste saranno di una medesima proportione, cioè, che havranno uno comma di più di quelle, che si usano nell'acordo communo«.")
  (:id 595
   :item-type :key
@@ -4840,8 +4840,19 @@ zu verstehen.")
   :direction :➚
   :pdf-page 215
   :pdf-position (0.3711808422791082 . 0.2834920634920635)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
   :comment "")
+ (:id 598
+  :item-type :interval
+  :interval-name "terza [più di] minore"
+  :interval-group-identity :terza
+  :departure 597
+  :destination 599
+  :direction :➚
+  :pdf-page 215
+  :pdf-position (0.3711808422791082 . 0.2834920634920635)
+  :tag-list (:obvious-correction :inverse-propinquissima :propinqua)
+  :comment "Dieses Intervall ist eindeutig grösser als »terza minore«, deshalb wurde hier gemäss dem Notenbeispiel der Intervallname angepasst.")
  (:id 599
   :item-type :key
   :key-name "Csolfaut quarto [Csolfaut terzo in quarto ordine]"
@@ -4902,7 +4913,7 @@ zu verstehen.")
   :ordine 2
   :pdf-page 215
   :pdf-position 0.49778761061946897
-  :tag-list (:diplomatic :inverse-propinqua)
+  :tag-list (:diplomatic :inverse-propinquissima)
   :comment "Das Intervall /Alamire sesto/ zu /Dsolre secondo/ ist eine /terza maggiore/, die um ein /comma/ verkleinert ist. Da es in diesem Kapitel um um ein /comma/ vergrösserte Intervalle geht, ist es plausibel, an Stelle von /Dsolre secondo/ hier /Dsolre terzo/ zu idealisieren.")
  (:id 604
   :item-type :key
@@ -5131,8 +5142,8 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
-  :comment "")
+  :tag-list (:diplomatic :propinqua :exotic)
+  :comment "Seltene Verwendung von »più di«.")
  (:id 627
   :item-type :note
   :note-name :F
@@ -5179,7 +5190,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "Das ist eine Sexte, die grösser als /sesta minore/ ist um eine /diesis/ und ein /comma/ (wie gross die auch immer sind).")
  (:id 633
   :item-type :note
@@ -5227,8 +5238,8 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
-  :comment "")
+  :tag-list (:diplomatic :propinqua :exotic)
+  :comment "Seltene Verwendung von »più di«.")
  (:id 639
   :item-type :note
   :note-name :Ḋ♭
@@ -5373,7 +5384,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.2369942196531792 . 0.6676190476190477)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :inverse-propinqua :septimal)
   :comment "")
  (:id 654
   :item-type :key
@@ -5383,7 +5394,7 @@ zu verstehen.")
   :ordine 4
   :pdf-page 216
   :pdf-position 0.23230088495575218
-  :tag-list (:diplomatic :inverse-propinqua)
+  :tag-list (:diplomatic)
   :comment "")
  (:id 654
   :item-type :key
@@ -5425,8 +5436,8 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.24731626754748143 . 0.5838095238095238)
-  :tag-list (:diplomatic)
-  :comment "")
+  :tag-list (:diplomatic :inverse-propinqua :exotic)
+  :comment "Seltene Verwendung einer inversen /propinqua/ für eine /terza maggiore/.")
  (:id 658
   :item-type :key
   :key-name "Elami quinto"
@@ -5435,7 +5446,7 @@ zu verstehen.")
   :ordine 5
   :pdf-page 216
   :pdf-position 0.25442477876106195
-  :tag-list (:diplomatic :inverse-propinqua)
+  :tag-list (:diplomatic)
   :comment "")
  (:id 658
   :item-type :key
@@ -5519,7 +5530,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.28860445912469035 . 0.4720634920634921)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 676
   :item-type :key
@@ -5561,7 +5572,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.2989265070189926 . 0.38825396825396824)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 680
   :item-type :key
@@ -5634,7 +5645,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 216
   :pdf-position (0.3402146985962015 . 0.7025396825396826)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 687
   :item-type :key
@@ -5676,7 +5687,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 216
   :pdf-position (0.36085879438480595 . 0.7444444444444445)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 691
   :item-type :key
@@ -5780,7 +5791,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 216
   :pdf-position (0.4124690338563171 . 0.6117460317460317)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 700
   :item-type :key
@@ -5832,7 +5843,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 216
   :pdf-position (0.42279108175061936 . 0.5)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 704
   :item-type :key
@@ -5940,7 +5951,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 715
   :item-type :note
@@ -5977,7 +5988,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 719
   :item-type :note
@@ -6030,7 +6041,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 725
   :item-type :note
@@ -6067,7 +6078,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 729
   :item-type :note
@@ -6115,7 +6126,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 735
   :item-type :note
@@ -6147,7 +6158,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 739
   :item-type :note
@@ -6195,7 +6206,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 745
   :item-type :note
@@ -6232,7 +6243,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 749
   :item-type :note
@@ -6304,7 +6315,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.8071990070335127 . 0.7067430025445293)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 756
   :item-type :key
@@ -6356,7 +6367,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.8183698800165495 . 0.7563613231552162)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 760
   :item-type :key
@@ -6419,7 +6430,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 216
   :pdf-position (0.85188249896566 . 0.3924936386768448)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 766
   :item-type :key
@@ -6554,7 +6565,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.13694662805130328 . 0.4669211195928753)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 778
   :item-type :key
@@ -6609,14 +6620,14 @@ zu verstehen.")
   :comment "Original: B♮.")
  (:id 780.1
   :item-type :interval
-  :interval-name "[terza maggiore propinqua"
+  :interval-name "terza maggiore propinqua"
   :interval-group-identity :terza
-  :departure 780
+  :departure 774
   :destination 780.2
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:omitted-text)
+  :tag-list (:omitted-text :propinqua)
   :comment "Dieses Intervall wird an dieser Stelle ergänzt, weil es normalerweise hier erwähnt wird und im Notenbeispiel vorkommt.")
  (:id 780.2
   :item-type :key
@@ -6637,7 +6648,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.15928837401737692 . 0.4173027989821883)
-  :tag-list (:diplomatic :exotic)
+  :tag-list (:diplomatic :exotic :propinquissima)
   :comment "")
  (:id 782
   :item-type :key
@@ -6703,14 +6714,14 @@ zu verstehen.")
   :comment "")
  (:id 786.1
   :item-type :interval
-  :interval-name "[sesta minore propinqua"
+  :interval-name "sesta minore propinqua"
   :interval-group-identity :sesta
   :departure 774
   :destination 786.2
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:omitted-text)
+  :tag-list (:omitted-text :propinqua)
   :comment "Dieses Intervall wird an dieser Stelle ergänzt, da es im Notenbeispiel vorkommt, und es in der Sukzession von Intervallen zu erwarten ist.")
  (:id 786.2
   :item-type :key
@@ -6731,7 +6742,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.17045924700041373 . 0.7563613231552162)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 788
   :item-type :key
@@ -6773,7 +6784,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.1928009929664874 . 0.6240458015267175)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 792
   :item-type :key
@@ -6861,7 +6872,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 801
   :item-type :note
@@ -6893,7 +6904,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 805
   :item-type :note
@@ -6941,7 +6952,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 811
   :item-type :note
@@ -6973,7 +6984,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 815
   :item-type :note
@@ -7021,7 +7032,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 821
   :item-type :note
@@ -7053,7 +7064,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 825
   :item-type :note
@@ -7101,7 +7112,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 831
   :item-type :note
@@ -7133,7 +7144,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 835
   :item-type :note
@@ -7215,7 +7226,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 217
   :pdf-position (0.6508067852709971 . 0.4586513994910941)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 842
   :item-type :key
@@ -7267,7 +7278,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 217
   :pdf-position (0.6619776582540339 . 0.5909669211195928)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 846
   :item-type :key
@@ -7287,7 +7298,7 @@ zu verstehen.")
   :ordine 1
   :pdf-page 217
   :pdf-position 0.663716814159292
-  :tag-list (:diplomatic)
+  :tag-list (:obvious-correction)
   :comment "Original: »Elami primo«")
  (:id 847
   :item-type :interval
@@ -7340,7 +7351,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 217
   :pdf-position (0.7066611501861813 . 0.34287531806615773)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 852
   :item-type :key
@@ -7382,7 +7393,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 217
   :pdf-position (0.7178320231692181 . 0.20229007633587787)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 856
   :item-type :key
@@ -7455,7 +7466,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.7290028961522549 . 0.6240458015267175)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 863
   :item-type :key
@@ -7497,7 +7508,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.7513446421183286 . 0.6405852417302799)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 867
   :item-type :key
@@ -7560,7 +7571,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.784857261067439 . 0.2767175572519084)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 873
   :item-type :key
@@ -7602,7 +7613,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.8071990070335127 . 0.23536895674300254)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 877
   :item-type :key
@@ -7695,7 +7706,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 886
   :item-type :note
@@ -7727,7 +7738,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 890
   :item-type :note
@@ -7775,7 +7786,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 896
   :item-type :note
@@ -7807,7 +7818,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 900
   :item-type :note
@@ -7855,7 +7866,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 906
   :item-type :note
@@ -7887,7 +7898,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 910
   :item-type :note
@@ -7935,7 +7946,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 916
   :item-type :note
@@ -7967,7 +7978,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 920
   :item-type :note
@@ -8039,7 +8050,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 218
   :pdf-position (0.5837815473727762 . 0.7150127226463103)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 927
   :item-type :key
@@ -8060,7 +8071,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 218
   :pdf-position (0.594952420355813 . 0.29325699745547074)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
   :comment "")
  (:id 929
   :item-type :key
@@ -8102,7 +8113,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 218
   :pdf-position (0.6172941663218866 . 0.2767175572519084)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 933
   :item-type :key
@@ -8185,7 +8196,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 218
   :pdf-position (0.7625155151013654 . 0.2767175572519084)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 940
   :item-type :key
@@ -8227,7 +8238,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 218
   :pdf-position (0.7625155151013654 . 0.9217557251908396)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 944
   :item-type :key
@@ -8310,7 +8321,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 218
   :pdf-position (0.8183698800165495 . 0.6653944020356234)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 952
   :item-type :key
@@ -8352,7 +8363,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 218
   :pdf-position (0.8407116259826232 . 0.7646310432569974)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 956
   :item-type :key
@@ -8466,7 +8477,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 219
   :pdf-position (0.13694662805130328 . 0.6075063613231552)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 967
   :item-type :key
@@ -8508,7 +8519,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 219
   :pdf-position (0.15928837401737692 . 0.48346055979643765)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 971
   :item-type :key
@@ -8586,7 +8597,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 980
   :item-type :note
@@ -8618,7 +8629,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 984
   :item-type :note
@@ -8666,7 +8677,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 990
   :item-type :note
@@ -8698,7 +8709,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 994
   :item-type :note
@@ -8746,7 +8757,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1000
   :item-type :note
@@ -8778,7 +8789,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1004
   :item-type :note
@@ -8826,7 +8837,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1010
   :item-type :note
@@ -8858,7 +8869,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1014
   :item-type :note
@@ -8940,7 +8951,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 219
   :pdf-position (0.5055854364915184 . 0.4751908396946565)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1022
   :item-type :key
@@ -8982,7 +8993,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 219
   :pdf-position (0.5279271824575921 . 0.5826972010178116)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1026
   :item-type :key
@@ -9045,7 +9056,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 219
   :pdf-position (0.5390980554406288 . 0.8225190839694656)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1032
   :item-type :key
@@ -9087,7 +9098,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 219
   :pdf-position (0.5614398014067026 . 0.4255725190839695)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1036
   :item-type :key
@@ -9170,7 +9181,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 219
   :pdf-position (0.594952420355813 . 0.8721374045801527)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1044
   :item-type :key
@@ -9212,7 +9223,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 219
   :pdf-position (0.6396359122879602 . 0.2767175572519084)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1048
   :item-type :key
@@ -9275,7 +9286,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 219
   :pdf-position (0.6508067852709971 . 0.5578880407124681)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1054
   :item-type :key
@@ -9317,7 +9328,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 219
   :pdf-position (0.6731485312370707 . 0.599236641221374)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1058
   :item-type :key
@@ -9395,7 +9406,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1067
   :item-type :note
@@ -9427,7 +9438,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1071
   :item-type :note
@@ -9485,7 +9496,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1077
   :item-type :note
@@ -9517,7 +9528,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1081
   :item-type :note
@@ -9570,7 +9581,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1087
   :item-type :note
@@ -9602,7 +9613,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1091
   :item-type :note
@@ -9650,7 +9661,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1097
   :item-type :note
@@ -9692,7 +9703,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1101
   :item-type :note
@@ -9764,7 +9775,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 220
   :pdf-position (0.41621845262722384 . 0.43384223918575066)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1108
   :item-type :key
@@ -9806,7 +9817,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 220
   :pdf-position (0.4385601985932975 . 0.5)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1112
   :item-type :key
@@ -9869,7 +9880,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 220
   :pdf-position (0.4609019445593711 . 0.7729007633587786)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1118
   :item-type :key
@@ -9911,7 +9922,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 220
   :pdf-position (0.47207281754240793 . 0.7646310432569974)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1122
   :item-type :key
@@ -9984,7 +9995,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 220
   :pdf-position (0.5167563094745552 . 0.5578880407124681)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1129
   :item-type :key
@@ -10026,7 +10037,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 220
   :pdf-position (0.5279271824575921 . 0.5248091603053435)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1133
   :item-type :key
@@ -10047,7 +10058,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 220
   :pdf-position (0.5502689284236657 . 0.40903307888040713)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1135
   :item-type :key
@@ -10110,7 +10121,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 220
   :pdf-position (0.5614398014067026 . 0.6984732824427481)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1141
   :item-type :key
@@ -10152,7 +10163,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 220
   :pdf-position (0.5837815473727762 . 0.6984732824427481)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1145
   :item-type :key
@@ -10173,7 +10184,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 220
   :pdf-position (0.594952420355813 . 0.31806615776081426)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1147
   :item-type :key
@@ -10251,7 +10262,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1156
   :item-type :note
@@ -10288,7 +10299,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1160
   :item-type :note
@@ -10336,7 +10347,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1166
   :item-type :note
@@ -10373,7 +10384,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1170
   :item-type :note
@@ -10421,7 +10432,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1176
   :item-type :note
@@ -10453,7 +10464,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1180
   :item-type :note
@@ -10501,7 +10512,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1186
   :item-type :note
@@ -10533,7 +10544,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1190
   :item-type :note
@@ -10605,7 +10616,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 221
   :pdf-position (0.1928009929664874 . 0.40076335877862596)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1197
   :item-type :key
@@ -10647,7 +10658,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 221
   :pdf-position (0.21514273893256103 . 0.6075063613231552)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1201
   :item-type :key
@@ -10710,7 +10721,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 221
   :pdf-position (0.24187975120939875 . 0.23698193411264612)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1207
   :item-type :key
@@ -10752,7 +10763,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 221
   :pdf-position (0.2591568762957844 . 0.10839532412327312)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1211
   :item-type :key
@@ -10788,9 +10799,9 @@ zu verstehen.")
  (:id 1214
   :item-type :key
   :key-name "medesimo Ffaut terzo grave [Ffaut secondo nel terzo ordine]"
-  :note-name :Ḟ
+  :note-name :E♯
   :root-letter :F
-  :ordine 4
+  :ordine 3
   :pdf-page 221
   :pdf-position (0.28216797683078193 . 0.29071246819338425)
   :tag-list (:diplomatic :regular-shorthand)
@@ -10825,7 +10836,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 221
   :pdf-position (0.31098825155494125 . 0.15515409139213604)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1218
   :item-type :key
@@ -10867,7 +10878,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 221
   :pdf-position (0.3282653766413269 . 0.1434643995749203)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1222
   :item-type :key
@@ -10930,7 +10941,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 221
   :pdf-position (0.3455425017277125 . 0.42401700318809776)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1228
   :item-type :key
@@ -10982,7 +10993,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 221
   :pdf-position (0.36281962681409813 . 0.42401700318809776)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1232
   :item-type :key
@@ -11110,7 +11121,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1244
   :item-type :note
@@ -11142,7 +11153,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1248
   :item-type :note
@@ -11190,7 +11201,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1254
   :item-type :note
@@ -11227,7 +11238,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1258
   :item-type :note
@@ -11275,7 +11286,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1264
   :item-type :note
@@ -11307,7 +11318,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1268
   :item-type :note
@@ -11355,7 +11366,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1274
   :item-type :note
@@ -11397,7 +11408,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1278
   :item-type :note
@@ -11649,7 +11660,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 222
   :pdf-position (0.4944690265486727 . 0.4017857142857143)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1303
   :item-type :key
@@ -11691,7 +11702,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 222
   :pdf-position (0.5082964601769913 . 0.383078231292517)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1307
   :item-type :key
@@ -11775,7 +11786,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 222
   :pdf-position (0.549778761061947 . 0.3363095238095238)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1315
   :item-type :key
@@ -11817,7 +11828,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 222
   :pdf-position (0.5636061946902656 . 0.2895408163265306)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1319
   :item-type :key
@@ -11911,7 +11922,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 222
   :pdf-position (0.5912610619469028 . 0.6917517006802721)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1328
   :item-type :key
@@ -11932,7 +11943,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 222
   :pdf-position (0.61891592920354 . 0.3082482993197279)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1330
   :item-type :key
@@ -11974,7 +11985,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 222
   :pdf-position (0.6327433628318585 . 0.29889455782312924)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1334
   :item-type :key
@@ -12058,7 +12069,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 222
   :pdf-position (0.6465707964601771 . 0.9068877551020408)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1342
   :item-type :key
@@ -12079,7 +12090,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 222
   :pdf-position (0.6603982300884957 . 0.5327380952380952)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1344
   :item-type :key
@@ -12121,7 +12132,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 222
   :pdf-position (0.6880530973451329 . 0.6730442176870748)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1348
   :item-type :key
@@ -12209,7 +12220,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1358
   :item-type :note
@@ -12241,7 +12252,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1362
   :item-type :note
@@ -12289,7 +12300,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1368
   :item-type :note
@@ -12321,7 +12332,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1372
   :item-type :note
@@ -12369,7 +12380,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1378
   :item-type :note
@@ -12401,7 +12412,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1382
   :item-type :note
@@ -12449,7 +12460,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1388
   :item-type :note
@@ -12481,7 +12492,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1392
   :item-type :note
@@ -12553,7 +12564,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 223
   :pdf-position (0.2627212389380531 . 0.46726190476190477)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1399
   :item-type :key
@@ -12595,7 +12606,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 223
   :pdf-position (0.2765486725663717 . 0.7385204081632654)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1403
   :item-type :key
@@ -12616,7 +12627,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 223
   :pdf-position (0.2903761061946903 . 0.4953231292517007)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "Sprachliche Verdoppelung, redundant.")
  (:id 1405
   :item-type :key
@@ -12679,7 +12690,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 223
   :pdf-position (0.31803097345132747 . 0.8694727891156463)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1411
   :item-type :key
@@ -12742,7 +12753,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 223
   :pdf-position (0.34568584070796465 . 0.48596938775510207)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1417
   :item-type :key
@@ -12815,8 +12826,8 @@ zu verstehen.")
   :direction :➚
   :pdf-page 223
   :pdf-position (0.3871681415929204 . 0.43920068027210885)
-  :tag-list (:diplomatic)
-  :comment "")
+  :tag-list (:diplomatic :inverse-propinqua :septimal)
+  :comment "/Gsolreut secondo/ [F♯] ist eine /terza manca di minore/ zu /Gsolreut quinto/ [Ġ♭]. Wenn eine intervallvergrössernde /propinqua/ hergestellt werden soll, muss /Gsolreut secondo/ (#1423) in /Gsolreut quinto/ [Ġ♭] korrigiert werden. Damit ist auch die Entsprechung zwischen Notenbeispiel und Text hergestellt.")
  (:id 1423
   :item-type :key
   :key-name "Gsolreut secondo"
@@ -12825,8 +12836,8 @@ zu verstehen.")
   :ordine 2
   :pdf-page 223
   :pdf-position (0.38009675190048375 . 0.4707757704569607)
-  :tag-list (:diplomatic :inverse-propinqua)
-  :comment "/Gsolreut secondo/ [F♯] ist eine /terza manca di minore/ zu /Gsolreut quinto/ [Ġ♭], was ein interessantes septimales Intervall ist. Vermutlich ist dies jedoch ein Versehen und es soll die intervallvergrössernde /propinqua/ genannt werden, was eine Korrektur in /Gsolreut quinto/ [Ġ♭] erfordert. Damit ist auch die Entsprechung zwischen Notenbeispiel und Text hergestellt.")
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 1423
   :item-type :key
   :key-name "Gsolreut quinto"
@@ -12836,7 +12847,7 @@ zu verstehen.")
   :pdf-page 223
   :pdf-position (0.38009675190048375 . 0.4707757704569607)
   :tag-list (:avoid-inverse-propinqua)
-  :comment "/Gsolreut secondo/ [F♯] ist eine /terza manca di minore/ zu /Gsolreut quinto/ [Ġ♭], was ein interessantes septimales Intervall ist. Vermutlich ist dies jedoch ein Versehen und es soll die intervallvergrössernde /propinqua/ genannt werden, was eine Korrektur in /Gsolreut quinto/ [Ġ♭] erfordert. Damit ist auch die Entsprechung zwischen Notenbeispiel und Text hergestellt.")
+  :comment "")
  (:id 1424
   :item-type :interval
   :interval-name "terza maggiore"
@@ -12867,7 +12878,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 223
   :pdf-position (0.40099557522123896 . 0.43920068027210885)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1427
   :item-type :key
@@ -12888,7 +12899,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 223
   :pdf-position (0.40099557522123896 . 0.7385204081632654)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1429
   :item-type :key
@@ -12972,7 +12983,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 223
   :pdf-position (0.4424778761061947 . 0.6075680272108843)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1437
   :item-type :key
@@ -13014,7 +13025,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 223
   :pdf-position (0.45630530973451333 . 0.6075680272108843)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1441
   :item-type :key
@@ -13035,7 +13046,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 223
   :pdf-position (0.4701327433628319 . 0.32695578231292516)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1443
   :item-type :key
@@ -13113,7 +13124,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1452
   :item-type :note
@@ -13161,7 +13172,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1458
   :item-type :note
@@ -13177,7 +13188,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1460
   :item-type :note
@@ -13225,7 +13236,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1466
   :item-type :note
@@ -13241,7 +13252,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1468
   :item-type :note
@@ -13273,7 +13284,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1472
   :item-type :note
@@ -13321,7 +13332,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1478
   :item-type :note
@@ -13353,7 +13364,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1482
   :item-type :note
@@ -13369,7 +13380,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1484
   :item-type :note
@@ -13417,7 +13428,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1490
   :item-type :note
@@ -13449,7 +13460,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1494
   :item-type :note
@@ -13465,7 +13476,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1496
   :item-type :note
@@ -13537,7 +13548,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 224
   :pdf-position (0.1797566371681416 . 0.6636904761904762)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1503
   :item-type :key
@@ -13579,7 +13590,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 224
   :pdf-position (0.2074115044247788 . 0.8227040816326531)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1507
   :item-type :key
@@ -13673,7 +13684,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 224
   :pdf-position (0.2627212389380531 . 0.2614795918367347)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1515
   :item-type :key
@@ -13767,7 +13778,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 224
   :pdf-position (0.2903761061946903 . 0.7946428571428571)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1524
   :item-type :key
@@ -13809,7 +13820,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 224
   :pdf-position (0.31803097345132747 . 0.8414115646258503)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1528
   :item-type :key
@@ -13872,7 +13883,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 224
   :pdf-position (0.34568584070796465 . 0.4017857142857143)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1534
   :item-type :key
@@ -13914,7 +13925,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 224
   :pdf-position (0.3733407079646018 . 0.5420918367346939)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1538
   :item-type :key
@@ -13992,7 +14003,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1547
   :item-type :note
@@ -14024,7 +14035,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1551
   :item-type :note
@@ -14072,7 +14083,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1557
   :item-type :note
@@ -14104,7 +14115,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1561
   :item-type :note
@@ -14152,7 +14163,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1567
   :item-type :note
@@ -14184,7 +14195,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1571
   :item-type :note
@@ -14232,7 +14243,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1577
   :item-type :note
@@ -14248,7 +14259,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1579
   :item-type :note
@@ -14280,7 +14291,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1583
   :item-type :note
@@ -14296,7 +14307,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "")
  (:id 1585
   :item-type :note
@@ -14368,7 +14379,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 224
   :pdf-position (0.7906012439530062 . 0.3188097768331562)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1592
   :item-type :key
@@ -14410,7 +14421,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 224
   :pdf-position (0.8078783690393919 . 0.5058448459086079)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1596
   :item-type :key
@@ -14525,7 +14536,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 225
   :pdf-position (0.12444690265486727 . 0.280187074829932)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1606
   :item-type :key
@@ -14567,7 +14578,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 225
   :pdf-position (0.13827433628318586 . 0.3363095238095238)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1610
   :item-type :key
@@ -14661,7 +14672,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 225
   :pdf-position (0.1797566371681416 . 0.6262755102040817)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1619
   :item-type :key
@@ -14703,7 +14714,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 225
   :pdf-position (0.1935840707964602 . 0.6356292517006803)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1623
   :item-type :key
@@ -14871,7 +14882,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 225
   :pdf-position (0.2627212389380531 . 0.8039965986394558)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1639
   :item-type :key
@@ -14959,7 +14970,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1649
   :item-type :note
@@ -15007,7 +15018,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1655
   :item-type :note
@@ -15060,7 +15071,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1661
   :item-type :note
@@ -15108,7 +15119,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1667
   :item-type :note
@@ -15156,7 +15167,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1673
   :item-type :note
@@ -15188,7 +15199,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1677
   :item-type :note
@@ -15236,7 +15247,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1683
   :item-type :note
@@ -15268,7 +15279,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1687
   :item-type :note
@@ -15371,7 +15382,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 225
   :pdf-position (0.6385625431928127 . 0.6227417640807651)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1697
   :item-type :key
@@ -15434,7 +15445,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 225
   :pdf-position (0.6731167933655839 . 0.5526036131774708)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1703
   :item-type :key
@@ -15497,7 +15508,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 225
   :pdf-position (0.7076710435383552 . 0.21360255047821466)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1709
   :item-type :key
@@ -15570,7 +15581,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 225
   :pdf-position (0.7249481686247409 . 0.7747077577045697)
-  :tag-list (:diplomatic :inverse-propinqua)
+  :tag-list (:diplomatic :inverse-propinqua :septimal)
   :comment "")
  (:id 1716
   :item-type :key
@@ -15582,6 +15593,16 @@ zu verstehen.")
   :pdf-position (0.7385188249896566 . 0.29071246819338425)
   :tag-list (:diplomatic)
   :comment "")
+(:id 1716
+  :item-type :key
+  :key-name "Gsolreut primo"
+  :note-name :G
+  :root-letter :G
+  :ordine 1
+  :pdf-page 225
+  :pdf-position (0.7385188249896566 . 0.29071246819338425)
+  :tag-list (:avoid-inverse-propinqua)
+  :comment "Original: »Gsolreut terzo«. Korrektur um eine inverse /propinqua/ zu vermeiden.")
  (:id 1717
   :item-type :interval
   :interval-name "terza maggiore"
@@ -15612,7 +15633,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 225
   :pdf-position (0.7595024187975121 . 0.12008501594048884)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1720
   :item-type :key
@@ -15685,7 +15706,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 225
   :pdf-position (0.7767795438838977 . 0.42401700318809776)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1726
   :item-type :key
@@ -15727,7 +15748,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 225
   :pdf-position (0.7940566689702834 . 0.5526036131774708)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1730
   :item-type :key
@@ -15825,7 +15846,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
   :comment "")
  (:id 1741
   :item-type :note
@@ -15841,7 +15862,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1743
   :item-type :note
@@ -15873,7 +15894,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1747
   :item-type :note
@@ -15921,7 +15942,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1753
   :item-type :note
@@ -15969,7 +15990,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1759
   :item-type :note
@@ -16017,7 +16038,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1765
   :item-type :note
@@ -16033,7 +16054,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "")
  (:id 1767
   :item-type :note
@@ -16065,7 +16086,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1771
   :item-type :note
@@ -16113,7 +16134,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1777
   :item-type :note
@@ -16145,7 +16166,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1781
   :item-type :note
@@ -16227,7 +16248,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 226
   :pdf-position (0.5003455425017277 . 0.412327311370882)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1789
   :item-type :key
@@ -16290,7 +16311,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 226
   :pdf-position (0.5348997926744989 . 0.29543039319872477)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1795
   :item-type :key
@@ -16353,7 +16374,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 226
   :pdf-position (0.5521769177608846 . 0.7162592986184909)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1801
   :item-type :key
@@ -16395,7 +16416,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 226
   :pdf-position (0.5694540428472702 . 0.7747077577045697)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1805
   :item-type :key
@@ -16468,7 +16489,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 226
   :pdf-position (0.6212854181064271 . 0.49415515409139216)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1812
   :item-type :key
@@ -16510,7 +16531,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 226
   :pdf-position (0.6385625431928127 . 0.5876726886291179)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1816
   :item-type :key
@@ -16605,7 +16626,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 226
   :pdf-position (0.6731167933655839 . 0.5175345377258236)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1824
   :item-type :key
@@ -16647,7 +16668,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 226
   :pdf-position (0.6903939184519696 . 0.4707757704569607)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1828
   :item-type :key
@@ -16668,7 +16689,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 226
   :pdf-position (0.6903939184519696 . 0.7747077577045697)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1830
   :item-type :key
@@ -16756,7 +16777,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1840
   :item-type :note
@@ -16788,7 +16809,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1844
   :item-type :note
@@ -16836,7 +16857,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1850
   :item-type :note
@@ -16868,7 +16889,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1854
   :item-type :note
@@ -16916,7 +16937,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1860
   :item-type :note
@@ -16932,7 +16953,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1862
   :item-type :note
@@ -16964,7 +16985,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1866
   :item-type :note
@@ -17012,7 +17033,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1872
   :item-type :note
@@ -17044,7 +17065,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1876
   :item-type :note
@@ -17060,7 +17081,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1878
   :item-type :note
@@ -17142,7 +17163,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 227
   :pdf-position (0.25846579129232894 . 0.44739638682252925)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1886
   :item-type :key
@@ -17184,7 +17205,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 227
   :pdf-position (0.27574291637871456 . 0.5993623804463337)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1890
   :item-type :key
@@ -17247,7 +17268,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 227
   :pdf-position (0.3102971665514858 . 0.5292242295430393)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1896
   :item-type :key
@@ -17299,7 +17320,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 227
   :pdf-position (0.32757429163787144 . 0.5058448459086079)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1900
   :item-type :key
@@ -17382,7 +17403,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 227
   :pdf-position (0.3621285418106427 . 0.7279489904357067)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1907
   :item-type :key
@@ -17424,7 +17445,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 227
   :pdf-position (0.41395991706979957 . 0.10839532412327312)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1911
   :item-type :key
@@ -17487,7 +17508,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 227
   :pdf-position (0.41395991706979957 . 0.3538788522848034)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1917
   :item-type :key
@@ -17508,7 +17529,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 227
   :pdf-position (0.41395991706979957 . 0.6928799149840595)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1919
   :item-type :key
@@ -17550,7 +17571,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 227
   :pdf-position (0.4312370421561852 . 0.6344314558979809)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1923
   :item-type :key
@@ -17638,7 +17659,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1933
   :item-type :note
@@ -17670,7 +17691,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1937
   :item-type :note
@@ -17718,7 +17739,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1943
   :item-type :note
@@ -17750,7 +17771,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1947
   :item-type :note
@@ -17798,7 +17819,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1953
   :item-type :note
@@ -17814,7 +17835,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1955
   :item-type :note
@@ -17846,7 +17867,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1959
   :item-type :note
@@ -17894,7 +17915,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1965
   :item-type :note
@@ -17910,7 +17931,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1967
   :item-type :note
@@ -17942,7 +17963,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1971
   :item-type :note
@@ -18024,7 +18045,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.17208016586040084 . 0.5058448459086079)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1979
   :item-type :key
@@ -18066,7 +18087,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.18935729094678647 . 0.6578108395324124)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1983
   :item-type :key
@@ -18087,7 +18108,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.2066344160331721 . 0.412327311370882)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1985
   :item-type :key
@@ -18150,7 +18171,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.24118866620594334 . 0.15515409139213604)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1991
   :item-type :key
@@ -18192,7 +18213,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.25846579129232894 . 0.23698193411264612)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 1995
   :item-type :key
@@ -18213,7 +18234,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.25846579129232894 . 0.5993623804463337)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 1997
   :item-type :key
@@ -18286,7 +18307,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 228
   :pdf-position (0.2930200414651002 . 0.6811902231668437)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2004
   :item-type :key
@@ -18328,7 +18349,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 228
   :pdf-position (0.3102971665514858 . 0.8214665249734326)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2008
   :item-type :key
@@ -18402,7 +18423,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 228
   :pdf-position (0.3621285418106427 . 0.5292242295430393)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2014
   :item-type :key
@@ -18444,7 +18465,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 228
   :pdf-position (0.3621285418106427 . 0.5409139213602551)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2018
   :item-type :key
@@ -18465,7 +18486,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 228
   :pdf-position (0.3621285418106427 . 0.5409139213602551)
-  :tag-list (:omitted-text)
+  :tag-list (:omitted-text :propinquissima)
   :comment "Soll ergänzt werden, sodass der Originaltext folgendermassen aussieht: »& la sua sesta maggiore sarà in Bfabmi secondo, & la sua propinqua sarà [in Bfabmi quinto, e la sua propinquissima sarà] in Bfabmi sesto«.")
  (:id 2020
   :item-type :key
@@ -18558,7 +18579,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2030
   :item-type :note
@@ -18606,7 +18627,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2036
   :item-type :note
@@ -18654,7 +18675,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2042
   :item-type :note
@@ -18686,7 +18707,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2046
   :item-type :note
@@ -18750,7 +18771,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2054
   :item-type :note
@@ -18782,7 +18803,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2058
   :item-type :note
@@ -18798,7 +18819,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2060
   :item-type :note
@@ -18846,7 +18867,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2066
   :item-type :note
@@ -18878,7 +18899,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2070
   :item-type :note
@@ -18960,7 +18981,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.8151781104801238 . 0.6238095238095238)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2078
   :item-type :key
@@ -18981,7 +19002,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.8291171915332989 . 0.34523809523809523)
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
   :comment "")
  (:id 2080
   :item-type :key
@@ -19023,7 +19044,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 229
   :pdf-position (0.10428497676819823 . 0.30396825396825394)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2084
   :item-type :key
@@ -19107,7 +19128,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 229
   :pdf-position (0.11822405782137324 . 0.7166666666666666)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2090
   :item-type :key
@@ -19149,7 +19170,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 229
   :pdf-position (0.16004130098089828 . 0.0976190476190476)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2094
   :item-type :key
@@ -19232,7 +19253,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.1879194630872483 . 0.7579365079365079)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2101
   :item-type :key
@@ -19274,7 +19295,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.22973670624677334 . 0.13888888888888887)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2105
   :item-type :key
@@ -19337,7 +19358,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.24367578729994835 . 0.4793650793650794)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2111
   :item-type :key
@@ -19379,7 +19400,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.25761486835312336 . 0.5515873015873016)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2115
   :item-type :key
@@ -19467,7 +19488,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
   :comment "")
  (:id 2125
   :item-type :note
@@ -19483,7 +19504,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2127
   :item-type :note
@@ -19515,7 +19536,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2131
   :item-type :note
@@ -19563,7 +19584,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2137
   :item-type :note
@@ -19611,7 +19632,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2143
   :item-type :note
@@ -19659,7 +19680,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2149
   :item-type :note
@@ -19691,7 +19712,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2153
   :item-type :note
@@ -19739,7 +19760,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2159
   :item-type :note
@@ -19781,7 +19802,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2163
   :item-type :note
@@ -19878,7 +19899,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 229
   :pdf-position (0.6200309757356737 . 0.7063492063492063)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2172
   :item-type :key
@@ -19920,7 +19941,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 229
   :pdf-position (0.6479091378420236 . 0.273015873015873)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2176
   :item-type :key
@@ -19993,7 +20014,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 229
   :pdf-position (0.6757872999483737 . 0.5412698412698412)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2182
   :item-type :key
@@ -20035,7 +20056,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 229
   :pdf-position (0.6897263810015487 . 0.6444444444444445)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2186
   :item-type :key
@@ -20108,7 +20129,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.7454827052142488 . 0.3761904761904762)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2193
   :item-type :key
@@ -20150,7 +20171,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.7594217862674237 . 0.5103174603174603)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2197
   :item-type :key
@@ -20213,7 +20234,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.7733608673205988 . 0.7682539682539682)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2203
   :item-type :key
@@ -20255,7 +20276,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 229
   :pdf-position (0.7872999483737738 . 0.7682539682539682)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2207
   :item-type :key
@@ -20343,7 +20364,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2217
   :item-type :note
@@ -20375,7 +20396,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2221
   :item-type :note
@@ -20423,7 +20444,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2227
   :item-type :note
@@ -20439,7 +20460,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2229
   :item-type :note
@@ -20471,7 +20492,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2233
   :item-type :note
@@ -20519,7 +20540,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2239
   :item-type :note
@@ -20551,7 +20572,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2243
   :item-type :note
@@ -20599,7 +20620,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2249
   :item-type :note
@@ -20631,7 +20652,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2253
   :item-type :note
@@ -20713,7 +20734,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 230
   :pdf-position (0.38306659783169844 . 0.5515873015873016)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2261
   :item-type :key
@@ -20786,7 +20807,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 230
   :pdf-position (0.4248838409912235 . 0.46904761904761905)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2267
   :item-type :key
@@ -20838,7 +20859,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 230
   :pdf-position (0.4388229220443985 . 0.5412698412698412)
-  :tag-list (:diplomatic :exotic)
+  :tag-list (:diplomatic :exotic :propinqua)
   :comment "Erste Erwähnung dieses Intervalls im /libro quinto/, siehe auch b1-c41 (/salto più di quinta/).")
  (:id 2271
   :item-type :key
@@ -20880,7 +20901,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 230
   :pdf-position (0.45276200309757353 . 0.6134920634920635)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2275
   :item-type :key
@@ -20922,7 +20943,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 230
   :pdf-position (0.48064016520392355 . 0.5928571428571429)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2279
   :item-type :key
@@ -20995,7 +21016,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 230
   :pdf-position (0.5085183273102736 . 0.8301587301587301)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2286
   :item-type :key
@@ -21037,7 +21058,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 230
   :pdf-position (0.5224574083634486 . 0.7888888888888889)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2290
   :item-type :key
@@ -21079,7 +21100,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 230
   :pdf-position (0.5503355704697986 . 0.7063492063492063)
-  :tag-list (:diplomatic :exotic)
+  :tag-list (:diplomatic :exotic :propinqua)
   :comment "")
  (:id 2294
   :item-type :key
@@ -21142,7 +21163,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 230
   :pdf-position (0.5782137325761486 . 0.29365079365079366)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2300
   :item-type :key
@@ -21184,7 +21205,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 230
   :pdf-position (0.5921528136293236 . 0.273015873015873)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2304
   :item-type :key
@@ -21205,7 +21226,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 230
   :pdf-position (0.6060918946824987 . 0.5825396825396826)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2306
   :item-type :key
@@ -21293,7 +21314,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2316
   :item-type :note
@@ -21330,7 +21351,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2320
   :item-type :note
@@ -21378,7 +21399,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2326
   :item-type :note
@@ -21410,7 +21431,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2330
   :item-type :note
@@ -21458,7 +21479,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2336
   :item-type :note
@@ -21490,7 +21511,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2340
   :item-type :note
@@ -21506,7 +21527,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2342
   :item-type :note
@@ -21554,7 +21575,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2348
   :item-type :note
@@ -21586,7 +21607,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2352
   :item-type :note
@@ -21602,7 +21623,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2354
   :item-type :note
@@ -21684,7 +21705,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.16004130098089828 . 0.3865079365079365)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2362
   :item-type :key
@@ -21726,7 +21747,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.1879194630872483 . 0.5412698412698412)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2366
   :item-type :key
@@ -21789,7 +21810,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.22973670624677334 . 0.5103174603174603)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2372
   :item-type :key
@@ -21831,7 +21852,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.24367578729994835 . 0.48968253968253966)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2376
   :item-type :key
@@ -21914,7 +21935,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 231
   :pdf-position (0.27155394940629834 . 0.2833333333333333)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2383
   :item-type :key
@@ -21956,7 +21977,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 231
   :pdf-position (0.29943211151264837 . 0.273015873015873)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2387
   :item-type :key
@@ -22019,7 +22040,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 231
   :pdf-position (0.3133711925658234 . 0.5412698412698412)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2393
   :item-type :key
@@ -22061,7 +22082,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 231
   :pdf-position (0.3273102736189984 . 0.5206349206349207)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2396
   :item-type :interval
@@ -22072,7 +22093,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 231
   :pdf-position (0.3273102736189984 . 0.5206349206349207)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "Original: »quinta propinqua«.")
  (:id 2397
   :item-type :key
@@ -22180,7 +22201,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2407
   :item-type :note
@@ -22212,7 +22233,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2411
   :item-type :note
@@ -22260,7 +22281,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2417
   :item-type :note
@@ -22292,7 +22313,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2421
   :item-type :note
@@ -22340,7 +22361,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2427
   :item-type :note
@@ -22372,7 +22393,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2431
   :item-type :note
@@ -22425,7 +22446,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2437
   :item-type :note
@@ -22467,7 +22488,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2441
   :item-type :note
@@ -22559,7 +22580,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.7940566689702834 . 0.28374070138150903)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2450
   :item-type :key
@@ -22580,7 +22601,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.7940566689702834 . 0.5759829968119022)
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
   :comment "Verkürzt.")
  (:id 2452
   :item-type :key
@@ -22632,7 +22653,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.8286109191430546 . 0.21360255047821466)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2456
   :item-type :key
@@ -22726,7 +22747,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 232
   :pdf-position (0.10366275051831375 . 0.28374070138150903)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2464
   :item-type :key
@@ -22789,7 +22810,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 232
   :pdf-position (0.12093987560469938 . 0.5409139213602551)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2470
   :item-type :key
@@ -22862,7 +22883,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.17277125086385625 . 0.763018065887354)
-  :tag-list (:omitted-text)
+  :tag-list (:omitted-text :propinqua)
   :comment "Ergänztes Intervall, offensichtlich fehlender Satzteil.")
  (:id 2477
   :item-type :key
@@ -22904,7 +22925,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.17277125086385625 . 0.763018065887354)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2481
   :item-type :key
@@ -22967,7 +22988,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.2073255010366275 . 0.4707757704569607)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2487
   :item-type :key
@@ -23019,7 +23040,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.22460262612301313 . 0.44739638682252925)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2491
   :item-type :key
@@ -23107,7 +23128,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
   :comment "")
  (:id 2501
   :item-type :note
@@ -23128,7 +23149,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2503
   :item-type :note
@@ -23170,7 +23191,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2507
   :item-type :note
@@ -23234,7 +23255,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2515
   :item-type :note
@@ -23266,7 +23287,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2519
   :item-type :note
@@ -23314,7 +23335,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2525
   :item-type :note
@@ -23346,7 +23367,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2529
   :item-type :note
@@ -23394,7 +23415,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2535
   :item-type :note
@@ -23426,7 +23447,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2539
   :item-type :note
@@ -23508,7 +23529,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 232
   :pdf-position (0.5867311679336559 . 0.45908607863974493)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2547
   :item-type :key
@@ -23550,7 +23571,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 232
   :pdf-position (0.6040082930200414 . 0.6227417640807651)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2551
   :item-type :key
@@ -23613,7 +23634,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 232
   :pdf-position (0.6385625431928127 . 0.42401700318809776)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2557
   :item-type :key
@@ -23655,7 +23676,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 232
   :pdf-position (0.6558396682791984 . 0.412327311370882)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2561
   :item-type :key
@@ -23728,7 +23749,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.6903939184519696 . 0.4357066950053135)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2568
   :item-type :key
@@ -23749,7 +23770,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.6903939184519696 . 0.7513283740701382)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2570
   :item-type :key
@@ -23791,7 +23812,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.7076710435383552 . 0.763018065887354)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2574
   :item-type :key
@@ -23854,7 +23875,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.7422252937111264 . 0.3889479277364506)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2580
   :item-type :key
@@ -23875,7 +23896,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.7422252937111264 . 0.7279489904357067)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2582
   :item-type :key
@@ -23917,7 +23938,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 232
   :pdf-position (0.7595024187975121 . 0.8097768331562168)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2586
   :item-type :key
@@ -24005,7 +24026,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2596
   :item-type :note
@@ -24037,7 +24058,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2600
   :item-type :note
@@ -24085,7 +24106,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2606
   :item-type :note
@@ -24117,7 +24138,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2610
   :item-type :note
@@ -24165,7 +24186,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2616
   :item-type :note
@@ -24181,7 +24202,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2618
   :item-type :note
@@ -24213,7 +24234,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2622
   :item-type :note
@@ -24261,7 +24282,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2628
   :item-type :note
@@ -24277,7 +24298,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2630
   :item-type :note
@@ -24309,7 +24330,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2634
   :item-type :note
@@ -24391,7 +24412,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 233
   :pdf-position (0.3102971665514858 . 0.42401700318809776)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2642
   :item-type :key
@@ -24433,7 +24454,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 233
   :pdf-position (0.32757429163787144 . 0.5409139213602551)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2646
   :item-type :key
@@ -24496,7 +24517,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 233
   :pdf-position (0.3621285418106427 . 0.1785334750265675)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2652
   :item-type :key
@@ -24559,7 +24580,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 233
   :pdf-position (0.3794056668970283 . 0.412327311370882)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2658
   :item-type :key
@@ -24632,7 +24653,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 233
   :pdf-position (0.4312370421561852 . 0.33049946865037194)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2665
   :item-type :key
@@ -24674,7 +24695,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 233
   :pdf-position (0.4485141672425708 . 0.29543039319872477)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2669
   :item-type :key
@@ -24695,7 +24716,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 233
   :pdf-position (0.4485141672425708 . 0.5993623804463337)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2671
   :item-type :key
@@ -24758,7 +24779,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 233
   :pdf-position (0.48306841741534207 . 0.1902231668437832)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2677
   :item-type :key
@@ -24800,7 +24821,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 233
   :pdf-position (0.5003455425017277 . 0.21360255047821466)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2681
   :item-type :key
@@ -24821,7 +24842,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 233
   :pdf-position (0.5003455425017277 . 0.5175345377258236)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2683
   :item-type :key
@@ -24909,7 +24930,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2693
   :item-type :note
@@ -24946,7 +24967,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2697
   :item-type :note
@@ -24994,7 +25015,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2703
   :item-type :note
@@ -25026,7 +25047,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2707
   :item-type :note
@@ -25075,7 +25096,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2713
   :item-type :note
@@ -25107,7 +25128,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2717
   :item-type :note
@@ -25123,7 +25144,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2719
   :item-type :note
@@ -25171,7 +25192,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2725
   :item-type :note
@@ -25203,7 +25224,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2729
   :item-type :note
@@ -25219,7 +25240,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 2731
   :item-type :note
@@ -25301,7 +25322,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 234
   :pdf-position (0.19004837595024188 . 0.3071200850159405)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2739
   :item-type :key
@@ -25343,7 +25364,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 234
   :pdf-position (0.2073255010366275 . 0.5058448459086079)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2743
   :item-type :key
@@ -25406,7 +25427,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 234
   :pdf-position (0.24187975120939875 . 0.29543039319872477)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2749
   :item-type :key
@@ -25448,7 +25469,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 234
   :pdf-position (0.2591568762957844 . 0.2603613177470776)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2753
   :item-type :key
@@ -25531,7 +25552,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 234
   :pdf-position (0.29371112646855563 . 0.412327311370882)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2860
   :item-type :key
@@ -25583,7 +25604,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 234
   :pdf-position (0.31098825155494125 . 0.45908607863974493)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2864
   :item-type :key
@@ -25604,7 +25625,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 234
   :pdf-position (0.31098825155494125 . 0.8097768331562168)
-  :tag-list (:diplomatic :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "")
  (:id 2866
   :item-type :key
@@ -25667,7 +25688,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 234
   :pdf-position (0.3455425017277125 . 0.5292242295430393)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2872
   :item-type :key
@@ -25719,7 +25740,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 234
   :pdf-position (0.36281962681409813 . 0.5642933049946866)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2876
   :item-type :key
@@ -25817,7 +25838,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2886
   :item-type :note
@@ -25849,7 +25870,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2890
   :item-type :note
@@ -25907,7 +25928,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2896
   :item-type :note
@@ -25939,7 +25960,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2900
   :item-type :note
@@ -25987,7 +26008,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2906
   :item-type :note
@@ -26019,7 +26040,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2910
   :item-type :note
@@ -26077,7 +26098,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2916
   :item-type :note
@@ -26119,7 +26140,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "")
  (:id 2920
   :item-type :note
@@ -26140,7 +26161,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2922
   :item-type :note
@@ -26222,7 +26243,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 234
   :pdf-position (0.8113337940566689 . 0.7863974495217854)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2930
   :item-type :key
@@ -26264,7 +26285,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.10366275051831375 . 0.15515409139213604)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2934
   :item-type :key
@@ -26369,7 +26390,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.138217000691085 . 0.5292242295430393)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2944
   :item-type :key
@@ -26411,7 +26432,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.15549412577747063 . 0.5058448459086079)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2948
   :item-type :key
@@ -26505,7 +26526,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.17277125086385625 . 0.7513283740701382)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2957
   :item-type :key
@@ -26547,7 +26568,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.2073255010366275 . 0.6811902231668437)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2961
   :item-type :key
@@ -26610,7 +26631,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.24187975120939875 . 0.2603613177470776)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2967
   :item-type :key
@@ -26652,7 +26673,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.2591568762957844 . 0.24867162592986186)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2971
   :item-type :key
@@ -26730,7 +26751,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2979
   :item-type :note
@@ -26778,7 +26799,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2985
   :item-type :note
@@ -26826,7 +26847,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2991
   :item-type :note
@@ -26874,7 +26895,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 2997
   :item-type :note
@@ -26922,7 +26943,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3003
   :item-type :note
@@ -26954,7 +26975,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3007
   :item-type :note
@@ -27002,7 +27023,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3013
   :item-type :note
@@ -27034,7 +27055,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3017
   :item-type :note
@@ -27121,7 +27142,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.6558396682791984 . 0.1902231668437832)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3026
   :item-type :key
@@ -27163,7 +27184,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.6558396682791984 . 0.5175345377258236)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
  (:id 3029
   :item-type :interval
@@ -27174,7 +27195,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.6558396682791984 . 0.5175345377258236)
-  :tag-list (:obvious-correction)
+  :tag-list (:obvious-correction :propinqua)
   :comment "Original: »[terza maggiore] propinquissima«. Eine /terza maggiore propiquissima/ existiert an dieser Stelle nicht in der Klaviatur, deshalb soll dieser Intervallname auf jeden Fall als /propinqua/ verstanden werden.")
  (:id 3030
   :item-type :key
@@ -27258,7 +27279,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.6903939184519696 . 0.3889479277364506)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3038
   :item-type :key
@@ -27300,7 +27321,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.7076710435383552 . 0.3655685441020191)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3042
   :item-type :key
@@ -27363,7 +27384,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.7076710435383552 . 0.763018065887354)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3048
   :item-type :key
@@ -27384,7 +27405,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.7422252937111264 . 0.37725823591923485)
-  :tag-list (:diplomatic :inverse-propinqua :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "")
  (:id 3050
   :item-type :key
@@ -27426,7 +27447,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.7595024187975121 . 0.412327311370882)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3054
   :item-type :key
@@ -27489,7 +27510,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.7595024187975121 . 0.6110520722635494)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3060
   :item-type :key
@@ -27510,7 +27531,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.7940566689702834 . 0.2603613177470776)
-  :tag-list (:diplomatic :propinqua-propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima)
   :comment "")
  (:id 3062
   :item-type :key
@@ -27552,7 +27573,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 235
   :pdf-position (0.8113337940566689 . 0.29543039319872477)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3066
   :item-type :key
@@ -27640,7 +27661,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3076
   :item-type :note
@@ -27672,7 +27693,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3080
   :item-type :note
@@ -27720,7 +27741,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3086
   :item-type :note
@@ -27768,7 +27789,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3092
   :item-type :note
@@ -27816,7 +27837,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3098
   :item-type :note
@@ -27848,7 +27869,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3102
   :item-type :note
@@ -27896,7 +27917,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3108
   :item-type :note
@@ -27928,7 +27949,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua)
   :comment "")
  (:id 3112
   :item-type :note

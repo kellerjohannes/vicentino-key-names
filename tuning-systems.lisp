@@ -111,7 +111,7 @@
                        table-title)
                +latex-legende+
                (format nil "
-\\begin{longtable}{p{1.5mm}C{3mm}p{4.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1cm}p{10.5cm}}
+\\begin{longtable}{p{1.5mm}C{3mm}p{4.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1.2cm}p{10.6cm}}
 
 \\toprule
 \\# &

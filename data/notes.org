@@ -10,6 +10,8 @@
   :DIPLOMATIC auftreten.
 - :QUINTENSCHAUKEL :: Nur für Intervalle sinnvoll. Das Intervall ist
   nur gültig, wenn es in der Quintenschaukel-Stimmung auftritt.
+- :PROPINQUA :: Intervall, das um eine /diesis/ vergrössert ist.
+- :PROPINQUISSIMA :: Intervall, das um ein /comma/ vergrössert ist.
 - :INVERSE-PROPINQUA :: Intervall, das um eine /diesis/ verkleinert
   ist. In Kombination mit :DIPLOMATIC.
 - :AVOID-INVERSE-PROPINQUA :: Korrektur zur Vermeidung der :INVERSE-PROPINQUA.
@@ -22,6 +24,10 @@
 - :PROPINQUA-PROPINQUISSIMA :: Intervall, das um eine /diesis/ und
   ein /comma/ vergrössert ist. Kann auch in Kombination mit
   :INVERSE-PROPINQUA auftreten. Üblicherweise in Kombination mit :DIPLOMATIC.
+- :SEPTIMAL :: Kennzeichnet ein septimales Intervall, also eine um
+  eine /diesis/ verkleinerte /terza minore/ (7:6, »septimale
+  Mollterz«) und die um eine /diesis/ verkleinerte kleine Septime
+  bzw. übermässige Sexte (7:4, »Naturseptime«).
 
 * interval-group-identity
 - :DIESIS, schliesst auch /comma/ mit ein
@@ -30,6 +36,74 @@
 - :QUINTA
 - :SESTA
 - :OTTAVA
+
+* Intervallgrössen
+Die Intervallnamen-Attribute /propinqua/ und /propinquissima/ stehen
+für eine Grauzone, die das Bild einer exakt definierbaren
+Intervallgrösse aufrauht. Es geht darum, dass Abweichungen von einem
+abstrakt definierbaren Intervall als vollwertige Repräsentationen von
+Intervallen akzeptiert werden. Dabei werden zwei Grössenordnungen von
+Abweichungen verwendet. /propinqua/ steht für eine signifikante
+Abweichung von rund einer /diesis. Damit liegt eine solche Abweichung
+im Bereich der kontrapunktisch relevanten Intervallen, die als
+Stimmführungen vorkommen können. /propinquissima/ steht für eine
+deutlich kleinere Abweichung, die als /comma/ beschrieben wird
+höchstens die Hälfte einer /propinqua/ umfassen können. Damit liegen
+sie im Bereich feiner Intonationsvarianten von Intervallen, die
+kontrapunktisch betrachtet gleichbedeutend sind.
+
+Am Beispiel der Terz kann dies veranschaulicht werden. Eine /terza
+minore propinqua/ liegt genau zwischen einer /terza minore/ und einer
+/terza maggiore/ und wird von Vicentino auch /terza più di minore/
+genannt. /terza minore propinqua/ und /terza più di minore/ sind also
+gleichbedeutend. Über einem liegenden D führt die Melodie F - Ḟ - F♯
+durch die drei Terzen /terza minore/, /terza propinqua/ und /terza
+maggiore/. Strebt man einen konsonanten Kontrapuntk an, könnte eine
+zweite Stimme beispielsweise D - Ḃ♭ - A lauten. Wird an Stelle der
+/terza minore propinqua/ eine /terza minore propinquissima/ verwendet,
+würde die Meldie über dem liegenden D F -- Fʼ -- F♯ lauten. Damit wird
+abhängig von der verwendeten Stimmung zwischen verschieden
+temperierten /terze minori/ gewechselt, um dann mit /semitono minore/
+von Fʼ zu F♯ zu schreiten. F -- Fʼ ist kontrapunktisch nicht relevant,
+spielt aber in der klanglichen Realisierung eine wesentliche Rolle.
+
+Die Frage, ob /propinqua/ und /propinquissima/ Intervalle stets
+vergrössern, oder auch verkleinern können kann für /L'antica musica/
+nicht mit Gewissheit beantwortet werden. Die Analyse aller Tonhöhen in
+der Kapitelstrecke von b5-c8 bis b5-c38 lässt zwei Schlussfolgerungen
+zu. In beiden kann die /propinquissima/ in beide Richtungen wirken. In
+der ersten Schlussfolgerung ist dies auch für die /propinqua/ der
+Fall, in der zweiten wird die /propinqua/ jedoch ausschliesslich als
+intervallvergrössernd betrachtet.
+
+Betrachtet man die Intervalle in den erwähnten Kapiteln vor dem
+Hintergrund der ersten Schlussfolgerung ergeben sich folgende
+zu unterscheidende Situationen. Dabei ist die spezifische Grösse von
+/diesis/ und /comma/ nicht relevant, es geht um eine qualitative
+Betrachtung der erwähnten Intervallmodifikationen.
+
+- /propinqua/ :: Um eine /diesis/ vergrössert
+- inverse /propinquissima/ einer /propinqua/ :: Um eine /diesis/
+  vergrössert und um ein /comma/ verkleinert.
+- /propinquissima/ :: Um ein /comma/ vergrössert.
+- Unverändertes Intervall
+- inverse /propinqua/ :: Um eine /diesis verkleinert/
+- inverse /propinquissima/ :: Um ein /comma/ verkleinert.
+
+Wenn die Stimmung so konstruiert ist, dass ein /comma/ genau die
+Hälfte einer /diesis/ ausmacht, vereinfacht sich diese Auflistung,
+weil dann eine /propinqua/ eine doppelte /propinquissima/ ausmacht.
+
+- /propinqua/ :: Um eine /diesis/ vergrössert
+- /propinquissima/ :: Um ein /comma/ vergrössert, bzw. um eine
+  /propinquissima/ vergrössert und um ein /comma/ verkleinert.
+- Unverändertes Intervall
+- inverse /propinquissima/ :: Um ein /comma/ verkleinert
+- inverse /propinqua/ :: Um eine /propinqua/ verkleinert
+
+[xxx Belege für Vicentinos sprachliche Beschreibungen. Vergleich mit
+verwendeten Intervallen]
+
 
 * Special cases
 - note-name :C-ʼ (sound lower than :C by a /comma/)

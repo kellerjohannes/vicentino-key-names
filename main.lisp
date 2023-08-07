@@ -180,5 +180,6 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
 ;; Entry point
 
 (defun generate-all ()
+  (read-db)
   (generate-lists)
   (generate-spreadsheets))

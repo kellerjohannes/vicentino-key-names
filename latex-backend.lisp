@@ -76,9 +76,11 @@
 ;;;; TEX output
 
 (defparameter *item-type-symbols*
-  '((:key . "$\\hspace{1pt}\\square$")
+  '(
+    ;;(:key . "$\\hspace{1pt}\\square$")
+    (:key . "$\\Square$")
     (:interval . "$\\Leftrightarrow$")
-    (:note . "$\\bigcirc$")))
+    (:note . "$\\CIRCLE$")))
 
 (defun get-item-type-symbol (type-kwd)
   (cdr (assoc type-kwd *item-type-symbols*)))
@@ -86,16 +88,18 @@
 (defparameter *dict-tags*
   '((:avoid-exotic . "$\\neg$ex")
     (:avoid-inverse-propinqua . "$\\neg$ip")
-    (:diplomatic . "d")
+    (:diplomatic . "D")
     (:exotic . "ex")
     (:extended-key . "extd")
+    (:propinqua . "p")
+    (:propinquissima . "pp")
     (:inverse-propinqua . "ip")
     (:inverse-propinquissima . "ipp")
-    (:obvious-correction . "ob")
+    (:obvious-correction . "C")
     (:omitted-text . "om")
-    (:propinqua-propinquissima . "p-pp")
     (:quintenschaukel . "qs")
-    (:regular-shorthand . "sh")))
+    (:regular-shorthand . "sh")
+    (:septimal . "{\\small\\fbox{7}}")))
 
 (defun replace-tag (tag-kwd)
   (cdr (assoc tag-kwd *dict-tags*)))
@@ -135,7 +139,7 @@
                                      (symbol-name (getf item :direction))
                                      (getf item :destination)))
                          (access :note-name))
-            (format nil "~{\\texttt{~a} ~}" (mapcar #'replace-tag (access :tag-list)))
+            (format nil "{\\footnotesize~{\\texttt{~a} ~}}" (mapcar #'replace-tag (access :tag-list)))
             (generate-latex-formatting (access :comment)))))
 
 (defun generate-list-tex-code (document-title table-title display-data background-data
