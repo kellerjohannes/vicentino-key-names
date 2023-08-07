@@ -3,6 +3,9 @@
 - :REGULAR-SHORTHAND :: Als Ergänzung zu :DIPLOMATIC, wenn eine
   eindeutige und häufig auftretende Verkürzung des Notennamens auftritt.
 - :OBVIOUS-CORRECTION :: Klarer Fehler, nie in Kombination mit :DIPLOMATIC.
+- :RECOMMENDED-CORRECTION :: Diskutabler Eingriff, der einer
+  kuratierten Lesart entspricht. Diese Fälle müssten stets explizit
+  begründet werden (siehe COMMENT-Element).
 - :OMITTED-TEXT :: Vorschlag zur Ergänzung eines vom Drucker
   irrtümlich ausgelassenen Textfragments. Nie in Kombination mit :DIPLOMATIC.
 - :EXTENDED-KEY :: Enthält eine Taste, die nicht den üblichen 36

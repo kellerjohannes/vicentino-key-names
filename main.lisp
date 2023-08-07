@@ -172,6 +172,8 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                         (string> (symbol-name direction-a) (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
+
+    ;; Analoge liste mit :recommended-correction anlegen
     ))
 
 

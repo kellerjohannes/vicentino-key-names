@@ -82,7 +82,7 @@
                                  (symbol-name (getf item :direction))
                                  destination-name)
                          (access :note-name))
-            (format nil "~{\\texttt{~a} ~}" (mapcar #'replace-tag (access :tag-list)))
+            (format nil "{\\footnotesize~{\\texttt{~a}\\,~}}" (mapcar #'replace-tag (access :tag-list)))
             (generate-tikz-line (get-interval-size item tuning-id background-data)))))
 
 

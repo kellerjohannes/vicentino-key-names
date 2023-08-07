@@ -13,6 +13,7 @@
 »\\texttt{D}«~\\texttt{:diplomatic},
 »\\texttt{sh}«~\\texttt{:regular-shorthand},
 »\\texttt{C}«~\\texttt{:obvious-correction},
+»\\texttt{R}«~\\texttt{:recommended-correction},
 »\\texttt{om}«~\\texttt{:omitted-text},
 »\\texttt{extd}«~\\texttt{:extended-key},
 »\\texttt{qs}«~\\texttt{:quintenschaukel},

@@ -4697,6 +4697,17 @@ zu verstehen.")
   :pdf-position (0.14409578860445915 . 0.6466666666666666)
   :tag-list (:diplomatic)
   :comment "")
+ (:id 584
+  :item-type :interval
+  :interval-name "terza più di minore"
+  :interval-group-identity :terza
+  :departure 583
+  :destination 585
+  :direction :➘
+  :pdf-page 215
+  :pdf-position (0.14409578860445915 . 0.6466666666666666)
+  :tag-list (:obvious-correction :propinqua :propinquissima)
+  :comment "Original: »terza minore«. Dieses Intervall ist eindeutig grösser als eine /terza minore/, deshalb wurde hier gemäss dem Notenbeispiel der Intervallname angepasst. Streng genommen handelt es sich um eine /terza minore/, die um eine /diesis/ und ein /comma/ vergrössert ist.")
  (:id 585
   :item-type :key
   :key-name "Ffaut quarto [Ffaut terzo in quarto ordine]"
@@ -4726,8 +4737,19 @@ zu verstehen.")
   :direction :➘
   :pdf-page 215
   :pdf-position (0.21635012386457475 . 0.7025396825396826)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
+ (:id 587
+  :item-type :interval
+  :interval-name "terza maggiore buonissima"
+  :interval-group-identity :terza
+  :departure 588
+  :destination 586
+  :direction :➘
+  :pdf-page 215
+  :pdf-position (0.21635012386457475 . 0.7025396825396826)
+  :tag-list (:obvious-correction :propinquissima)
+  :comment "Original: »terza maggiore«. Im Text wird dieser Terz die Eigenschaft »buonissima« zugewiesen. Im Notenbeispiel steht beim entsprechenden Intervall »La terza migliore di maggiore«.")
  (:id 588
   :item-type :key
   :key-name "Alamire sesto"
@@ -4840,7 +4862,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 215
   :pdf-position (0.3711808422791082 . 0.2834920634920635)
-  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 598
   :item-type :interval
@@ -4851,8 +4873,8 @@ zu verstehen.")
   :direction :➚
   :pdf-page 215
   :pdf-position (0.3711808422791082 . 0.2834920634920635)
-  :tag-list (:obvious-correction :inverse-propinquissima :propinqua)
-  :comment "Dieses Intervall ist eindeutig grösser als »terza minore«, deshalb wurde hier gemäss dem Notenbeispiel der Intervallname angepasst.")
+  :tag-list (:obvious-correction :propinqua :inverse-propinquissima)
+  :comment "Dieses Intervall ist eindeutig grösser als eine /terza minore/, deshalb wurde hier gemäss dem Notenbeispiel der Intervallname angepasst.")
  (:id 599
   :item-type :key
   :key-name "Csolfaut quarto [Csolfaut terzo in quarto ordine]"
@@ -4893,8 +4915,19 @@ zu verstehen.")
   :direction :➚
   :pdf-page 215
   :pdf-position (0.4847233691164327 . 0.7653968253968254)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinquissima)
   :comment "")
+ (:id 602
+  :item-type :interval
+  :interval-name "terza più di maggiore"
+  :interval-group-identity :terza
+  :departure 603
+  :destination 604
+  :direction :➚
+  :pdf-page 215
+  :pdf-position (0.4847233691164327 . 0.7653968253968254)
+  :tag-list (:obvious-correction :propinquissima :exotic)
+  :comment "Original: »terza maggiore«. Dieses Intervall ist sicher unterschiedlich zu einer /terza maggiore/. Im Originalzusammenhang ist es eine um ein /comma/ verkleinerte /terza maggiore/ (Aʼ➚C♯). Wird die obere Note zu D♭ korrigiert, handelt es sich um eine /terza maggiore/, die um eine /diesis/ vergrössert und um ein /comma/ verkleinert ist. Der Intervallname wurde gemäss dem Notenbeispiel übernommen.")
  (:id 603
   :item-type :key
   :key-name "Alamire sesto"
@@ -4913,8 +4946,8 @@ zu verstehen.")
   :ordine 2
   :pdf-page 215
   :pdf-position 0.49778761061946897
-  :tag-list (:diplomatic :inverse-propinquissima)
-  :comment "Das Intervall /Alamire sesto/ zu /Dsolre secondo/ ist eine /terza maggiore/, die um ein /comma/ verkleinert ist. Da es in diesem Kapitel um um ein /comma/ vergrösserte Intervalle geht, ist es plausibel, an Stelle von /Dsolre secondo/ hier /Dsolre terzo/ zu idealisieren.")
+  :tag-list (:diplomatic)
+  :comment "")
  (:id 604
   :item-type :key
   :key-name "Dsolre terzo"
@@ -4923,8 +4956,8 @@ zu verstehen.")
   :ordine 3
   :pdf-page 215
   :pdf-position 0.49778761061946897
-  :tag-list (:avoid-inverse-propinqua)
-  :comment "Das Intervall /Alamire sesto/ zu /Dsolre secondo/ ist eine /terza maggiore/, die um ein /comma/ verkleinert ist. Da es in diesem Kapitel um um ein /comma/ vergrösserte Intervalle geht, ist es plausibel, an Stelle von /Dsolre secondo/ hier /Dsolre terzo/ zu idealisieren.")
+  :tag-list (:recommended-correction :avoid-inverse-propinquissima)
+  :comment "Das Intervall /Alamire sesto/ zu /Dsolre secondo/ ist eine /terza maggiore/, die um ein /comma/ verkleinert ist. Da es in diesem Kapitel jedoch um um ein /comma/ vergrösserte Intervalle geht, ist es plausibel, an Stelle von /Dsolre secondo/ hier /Dsolre terzo/ zu idealisieren. Zudem ist die Entsprechung dieses Intervalls im Notenbeispiel mit »terza più die maggiore« bezeichnet.")
  (:id 605
   :item-type :interval
   :interval-name "quinta commune"
@@ -4955,7 +4988,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 215
   :pdf-position (0.5156895127993394 . 0.6955555555555556)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :quintenschaukel)
   :comment "")
  (:id 608
   :item-type :key
@@ -5125,7 +5158,7 @@ zu verstehen.")
   :comment "")
  (:id 624
   :item-type :note
-  :note-name :A
+  :note-name :Aʼ
   :tag-list (:diplomatic)
   :comment "Kommt 12 Mal im Notenbeispiel vor.")
  (:id 625
@@ -5248,8 +5281,8 @@ zu verstehen.")
  (:id 639
   :item-type :note
   :note-name :D♭
-  :tag-list (:avoid-exotic)
-  :comment "Original: Ḋ♭.")
+  :tag-list (:recommended-correction :avoid-exotic)
+  :comment "Original: Ḋ♭. Im Original steht diese Note im Kontext einer als »terza più di maggiore« bezeichneten Terz Aʼ➚Ḋ♭. Diese Terz ist um zwei /diesis/ vergrössert und um ein /comma/ verkleinert. Diese unwahrscheinliche Konstruktion wird entschärft, indem die obere Note in D♭ korrigiert wird. Die Entsprechung dieses Intervalls im Text lautet Aʼ➚C♯, was einer /terza maggiore/ entspricht, die um ein /comma/ verkleinert ist. Das steht im Widerspruch mit der Vermittlung von vergrösserten Intervallen, um die es in diesem Kapitel geht.")
  (:id 640
   :item-type :interval
   :interval-name "terza più di maggiore"
@@ -5259,7 +5292,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :propinqua :propinqua :propinquissima)
   :comment "")
  (:id 641
   :item-type :note
@@ -5275,7 +5308,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :quintenschaukel)
   :comment "")
  (:id 643
   :item-type :note
@@ -5687,8 +5720,19 @@ zu verstehen.")
   :direction :➚
   :pdf-page 216
   :pdf-position (0.36085879438480595 . 0.7444444444444445)
-  :tag-list (:diplomatic :propinqua)
-  :comment "")
+  :tag-list (:diplomatic :propinquissima)
+  :comment "Dieses Intervall ist eigentlich eine /propinquissima/, wird aber /propinqua/ genannt.")
+ (:id 690
+  :item-type :interval
+  :interval-name "[terza maggiore] propinquissima"
+  :interval-group-identity :terza
+  :departure 683
+  :destination 691
+  :direction :➚
+  :pdf-page 216
+  :pdf-position (0.36085879438480595 . 0.7444444444444445)
+  :tag-list (:recommended-correction :propinquissima)
+  :comment "Original: »[terza maggiore] propinqua«. Dieses Intervall ist eindeutig eine /propinquissima/, wird aber /propinqua/ genannt. Es handelt um das erste /propinquissima/-Intervall nach dem Kapitel der Einführung des /sesto ordine/. Es liegt nahe, an diesem Punkt der Vermittlung noch keine so strenge Trennung von /propinqua/ und /propinquissima/ zu erwarten, wie sie in den kommenden Kapiteln zu beobachten ist.")
  (:id 691
   :item-type :key
   :key-name "Bfa♭mi sesto"
@@ -6648,7 +6692,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 217
   :pdf-position (0.15928837401737692 . 0.4173027989821883)
-  :tag-list (:diplomatic :exotic :propinquissima)
+  :tag-list (:diplomatic :propinqua :propinquissima :exotic)
   :comment "")
  (:id 782
   :item-type :key
@@ -8071,7 +8115,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 218
   :pdf-position (0.594952420355813 . 0.29325699745547074)
-  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 929
   :item-type :key
@@ -8367,14 +8411,24 @@ zu verstehen.")
   :comment "")
  (:id 956
   :item-type :key
-  :key-name "Csolfaut terzo [Csolfaut terzo nel quarto ordine]"
+  :key-name "Csolfaut terzo"
   :note-name :Ċ
   :root-letter :C
   :ordine 4
   :pdf-page 218
   :pdf-position 0.8407079646017699
-  :tag-list (:diplomatic :regular-shorthand)
+  :tag-list (:diplomatic)
   :comment "")
+ (:id 956
+  :item-type :key
+  :key-name "Csolfaut secondo in terzo ordine"
+  :note-name :B♯
+  :root-letter :C
+  :ordine 3
+  :pdf-page 218
+  :pdf-position 0.8407079646017699
+  :tag-list (:obvious-correction)
+  :comment "Original: »Csolfaut terzo«. Es handelt sich hier um eine unregelmässige Abkürzung der Bezeichnung von B♯.")
  (:id 957
   :item-type :interval
   :interval-name "quinta communa"
@@ -12083,8 +12137,8 @@ zu verstehen.")
   :comment "")
  (:id 1343
   :item-type :interval
-  :interval-name "[terza minore] propinquissima"
-  :interval-group-identity :terza
+  :interval-name "[sesta minore] propinquissima"
+  :interval-group-identity :sesta
   :departure 1324
   :destination 1344
   :direction :➚
@@ -13172,7 +13226,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :propinquissima)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 1458
   :item-type :note
@@ -14442,7 +14496,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 224
   :pdf-position (0.8078783690393919 . 0.8214665249734326)
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 1598
   :item-type :key
@@ -14756,7 +14810,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 225
   :pdf-position (0.2074115044247788 . 0.6262755102040817)
-  :tag-list (:diplomatic)
+  :tag-list (:diplomatic :quintenschaukel)
   :comment "")
  (:id 1627
   :item-type :key
@@ -15002,7 +15056,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 1653
   :item-type :note
@@ -15148,7 +15202,7 @@ zu verstehen.")
   :interval-group-identity :terza
   :departure 1644
   :destination 1669
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic)
@@ -15164,7 +15218,7 @@ zu verstehen.")
   :interval-group-identity :terza
   :departure 1644
   :destination 1671
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic :propinqua)
@@ -15180,7 +15234,7 @@ zu verstehen.")
   :interval-group-identity :terza
   :departure 1644
   :destination 1673
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic)
@@ -15196,7 +15250,7 @@ zu verstehen.")
   :interval-group-identity :terza
   :departure 1644
   :destination 1675
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic :propinqua)
@@ -15212,7 +15266,7 @@ zu verstehen.")
   :interval-group-identity :quinta
   :departure 1644
   :destination 1677
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic)
@@ -15228,7 +15282,7 @@ zu verstehen.")
   :interval-group-identity :sesta
   :departure 1644
   :destination 1679
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic)
@@ -15244,7 +15298,7 @@ zu verstehen.")
   :interval-group-identity :sesta
   :departure 1644
   :destination 1681
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic :propinqua)
@@ -15260,7 +15314,7 @@ zu verstehen.")
   :interval-group-identity :sesta
   :departure 1644
   :destination 1683
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic)
@@ -15276,7 +15330,7 @@ zu verstehen.")
   :interval-group-identity :sesta
   :departure 1644
   :destination 1685
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic :propinqua)
@@ -15292,7 +15346,7 @@ zu verstehen.")
   :interval-group-identity :ottava
   :departure 1644
   :destination 1687
-  :direction :➘
+  :direction :➚
   :pdf-page nil
   :pdf-position nil
   :tag-list (:diplomatic)
@@ -15846,7 +15900,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 1741
   :item-type :note
@@ -17564,8 +17618,8 @@ zu verstehen.")
   :comment "")
  (:id 1922
   :item-type :interval
-  :interval-name "[terza maggiore] propinqua"
-  :interval-group-identity :terza
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
   :departure 1903
   :destination 1923
   :direction :➚
@@ -18108,7 +18162,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.2066344160331721 . 0.412327311370882)
-  :tag-list (:diplomatic :propinquissima)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 1985
   :item-type :key
@@ -18611,7 +18665,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 2034
   :item-type :note
@@ -19002,7 +19056,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 228
   :pdf-position (0.8291171915332989 . 0.34523809523809523)
-  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 2080
   :item-type :key
@@ -19082,13 +19136,13 @@ zu verstehen.")
   :interval-name "quinta perfetta"
   :interval-group-identity :quinta
   :departure 2074
-  :destination 2088
+  :destination 2087.1
   :direction :➘
   :pdf-page 229
   :pdf-position (0.11822405782137324 . 0.34523809523809523)
   :tag-list (:diplomatic :quintenschaukel)
   :comment "Muss in /sesta minore/ korrigiert werden, wenn die Notennamen erhalten bleiben. Schlüssiger ist es, eine /sesta minore/ zu ergänzen. Alternativ: man ergänzt #2088 und #2089, was eine sinnvolle /quinta perfetta/ ergibt (unter Voraussetzung der Quintenschaukel),ebenso eine sinnvolle Taste für eine /sesta minore/.")
- (:id 2088
+ (:id 2087.1
   :item-type :key
   :key-name "[Gsolreut sesto]"
   :note-name :Gʼ
@@ -19098,7 +19152,7 @@ zu verstehen.")
   :pdf-position (0.11822405782137324 . 0.5)
   :tag-list (:omitted-text)
   :comment "Zu ergänzen, wurde vom Drucker möglicherweise ausgelassen.")
- (:id 2089
+ (:id 2087.2
   :item-type :interval
   :interval-name "[sesta minore]"
   :interval-group-identity :sesta
@@ -19163,8 +19217,8 @@ zu verstehen.")
   :comment "")
  (:id 2093
   :item-type :interval
-  :interval-name "[terza maggiore] propinqua"
-  :interval-group-identity :terza
+  :interval-name "[sesta maggiore] propinqua"
+  :interval-group-identity :sesta
   :departure 2074
   :destination 2094
   :direction :➘
@@ -19488,7 +19542,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 2125
   :item-type :note
@@ -20859,7 +20913,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 230
   :pdf-position (0.4388229220443985 . 0.5412698412698412)
-  :tag-list (:diplomatic :exotic :propinqua)
+  :tag-list (:diplomatic :propinqua :exotic)
   :comment "Erste Erwähnung dieses Intervalls im /libro quinto/, siehe auch b1-c41 (/salto più di quinta/).")
  (:id 2271
   :item-type :key
@@ -21100,7 +21154,7 @@ zu verstehen.")
   :direction :➚
   :pdf-page 230
   :pdf-position (0.5503355704697986 . 0.7063492063492063)
-  :tag-list (:diplomatic :exotic :propinqua)
+  :tag-list (:diplomatic :propinqua :exotic)
   :comment "")
  (:id 2294
   :item-type :key
@@ -21324,7 +21378,7 @@ zu verstehen.")
  (:id 2316
   :item-type :note
   :note-name :A♭
-  :tag-list (:diplomatic)
+  :tag-list (:obvious-correction)
   :comment "Original: G♭.")
  (:id 2317
   :item-type :interval
@@ -22082,18 +22136,18 @@ zu verstehen.")
   :direction :➚
   :pdf-page 231
   :pdf-position (0.3273102736189984 . 0.5206349206349207)
-  :tag-list (:diplomatic :propinqua)
+  :tag-list (:diplomatic)
   :comment "")
  (:id 2396
   :item-type :interval
-  :interval-name "terza maggiore propinqua"
-  :interval-group-identity :terza
+  :interval-name "sesta maggiore propinqua"
+  :interval-group-identity :sesta
   :departure 2379
   :destination 2397
   :direction :➚
   :pdf-page 231
   :pdf-position (0.3273102736189984 . 0.5206349206349207)
-  :tag-list (:diplomatic :propinqua)
+  :tag-list (:obvious-correction :propinqua)
   :comment "Original: »quinta propinqua«.")
  (:id 2397
   :item-type :key
@@ -22601,7 +22655,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 231
   :pdf-position (0.7940566689702834 . 0.5759829968119022)
-  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "Verkürzt.")
  (:id 2452
   :item-type :key
@@ -22761,8 +22815,8 @@ zu verstehen.")
   :comment "")
  (:id 2465
   :item-type :interval
-  :interval-name "[terza minore] propinquissima"
-  :interval-group-identity :terza
+  :interval-name "[sesta minore] propinquissima"
+  :interval-group-identity :sesta
   :departure 2446
   :destination 2466
   :direction :➘
@@ -23128,7 +23182,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima :propinqua)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 2501
   :item-type :note
@@ -25608,10 +25662,10 @@ zu verstehen.")
   :comment "")
  (:id 2864
   :item-type :key
-  :key-name "Dsolre quinto"
-  :note-name :Ḋ♭
+  :key-name "Dsolre primo"
+  :note-name :D
   :root-letter :D
-  :ordine 5
+  :ordine 1
   :pdf-page 234
   :pdf-position (0.30455015511892447 . 0.6057233704292527)
   :tag-list (:diplomatic)
@@ -26306,7 +26360,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page 235
   :pdf-position (0.10366275051831375 . 0.5292242295430393)
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 2936
   :item-type :key
@@ -26783,7 +26837,7 @@ zu verstehen.")
   :direction :➘
   :pdf-page nil
   :pdf-position nil
-  :tag-list (:diplomatic :inverse-propinquissima)
+  :tag-list (:diplomatic :propinqua :inverse-propinquissima)
   :comment "")
  (:id 2983
   :item-type :note
@@ -27159,7 +27213,7 @@ zu verstehen.")
   :interval-name "[terza maggiore]"
   :interval-group-identity :terza
   :departure 3022
-  :destination 3038
+  :destination 3028
   :direction :➘
   :pdf-page 235
   :pdf-position (0.6385625431928127 . 0.44739638682252925)

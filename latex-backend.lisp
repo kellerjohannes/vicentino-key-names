@@ -88,7 +88,9 @@
 (defparameter *dict-tags*
   '((:avoid-exotic . "$\\neg$ex")
     (:avoid-inverse-propinqua . "$\\neg$ip")
+    (:avoid-inverse-propinquissima . "$\\neg$ipp")
     (:diplomatic . "D")
+    (:recommended-correction . "R")
     (:exotic . "ex")
     (:extended-key . "extd")
     (:propinqua . "p")
