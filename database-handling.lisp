@@ -69,6 +69,16 @@
         (when (> (length (select data (where #'eq :id current-id))) 1)
           (push (getf item :id) conclusion))))))
 
+(defun check-type-conformity-of-intervals (data)
+  (let ((conclusion nil))
+    (dolist (item data conclusion)
+      (when (eq (getf item :item-type) :interval)
+        (let ((departure-id (getf item :departure))
+              (destination-id (getf item :destination)))
+          (unless (eq (getf (pick data :id departure-id) :item-type)
+                      (getf (pick data :id destination-id) :item-type))
+            (push (getf item :id) conclusion)))))))
+
 ;; list generating functions
 
 (defun create-list-of-unique-ids (data)

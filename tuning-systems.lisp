@@ -6,12 +6,39 @@
     (:➘ :down)
     (otherwise nil)))
 
+(defun scale-diagram (len)
+  (* len 0.009))
+
 (defun generate-tikz-line (interval-size)
-  (format nil "\\begin{tikzpicture}
-\\draw[fill=black] (0,0) -- (0,0.2) -- (~a,0.2) -- (~a,0) -- (0,0) ;
+  (format nil "
+\\begin{tikzpicture}
+\\draw[fill=black] (0,0) -- (0,0.1) -- (~a,0.1) -- (~a,0) -- (0,0) ;
+\\draw[thin] (0,0) -- (~a,0) ; % bottom to 2:1
+\\draw[thin] (0,0.2) -- (~a,0.2) ; % top to 2:1
+\\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 6:5
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 5:4
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 3:2
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 8:5
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 5:3
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 2:1
 \\end{tikzpicture}"
-          (* interval-size 0.01)
-          (* interval-size 0.01)))
+          (scale-diagram interval-size)
+          (scale-diagram interval-size)
+          (scale-diagram (ratio->length 2/1))
+          (scale-diagram (ratio->length 2/1))
+          (scale-diagram (ratio->length 6/5))
+          (scale-diagram (ratio->length 6/5))
+          (scale-diagram (ratio->length 5/4))
+          (scale-diagram (ratio->length 5/4))
+          (scale-diagram (ratio->length 3/2))
+          (scale-diagram (ratio->length 3/2))
+          (scale-diagram (ratio->length 8/5))
+          (scale-diagram (ratio->length 8/5))
+          (scale-diagram (ratio->length 5/3))
+          (scale-diagram (ratio->length 5/3))
+          (scale-diagram (ratio->length 2/1))
+          (scale-diagram (ratio->length 2/1))))
 
 (defun get-interval-size (item tuning-id data)
   (let* ((departure (getf item :departure))
@@ -31,8 +58,11 @@
          (destination (getf item :destination))
          (departure-name (getf (pick background-data :id departure) :note-name))
          (destination-name (getf (pick background-data :id destination) :note-name)))
-    (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
+    (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
             (format nil "\\typesetLinecounter{~a}" (incf *line-counter*))
+            (format nil "{\\tiny~a~a}"
+                    (get-item-type-symbol (getf (pick background-data :id departure) :item-type))
+                    (get-item-type-symbol (getf (pick background-data :id destination) :item-type)))
             (access :id)
             (car location)
             (cdr location)
@@ -81,10 +111,11 @@
                        table-title)
                +latex-legende+
                (format nil "
-\\begin{longtable}{p{1.5mm}p{4.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1cm}p{11cm}}
+\\begin{longtable}{p{1.5mm}C{3mm}p{4.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1cm}p{10.5cm}}
 
 \\toprule
 \\# &
+\\emph{T} &
 \\emph{I} &
 \\emph{B} &
 \\emph{C} &
