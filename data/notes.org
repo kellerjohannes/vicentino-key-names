@@ -85,13 +85,15 @@ zu unterscheidende Situationen. Dabei ist die spezifische Grösse von
 /diesis/ und /comma/ nicht relevant, es geht um eine qualitative
 Betrachtung der erwähnten Intervallmodifikationen.
 
-- /propinqua/ :: Um eine /diesis/ vergrössert
+- /propinqua/ :: Um eine /diesis/ vergrössert.
 - inverse /propinquissima/ einer /propinqua/ :: Um eine /diesis/
   vergrössert und um ein /comma/ verkleinert.
 - /propinquissima/ :: Um ein /comma/ vergrössert.
-- Unverändertes Intervall
-- inverse /propinqua/ :: Um eine /diesis verkleinert/
+- Unverändertes Intervall.
 - inverse /propinquissima/ :: Um ein /comma/ verkleinert.
+- /propinquissima/ einer inverse /propinqua/ :: Um eine /diesis/
+  verkleinert und um ein /comma/ vergrössert.
+- inverse /propinqua/ :: Um eine /diesis verkleinert/.
 
 Wenn die Stimmung so konstruiert ist, dass ein /comma/ genau die
 Hälfte einer /diesis/ ausmacht, vereinfacht sich diese Auflistung,
@@ -101,8 +103,49 @@ weil dann eine /propinqua/ eine doppelte /propinquissima/ ausmacht.
 - /propinquissima/ :: Um ein /comma/ vergrössert, bzw. um eine
   /propinquissima/ vergrössert und um ein /comma/ verkleinert.
 - Unverändertes Intervall
-- inverse /propinquissima/ :: Um ein /comma/ verkleinert
-- inverse /propinqua/ :: Um eine /propinqua/ verkleinert
+- inverse /propinquissima/ :: Um ein /comma/ verkleinert, bzw. um eine
+  /diesis/ verkleinert und um ein /comma/ vergrössert.
+- inverse /propinqua/ :: Um eine /propinqua/ verkleinert.
+
+Die klangliche Realität dieser modifizierten Intervalle im
+Archicembalo hängt vom Stimmungssystem ab. Im Folgenden werden zwei
+Szenarien exemplarisch betrachtet, um die Verschränkung zwischen
+Stimmungssystem und Gebrauch von /propinqua/ und /propinquissima/ zu
+verdeutlichen.
+
+Erstes Beispiel: Das Stimmungssystem des Archicembalo soll auf der
+Basis der 1/4-Komma-Mitteltönigkeit konstruiert werden. In einer
+solchen Stimmung besteht die /propinqua/-Modifikation aus einer reinen
+/diesis/ (128:125) oder einer um rund 1/4 syntonisches Komma
+verkleinerten temperierten /diesis/. Die /propinquissima/-Modifikation
+beträgt stets genau 1/4 syntonisches Komma. Eine
+/propinquissima/-Modifikation ist also rund ein Achtel einer
+/propinqua/-Modifikation. Dieser markante Unterschied führt zu einer
+eindeutigen klanglichen Unterscheidung der Intervalle, die um eine
+/diesis/ vergrössert oder verkleinert sind von den Intervallen, die um
+ein /comma/ vergrössert oder verkleinert sind, also die
+konventionellen /propinqua/- und
+/propinquissima/-Intervalle. Vicentino benennt jedoch auch die
+Intervalle, die um eine /diesis/ vergrössert und um ein /comma/
+verkleinert sind, und jene, die um eine /diesis/ verkleinert und ein
+/comma/ vergrössert sind /propinquissima/. Im erwähnten
+Fall der 1/4-Komma-Mitteltönigkeit führt dies dazu, dass ein solches
+/propinquissima/-Intervall klanglich sehr nahe an einem
+/propinqua/-Intervall liegt. Es befindet sich in der Grössenordnung
+der /propinqua/-Modifikationen und lässt sich klanglich nicht von der
+erwähnten temperierten /diesis/ in dieser Stimmung
+unterscheiden. In diesem Kontext wäre deshalb die Bezeichnung
+/propinqua/ für solche kombinierten /propinqua/- und
+/propinquissima/-Modifikationen naheliegender.
+
+Zweites Beispiel: Das Stimmungssystem wird auf der Basis von 1/3-Komma
+angelegt und ermöglicht die /Quintenschaukel/. In diesem System gibt
+es zwei sehr stark unterschiedliche /diesis/-Intervalle, und ein
+/comma/, das rund 2/3 eines syntonischen Kommas ausmacht.
+
+[xxx muss weiter ausgeführt werden, auf Basis berechneter Intervallgrössen]
+
+
 
 [xxx Belege für Vicentinos sprachliche Beschreibungen. Vergleich mit
 verwendeten Intervallen]

@@ -9,7 +9,10 @@
 ;; Lists of keys, intervals and notes
 
 (defun generate-lists ()
-  (let ((critical-keys (distill-reading *keys* '(:obvious-correction :omitted-text :diplomatic))))
+  (let ((critical-keys (distill-reading *keys* '(:recommended-correction
+                                                 :obvious-correction
+                                                 :omitted-text
+                                                 :diplomatic))))
     (write-list "liste-komplett.tex"
                 "Komplettes Inventar"
                 "Sämtliche Tasten, Intervalle und Noten in allen Lesarten"
@@ -55,8 +58,11 @@
 ;; Spreadsheets of interval sizes
 
 (defun generate-spreadsheets ()
-  (let ((critical-keys (distill-reading *keys* '(:obvious-correction :omitted-text :diplomatic))))
-    (write-spreadsheet "tab-alle-intervalle-nach-groesse.tex"
+  (let ((critical-keys (distill-reading *keys* '(:recommended-correction
+                                                 :obvious-correction
+                                                 :omitted-text
+                                                 :diplomatic))))
+    (write-spreadsheet "tab-tuning1-alle-intervalle-nach-groesse.tex"
                        "Inventar aller Intervalle"
                        "Sämtliche Intervalle, nach ihrer Grösse in \\typesetTag{:tuning1} sortiert."
                        :tuning1
@@ -70,7 +76,7 @@
                                                                    (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
-    (write-spreadsheet "tab-alle-terzen.tex"
+    (write-spreadsheet "tab-tuning1-alle-terzen.tex"
                        "Inventar aller Intervalle in der Gruppe \\typesetTag{:terza}"
                        "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:terza} haben, nach Grösse in
 Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
@@ -90,7 +96,7 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                         (string> (symbol-name direction-a) (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
-    (write-spreadsheet "tab-alle-quinten.tex"
+    (write-spreadsheet "tab-tuning1-alle-quinten.tex"
                        "Inventar aller Intervalle in der Gruppe \\typesetTag{:quinta}"
                        "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:quinta} haben, nach Grösse in
 Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
@@ -110,7 +116,7 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                         (string> (symbol-name direction-a) (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
-    (write-spreadsheet "tab-alle-sexten.tex"
+    (write-spreadsheet "tab-tuning1-alle-sexten.tex"
                        "Inventar aller Intervalle in der Gruppe \\typesetTag{:sesta}"
                        "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:sesta} haben, nach Grösse in
 Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
@@ -130,7 +136,7 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                         (string> (symbol-name direction-a) (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
-    (write-spreadsheet "tab-alle-oktaven.tex"
+    (write-spreadsheet "tab-tuning1-alle-oktaven.tex"
                        "Inventar aller Intervalle in der Gruppe \\typesetTag{:ottava}"
                        "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:ottava} haben, nach Grösse in
 Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
@@ -150,7 +156,7 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                         (string> (symbol-name direction-a) (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
-    (write-spreadsheet "tab-alle-semitoni-und-kleiner.tex"
+    (write-spreadsheet "tab-tuning1-alle-semitoni-und-kleiner.tex"
                        "Inventar aller Intervalle in der Gruppe \\typesetTag{:semitono} und \\typesetTag{:diesis}"
                        "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:semitono} oder \\typesetTag{:diesis} haben, nach Grösse in
 Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
