@@ -121,8 +121,7 @@
                +latex-header+
                +latex-titelage+
                (format nil "
-\\title{~a}
-
+\\title{~a\\\\\\relsize{-3}~a}
 
 \\begin{document}
 
@@ -137,6 +136,7 @@
 \\vspace{2ex}
 "
                        document-title
+                       +latex-subtitle+
                        table-title)
                +latex-legende+
                (format nil "

@@ -48,7 +48,6 @@
   "
 \\author{Johannes Keller}
 \\date{\\today}
-\\subtitle{Berücksichtigt sämtliche Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38.}
 ")
 
 
@@ -115,6 +114,7 @@ Skala der Intervallgrössen: Markierungen für 1:1 81:80, 128:125, 6:5, 5:4, 3:2
 \\usepackage{wrapfig}
 \\usepackage{tipa}
 \\usepackage{array}
+\\usepackage{relsize}
 \\usepackage{amssymb}
 \\usepackage{mathtools}
 \\usepackage{wasysym}
@@ -167,3 +167,6 @@ Skala der Intervallgrössen: Markierungen für 1:1 81:80, 128:125, 6:5, 5:4, 3:2
 \\newcolumntype{C}[1]{>{\\centering\\arraybackslash}p{#1}}
 
 \\renewcommand{\\arraystretch}{1.3}")
+
+(defparameter +latex-subtitle+
+  "Berücksichtigt Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38")

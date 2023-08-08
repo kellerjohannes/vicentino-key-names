@@ -96,8 +96,7 @@
                +latex-header+
                +latex-titelage+
                (format nil "
-\\title{~a}
-
+\\title{~a\\\\\\relsize{-3}~a}
 
 \\begin{document}
 
@@ -114,6 +113,7 @@
 \\vspace{2ex}
 "
                        document-title
+                       +latex-subtitle+
                        table-title
                        (generate-latex-formatting
                         (make-string-latex-friendly (get-tuning-description tuning-id))))
