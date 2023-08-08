@@ -20,13 +20,19 @@
                 *keys*)
     (write-list "liste-eingriffe.tex"
                 "Inventar sämtlicher Probanden mit alternativen Lesarten"
-                "Sämtliche Tasten, Intervalle und Noten, die nicht ausschliesslich eine Lesart haben."
+                "Sämtliche Tasten, Intervalle und Noten, die nicht ausschliesslich eine einzige Lesart haben. Dies reflektiert keine Entscheidungen, sondern zeigt alle denkbaren Alternativen."
                 (remove-unique-items *keys*)
-                (remove-unique-items *keys*))
+                *keys*)
     (write-list "liste-kritisch.tex"
                 "Kritisches Inventar"
-                "Sämtliche Tasten, Intervalle und Noten in kritischer Lesart (mit dem \\typesetTag{:diplomatic}-tag)."
+                "Sämtliche Tasten, Intervalle und Noten in kritischer Lesart (mit den Tags \\typesetTag{:diplomatic}, \\typesetTag{:obvious-correction}, \\typesetTag{:recommended-correction} und \\typesetTag{:omitted-text})."
                 critical-keys
+                critical-keys
+                :resolve-intervals t)
+    (write-list "liste-kritische-eingriffe.tex"
+                "Kritisches Inventar aller Eingriffe"
+                "Sämtliche Tasten, Intervalle und Noten, die in der kritischen Lesart korrigiert werden (mit den Tags \\typesetTag{:obvious-correction}, \\typesetTag{:recommended-correction} und \\typesetTag{:omitted-text})."
+                (unselect critical-keys (where #'contains :tag-list :diplomatic))
                 critical-keys
                 :resolve-intervals t)
     (write-list "liste-verkuerzungen.tex"

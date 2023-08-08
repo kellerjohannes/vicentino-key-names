@@ -1630,7 +1630,7 @@ zu verstehen.")
   :pdf-page 212
   :pdf-position 0.1991150442477876
   :tag-list (:obvious-correction)
-  :comment "Original: »Ffaut secondo in terzo ordine«. Diese Taste soll als Quinte über G♯ funktionieren, muss deshalb /Elami terzo/ [D♯] sein. Nebenbemerkung: G♯-E♭ ist die Wolfsquinte,möglicherweise hat das zum Denkfehler von Vicentino gefürt. Siehe auch b5-c7, »la quinta d'Alamire secondo, ascenderà & ritroverà la sua quinta in Elami terzo acuto« und b5-c23, »& la sua [Elami terzo acuto] sarà in Gsolreut secondo«, was einen Fehler enthält: /Gsolreut secondo/ -> /Alamire secondo/.")
+  :comment "Original: »Ffaut secondo in terzo ordine«. Diese Taste soll als Quinte über G♯ funktionieren, muss deshalb /Elami terzo/ [D♯] sein. Nebenbemerkung: G♯-E♭ ist die Wolfsquinte,möglicherweise hat das zum Denkfehler von Vicentino gefürt. Siehe auch b5-c7, »la quinta d'Alamire secondo, ascenderà & ritroverà la sua quinta in Elami terzo acuto« und b5-c23, »& la sua [Elami terzo acuto] sarà in Gsolreut secondo [recte: Alamire secondo]«.")
  (:id 163
   :item-type :interval
   :interval-name "sesta minore"
@@ -12436,7 +12436,7 @@ zu verstehen.")
   :item-type :note
   :note-name :E
   :tag-list (:omitted-text)
-  :comment "")
+  :comment "Fehlt im Original.")
  (:id 1373
   :item-type :interval
   :interval-name "[ottava]"
@@ -12447,7 +12447,7 @@ zu verstehen.")
   :pdf-page nil
   :pdf-position nil
   :tag-list (:omitted-text)
-  :comment "")
+  :comment "Fehlt im Original.")
  (:id 1374
   :item-type :note
   :note-name :G
@@ -12596,7 +12596,7 @@ zu verstehen.")
   :item-type :note
   :note-name :E
   :tag-list (:omitted-text)
-  :comment "")
+  :comment "Fehlt im Original.")
  (:id 1393
   :item-type :interval
   :interval-name "[ottava]"
@@ -12607,7 +12607,7 @@ zu verstehen.")
   :pdf-page nil
   :pdf-position nil
   :tag-list (:omitted-text)
-  :comment "")
+  :comment "Fehlt im Original.")
 
 
  ;; b5-c22, E♭

@@ -115,7 +115,8 @@
 "
                        document-title
                        table-title
-                       (make-string-latex-friendly (get-tuning-description tuning-id)))
+                       (generate-latex-formatting
+                        (make-string-latex-friendly (get-tuning-description tuning-id))))
                +latex-legende+
                (format nil "
 \\begin{longtable}{p{1.5mm}C{2mm}p{5.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1.2cm}p{10.6cm}}
