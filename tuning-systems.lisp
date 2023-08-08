@@ -16,6 +16,8 @@
 \\draw[thin] (0,0) -- (~a,0) ; % bottom to 2:1
 \\draw[thin] (0,0.2) -- (~a,0.2) ; % top to 2:1
 \\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 81:80
+\\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 128:125
 \\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 6:5
 \\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 5:4
 \\draw[very thin] (~a,0) -- (~a,0.2) ; % tick on 3:2
@@ -27,6 +29,10 @@
           (scale-diagram interval-size)
           (scale-diagram (ratio->length 2/1))
           (scale-diagram (ratio->length 2/1))
+          (scale-diagram (ratio->length 81/80))
+          (scale-diagram (ratio->length 81/80))
+          (scale-diagram (ratio->length 128/125))
+          (scale-diagram (ratio->length 128/125))
           (scale-diagram (ratio->length 6/5))
           (scale-diagram (ratio->length 6/5))
           (scale-diagram (ratio->length 5/4))
@@ -60,9 +66,7 @@
          (destination-name (getf (pick background-data :id destination) :note-name)))
     (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
             (format nil "\\typesetLinecounter{~a}" (incf *line-counter*))
-            (format nil "{\\tiny~a~a}"
-                    (get-item-type-symbol (getf (pick background-data :id departure) :item-type))
-                    (get-item-type-symbol (getf (pick background-data :id destination) :item-type)))
+            (get-item-type-symbol item background-data)
             (access :id)
             (car location)
             (cdr location)
@@ -103,12 +107,15 @@
 
 \\vspace{3ex}
 
-{\\large{~a}}
+{\\large{~a}}\\\\[2ex]
+
+{\\footnotesize{~a}}
 
 \\vspace{2ex}
 "
                        document-title
-                       table-title)
+                       table-title
+                       (make-string-latex-friendly (get-tuning-description tuning-id)))
                +latex-legende+
                (format nil "
 \\begin{longtable}{p{1.5mm}C{2mm}p{5.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1.2cm}p{10.6cm}}

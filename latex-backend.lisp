@@ -75,36 +75,6 @@
 
 ;;;; TEX output
 
-(defparameter *item-type-symbols*
-  '(
-    ;;(:key . "$\\hspace{1pt}\\square$")
-    (:key . "$\\Square$")
-    (:interval . "$\\Leftrightarrow$")
-    (:note . "$\\CIRCLE$")))
-
-(defun get-item-type-symbol (type-kwd)
-  (cdr (assoc type-kwd *item-type-symbols*)))
-
-(defparameter *dict-tags*
-  '((:avoid-exotic . "$\\neg$ex")
-    (:avoid-inverse-propinqua . "$\\neg$ip")
-    (:avoid-inverse-propinquissima . "$\\neg$ipp")
-    (:diplomatic . "D")
-    (:recommended-correction . "R")
-    (:exotic . "ex")
-    (:extended-key . "extd")
-    (:propinqua . "p")
-    (:propinquissima . "pp")
-    (:inverse-propinqua . "ip")
-    (:inverse-propinquissima . "ipp")
-    (:obvious-correction . "C")
-    (:omitted-text . "om")
-    (:quintenschaukel . "qs")
-    (:regular-shorthand . "sh")
-    (:septimal . "{\\small\\fbox{7}}")))
-
-(defun replace-tag (tag-kwd)
-  (cdr (assoc tag-kwd *dict-tags*)))
 
 (defparameter *line-counter* 0)
 
@@ -112,7 +82,7 @@
   (let ((location (lookup-location (getf item :id))))
     (format nil "~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a & ~a \\\\"
             (format nil "\\typesetLinecounter{~a}" (incf *line-counter*))
-            (get-item-type-symbol (getf item :item-type))
+            (get-item-type-symbol item background-data)
             (access :id)
             (car location)
             (cdr location)

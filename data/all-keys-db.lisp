@@ -10887,9 +10887,9 @@ zu verstehen.")
  (:id 1213
   :item-type :key
   :key-name "Ffaut gravissimo terzo [Ffaut secondo nel terzo ordine]"
-  :note-name :Ḟ
+  :note-name :E♯
   :root-letter :F
-  :ordine 4
+  :ordine 3
   :pdf-page 221
   :pdf-position (0.26934215970211006 . 0.6558524173027989)
   :tag-list (:diplomatic :regular-shorthand)
@@ -27162,7 +27162,7 @@ zu verstehen.")
   :comment "")
  (:id 3017
   :item-type :note
-  :note-name :Ḃ♭
+  :note-name :Ḃ♮
   :tag-list (:obvious-correction)
   :comment "Original: B♮.")
  (:id 3018

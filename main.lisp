@@ -178,8 +178,25 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                         (string> (symbol-name direction-a) (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
-
-    ;; Analoge liste mit :recommended-correction anlegen
+    (write-spreadsheet "tab-tuning3-alle-intervalle-nach-groesse.tex"
+                       "Inventar aller Intervalle"
+                       "Sämtliche Intervalle, nach ihrer Grösse in \\typesetTag{:tuning3} sortiert."
+                       :tuning3
+                       (sort (select critical-keys (where #'eq :item-type :interval))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning3 critical-keys))
+                                     (size-b (get-interval-size b :tuning3 critical-keys))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((= size-a size-b) (string> (symbol-name direction-a)
+                                                                   (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)
+    ;; TODO
+    ;; - define Quintenschaukel tuning
+    ;; - produce all spreadsheets based on Quintenschaukel
+    ;; - extract all combinations of propinqua/propinquissima, put it in one table and one spreadsheet
+    ;; - extract all /quinte perfette/, for Quintenschaukel and for tuning1
     ))
 
 
