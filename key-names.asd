@@ -3,8 +3,8 @@
   :serial t
   :components ((:file "package")
                (:file "macros")
-               (:file "constant-strings")
                (:file "database-handling")
+               (:file "constant-strings")
                (:file "latex-backend")
                (:file "tuning-systems")
                (:file "main")))
