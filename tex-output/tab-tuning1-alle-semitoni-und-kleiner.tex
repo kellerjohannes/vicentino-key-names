@@ -1,0 +1,235 @@
+%% Auto-generated file: 2023-08-08T22:43:00.000000+10:00
+\documentclass[10pt,landscape,DIV=17,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{tipa}
+\usepackage{array}
+\usepackage{relsize}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{wasysym}
+\usepackage{booktabs}
+\usepackage{soul}
+\usepackage{titling}
+\usepackage{tikz}
+\setcounter{secnumdepth}{0}
+
+\usepackage{newunicodechar}
+\newunicodechar{♮}{$\natural$}
+\newunicodechar{♭}{$\flat$}
+\newunicodechar{♯}{$\sharp$}
+\newunicodechar{➚}{{\small$\nearrow$}}
+\newunicodechar{➘}{{\small$\searrow$}}
+\newunicodechar{Ȧ}{\.A}
+\newunicodechar{Ḃ}{\.B}
+\newunicodechar{Ċ}{\.C}
+\newunicodechar{Ḋ}{\.D}
+\newunicodechar{Ė}{\.E}
+\newunicodechar{Ḟ}{\.F}
+\newunicodechar{Ġ}{\.G}
+\newunicodechar{ʼ}{'}
+
+\def\nsharp#1{#1$\sharp$}
+\def\nflat#1{#1$\flat$}
+\def\nnatural#1{#1$\natural$}
+\def\ndot#1{\.{#1}}
+\def\nnaturaldot#1{\.{#1}$\natural$}
+\def\ncomma#1{\'{#1}}
+\def\nnaturalcomma#1{\'{#1}$\natural$}
+\def\nflatdot#1{\.{#1}$\flat$}
+\def\nsharpdot#1{\.{#1}$\sharp$}
+
+
+%% This is used for a thighter box around key names
+\setlength\fboxsep{1.2pt}
+
+\def\typesetInterval#1#2#3{\small{$\lvert$#1#2#3$\rvert$}}
+\def\typesetKey#1#2{\fbox{\footnotesize{\textsc{#1#2}}}}
+\def\typesetLinecounter#1{\tiny{\textsc{#1}}}
+\def\typesetTag#1{\texttt{#1}}
+
+\renewcommand*{\maketitle}{\noindent%
+\parbox{\dimexpr\linewidth-2\fboxsep}{\centering%
+\fontsize{20}{24}\selectfont\sffamily\bfseries\thetitle\\[1ex]%
+\fontsize{12}{14}\selectfont\centering\today\hspace{1cm}\theauthor}}
+
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\renewcommand{\arraystretch}{1.3}
+\author{Johannes Keller}
+\date{\today}
+\subtitle{Berücksichtigt sämtliche Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38.}
+
+\title{Inventar aller Intervalle in der Gruppe \typesetTag{:semitono} und \typesetTag{:diesis}\\\relsize{-3}Berücksichtigt Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+
+\vspace{3ex}
+
+{\large{Sämtliche Intervalle, die die Gruppenzugehörigkeit \typesetTag{:semitono} oder \typesetTag{:diesis} haben, nach Grösse in
+Stimmung \typesetTag{:tuning1} und nach Richtung sortiert.}}\\[2ex]
+
+{\footnotesize{Diese Stimmung besteht aus einer regelmässigen $\frac{1}{4}$-Komma-Mitteltönigkeit mit einer Quintenkette von C♭ (Ḃ♮) bis D♯♯♯ (Ė). Der \emph{sesto ordine} besteht aus den Tasten Aʼ B♮ʼ B♭ʼ Cʼ Dʼ Eʼ Fʼ und Gʼ, ausserdem ist die eine aussergewöhnliche Tonhöhe definiert, die 3:2 tiefer als G klingt und C-ʼ genannt wird. Diese Stimmung berücksichtigt sämtliche Tasten und Noten, die in den Kapiteln b5-c8 bis b5-c38 erwähnt werden.}}
+
+\vspace{2ex}
+
+{\footnotesize{Legende:
+\#~Zeilennummerierung,
+T~Objekttyp ($\Square$~Taste, $\CIRCLE$~Note, {\tiny$\Square$$\Square$}~Intervall zwischen Tasten, {\tiny$\CIRCLE$$\CIRCLE$}~Intervall zwischen Noten),
+I~Objekt-ID,
+B~\emph{libro},
+C~\emph{capitolo},
+»\texttt{D}«~\texttt{:diplomatic},
+»\texttt{sh}«~\texttt{:regular-shorthand},
+»\texttt{C}«~\texttt{:obvious-correction},
+»\texttt{R}«~\texttt{:recommended-correction},
+»\texttt{om}«~\texttt{:omitted-text},
+»\texttt{extd}«~\texttt{:extended-key},
+»\texttt{qs}«~\texttt{:quintenschaukel},
+»\texttt{p}«~\texttt{:propinqua},
+»\texttt{ip}«~\texttt{:inverse-propinqua},
+»\texttt{$\neg$ip}«~\texttt{:avoid-inverse-propinqua},
+»\texttt{pp}«~\texttt{:propinquissima},
+»\texttt{ipp}«~\texttt{:inverse-propinquissima},
+»\texttt{$\neg$ipp}«~\texttt{:avoid-inverse-propinquissima},
+»\texttt{ex}«~\texttt{:exotic},
+»\texttt{$\neg$ex}«~\texttt{:avoid-exotic},
+»\texttt{{\small\fbox{7}}}«~\texttt{:septimal},
+Skala der Intervallgrössen: Markierungen für 1:1 81:80, 128:125, 6:5, 5:4, 3:2, 8:5, 5:3 und 2:1.
+}}
+
+\begin{longtable}{p{1.5mm}C{2mm}p{5.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1.2cm}p{10.6cm}}
+
+\toprule
+\# &
+\emph{T} &
+\emph{I} &
+\emph{B} &
+\emph{C} &
+\emph{Name (normalisierte Orthographie)} &
+&
+\emph{Tags} &
+\emph{Intervallgrösse}\\
+\midrule
+\endhead
+
+
+\typesetLinecounter{1} & {\tiny$\Square$$\Square$} & 609 & 5 & 13 & comma \typesetInterval{608}{➘}{606} & \typesetInterval{Ė}{➘}{Eʼ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (0.26652086,0.1) -- (0.26652086,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{2} & {\tiny$\Square$$\Square$} & 80 & 5 & 8 & comma [sc: diesis minore] \typesetInterval{78}{➘}{79} & \typesetInterval{Ġ♭}{➘}{G♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (0.31490695,0.1) -- (0.31490695,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{3} & {\tiny$\Square$$\Square$} & 600 & 5 & 13 & comma \typesetInterval{599}{➘}{601} & \typesetInterval{Ċ}{➘}{C} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (0.31490695,0.1) -- (0.31490695,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{4} & {\tiny$\Square$$\Square$} & 70 & 5 & 8 & diesis enarmonico \typesetInterval{69}{➚}{72} & \typesetInterval{F}{➚}{Ḟ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (0.31490716,0.1) -- (0.31490716,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{5} & {\tiny$\Square$$\Square$} & 613 & 5 & 13 & comma \typesetInterval{612}{➚}{614} & \typesetInterval{F}{➚}{Ḟ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (0.31490716,0.1) -- (0.31490716,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{6} & {\tiny$\Square$$\Square$} & 67 & 5 & 8 & semitono maggiore \typesetInterval{66}{➚}{69} & \typesetInterval{E}{➚}{F} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (1.0539355,0.1) -- (1.0539355,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{7} & {\tiny$\Square$$\Square$} & 164 & 5 & 9 & semitono maggiore \typesetInterval{162}{➚}{165} & \typesetInterval{D♯}{➚}{E} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (1.0539355,0.1) -- (1.0539355,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+
+\bottomrule
+\end{longtable}
+\end{center}
+\end{document}

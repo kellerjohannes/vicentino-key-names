@@ -1,0 +1,1975 @@
+%% Auto-generated file: 2023-08-08T22:43:00.000000+10:00
+\documentclass[10pt,landscape,DIV=17,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{tipa}
+\usepackage{array}
+\usepackage{relsize}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{wasysym}
+\usepackage{booktabs}
+\usepackage{soul}
+\usepackage{titling}
+\usepackage{tikz}
+\setcounter{secnumdepth}{0}
+
+\usepackage{newunicodechar}
+\newunicodechar{♮}{$\natural$}
+\newunicodechar{♭}{$\flat$}
+\newunicodechar{♯}{$\sharp$}
+\newunicodechar{➚}{{\small$\nearrow$}}
+\newunicodechar{➘}{{\small$\searrow$}}
+\newunicodechar{Ȧ}{\.A}
+\newunicodechar{Ḃ}{\.B}
+\newunicodechar{Ċ}{\.C}
+\newunicodechar{Ḋ}{\.D}
+\newunicodechar{Ė}{\.E}
+\newunicodechar{Ḟ}{\.F}
+\newunicodechar{Ġ}{\.G}
+\newunicodechar{ʼ}{'}
+
+\def\nsharp#1{#1$\sharp$}
+\def\nflat#1{#1$\flat$}
+\def\nnatural#1{#1$\natural$}
+\def\ndot#1{\.{#1}}
+\def\nnaturaldot#1{\.{#1}$\natural$}
+\def\ncomma#1{\'{#1}}
+\def\nnaturalcomma#1{\'{#1}$\natural$}
+\def\nflatdot#1{\.{#1}$\flat$}
+\def\nsharpdot#1{\.{#1}$\sharp$}
+
+
+%% This is used for a thighter box around key names
+\setlength\fboxsep{1.2pt}
+
+\def\typesetInterval#1#2#3{\small{$\lvert$#1#2#3$\rvert$}}
+\def\typesetKey#1#2{\fbox{\footnotesize{\textsc{#1#2}}}}
+\def\typesetLinecounter#1{\tiny{\textsc{#1}}}
+\def\typesetTag#1{\texttt{#1}}
+
+\renewcommand*{\maketitle}{\noindent%
+\parbox{\dimexpr\linewidth-2\fboxsep}{\centering%
+\fontsize{20}{24}\selectfont\sffamily\bfseries\thetitle\\[1ex]%
+\fontsize{12}{14}\selectfont\centering\today\hspace{1cm}\theauthor}}
+
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\renewcommand{\arraystretch}{1.3}
+\author{Johannes Keller}
+\date{\today}
+\subtitle{Berücksichtigt sämtliche Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38.}
+
+\title{Inventar aller Intervalle in der Gruppe \typesetTag{:ottava}\\\relsize{-3}Berücksichtigt Tastennamen, Intervalle und Noten der Kapitel b5-c8 bis b5-c38}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+
+\vspace{3ex}
+
+{\large{Sämtliche Intervalle, die die Gruppenzugehörigkeit \typesetTag{:ottava} haben, nach Grösse in
+Stimmung \typesetTag{:tuning1} und nach Richtung sortiert.}}\\[2ex]
+
+{\footnotesize{Diese Stimmung besteht aus einer regelmässigen $\frac{1}{4}$-Komma-Mitteltönigkeit mit einer Quintenkette von C♭ (Ḃ♮) bis D♯♯♯ (Ė). Der \emph{sesto ordine} besteht aus den Tasten Aʼ B♮ʼ B♭ʼ Cʼ Dʼ Eʼ Fʼ und Gʼ, ausserdem ist die eine aussergewöhnliche Tonhöhe definiert, die 3:2 tiefer als G klingt und C-ʼ genannt wird. Diese Stimmung berücksichtigt sämtliche Tasten und Noten, die in den Kapiteln b5-c8 bis b5-c38 erwähnt werden.}}
+
+\vspace{2ex}
+
+{\footnotesize{Legende:
+\#~Zeilennummerierung,
+T~Objekttyp ($\Square$~Taste, $\CIRCLE$~Note, {\tiny$\Square$$\Square$}~Intervall zwischen Tasten, {\tiny$\CIRCLE$$\CIRCLE$}~Intervall zwischen Noten),
+I~Objekt-ID,
+B~\emph{libro},
+C~\emph{capitolo},
+»\texttt{D}«~\texttt{:diplomatic},
+»\texttt{sh}«~\texttt{:regular-shorthand},
+»\texttt{C}«~\texttt{:obvious-correction},
+»\texttt{R}«~\texttt{:recommended-correction},
+»\texttt{om}«~\texttt{:omitted-text},
+»\texttt{extd}«~\texttt{:extended-key},
+»\texttt{qs}«~\texttt{:quintenschaukel},
+»\texttt{p}«~\texttt{:propinqua},
+»\texttt{ip}«~\texttt{:inverse-propinqua},
+»\texttt{$\neg$ip}«~\texttt{:avoid-inverse-propinqua},
+»\texttt{pp}«~\texttt{:propinquissima},
+»\texttt{ipp}«~\texttt{:inverse-propinquissima},
+»\texttt{$\neg$ipp}«~\texttt{:avoid-inverse-propinquissima},
+»\texttt{ex}«~\texttt{:exotic},
+»\texttt{$\neg$ex}«~\texttt{:avoid-exotic},
+»\texttt{{\small\fbox{7}}}«~\texttt{:septimal},
+Skala der Intervallgrössen: Markierungen für 1:1 81:80, 128:125, 6:5, 5:4, 3:2, 8:5, 5:3 und 2:1.
+}}
+
+\begin{longtable}{p{1.5mm}C{2mm}p{5.5mm}p{1mm}p{2mm}p{6.5cm}p{15mm}p{1.2cm}p{10.6cm}}
+
+\toprule
+\# &
+\emph{T} &
+\emph{I} &
+\emph{B} &
+\emph{C} &
+\emph{Name (normalisierte Orthographie)} &
+&
+\emph{Tags} &
+\emph{Intervallgrösse}\\
+\midrule
+\endhead
+
+
+\typesetLinecounter{1} & {\tiny$\Square$$\Square$} & 81 & 5 & 8 & ottava \typesetInterval{82}{➚}{83} & \typesetInterval{A}{➚}{A} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{2} & {\tiny$\CIRCLE$$\CIRCLE$} & 125 & 5 & 8 & [ottava] \typesetInterval{85}{➚}{124} & \typesetInterval{A}{➚}{A} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{3} & {\tiny$\Square$$\Square$} & 172 & 5 & 9 & ottava \typesetInterval{161}{➚}{173} & \typesetInterval{G♯}{➚}{G♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{4} & {\tiny$\CIRCLE$$\CIRCLE$} & 219 & 5 & 9 & [ottava] \typesetInterval{179}{➚}{218} & \typesetInterval{G♯}{➚}{G♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{5} & {\tiny$\Square$$\Square$} & 262 & 5 & 10 & ottava \typesetInterval{221}{➚}{263} & \typesetInterval{A♭}{➚}{A♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{6} & {\tiny$\CIRCLE$$\CIRCLE$} & 308 & 5 & 10 & [ottava] \typesetInterval{268}{➚}{307} & \typesetInterval{A♭}{➚}{A♭} & {\footnotesize\texttt{R}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{7} & {\tiny$\Square$$\Square$} & 450 & 5 & 11 & ottava \typesetInterval{310}{➚}{451} & \typesetInterval{Ȧ}{➚}{Ȧ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{8} & {\tiny$\CIRCLE$$\CIRCLE$} & 494 & 5 & 11 & [ottava] \typesetInterval{454}{➚}{493} & \typesetInterval{Ȧ}{➚}{Ȧ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{9} & {\tiny$\Square$$\Square$} & 537 & 5 & 12 & ottava \typesetInterval{518}{➚}{538} & \typesetInterval{Ȧ♭}{➚}{Ȧ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{10} & {\tiny$\CIRCLE$$\CIRCLE$} & 581 & 5 & 12 & [ottava] \typesetInterval{541}{➚}{580} & \typesetInterval{Ȧ♭}{➚}{Ȧ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{11} & {\tiny$\Square$$\Square$} & 619 & 5 & 13 & ottava \typesetInterval{620}{➚}{621} & \typesetInterval{Aʼ}{➚}{Aʼ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{12} & {\tiny$\CIRCLE$$\CIRCLE$} & 648 & 5 & 13 & [ottava] \typesetInterval{624}{➚}{647} & \typesetInterval{Aʼ}{➚}{Aʼ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{13} & {\tiny$\Square$$\Square$} & 705 & 5 & 14 & ottava \typesetInterval{697}{➚}{706} & \typesetInterval{G}{➚}{G} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{14} & {\tiny$\CIRCLE$$\CIRCLE$} & 750 & 5 & 14 & [ottava] \typesetInterval{710}{➚}{749} & \typesetInterval{G}{➚}{G} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{15} & {\tiny$\Square$$\Square$} & 793 & 5 & 15 & ottava \typesetInterval{774}{➚}{794} & \typesetInterval{F♯}{➚}{F♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{16} & {\tiny$\CIRCLE$$\CIRCLE$} & 836 & 5 & 15 & [ottava] \typesetInterval{796}{➚}{835} & \typesetInterval{F♯}{➚}{F♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{17} & {\tiny$\Square$$\Square$} & 878 & 5 & 16 & ottava \typesetInterval{859}{➚}{879} & \typesetInterval{G♭}{➚}{G♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{18} & {\tiny$\CIRCLE$$\CIRCLE$} & 921 & 5 & 16 & [ottava] \typesetInterval{881}{➚}{920} & \typesetInterval{G♭}{➚}{G♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{19} & {\tiny$\Square$$\Square$} & 972 & 5 & 17 & ottava \typesetInterval{964}{➚}{973} & \typesetInterval{Ġ}{➚}{Ġ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{20} & {\tiny$\CIRCLE$$\CIRCLE$} & 1015 & 5 & 17 & [ottava] \typesetInterval{975}{➚}{1014} & \typesetInterval{Ġ}{➚}{Ġ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{21} & {\tiny$\Square$$\Square$} & 1059 & 5 & 18 & ottava \typesetInterval{1040}{➚}{1060} & \typesetInterval{Ġ♭}{➚}{Ġ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{22} & {\tiny$\CIRCLE$$\CIRCLE$} & 1102 & 5 & 18 & [ottava] \typesetInterval{1062}{➚}{1101} & \typesetInterval{Ġ♭}{➚}{Ġ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{23} & {\tiny$\Square$$\Square$} & 1148 & 5 & 19 & ottava \typesetInterval{1125}{➚}{1149} & \typesetInterval{F}{➚}{F} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{24} & {\tiny$\CIRCLE$$\CIRCLE$} & 1191 & 5 & 19 & [ottava] \typesetInterval{1151}{➚}{1190} & \typesetInterval{F}{➚}{F} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{25} & {\tiny$\Square$$\Square$} & 1233 & 5 & 20 & ottava \typesetInterval{1214}{➚}{1234} & \typesetInterval{E♯}{➚}{E♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{26} & {\tiny$\CIRCLE$$\CIRCLE$} & 1279 & 5 & 20 & [ottava] \typesetInterval{1239}{➚}{1278} & \typesetInterval{E♯}{➚}{E♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{27} & {\tiny$\Square$$\Square$} & 1349 & 5 & 21 & ottava \typesetInterval{1324}{➚}{1350} & \typesetInterval{E}{➚}{E} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{28} & {\tiny$\CIRCLE$$\CIRCLE$} & 1393 & 5 & 21 & [ottava] \typesetInterval{1353}{➚}{1392} & \typesetInterval{E}{➚}{E} & {\footnotesize\texttt{om}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{29} & {\tiny$\Square$$\Square$} & 1444 & 5 & 22 & ottava \typesetInterval{1395}{➚}{1445} & \typesetInterval{E♭}{➚}{E♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{30} & {\tiny$\CIRCLE$$\CIRCLE$} & 1497 & 5 & 22 & [ottava] \typesetInterval{1447}{➚}{1496} & \typesetInterval{E♭}{➚}{E♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{31} & {\tiny$\Square$$\Square$} & 1539 & 5 & 23 & ottava \typesetInterval{1520}{➚}{1540} & \typesetInterval{D♯}{➚}{D♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{32} & {\tiny$\CIRCLE$$\CIRCLE$} & 1586 & 5 & 23 & [ottava] \typesetInterval{1542}{➚}{1585} & \typesetInterval{D♯}{➚}{D♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{33} & {\tiny$\Square$$\Square$} & 1640 & 5 & 24 & ottava \typesetInterval{1615}{➚}{1641} & \typesetInterval{Ė}{➚}{Ė} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{34} & {\tiny$\CIRCLE$$\CIRCLE$} & 1688 & 5 & 24 & [ottava] \typesetInterval{1644}{➚}{1687} & \typesetInterval{Ė}{➚}{Ė} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{35} & {\tiny$\Square$$\Square$} & 1731 & 5 & 25 & ottava \typesetInterval{1712}{➚}{1732} & \typesetInterval{Ė♭}{➚}{Ė♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{36} & {\tiny$\CIRCLE$$\CIRCLE$} & 1782 & 5 & 25 & [ottava] \typesetInterval{1736}{➚}{1781} & \typesetInterval{Ė♭}{➚}{Ė♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{37} & {\tiny$\Square$$\Square$} & 1831 & 5 & 26 & ottava \typesetInterval{1808}{➚}{1832} & \typesetInterval{D}{➚}{D} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{38} & {\tiny$\CIRCLE$$\CIRCLE$} & 1879 & 5 & 26 & [ottava] \typesetInterval{1835}{➚}{1878} & \typesetInterval{D}{➚}{D} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{39} & {\tiny$\Square$$\Square$} & 1924 & 5 & 27 & ottava \typesetInterval{1903}{➚}{1925} & \typesetInterval{C♯}{➚}{C♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{40} & {\tiny$\CIRCLE$$\CIRCLE$} & 1972 & 5 & 27 & [ottava] \typesetInterval{1928}{➚}{1971} & \typesetInterval{C♯}{➚}{C♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{41} & {\tiny$\Square$$\Square$} & 2021 & 5 & 28 & ottava \typesetInterval{2000}{➚}{2022} & \typesetInterval{D♭}{➚}{D♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{42} & {\tiny$\CIRCLE$$\CIRCLE$} & 2071 & 5 & 28 & [ottava] \typesetInterval{2025}{➚}{2070} & \typesetInterval{D♭}{➚}{D♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{43} & {\tiny$\Square$$\Square$} & 2116 & 5 & 29 & ottava \typesetInterval{2097}{➚}{2117} & \typesetInterval{Ḋ}{➚}{Ḋ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{44} & {\tiny$\CIRCLE$$\CIRCLE$} & 2164 & 5 & 29 & [ottava] \typesetInterval{2120}{➚}{2163} & \typesetInterval{Ḋ}{➚}{Ḋ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{45} & {\tiny$\Square$$\Square$} & 2208 & 5 & 30 & ottava \typesetInterval{2189}{➚}{2209} & \typesetInterval{Ḋ♭}{➚}{Ḋ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{46} & {\tiny$\CIRCLE$$\CIRCLE$} & 2254 & 5 & 30 & [ottava] \typesetInterval{2212}{➚}{2253} & \typesetInterval{Ḋ♭}{➚}{Ḋ♭} & {\footnotesize\texttt{om}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{47} & {\tiny$\Square$$\Square$} & 2307 & 5 & 31 & ottava \typesetInterval{2282}{➚}{2308} & \typesetInterval{C}{➚}{C} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{48} & {\tiny$\CIRCLE$$\CIRCLE$} & 2355 & 5 & 31 & [ottava] \typesetInterval{2311}{➚}{2354} & \typesetInterval{C}{➚}{C} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{49} & {\tiny$\Square$$\Square$} & 2398 & 5 & 32 & ottava \typesetInterval{2379}{➚}{2399} & \typesetInterval{B♯}{➚}{B♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{50} & {\tiny$\CIRCLE$$\CIRCLE$} & 2442 & 5 & 32 & [ottava] \typesetInterval{2402}{➚}{2441} & \typesetInterval{B♯}{➚}{B♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{51} & {\tiny$\Square$$\Square$} & 2492 & 5 & 33 & ottava \typesetInterval{2473}{➚}{2493} & \typesetInterval{Ċ}{➚}{Ċ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{52} & {\tiny$\CIRCLE$$\CIRCLE$} & 2540 & 5 & 33 & [ottava] \typesetInterval{2496}{➚}{2539} & \typesetInterval{Ċ}{➚}{Ċ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{53} & {\tiny$\Square$$\Square$} & 2587 & 5 & 34 & ottava \typesetInterval{2564}{➚}{2588} & \typesetInterval{B♮}{➚}{B♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{54} & {\tiny$\CIRCLE$$\CIRCLE$} & 2635 & 5 & 34 & [ottava] \typesetInterval{2591}{➚}{2634} & \typesetInterval{B♮}{➚}{B♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{55} & {\tiny$\Square$$\Square$} & 2684 & 5 & 35 & ottava \typesetInterval{2661}{➚}{2685} & \typesetInterval{B♭}{➚}{B♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{56} & {\tiny$\CIRCLE$$\CIRCLE$} & 2732 & 5 & 35 & [ottava] \typesetInterval{2688}{➚}{2731} & \typesetInterval{B♭}{➚}{B♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{57} & {\tiny$\Square$$\Square$} & 2877 & 5 & 36 & ottava \typesetInterval{2756}{➚}{2878} & \typesetInterval{A♯}{➚}{A♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{58} & {\tiny$\CIRCLE$$\CIRCLE$} & 2923 & 5 & 36 & [ottava] \typesetInterval{2881}{➚}{2922} & \typesetInterval{A♯}{➚}{A♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{59} & {\tiny$\Square$$\Square$} & 2972 & 5 & 37 & ottava \typesetInterval{2953}{➚}{2973} & \typesetInterval{Ḃ♮}{➚}{Ḃ♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{60} & {\tiny$\CIRCLE$$\CIRCLE$} & 3018 & 5 & 37 & [ottava] \typesetInterval{2974}{➚}{3017} & \typesetInterval{Ḃ♮}{➚}{Ḃ♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{61} & {\tiny$\Square$$\Square$} & 3067 & 5 & 38 & ottava \typesetInterval{3022}{➚}{3068} & \typesetInterval{Ḃ♭}{➚}{Ḃ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{62} & {\tiny$\CIRCLE$$\CIRCLE$} & 3113 & 5 & 38 & [ottava] \typesetInterval{3071}{➚}{3112} & \typesetInterval{Ḃ♭}{➚}{Ḃ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{63} & {\tiny$\Square$$\Square$} & 13 & 5 & 8 & ottava \typesetInterval{7}{➘}{14} & \typesetInterval{A}{➘}{A} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{64} & {\tiny$\CIRCLE$$\CIRCLE$} & 105 & 5 & 8 & [ottava] \typesetInterval{85}{➘}{104} & \typesetInterval{A}{➘}{A} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{65} & {\tiny$\Square$$\Square$} & 148 & 5 & 9 & ottava \typesetInterval{149}{➘}{150} & \typesetInterval{G♯}{➘}{G♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{66} & {\tiny$\CIRCLE$$\CIRCLE$} & 199 & 5 & 9 & [ottava] \typesetInterval{179}{➘}{198} & \typesetInterval{G♯}{➘}{G♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{67} & {\tiny$\Square$$\Square$} & 240 & 5 & 10 & ottava \typesetInterval{221}{➘}{241} & \typesetInterval{A♭}{➘}{A♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{68} & {\tiny$\CIRCLE$$\CIRCLE$} & 288 & 5 & 10 & [ottava] \typesetInterval{268}{➘}{287} & \typesetInterval{A♭}{➘}{A♭} & {\footnotesize\texttt{om}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{69} & {\tiny$\Square$$\Square$} & 329 & 5 & 11 & ottava \typesetInterval{310}{➘}{330} & \typesetInterval{Ȧ}{➘}{Ȧ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{70} & {\tiny$\CIRCLE$$\CIRCLE$} & 474 & 5 & 11 & [ottava] \typesetInterval{454}{➘}{473} & \typesetInterval{Ȧ}{➘}{Ȧ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{71} & {\tiny$\Square$$\Square$} & 515 & 5 & 12 & ottava \typesetInterval{496}{➘}{516} & \typesetInterval{Ȧ♭}{➘}{Ȧ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{72} & {\tiny$\CIRCLE$$\CIRCLE$} & 561 & 5 & 12 & [ottava] \typesetInterval{541}{➘}{560} & \typesetInterval{Ȧ♭}{➘}{Ȧ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{73} & {\tiny$\CIRCLE$$\CIRCLE$} & 636 & 5 & 13 & ottava \typesetInterval{624}{➘}{635} & \typesetInterval{Aʼ}{➘}{Aʼ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{74} & {\tiny$\Square$$\Square$} & 681 & 5 & 14 & ottava \typesetInterval{650}{➘}{682} & \typesetInterval{G}{➘}{G} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{75} & {\tiny$\CIRCLE$$\CIRCLE$} & 730 & 5 & 14 & [ottava] \typesetInterval{710}{➘}{729} & \typesetInterval{G}{➘}{G} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{76} & {\tiny$\Square$$\Square$} & 771 & 5 & 15 & ottava \typesetInterval{752}{➘}{772} & \typesetInterval{F♯}{➘}{F♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{77} & {\tiny$\CIRCLE$$\CIRCLE$} & 816 & 5 & 15 & [ottava] \typesetInterval{796}{➘}{815} & \typesetInterval{F♯}{➘}{F♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{78} & {\tiny$\Square$$\Square$} & 857 & 5 & 16 & ottava \typesetInterval{838}{➘}{858} & \typesetInterval{G♭}{➘}{G♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{79} & {\tiny$\CIRCLE$$\CIRCLE$} & 901 & 5 & 16 & [ottava] \typesetInterval{881}{➘}{900} & \typesetInterval{G♭}{➘}{G♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{80} & {\tiny$\Square$$\Square$} & 945 & 5 & 17 & ottava \typesetInterval{937}{➘}{946} & \typesetInterval{Ġ}{➘}{Ġ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{81} & {\tiny$\CIRCLE$$\CIRCLE$} & 995 & 5 & 17 & [ottava] \typesetInterval{975}{➘}{994} & \typesetInterval{Ġ}{➘}{Ġ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{82} & {\tiny$\Square$$\Square$} & 1037 & 5 & 18 & ottava \typesetInterval{1018}{➘}{1038} & \typesetInterval{Ġ♭}{➘}{Ġ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{83} & {\tiny$\CIRCLE$$\CIRCLE$} & 1082 & 5 & 18 & [ottava] \typesetInterval{1062}{➘}{1081} & \typesetInterval{Ġ♭}{➘}{Ġ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{84} & {\tiny$\Square$$\Square$} & 1123 & 5 & 19 & ottava \typesetInterval{1104}{➘}{1124} & \typesetInterval{F}{➘}{F} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{85} & {\tiny$\CIRCLE$$\CIRCLE$} & 1171 & 5 & 19 & [ottava] \typesetInterval{1151}{➘}{1170} & \typesetInterval{F}{➘}{F} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{86} & {\tiny$\Square$$\Square$} & 1212 & 5 & 20 & ottava \typesetInterval{1193}{➘}{1213} & \typesetInterval{E♯}{➘}{E♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{87} & {\tiny$\CIRCLE$$\CIRCLE$} & 1259 & 5 & 20 & [ottava] \typesetInterval{1239}{➘}{1258} & \typesetInterval{E♯}{➘}{E♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{88} & {\tiny$\Square$$\Square$} & 1322 & 5 & 21 & ottava \typesetInterval{1299}{➘}{1323} & \typesetInterval{E}{➘}{E} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{89} & {\tiny$\CIRCLE$$\CIRCLE$} & 1373 & 5 & 21 & [ottava] \typesetInterval{1353}{➘}{1372} & \typesetInterval{E}{➘}{E} & {\footnotesize\texttt{om}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{90} & {\tiny$\Square$$\Square$} & 1418 & 5 & 22 & ottava \typesetInterval{1395}{➘}{1419} & \typesetInterval{E♭}{➘}{E♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{91} & {\tiny$\CIRCLE$$\CIRCLE$} & 1473 & 5 & 22 & [ottava] \typesetInterval{1447}{➘}{1472} & \typesetInterval{E♭}{➘}{E♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{92} & {\tiny$\Square$$\Square$} & 1518 & 5 & 23 & ottava \typesetInterval{1499}{➘}{1519} & \typesetInterval{D♯}{➘}{D♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{93} & {\tiny$\CIRCLE$$\CIRCLE$} & 1562 & 5 & 23 & [ottava] \typesetInterval{1542}{➘}{1561} & \typesetInterval{D♯}{➘}{D♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{94} & {\tiny$\Square$$\Square$} & 1613 & 5 & 24 & ottava \typesetInterval{1588}{➘}{1614} & \typesetInterval{Ė}{➘}{Ė} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{95} & {\tiny$\CIRCLE$$\CIRCLE$} & 1668 & 5 & 24 & [ottava] \typesetInterval{1644}{➘}{1667} & \typesetInterval{Ė}{➘}{Ė} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{96} & {\tiny$\Square$$\Square$} & 1710 & 5 & 25 & ottava \typesetInterval{1691}{➘}{1711} & \typesetInterval{Ė♭}{➘}{Ė♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{97} & {\tiny$\CIRCLE$$\CIRCLE$} & 1760 & 5 & 25 & [ottava] \typesetInterval{1736}{➘}{1759} & \typesetInterval{Ė♭}{➘}{Ė♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{98} & {\tiny$\Square$$\Square$} & 1806 & 5 & 26 & ottava \typesetInterval{1785}{➘}{1807} & \typesetInterval{D}{➘}{D} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{99} & {\tiny$\CIRCLE$$\CIRCLE$} & 1855 & 5 & 26 & [ottava] \typesetInterval{1835}{➘}{1854} & \typesetInterval{D}{➘}{D} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{100} & {\tiny$\Square$$\Square$} & 1901 & 5 & 27 & ottava \typesetInterval{1882}{➘}{1902} & \typesetInterval{C♯}{➘}{C♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{101} & {\tiny$\CIRCLE$$\CIRCLE$} & 1948 & 5 & 27 & [ottava] \typesetInterval{1928}{➘}{1947} & \typesetInterval{C♯}{➘}{C♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{102} & {\tiny$\Square$$\Square$} & 1998 & 5 & 28 & ottava \typesetInterval{1975}{➘}{1999} & \typesetInterval{D♭}{➘}{D♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{103} & {\tiny$\CIRCLE$$\CIRCLE$} & 2049 & 5 & 28 & [ottava] \typesetInterval{2025}{➘}{2048} & \typesetInterval{D♭}{➘}{D♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{104} & {\tiny$\Square$$\Square$} & 2095 & 5 & 29 & ottava \typesetInterval{2074}{➘}{2096} & \typesetInterval{Ḋ}{➘}{Ḋ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{105} & {\tiny$\CIRCLE$$\CIRCLE$} & 2144 & 5 & 29 & [ottava] \typesetInterval{2120}{➘}{2143} & \typesetInterval{Ḋ}{➘}{Ḋ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{106} & {\tiny$\Square$$\Square$} & 2187 & 5 & 30 & ottava \typesetInterval{2168}{➘}{2188} & \typesetInterval{Ḋ♭}{➘}{Ḋ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{107} & {\tiny$\CIRCLE$$\CIRCLE$} & 2234 & 5 & 30 & [ottava] \typesetInterval{2212}{➘}{2233} & \typesetInterval{Ḋ♭}{➘}{Ḋ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{108} & {\tiny$\Square$$\Square$} & 2280 & 5 & 31 & ottava \typesetInterval{2257}{➘}{2281} & \typesetInterval{C}{➘}{C} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{109} & {\tiny$\CIRCLE$$\CIRCLE$} & 2331 & 5 & 31 & [ottava] \typesetInterval{2311}{➘}{2330} & \typesetInterval{C}{➘}{C} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{110} & {\tiny$\Square$$\Square$} & 2377 & 5 & 32 & ottava \typesetInterval{2358}{➘}{2378} & \typesetInterval{B♯}{➘}{B♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{111} & {\tiny$\CIRCLE$$\CIRCLE$} & 2422 & 5 & 32 & [ottava] \typesetInterval{2402}{➘}{2421} & \typesetInterval{B♯}{➘}{B♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{112} & {\tiny$\Square$$\Square$} & 2471 & 5 & 33 & ottava \typesetInterval{2446}{➘}{2472} & \typesetInterval{Ċ}{➘}{Ċ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{113} & {\tiny$\CIRCLE$$\CIRCLE$} & 2520 & 5 & 33 & [ottava] \typesetInterval{2496}{➘}{2519} & \typesetInterval{Ċ}{➘}{Ċ} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{114} & {\tiny$\Square$$\Square$} & 2562 & 5 & 34 & ottava \typesetInterval{2543}{➘}{2563} & \typesetInterval{B♮}{➘}{B♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{115} & {\tiny$\CIRCLE$$\CIRCLE$} & 2611 & 5 & 34 & [ottava] \typesetInterval{2591}{➘}{2610} & \typesetInterval{B♮}{➘}{B♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{116} & {\tiny$\Square$$\Square$} & 2659 & 5 & 35 & ottava \typesetInterval{2638}{➘}{2660} & \typesetInterval{B♭}{➘}{B♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{117} & {\tiny$\CIRCLE$$\CIRCLE$} & 2708 & 5 & 35 & [ottava] \typesetInterval{2688}{➘}{2707} & \typesetInterval{B♭}{➘}{B♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{118} & {\tiny$\Square$$\Square$} & 2754 & 5 & 36 & ottava \typesetInterval{2735}{➘}{2755} & \typesetInterval{A♯}{➘}{A♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{119} & {\tiny$\CIRCLE$$\CIRCLE$} & 2901 & 5 & 36 & [ottava] \typesetInterval{2881}{➘}{2900} & \typesetInterval{A♯}{➘}{A♯} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{120} & {\tiny$\Square$$\Square$} & 2951 & 5 & 37 & ottava \typesetInterval{2926}{➘}{2952} & \typesetInterval{Ḃ♮}{➘}{Ḃ♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{121} & {\tiny$\CIRCLE$$\CIRCLE$} & 2998 & 5 & 37 & [ottava] \typesetInterval{2974}{➘}{2997} & \typesetInterval{Ḃ♮}{➘}{Ḃ♮} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{122} & {\tiny$\Square$$\Square$} & 3043 & 5 & 38 & ottava \typesetInterval{3022}{➘}{3044} & \typesetInterval{Ḃ♭}{➘}{Ḃ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+\typesetLinecounter{123} & {\tiny$\CIRCLE$$\CIRCLE$} & 3093 & 5 & 38 & [ottava] \typesetInterval{3071}{➘}{3092} & \typesetInterval{Ḃ♭}{➘}{Ḃ♭} & {\footnotesize\texttt{D}\,} & 
+\begin{tikzpicture}
+\draw[fill=black] (0,0) -- (0,0.1) -- (10.7996645,0.1) -- (10.7996645,0) -- (0,0) ;
+\draw[thin] (0,0) -- (10.7996645,0) ; % bottom to 2:1
+\draw[thin] (0,0.2) -- (10.7996645,0.2) ; % top to 2:1
+\draw[thin] (0,0) -- (0,0.2) ; % tick on 1:1
+\draw[very thin] (0.1935506,0) -- (0.1935506,0.2) ; % tick on 81:80
+\draw[very thin] (0.36951825,0) -- (0.36951825,0.2) ; % tick on 128:125
+\draw[very thin] (2.8406837,0) -- (2.8406837,0.2) ; % tick on 6:5
+\draw[very thin] (3.4767153,0) -- (3.4767153,0.2) ; % tick on 5:4
+\draw[very thin] (6.3173985,0) -- (6.3173985,0.2) ; % tick on 3:2
+\draw[very thin] (7.3229494,0) -- (7.3229494,0.2) ; % tick on 8:5
+\draw[very thin] (7.958982,0) -- (7.958982,0.2) ; % tick on 5:3
+\draw[very thin] (10.7996645,0) -- (10.7996645,0.2) ; % tick on 2:1
+\end{tikzpicture} \\
+
+\bottomrule
+\end{longtable}
+\end{center}
+\end{document}
