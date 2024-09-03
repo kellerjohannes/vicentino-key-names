@@ -1652,7 +1652,7 @@ zu verstehen.")
   :pdf-page 212
   :pdf-position (0.22042300066093853 . 0.7515243902439024)
   :tag-list (:diplomatic)
-  :comment "Der Bezug zu Tasten wurde sinngemäss ergänst und ist im Text nicht explizit gegeben.")
+  :comment "Der Bezug zu Tasten wurde sinngemäss ergänzt und ist im Text nicht explizit gegeben.")
  (:id 165
   :item-type :key
   :key-name "Elami primo"
