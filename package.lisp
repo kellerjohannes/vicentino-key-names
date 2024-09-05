@@ -5,4 +5,4 @@
 (in-package :vicentino-key-names)
 
 (defparameter *tex-output-path*
-  (merge-pathnames (asdf/system:system-source-directory :vicentino-key-names) "tex-output/"))
+  (merge-pathnames "tex-output/"(asdf/system:system-source-directory :vicentino-key-names)))
