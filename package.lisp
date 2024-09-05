@@ -5,4 +5,5 @@
 (in-package :vicentino-key-names)
 
 
-(defparameter *tex-output-path* "~/common-lisp/vicentino-key-names/tex-output/")
+(defparameter *tex-output-path*
+  (merge-pathnames (asdf/system:system-source-directory :vicentino-key-names) "tex-output/"))
