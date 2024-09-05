@@ -85,7 +85,7 @@
     (write-spreadsheet "tab-tuning1-alle-terzen.tex"
                        "Inventar aller Intervalle in der Gruppe \\typesetTag{:terza}"
                        "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:terza} haben, nach Grösse in
-Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
+Stimmung \\typesetTag{:tuning1} und nach Grösse sortiert."
                        :tuning1
                        (sort (select critical-keys (where #'eq :interval-group-identity :terza))
                              (lambda (a b)
@@ -198,9 +198,27 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                                                    (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
+    (write-spreadsheet "tab-tuning3-alle-terzen.tex"
+                       "Inventar aller Intervalle in der Gruppe\\typesetTag{:terza}"
+                       "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:terza} haben, nach Grösse in Stimmung \\typesetTag{:tuning3} und nach Grösse sortiert."
+                       :tuning3
+                       (sort (select critical-keys (where #'eq :interval-group-identity :terza))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning3 critical-keys))
+                                     (size-b (get-interval-size b :tuning3 critical-keys))
+                                     (id-a (getf a :id))
+                                     (id-b (getf b :id))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((and (= size-a size-b)
+                                             (eq direction-a direction-b))
+                                        (< id-a id-b))
+                                       ((= size-a size-b)
+                                        (string> (symbol-name direction-a) (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)
+
     ;; TODO
-    ;; - define Quintenschaukel tuning
-    ;; - produce all spreadsheets based on Quintenschaukel
     ;; - extract all combinations of propinqua/propinquissima, put it in one table and one spreadsheet
     ;; - extract all /quinte perfette/, for Quintenschaukel and for tuning1
     ))
