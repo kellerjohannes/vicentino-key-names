@@ -15,5 +15,6 @@ pdflatex tab-tuning1-alle-oktaven.tex
 pdflatex tab-tuning1-alle-semitoni-und-kleiner.tex
 
 pdflatex tab-tuning3-alle-intervalle-nach-groesse.tex
+pdflatex tab-tuning3-alle-terzen.tex
 
 mv *.pdf pdf/
