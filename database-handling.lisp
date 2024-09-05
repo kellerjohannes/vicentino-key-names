@@ -4,10 +4,12 @@
 (defvar *chapter-index* nil)
 
 (defun read-db ()
-  (with-open-file (in "~/common-lisp/prototypes/vicentino-tools/key-names/data/all-keys-db.lisp")
+  (with-open-file (in (merge-pathnames "data/all-keys-db.lisp"
+                                       (asdf/system:system-source-directory :vicentino-key-names)))
     (with-standard-io-syntax
       (setf *keys* (read in))))
-  (with-open-file (in "~/common-lisp/prototypes/vicentino-tools/key-names/data/chapter-index.lisp")
+  (with-open-file (in (merge-pathnames "data/chapter-index.lisp"
+                                       (asdf/system:system-source-directory :vicentino-key-names)))
     (with-standard-io-syntax
       (setf *chapter-index* (read in))))
   t)
