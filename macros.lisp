@@ -1,4 +1,4 @@
-(in-package :key-names)
+(in-package :vicentino-key-names)
 
 (defun make-comparison-expression (field value test)
   `(funcall ,test (getf item ,field) ,value))

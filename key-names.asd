@@ -1,4 +1,4 @@
-(asdf:defsystem "key-names"
+(asdf:defsystem "vicentino-key-names"
   :depends-on (:cl-svg :vicentino-tunings :alexandria :local-time)
   :serial t
   :components ((:file "package")

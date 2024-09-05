@@ -1,4 +1,4 @@
-(in-package :key-names)
+(in-package :vicentino-key-names)
 
 (defvar *keys* nil)
 (defvar *chapter-index* nil)
