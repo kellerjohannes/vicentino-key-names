@@ -1,0 +1,33 @@
+#-*- mode: org -*-
+#+title: Documentation of VICENTINO-KEY-NAMES
+#+author: Johannes Keller
+
+* Introduction
+VICENTINO-KEY-NAMES is a tool written in common lisp that generates
+PDF tables that contain information about the sizes of musical
+intervals in Nicola Vicentino's treatise /L'antica musica ridotta alla
+moderna prattica/ (printed in Rome 1555).
+
+In the /quinto libro/, chapters VIII to XXXVIII, Vicentino mentions
+many exotic musical intervals. He expresses them either by referring
+to specific keys on his custom microtonal organ "Arciorgano", or by
+using a custom musical notation. Both approaches require careful
+analysis and interpretation, since they are both not fully explained
+within the treatise or anywhere else.
+
+On top of that, there are many obvious and less obvious misprints,
+particularly when it comes to key names.
+
+So far, musicological studies of Vicentino's treatise haven't
+considered the full complexity of the task of correcting misprints and
+mapping the resulting reading onto a specific musical tuning.
+
+This program was developed for the PhD thesis of Johannes Keller. The
+generated tables provide important insights for the handling of these
+chapters.
+
+It contains a crude implementation of a database with all the
+occurrences of key names and notes.
+
+Beyond being useful for the PhD thesis, writing this code was a neat
+little execise in basic common lisp programming.
