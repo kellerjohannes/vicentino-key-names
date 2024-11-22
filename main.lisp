@@ -225,6 +225,31 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
 
 
 
+;; New idea: algorithmically list all conceivable interval names; correlate them with all intervals
+;; that can be found on the keyboard. Then compare this complete list of playable intervals with the
+;; intervals that are specifically mentioned in "L'antica musica", cap. V.8-V.38. Main insight: how
+;; complete is Vicentino's interval list, is there a pattern for missing intervals, did he ignore a
+;; whole class of intervals?
+
+;; TODO: generate a list of conceivable interval sizes, with unique technical names and Vicentino's
+;; own (partly ambiguous) names.
+
+;; TODO: define a data format to represent all available keys (with multiple versions, and
+;; extensions, depending on the various interpretations of Vicentino's text.
+
+;; TODO: define a function to cycle through all 2-key-combinations.
+
+;; TODO: define a search algorithm that matches the 2-key-combinations with specific tuning
+;; variations and compares these sizes with the complete list of conceivable intervals, using a
+;; definable precision window.
+
+
+
+
+
+
+
+
 
 ;; Entry point
 
