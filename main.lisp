@@ -85,7 +85,7 @@
     (write-spreadsheet "tab-tuning1-alle-terzen.tex"
                        "Inventar aller Intervalle in der Gruppe \\typesetTag{:terza}"
                        "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:terza} haben, nach Grösse in
-Stimmung \\typesetTag{:tuning1} und nach Grösse sortiert."
+Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                        :tuning1
                        (sort (select critical-keys (where #'eq :interval-group-identity :terza))
                              (lambda (a b)
@@ -200,7 +200,7 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                        critical-keys)
     (write-spreadsheet "tab-tuning3-alle-terzen.tex"
                        "Inventar aller Intervalle in der Gruppe\\typesetTag{:terza}"
-                       "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:terza} haben, nach Grösse in Stimmung \\typesetTag{:tuning3} und nach Grösse sortiert."
+                       "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:terza} haben, nach Grösse in Stimmung \\typesetTag{:tuning3} und nach Richtung sortiert."
                        :tuning3
                        (sort (select critical-keys (where #'eq :interval-group-identity :terza))
                              (lambda (a b)
@@ -217,11 +217,132 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
                                         (string> (symbol-name direction-a) (symbol-name direction-b)))
                                        (t (< size-a size-b))))))
                        critical-keys)
-
-    ;; TODO
-    ;; - extract all combinations of propinqua/propinquissima, put it in one table and one spreadsheet
-    ;; - extract all /quinte perfette/, for Quintenschaukel and for tuning1
-    ))
+    (write-spreadsheet "tab-tuning3-alle-quinten.tex"
+                       "Inventar aller Intervalle in der Gruppe\\typesetTag{:quinta}"
+                       "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:quinta} haben, nach Grösse in Stimmung \\typesetTag{:tuning3} und nach Richtung sortiert."
+                       :tuning3
+                       (sort (select critical-keys (where #'eq :interval-group-identity :quinta))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning3 critical-keys))
+                                     (size-b (get-interval-size b :tuning3 critical-keys))
+                                     (id-a (getf a :id))
+                                     (id-b (getf b :id))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((and (= size-a size-b)
+                                             (eq direction-a direction-b))
+                                        (< id-a id-b))
+                                       ((= size-a size-b)
+                                        (string> (symbol-name direction-a) (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)
+    (write-spreadsheet "tab-tuning3-alle-sexten.tex"
+                       "Inventar aller Intervalle in der Gruppe\\typesetTag{:sesta}"
+                       "Sämtliche Intervalle, die die Gruppenzugehörigkeit \\typesetTag{:sesta} haben, nach Grösse in Stimmung \\typesetTag{:tuning3} und nach Richtung sortiert."
+                       :tuning3
+                       (sort (select critical-keys (where #'eq :interval-group-identity :sesta))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning3 critical-keys))
+                                     (size-b (get-interval-size b :tuning3 critical-keys))
+                                     (id-a (getf a :id))
+                                     (id-b (getf b :id))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((and (= size-a size-b)
+                                             (eq direction-a direction-b))
+                                        (< id-a id-b))
+                                       ((= size-a size-b)
+                                        (string> (symbol-name direction-a) (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)
+    (write-spreadsheet "tab-tuning1-alle-septimal.tex"
+                       "Inventar aller Intervalle mit dem Tag \\typesetTag{:septimal}"
+                       "Sämtliche Intervalle, die mit dem Tag \\typesetTag{:septimal} ausgezeichnet sind, nach Grösse in Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
+                       :tuning1
+                       (sort (select critical-keys (where #'contains :tag-list :septimal))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning1 critical-keys))
+                                     (size-b (get-interval-size b :tuning1 critical-keys))
+                                     (id-a (getf a :id))
+                                     (id-b (getf b :id))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((and (= size-a size-b)
+                                             (eq direction-a direction-b))
+                                        (< id-a id-b))
+                                       ((= size-a size-b)
+                                        (string> (symbol-name direction-a) (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)
+    (write-spreadsheet "tab-tuning3-alle-septimal.tex"
+                       "Inventar aller Intervalle mit dem Tag \\typesetTag{:septimal}"
+                       "Sämtliche Intervalle, die mit dem Tag \\typesetTag{:septimal} ausgezeichnet sind, nach Grösse in Stimmung \\typesetTag{:tuning3} und nach Richtung sortiert."
+                       :tuning3
+                       (sort (select critical-keys (where #'contains :tag-list :septimal))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning3 critical-keys))
+                                     (size-b (get-interval-size b :tuning3 critical-keys))
+                                     (id-a (getf a :id))
+                                     (id-b (getf b :id))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((and (= size-a size-b)
+                                             (eq direction-a direction-b))
+                                        (< id-a id-b))
+                                       ((= size-a size-b)
+                                        (string> (symbol-name direction-a) (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)
+    (write-spreadsheet "tab-tuning1-alle-propinqui-und-propinquissimi.tex"
+                       "Inventar aller \\textit{propinqui-} und \\textit{propinquissimi-}Intervalle"
+                       "Sämtliche Intervalle, die als \\textit{propinquo} oder \\textit{propinquissimo} oder eine
+Kombination davon gelten, nach Grösse in Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
+                       :tuning1
+                       (sort (select (select critical-keys
+                                             (where #'eq :item-type :interval))
+                                     (where #'contains-or
+                                            :tag-list
+                                            (list :propinqua :propinquissima
+                                                  :inverse-propinqua :inverse-propinquissima)))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning1 critical-keys))
+                                     (size-b (get-interval-size b :tuning1 critical-keys))
+                                     (id-a (getf a :id))
+                                     (id-b (getf b :id))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((and (= size-a size-b)
+                                             (eq direction-a direction-b))
+                                        (< id-a id-b))
+                                       ((= size-a size-b)
+                                        (string> (symbol-name direction-a) (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)
+    (write-spreadsheet "tab-tuning3-alle-propinqui-und-propinquissimi.tex"
+                       "Inventar aller \\textit{propinqui-} und \\textit{propinquissimi-}Intervalle"
+                       "Sämtliche Intervalle, die als \\textit{propinquo} oder \\textit{propinquissimo} oder eine
+Kombination davon gelten, nach Grösse in Stimmung \\typesetTag{:tuning3} und nach Richtung sortiert."
+                       :tuning3
+                       (sort (select (select critical-keys
+                                             (where #'eq :item-type :interval))
+                                     (where #'contains-or
+                                            :tag-list
+                                            (list :propinqua :propinquissima
+                                                  :inverse-propinqua :inverse-propinquissima)))
+                             (lambda (a b)
+                               (let ((size-a (get-interval-size a :tuning3 critical-keys))
+                                     (size-b (get-interval-size b :tuning3 critical-keys))
+                                     (id-a (getf a :id))
+                                     (id-b (getf b :id))
+                                     (direction-a (getf a :direction))
+                                     (direction-b (getf b :direction)))
+                                 (cond ((and (= size-a size-b)
+                                             (eq direction-a direction-b))
+                                        (< id-a id-b))
+                                       ((= size-a size-b)
+                                        (string> (symbol-name direction-a) (symbol-name direction-b)))
+                                       (t (< size-a size-b))))))
+                       critical-keys)))
 
 
 

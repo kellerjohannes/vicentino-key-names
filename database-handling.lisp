@@ -17,6 +17,9 @@
 (defun contains (lst item)
   (member item lst))
 
+(defun contains-or (lst item-lst)
+  (intersection lst item-lst))
+
 
 (defmacro where (test &rest fields)
   `(lambda (item) (and ,@(make-comparison-list fields test))))
