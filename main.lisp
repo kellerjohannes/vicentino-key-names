@@ -244,6 +244,16 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
 ;; definable precision window.
 
 
+;; Need for manually listing all 'propinqui', since they can't be generated algorithmically for
+;; intervals smaller than the 'quarta'. All intervals withing the octave need to be listed, because
+;; Vicentino includes the 'seste' in his lists of consonances.  To deduce the size of a specific
+;; interval, examples of note names need to be given, since they might differ in various tuning
+;; versions. This results in a band of possible interval sizes for a given interval name. The
+;; selection of note name examples is crucial and might be problematic for specific tuning
+;; systems. Therefore it's important to define the first example as the musically most evident
+;; occurrance of an interval (for example: for the 'diesis enarmonico minore', C➚Ċ is much more
+;; common in Vicentino's text and music than D♯➚E♭).
+
 (defparameter *stem-intervals*
   '((diesis (:c :up :ċ) (:c♯ :up :d♭) (:ḋ♭ :up :d))
     (semitono-minore (:d :up :d♯) (:ė :up :f))
