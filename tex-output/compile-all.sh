@@ -16,5 +16,11 @@ pdflatex tab-tuning1-alle-semitoni-und-kleiner.tex
 
 pdflatex tab-tuning3-alle-intervalle-nach-groesse.tex
 pdflatex tab-tuning3-alle-terzen.tex
+pdflatex tab-tuning3-alle-quinten.tex
+pdflatex tab-tuning3-alle-sexten.tex
+pdflatex tab-tuning3-alle-septimal.tex
+pdflatex tab-tuning1-alle-septimal.tex
+pdflatex tab-tuning1-alle-propinqui-und-propinquissimi.tex
+pdflatex tab-tuning3-alle-propinqui-und-propinquissimi.tex
 
 mv *.pdf pdf/
