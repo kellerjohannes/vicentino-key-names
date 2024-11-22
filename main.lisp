@@ -244,8 +244,13 @@ Stimmung \\typesetTag{:tuning1} und nach Richtung sortiert."
 ;; definable precision window.
 
 
+(defparameter *stem-intervals*
+  '((diesis (:c :up :ċ) (:c♯ :up :d♭) (:ḋ♭ :up :d))
+    (semitono-minore (:d :up :d♯) (:ė :up :f))
+    (semitono-maggiore )))
 
-
+(defun generate-interval-list (size-of-comma)
+  )
 
 
 
