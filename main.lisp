@@ -352,13 +352,13 @@ Kombination davon gelten, nach Grösse in Stimmung \\typesetTag{:tuning3} und na
 ;; complete is Vicentino's interval list, is there a pattern for missing intervals, did he ignore a
 ;; whole class of intervals?
 
-;; TODO: generate a list of conceivable interval sizes, with unique technical names and Vicentino's
+;; DONE: generate a list of conceivable interval sizes, with unique technical names and Vicentino's
 ;; own (partly ambiguous) names.
 
-;; TODO: define a data format to represent all available keys (with multiple versions, and
+;; DONE: define a data format to represent all available keys (with multiple versions, and
 ;; extensions, depending on the various interpretations of Vicentino's text.
 
-;; TODO: define a function to cycle through all 2-key-combinations.
+;; DONE: define a function to cycle through all 2-key-combinations.
 
 ;; TODO: define a search algorithm that matches the 2-key-combinations with specific tuning
 ;; variations and compares these sizes with the complete list of conceivable intervals, using a
@@ -378,14 +378,167 @@ Kombination davon gelten, nach Grösse in Stimmung \\typesetTag{:tuning3} und na
 (defparameter *stem-intervals*
   '((diesis (:c :up :ċ) (:c♯ :up :d♭) (:ḋ♭ :up :d))
     (semitono-minore (:d :up :d♯) (:ė :up :f))
-    (semitono-maggiore )))
+    (semitono-maggiore (:e :up :f) (:f♯ :up :g) (:ḋ♭ :up :ḋ))
+    (tono-minore (:ċ :up :d) (:d♭ :up :d♯))
+    (tono (:f :up :g) (:f♯ :up :g♯) (:ċ :up :ḋ))
+    (tono-maggiore (:c :up :ḋ))
+    (terza-minima (:c :up :d♯))
+    (terza-minore (:d :up :f))
+    (terza-più-di-minore (:d :up :ḟ))
+    (terza-maggiore (:f :up :a))
+    (terza-più-di-maggiore (:c :up :ė))
+    (quarta-minima (:c :up :e♯))
+    (quarta (:g :up :c))
+    (quarta-propinqua (:g :up :ċ))
+    (tritono (:f :up :b♮))
+    (quinta-imperfetta (:b♮ :up :f))
+    (quinta-imperfetta-propinqua (:b♮ :up :ḟ))
+    (quinta (:d :up :a))
+    (quinta-propinqua (:d :up :ȧ))))
 
-(defun generate-interval-list (size-of-comma)
-  )
+
+(defparameter *consonanze*
+  '((terza-minima (:c :up :d♯))
+    (terza-minore (:d :up :f))
+    (terza-più-di-minore (:d :up :ḟ))
+    (terza-maggiore (:f :up :a))
+    (terza-più-di-maggiore (:c :up :ė))
+    (quinta (:d :up :a))
+    (quinta-propinqua (:d :up :ȧ))
+    (sesta-minore (:c :up :a♭))
+    (sesta-minore-propinqua (:c :up :ȧ♭))
+    (sesta-maggiore (:c :up :a))
+    (sesta-maggiore-propinqua (:c :up :ȧ))))
+
+(defun extract-range (interval-list tuning-id)
+  (flet ((calculate-size (interval)
+           (apply #'vicentino-tunings:interval (cons tuning-id interval))))
+    (do* ((rest-list interval-list (rest rest-list))
+          (current-size (calculate-size (first interval-list)))
+          (minimum current-size)
+          (maximum current-size))
+         ((null rest-list) (cons minimum maximum))
+      (setf current-size (calculate-size (first rest-list)))
+      (cond ((< current-size minimum) (setf minimum current-size))
+            ((> current-size maximum) (setf maximum current-size))))))
+
+(defun apply-to-range (function interval-range &rest arglist)
+  (cons (apply function (car interval-range) arglist)
+        (apply function (cdr interval-range) arglist)))
+
+(defun generate-interval-list (stem-intervals tuning-id size-of-comma)
+  (mapcar (lambda (intervals)
+            (let ((size-range (extract-range (rest intervals) tuning-id)))
+              (list :name (first intervals)
+                    :inverse-propinquissimo (apply-to-range #'/ size-range size-of-comma)
+                    :original size-range
+                    :propinquissimo (apply-to-range #'* size-range size-of-comma))))
+          stem-intervals))
+
+
+;; This is a sensible call:
+(format t "~&~a" (generate-interval-list *stem-intervals* :tuning1 (expt 81/80 -1/4)))
+
+
+(defun find-closest-matches (interval-size interval-list tolerance)
+  (let ((result))
+    (flet ((fitp (size range)
+             (and (>= size (/ (car range) tolerance))
+                  (<= size (* (cdr range) tolerance)))))
+      (dolist (interval interval-list result)
+        (when (fitp interval-size (getf interval :original))
+          (push (list (getf interval :name)) result))
+        (when (fitp interval-size (getf interval :propinquissimo))
+          (push (list (getf interval :name) :propinquissimo) result))
+        (when (fitp interval-size (getf interval :inverse-propinquissimo))
+          (push (list (getf interval :name) :inverse-propinquissimo) result))))))
+
+;; This is a sensible call:
+(format t "~&~a" (find-closest-matches (vicentino-tunings:interval :tuning1 :c :up :ė)
+                                       (generate-interval-list *stem-intervals*
+                                                               :tuning1
+                                                               (expt 81/80 -1/4))
+                                       81/80))
 
 
 
+(defparameter *arciorgano-keyboard-obvious*
+  '(:primo-ordine (:c :d :e :f :g :a :b♮)
+    :secondo-ordine (:c♯ :e♭ :f♯ :g♯ :b♭)
+    :terzo-ordine (:d♭ :d♯ :e♯ :g♭ :a♭ :a♯ :b♯)
+    :quarto-ordine (:ċ :ḋ :ė :ḟ :ġ :ȧ :ḃ♮)
+    :quinto-ordine (:ḋ♭ :ė♭ :ġ♭ :ȧ♭ :ḃ♭)
+    :sesto-ordine (:dʼ :eʼ :gʼ :aʼ :b♮ʼ)))
 
+(defparameter *arciorgano-keyboard-extended-sesto*
+  '(:primo-ordine (:c :d :e :f :g :a :b♮)
+    :secondo-ordine (:c♯ :e♭ :f♯ :g♯ :b♭)
+    :terzo-ordine (:d♭ :d♯ :e♯ :g♭ :a♭ :a♯ :b♯)
+    :quarto-ordine (:ċ :ḋ :ė :ḟ :ġ :ȧ :ḃ♮)
+    :quinto-ordine (:ḋ♭ :ė♭ :ġ♭ :ȧ♭ :ḃ♭)
+    :sesto-ordine (:cʼ :dʼ :eʼ :fʼ :gʼ :aʼ :b♮ʼ)))
+
+(defparameter *arciorgano-keyboard-extended-sesto*
+  '(:primo-ordine (:c :d :e :f :g :a :b♮)
+    :secondo-ordine (:c♯ :e♭ :f♯ :g♯ :b♭)
+    :terzo-ordine (:d♭ :d♯ :e♯ :g♭ :a♭ :a♯ :b♯)
+    :quarto-ordine (:ċ :ḋ :ė :ḟ :ġ :ȧ :ḃ♮)
+    :quinto-ordine (:ḋ♭ :ė♭ :ġ♭ :ȧ♭ :ḃ♭)
+    :sesto-ordine (:cʼ :dʼ :eʼ :fʼ :gʼ :aʼ :b♮ʼ :b♭ʼ)))
+
+
+
+(defun extract-all-keys (keyboard-definition)
+  (loop for keys in keyboard-definition
+        when (listp keys) append keys))
+
+(defun generate-reachable-keys (root-key keyboard-definition)
+  (let ((keys (extract-all-keys keyboard-definition)))
+    (loop for key in (remove-if (lambda (element) (eq element root-key)) keys)
+          collect (list root-key :up key)
+          collect (list root-key :down key))))
+
+(defun add-interval-sizes (intervals tuning-id)
+  (mapcar (lambda (interval)
+            (list interval (vicentino-tunings:simplify
+                            (apply #'vicentino-tunings:interval tuning-id interval))))
+          intervals))
+
+;; Sensible call:
+(format t "~&~a" (add-interval-sizes (generate-reachable-keys :a *arciorgano-keyboard-obvious*)
+                                     :tuning1))
+
+
+(defun correlate (root-key keyboard-definition stem-intervals tuning-id size-of-propinquissima
+                  tolerance)
+  (let ((result)
+        (interval-sizes (generate-interval-list stem-intervals tuning-id size-of-propinquissima)))
+    (dolist (key-combination (add-interval-sizes (generate-reachable-keys root-key
+                                                                          keyboard-definition)
+                                                 tuning-id)
+                             result)
+      (let ((matches (find-closest-matches (second key-combination) interval-sizes tolerance)))
+        (when matches (push (list (first key-combination)
+                                  (mapcar (lambda (match)
+                                            (append match
+                                                    (if (eq (second (first key-combination)) :up)
+                                                        (list :ascendente)
+                                                        (list :discendente))))
+                                          matches))
+                            result))))))
+
+;; List all 2-key-combinations of the standard arciorgano keyboard starting with :a that correlate
+;; with an interval name:
+
+(format t "~&~a" (correlate :a *arciorgano-keyboard-obvious* *consonanze* :tuning1 (expt 81/80 -1/4) 1.00125))
+
+
+(defun correlate-keyboard (keyboard-definition stem-intervals tuning-id size-of-propinquissima tolerance)
+  (loop for root-key in (extract-all-keys keyboard-definition)
+        append (correlate root-key keyboard-definition stem-intervals tuning-id size-of-propinquissima tolerance)))
+
+
+(format t "~&~a" (correlate-keyboard *arciorgano-keyboard-obvious* *consonanze* :tuning1 (expt 81/80 -1/4) 1.00125))
 
 ;; Entry point
 
