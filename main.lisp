@@ -442,6 +442,8 @@ Kombination davon gelten, nach Grösse in Stimmung \\typesetTag{:tuning3} und na
 
 (defun find-closest-matches (interval-size interval-list tolerance)
   (let ((result))
+    ;; TODO: There is a bug in the matching function: the tolerance can't be set as a ratio (tolerance
+    ;; (expt 81/80 -1/4) leads to weird results).
     (flet ((fitp (size range)
              (and (>= size (/ (car range) tolerance))
                   (<= size (* (cdr range) tolerance)))))
@@ -538,7 +540,12 @@ Kombination davon gelten, nach Grösse in Stimmung \\typesetTag{:tuning3} und na
         append (correlate root-key keyboard-definition stem-intervals tuning-id size-of-propinquissima tolerance)))
 
 
+;; List all interval matches for the entire keyboard.
 (format t "~&~a" (correlate-keyboard *arciorgano-keyboard-obvious* *consonanze* :tuning1 (expt 81/80 -1/4) 1.00125))
+
+
+
+
 
 ;; Entry point
 
